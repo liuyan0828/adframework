@@ -7,7 +7,7 @@ UrlHandler->url处理方式封装
 Xxtea->解密方法  
 
 Yaml：  
-存在测试用例yaml文件，按格式填写即可  
+存放测试用例yaml文件，按格式填写即可  
 ReadYaml->读取yaml文件  
 
 TestCase：  
