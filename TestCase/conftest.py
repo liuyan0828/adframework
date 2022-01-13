@@ -5,17 +5,7 @@
 @function : 前置处理
 """
 
-import pytest
-from Yaml.ReadYaml import ReadYaml
 
-filename = r'/Users/liuyan/Desktop/ad_test_framework/Yaml/gphone前贴'
-r = ReadYaml(filename)
-r = r.GetTestData()
-data = r[0]
-ids = r[1]
-
-
-@pytest.fixture(params=data, ids=ids)
 def preprocess(request):
     print("fixture部分-path:{}".format(request.param['base_path']))
     print("fixture部分-url:{}".format(request.param['ad_url']))

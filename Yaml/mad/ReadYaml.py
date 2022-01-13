@@ -1,6 +1,6 @@
 """
 -*- coding: utf-8 -*-
-@Time : 2021/12/13 
+@Time : 2021/12/13
 @Author : liuyan
 @function : 读取yaml文件
 """
@@ -23,6 +23,6 @@ class ReadYaml(object):
 
 
 # if __name__ == '__main__':
-#      filename = r'gphone前贴'
+#      filename = r'gphone前贴可跳过'
 #      r = ReadYaml(filename)
 #      print(r.GetTestdata())

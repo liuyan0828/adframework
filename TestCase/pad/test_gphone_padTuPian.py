@@ -1,23 +1,22 @@
 """
 -*- coding: utf-8 -*-
-@Time : 2021/12/13 
+@Time : 2021/12/13
 @Author : liuyan
-@function : gphone前贴广告测试用例
+@function : gphone暂停图片测试用例
 """
 
 from libs.CompareXml import CompareXml
 from libs.GetAdData import GetAdData
-from Yaml.ReadYaml import ReadYaml
+from Yaml.oad.ReadYaml import ReadYaml
 import xml.etree.ElementTree as ET
 import pytest
 import os
 
 # 获取当前项目所在路径
-path_dir = str(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)))
-
-# 用例所在路径
-filename = path_dir + r'/Yaml/gphone前贴'
+path_dir = str(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+filename = path_dir + r'/Yaml/pad/gphone暂停图片'
 r = ReadYaml(filename).GetTestData()
+
 
 
 @pytest.mark.parametrize("data", r[0], ids=r[1])
@@ -34,5 +33,5 @@ def test_diff(data):
     assert flag == 1
 
 
-# if __name__ == '__main__':
-#     pytest.main(['-v', '-s'])
+#if __name__ == '__main__':
+ #   pytest.main(['-v', '-s'])

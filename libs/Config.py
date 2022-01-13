@@ -1,6 +1,9 @@
+# -*- coding: UTF-8 -*-
+
+
 from typing import Dict
 
 URL_CONFIG: Dict[str, str] = {
-    "APP_AD_URL": "http://10.18.40.254:80/",  # 移动广告地址
-    "PC_AD_URL": "http://10.18.40.254:8188/"  # PC广告地址
+    "APP_AD_URL": "http://10.19.36.193:80/",  # 移动广告地址
+    "PC_AD_URL": "http://10.19.36.193:80/"  # PC广告地址
 }

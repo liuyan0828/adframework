@@ -1,0 +1,19 @@
+testcase:
+  -
+    #用例描述
+    title: iphone前贴可跳过数据返回
+    #请求链接
+    ad_url: m?pt=oad&VU=0&adoriginal=sohu&adpr=0&al=9622743&appid=tv&audited_level=0&build=9.3.00.0.1&c=tv&channeled=1000080005&density=3&displayMetrics=414%2A736&du=2724.93408203125&encd=I7F8gKB3NT6ps6o%2BxJJX6NmRuB9ppUQPX5HDATJ%2BVSbLCq9lt0/BXjxGhRW2kfWjDy2k%2BziE967NqKuRn8Fw59UVFlIKDhz3Ewwoq/Ygv8SXZ0dU1kvrb4ige92VpTLbOpyMwc4qOb5h84RAXiJdDBOnOtgI4U5yBONti349c3Bh8Vmy3FzQsIdSedypQN8EwVVhgPX8xNCtF5YyTCcg5%2Bh9cW7RoRt%2BmMLP31SLpptC6NpoRUZwvclDBUfoIE1v7H94ltuLx4CCtHvnVudx2LU0XG2WXFi79HNOW3kTy5ADRFQ4c/MrKdGIV/p5NH9pt6o3sdFka0csqk%2B8CDZeKAYqhX/HRoxo2IWapDepWtg2TiLmOODvW/n0XHZ%2BtKAWnqAi3fkujYxzouLlOQROO5dmFj8/tK1kJcLgB7xhoIT9qk8WtEeiip6bMbLx/KIfeTi8zdL2CO9E8lD%2B34U3gnfoXSxXjygd2earXm/4/ITZZpQ2HGiapMoR1Rw0ewbG5ZDTz6uU72cM/8p9r4Ede7xVn0dqne6LcdQkJQRc/B%2BeuAzfAErL2gGOxNlbjZHTrLYoV8cpcxSYl1JCUmazy4Ejn67metMONvRe1t/YdNPn051avAeXKIEls5Wkwc4j7BvSgDLrI8Da/G5O1R03QsuD9SLunfrvnbgPEXoDL/xPLCISnmxoI6EH6VGM7qiAZolnPraA60vFN9HyQj5zxA%3D%3D&ext=2096591&exten=1%2C2%2C3%2C4%2C7%2C8&frontAdsTime=185&guid=5cfd4394cfc083f1ce8d2b49ff2977d2&islocaltv=0&offline=0&partner=6932&pay=0&plat=3&playerMetrics=&playerScale=0.563&playstyle=1&poid=1&privacy=1&prot=vast&protv=3.0&screenstate=1&sdkVersion=13.7.0&site=1&sver=9.3.00&system_type=0&vc=101%3B101147%3B101148&vid=6102964&videoType=m3u8&vu=0
+    #基准xml文件路径
+    base_path: /基准xml/oad/iphone前贴可跳过数据返回.xml
+    #是否加密，加密则需要解密后对比。1代表加密；0代表未加密
+    isEncrypt: 0
+  -
+    #用例描述
+    title: iphone前贴可跳过加密数据返回
+    #请求链接
+    ad_url: m?pt=oad&VU=0&adoriginal=sohu&adpr=0&al=9622743&appid=tv&audited_level=0&build=9.3.00.0.1&c=tv&channeled=1000080005&density=3&displayMetrics=414%2A736&du=2724.93408203125&encd=I7F8gKB3NT6ps6o%2BxJJX6NmRuB9ppUQPX5HDATJ%2BVSbLCq9lt0/BXjxGhRW2kfWjDy2k%2BziE967NqKuRn8Fw59UVFlIKDhz3Ewwoq/Ygv8SXZ0dU1kvrb4ige92VpTLbOpyMwc4qOb5h84RAXiJdDBOnOtgI4U5yBONti349c3Bh8Vmy3FzQsIdSedypQN8EwVVhgPX8xNCtF5YyTCcg5%2Bh9cW7RoRt%2BmMLP31SLpptC6NpoRUZwvclDBUfoIE1v7H94ltuLx4CCtHvnVudx2LU0XG2WXFi79HNOW3kTy5ADRFQ4c/MrKdGIV/p5NH9pt6o3sdFka0csqk%2B8CDZeKAYqhX/HRoxo2IWapDepWtg2TiLmOODvW/n0XHZ%2BtKAWnqAi3fkujYxzouLlOQROO5dmFj8/tK1kJcLgB7xhoIT9qk8WtEeiip6bMbLx/KIfeTi8zdL2CO9E8lD%2B34U3gnfoXSxXjygd2earXm/4/ITZZpQ2HGiapMoR1Rw0ewbG5ZDTz6uU72cM/8p9r4Ede7xVn0dqne6LcdQkJQRc/B%2BeuAzfAErL2gGOxNlbjZHTrLYoV8cpcxSYl1JCUmazy4Ejn67metMONvRe1t/YdNPn051avAeXKIEls5Wkwc4j7BvSgDLrI8Da/G5O1R03QsuD9SLunfrvnbgPEXoDL/xPLCISnmxoI6EH6VGM7qiAZolnPraA60vFN9HyQj5zxA%3D%3D&ext=2096591&exten=1%2C2%2C3%2C4%2C7%2C8&frontAdsTime=185&guid=5cfd4394cfc083f1ce8d2b49ff2977d2&islocaltv=0&offline=0&partner=6932&pay=0&plat=3&playerMetrics=&playerScale=0.563&playstyle=1&poid=1&privacy=1&prot=vast&protv=3.0&screenstate=1&sdkVersion=14.0.0&site=1&sver=9.3.00&system_type=0&vc=101%3B101147%3B101148&vid=6102964&videoType=m3u8&vu=0
+    #基准xml文件路径
+    base_path: /基准xml/oad/iphone前贴可跳过加密数据返回.xml
+    #是否加密，加密则需要解密后对比。1代表加密；0代表未加密
+    isEncrypt: 1
