@@ -5,8 +5,8 @@
 @function : 请求url获取返回数据
 """
 
-import RequestHandler
-from Config import URL_CONFIG
+from libs.RequestHandler import RequestHandler
+from libs.Config import URL_CONFIG
 
 
 class GetAdData(object):
@@ -16,7 +16,7 @@ class GetAdData(object):
         ad_url:广告访问链接，例如：mf?site=1&p=7&v=137006183&vl=1200&td=&vs=1.0&ct=a&cs=
         """
         url = URL_CONFIG['APP_AD_URL'] + ad_url
-        get_data = RequestHandler.RequestHandler()
+        get_data = RequestHandler()
         ad_data = get_data.request_main("get", url)
         return ad_data.content.decode('utf-8')
 
@@ -26,7 +26,7 @@ class GetAdData(object):
         ad_url:广告访问链接，例如：mf?site=1&p=7&v=137006183&vl=1200&td=&vs=1.0&ct=a&cs=
         """
         url = URL_CONFIG['APP_AD_URL'] + ad_url
-        get_data = RequestHandler.RequestHandler()
+        get_data = RequestHandler()
         ad_data = get_data.request_main("get", url)
         res = get_data.decode_xml_to_dict(ad_data.content)
         return res
@@ -37,7 +37,7 @@ class GetAdData(object):
         ad_url:广告访问链接，例如：mf?site=1&p=7&v=137006183&vl=1200&td=&vs=1.0&ct=a&cs=
         """
         url = URL_CONFIG['PC_AD_URL'] + ad_url
-        get_data = RequestHandler.RequestHandler()
+        get_data = RequestHandler()
         ad_data = get_data.request_main("get", url)
         return ad_data
 

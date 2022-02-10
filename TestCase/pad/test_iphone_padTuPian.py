@@ -14,6 +14,7 @@ import os
 
 # 获取当前项目所在路径
 path_dir = str(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+print(path_dir)
 filename = path_dir + r'/Yaml/pad/iphone暂停图片'
 r = ReadYaml(filename).GetTestData()
 

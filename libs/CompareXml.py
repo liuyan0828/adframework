@@ -5,9 +5,9 @@
 @function : 对比两个xml文件的异同
 """
 
-from GetAdData import GetAdData
+from libs.GetAdData import GetAdData
 import xml.etree.ElementTree as ET
-from UrlHandler import UrlHandler
+from libs.UrlHandler import UrlHandler
 
 
 class CompareXml(object):
