@@ -33,7 +33,7 @@ class CompareXml(object):
                 i.text = i.text.strip()
                 if i.text.startswith('http'):
                     handle_url = UrlHandler(i.text)
-                    i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'], ["vu",'appid','encd',"cheattype", 'rt','platsource', 'sign','warmup','rip', 'fip', 'v2code', 'bt','bk', 'sperotime',"impressionid","flightid","sspreqid"])
+                    i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'], ["vu",'du','appid','encd',"cheattype", 'rt','platsource', 'sign','warmup','rip', 'fip', 'v2code', 'bt','backtest','bk', 'sperotime',"impressionid","flightid","sspreqid"])
                 ele_list.append([i.tag, i.attrib, i.text])
         return ele_list
 
