@@ -21,17 +21,17 @@ r = ReadYaml(filename).GetTestData()
 
 @pytest.mark.parametrize("data", r[0], ids=r[1])
 def test_diff(data):
+    status=0
     base_xml = CompareXml.get_root(path_dir + data['base_path'])
-    base_el = CompareXml.get_all_elements(base_xml)
+    base_el = CompareXml.get_all_elements(base_xml,status)
     if data['isEncrypt'] == 1:
         res = GetAdData.get_ad_decode_data(data['ad_url'])
     else:
         res = GetAdData.get_ad_data(data['ad_url'])
     root = ET.XML(res)
-    cur_el = CompareXml.get_all_elements(root)
+    cur_el = CompareXml.get_all_elements(root,status)
     flag = CompareXml.compare_elements(base_el, cur_el)
     assert flag == 1
-
 
 
 #if __name__ == '__main__':
