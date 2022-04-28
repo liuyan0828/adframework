@@ -1,0 +1,19 @@
+testcase:
+  -
+    #用例描述
+    title: iphone瀑布流数据返回
+    #请求链接
+    ad_url: m?&adslotid=16107&appid=tv&appv=9.6.20&clientType=2&container=1&cv=9.6.20&density=3&displayMetrics=414%2A736&encd=HgOsbTEmX45Z7P7zgmLEulvrvbRKrt7BHKBfjoPFORurVrpuYlowsKBmgOmVQ8RLBz74o/fApZxwxeXStmTUeMyNROAUNWFDEl0ZiB4cGA3yg66oj5kcn3Cwc1lIBguZ0ZVBeb/FDoO/6W374SEXqOuVhUDH57mPOOa5rLkli7qZExoeOfvkBQpxqusu4L2FmbPdB4UFCSdvMkflciaySCQcMaGXXfPSId5y%2B4vHHwvG0CNulQPnuo0Flidr/FdvH9baQ4j3onA727YpOntmoW1Djlh20kVe5OdKWDW2JZrrSz4qc6GLaChbREJaRqWLyu2T5QvAazQWvs/53p466r8H%2B7JG2p0GkP5TKKABlUdcoGWY69cPQRhqhaKVISB9YxRIM2mmkMGaJU5hvueVL9yFSMOp8p8UWVR/mdfJjpy4Vo5zMUz5JLoXEdjBoDdi/IpRZ3GcKRrSkjIFSU3d47QyrFiACoEgxYzjfc8l2MkonRSLZwomGDN60R79Cakq2M7jmQKaBgZ66R9slZxGz%2BMDtn9p/OItp7YE2PZHljIueEEDy07ZVKw3oldZzQ6ldTVMp6X%2BHuQldjuebfsAMGsb4E/teFb79M5qwm8cJeVVAGjJXtoNZ2WOWmWgfOY/YJ0u%2ByVwYRLdW7BPzgn2J3sm293VNln9kN%2BjuLe4hwdoxchazyc9ZDYiO3FB96qWG9Ok3yQF5gkGfQVA&gbcode=&guid=&os=iOS&plat=3&poid=1&position=2%7C6%7C10%7C14&privacy=1&prot=vast&pt=16107&rr=3&scs=124202208&sdkv=13.3.0&site=&sver=9.6.20&system_type=0&timetag=1646903030323&turn=7&tvpid=1&ugcode2=&vc=6306&vid
+    #基准xml文件路径
+    base_path: /基准xml/16107/iphone视频流数据返回.xml
+    #是否加密，加密则需要解密后对比。1代表加密；0代表未加密
+    isEncrypt: 0
+  -
+    #用例描述
+    title: iphone瀑布流加密数据返回
+    #请求链接
+    ad_url: m?&adslotid=16107&appid=tv&appv=9.6.20&clientType=2&container=1&cv=9.6.20&density=3&displayMetrics=414%2A736&encd=HgOsbTEmX45Z7P7zgmLEulvrvbRKrt7BHKBfjoPFORurVrpuYlowsKBmgOmVQ8RLBz74o/fApZxwxeXStmTUeMyNROAUNWFDEl0ZiB4cGA3yg66oj5kcn3Cwc1lIBguZ0ZVBeb/FDoO/6W374SEXqOuVhUDH57mPOOa5rLkli7qZExoeOfvkBQpxqusu4L2FmbPdB4UFCSdvMkflciaySCQcMaGXXfPSId5y%2B4vHHwvG0CNulQPnuo0Flidr/FdvH9baQ4j3onA727YpOntmoW1Djlh20kVe5OdKWDW2JZrrSz4qc6GLaChbREJaRqWLyu2T5QvAazQWvs/53p466r8H%2B7JG2p0GkP5TKKABlUdcoGWY69cPQRhqhaKVISB9YxRIM2mmkMGaJU5hvueVL9yFSMOp8p8UWVR/mdfJjpy4Vo5zMUz5JLoXEdjBoDdi/IpRZ3GcKRrSkjIFSU3d47QyrFiACoEgxYzjfc8l2MkonRSLZwomGDN60R79Cakq2M7jmQKaBgZ66R9slZxGz%2BMDtn9p/OItp7YE2PZHljIueEEDy07ZVKw3oldZzQ6ldTVMp6X%2BHuQldjuebfsAMGsb4E/teFb79M5qwm8cJeVVAGjJXtoNZ2WOWmWgfOY/YJ0u%2ByVwYRLdW7BPzgn2J3sm293VNln9kN%2BjuLe4hwdoxchazyc9ZDYiO3FB96qWG9Ok3yQF5gkGfQVA&gbcode=&guid=&os=iOS&plat=3&poid=1&position=2%7C6%7C10%7C14&privacy=1&prot=vast&pt=16107&rr=3&scs=124202208&sdkv=14.3.0&site=&sver=9.6.20&system_type=0&timetag=1646903030323&turn=7&tvpid=1&ugcode2=&vc=6306&vid
+    #基准xml文件路径
+    base_path: /基准xml/16107/iphone视频流加密数据返回.xml
+    #是否加密，加密则需要解密后对比。1代表加密；0代表未加密
+    isEncrypt: 1

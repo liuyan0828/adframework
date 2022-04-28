@@ -1,0 +1,132 @@
+<VAST version="3.0">
+  <Ad sequence="1" id="gallerypictxt">
+    <InLine>
+      <AdSystem>sohu tv ad system</AdSystem>
+      <AdTitle> <![CDATA[ ad ]]> </AdTitle>
+      <Impression id="monitorServer"> <![CDATA[ http://mmg.aty.sohu.com/pv?type=1&du=1726&al=9479802&vid=4966860&tvid=106352081&rt=1648094769815_435_10.18.40.254_6947_6952&spead=0&uv=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&crid=0&ar=6&sip=10.18.40.254&plat=3&sver=9.6.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&source=1000080005&wt=wifi&v1=1048&v1code=101&v2code=101141&prot=json&openudid=80dc2964aada1d4c6e5bdb1bb36a7af1&appid=tv&sdkVersion=13.4.1&offline=0&density=3&idfa=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&idfv=586028DA-A3A4-4158-9D56-C3FD70C26617&displayMetrics=414*736&islocaltv=0&datatype=2&bt=20220324&endtime=20231231&ad=54918&b=417720&bk=115276446&pagetype=1&suid=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&islocaltv=0&manufacturer=Apple&guid=2d8af0f88f4a4278956be9eba1188e9b&adpr=0&seq=1&w=656&h=370&wdbn=656&hgbn=370&cheattype=16&sperotime=1648094769&tuv=FF49FF37-CCB8-4809-8AD9-B4D5E0614B9D&template=gallerypictxt&platsource=tv&indexip=127.0.0.1:60111&vu=0&vc=101141;101147;101152&ispgc=0&impressionid=1e4e9eade311174a3c87b8dc6de13ba6&scope=0&flightid=36582686&from=tvssp&vp=s&at=0&c=1&v1=1048&p=15512&loc=Unknown&adstyle=15512&ac=5480&ad=54918&pt=12613&b=417720&bk=115276446&pagetype=1&spead=0&rtm=__TIME__&err=[ERRORCODE] ]]> </Impression>
+      <Impression id="sohutv" offset=""> <![CDATA[ http://mmg.aty.sohu.com/pvlog?du=1726&al=9479802&vid=4966860&tvid=106352081&rt=1648094769815_435_10.18.40.254_6947_6952&spead=0&uv=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&crid=0&ar=6&sip=10.18.40.254&plat=3&sver=9.6.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&source=1000080005&wt=wifi&v1=1048&v1code=101&v2code=101141&prot=json&openudid=80dc2964aada1d4c6e5bdb1bb36a7af1&appid=tv&sdkVersion=13.4.1&offline=0&density=3&idfa=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&idfv=586028DA-A3A4-4158-9D56-C3FD70C26617&displayMetrics=414*736&islocaltv=0&datatype=2&bt=20220324&endtime=20231231&ad=54918&b=417720&bk=115276446&pagetype=1&suid=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&islocaltv=0&manufacturer=Apple&guid=2d8af0f88f4a4278956be9eba1188e9b&adpr=0&seq=1&w=656&h=370&wdbn=656&hgbn=370&cheattype=16&sperotime=1648094769&tuv=FF49FF37-CCB8-4809-8AD9-B4D5E0614B9D&template=gallerypictxt&platsource=tv&indexip=127.0.0.1:60111&vu=0&vc=101141;101147;101152&ispgc=0&impressionid=1e4e9eade311174a3c87b8dc6de13ba6&scope=0&flightid=36582686&from=tvssp&vp=0&at=0&c=1&v1=1048&p=15512&loc=Unknown&adstyle=15512&ac=5480&ad=54918&pt=12613&b=417720&bk=115276446&pagetype=1&spead=0&rtm=__TIME__ ]]> </Impression>
+      <Creatives>
+        <Creative>
+          <CompanionAds>
+            <Companion width="656" height="370">
+              <StaticResource creativeType="image/png"> <![CDATA[ https://images.sohu.com/ytv/BJ/11643/65637020190222113237.png ]]> </StaticResource>
+              <CompanionClickThrough> <![CDATA[ http://www.baidu.com ]]> </CompanionClickThrough>
+              <MultiClickTracking> <![CDATA[ http://mmg.aty.sohu.com/goto?du=1726&al=9479802&vid=4966860&tvid=106352081&rt=1648094769815_435_10.18.40.254_6947_6952&spead=0&uv=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&crid=0&ar=6&sip=10.18.40.254&plat=3&sver=9.6.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&source=1000080005&wt=wifi&v1=1048&v1code=101&v2code=101141&prot=json&openudid=80dc2964aada1d4c6e5bdb1bb36a7af1&appid=tv&sdkVersion=13.4.1&offline=0&density=3&idfa=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&idfv=586028DA-A3A4-4158-9D56-C3FD70C26617&displayMetrics=414*736&datatype=2&bt=20220324&endtime=20231231&ad=54918&b=417720&bk=115276446&pagetype=1&suid=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&islocaltv=0&manufacturer=Apple&guid=2d8af0f88f4a4278956be9eba1188e9b&adpr=0&seq=1&w=656&h=370&wdbn=656&hgbn=370&cheattype=16&sperotime=1648094769&tuv=FF49FF37-CCB8-4809-8AD9-B4D5E0614B9D&template=gallerypictxt&platsource=tv&indexip=127.0.0.1:60111&vu=0&vc=101141;101147;101152&ispgc=0&impressionid=1e4e9eade311174a3c87b8dc6de13ba6&scope=0&flightid=36582686&from=tvssp&err=[ERRORCODE]&at=0&c=1&v1=1048&p=15512&loc=Unknown&adstyle=15512&ac=5480&ad=54918&pt=12613&b=417720&bk=115276446&pagetype=1&spead=0&eventtype=deeplink ]]> </MultiClickTracking>
+              <CompanionClickTracking> <![CDATA[ http://mmg.aty.sohu.com/goto?du=1726&al=9479802&vid=4966860&tvid=106352081&rt=1648094769815_435_10.18.40.254_6947_6952&spead=0&uv=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&crid=0&ar=6&sip=10.18.40.254&plat=3&sver=9.6.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&source=1000080005&wt=wifi&v1=1048&v1code=101&v2code=101141&prot=json&openudid=80dc2964aada1d4c6e5bdb1bb36a7af1&appid=tv&sdkVersion=13.4.1&offline=0&density=3&idfa=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&idfv=586028DA-A3A4-4158-9D56-C3FD70C26617&displayMetrics=414*736&datatype=2&bt=20220324&endtime=20231231&ad=54918&b=417720&bk=115276446&pagetype=1&suid=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&islocaltv=0&manufacturer=Apple&guid=2d8af0f88f4a4278956be9eba1188e9b&adpr=0&seq=1&w=656&h=370&wdbn=656&hgbn=370&cheattype=16&sperotime=1648094769&tuv=FF49FF37-CCB8-4809-8AD9-B4D5E0614B9D&template=gallerypictxt&platsource=tv&indexip=127.0.0.1:60111&vu=0&vc=101141;101147;101152&ispgc=0&impressionid=1e4e9eade311174a3c87b8dc6de13ba6&scope=0&flightid=36582686&from=tvssp&err=[ERRORCODE]&at=0&c=1&v1=1048&p=15512&loc=Unknown&adstyle=15512&ac=5480&ad=54918&pt=12613&b=417720&bk=115276446&pagetype=1&spead=0&rtm=__TIME__ ]]> </CompanionClickTracking>
+              <TrackingEvents>
+                <Tracking event="av"> <![CDATA[ http://mmg.aty.sohu.com/av?type=1&du=1726&al=9479802&vid=4966860&tvid=106352081&rt=1648094769815_435_10.18.40.254_6947_6952&spead=0&uv=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&crid=0&ar=6&sip=10.18.40.254&plat=3&sver=9.6.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&source=1000080005&wt=wifi&v1=1048&v1code=101&v2code=101141&prot=json&openudid=80dc2964aada1d4c6e5bdb1bb36a7af1&appid=tv&sdkVersion=13.4.1&offline=0&density=3&idfa=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&idfv=586028DA-A3A4-4158-9D56-C3FD70C26617&displayMetrics=414*736&islocaltv=0&datatype=2&bt=20220324&endtime=20231231&ad=54918&b=417720&bk=115276446&pagetype=1&suid=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&islocaltv=0&manufacturer=Apple&guid=2d8af0f88f4a4278956be9eba1188e9b&adpr=0&seq=1&w=656&h=370&wdbn=656&hgbn=370&cheattype=16&sperotime=1648094769&tuv=FF49FF37-CCB8-4809-8AD9-B4D5E0614B9D&template=gallerypictxt&platsource=tv&indexip=127.0.0.1:60111&vu=0&vc=101141;101147;101152&ispgc=0&impressionid=1e4e9eade311174a3c87b8dc6de13ba6&scope=0&flightid=36582686&from=tvssp&vp=s&at=0&c=1&v1=1048&p=15512&loc=Unknown&adstyle=15512&ac=5480&ad=54918&pt=12613&b=417720&bk=115276446&pagetype=1 ]]> </Tracking>
+                <Tracking event="close"> <![CDATA[ http://mmg.aty.sohu.com/pvlog?du=1726&al=9479802&vid=4966860&tvid=106352081&rt=1648094769815_435_10.18.40.254_6947_6952&spead=0&uv=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&crid=0&ar=6&sip=10.18.40.254&plat=3&sver=9.6.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&source=1000080005&wt=wifi&v1=1048&v1code=101&v2code=101141&prot=json&openudid=80dc2964aada1d4c6e5bdb1bb36a7af1&appid=tv&sdkVersion=13.4.1&offline=0&density=3&idfa=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&idfv=586028DA-A3A4-4158-9D56-C3FD70C26617&displayMetrics=414*736&islocaltv=0&datatype=2&bt=20220324&endtime=20231231&ad=54918&b=417720&bk=115276446&pagetype=1&suid=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&islocaltv=0&manufacturer=Apple&guid=2d8af0f88f4a4278956be9eba1188e9b&adpr=0&seq=1&w=656&h=370&wdbn=656&hgbn=370&cheattype=16&sperotime=1648094769&tuv=FF49FF37-CCB8-4809-8AD9-B4D5E0614B9D&template=gallerypictxt&platsource=tv&indexip=127.0.0.1:60111&vu=0&vc=101141;101147;101152&ispgc=0&impressionid=1e4e9eade311174a3c87b8dc6de13ba6&scope=0&flightid=36582686&from=tvssp?&err=[ERRORCODE]&at=0&c=1&v1=1048&p=15512&loc=Unknown&adstyle=15512&ac=5480&ad=54918&pt=12613&b=417720&bk=115276446&pagetype=1&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__ ]]> </Tracking>
+              </TrackingEvents>
+            </Companion>
+          </CompanionAds>
+        </Creative>
+      </Creatives>
+      <Extensions>
+        <Extension>
+          <Resource>ssp</Resource>
+          <AdParams adStyle="0" postCode="15512"/>
+          <Position>0</Position>
+          <Advertiser> <![CDATA[ ]]> </Advertiser>
+          <Status>1</Status>
+          <SupportDeepLink>0</SupportDeepLink>
+          <Hardflag>0</Hardflag>
+          <Excluded>0</Excluded>
+          <SupportUnion>1</SupportUnion>
+        </Extension>
+      </Extensions>
+    </InLine>
+  </Ad>
+  <Ad sequence="2" id="gallerypicdownload">
+    <InLine>
+      <AdSystem>sohu tv ad system</AdSystem>
+      <AdTitle>sohu tv</AdTitle>
+      <Description>sohu tv</Description>
+      <Impression id="monitorServer"> <![CDATA[ http://mmg.aty.sohu.com/pvlog?vp=s&c=1&v1=1048&p=15512&loc=Unknown&adstyle=15512&du=1726&al=9479802&vid=4966860&tvid=106352081&rt=1648094769815_435_10.18.40.254_6947_6952&uv=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&crid=0&ar=6&sip=10.18.40.254&plat=3&sver=9.6.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&source=1000080005&wt=wifi&v1=1048&v1code=101&v2code=101141&prot=json&openudid=80dc2964aada1d4c6e5bdb1bb36a7af1&appid=tv&sdkVersion=13.4.1&offline=0&density=3&idfa=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&idfv=586028DA-A3A4-4158-9D56-C3FD70C26617&displayMetrics=414*736&islocaltv=0&datatype=2&bt=20220324&pagetype=1&suid=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&islocaltv=0&manufacturer=Apple&guid=2d8af0f88f4a4278956be9eba1188e9b&adpr=0&seq=2&w=656&h=370&wdbn=656&hgbn=370&cheattype=16&sperotime=1648094769&tuv=FF49FF37-CCB8-4809-8AD9-B4D5E0614B9D&platsource=tv&indexip=127.0.0.1:60111&vu=0&vc=101141;101147;101152&ispgc=0&impressionid=1e4e9eade311174a3c87b8dc6de13ba6&scope=0&from=tvssp&sspreplacable=1&sspreqid=00000000jsy19-36-1930000796e623bee326213 ]]> </Impression>
+      <Creatives>
+        <Creative>
+          <CompanionAds more="http://hui.sohu.com/test/prj/brand/">
+            <Companion width="692" height="191">
+              <StaticResource creativeType="image/jpeg"> <![CDATA[ ]]> </StaticResource>
+              <AltText> <![CDATA[ ]]> </AltText>
+              <TrackingEvents/>
+            </Companion>
+          </CompanionAds>
+        </Creative>
+      </Creatives>
+      <Extensions>
+        <Extension>
+          <Resource>ssp</Resource>
+          <AdParams adStyle="1" postCode="15512"/>
+          <Position>1</Position>
+          <Status>0</Status>
+          <SupportUnion>1</SupportUnion>
+        </Extension>
+      </Extensions>
+    </InLine>
+  </Ad>
+  <Ad sequence="3" id="gallerypicdownload">
+    <InLine>
+      <AdSystem>sohu tv ad system</AdSystem>
+      <AdTitle>sohu tv</AdTitle>
+      <Description>sohu tv</Description>
+      <Impression id="monitorServer"> <![CDATA[ http://mmg.aty.sohu.com/pvlog?vp=s&c=1&v1=1048&p=15512&loc=Unknown&adstyle=15512&du=1726&al=9479802&vid=4966860&tvid=106352081&rt=1648094769815_435_10.18.40.254_6947_6952&uv=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&crid=0&ar=6&sip=10.18.40.254&plat=3&sver=9.6.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&source=1000080005&wt=wifi&v1=1048&v1code=101&v2code=101141&prot=json&openudid=80dc2964aada1d4c6e5bdb1bb36a7af1&appid=tv&sdkVersion=13.4.1&offline=0&density=3&idfa=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&idfv=586028DA-A3A4-4158-9D56-C3FD70C26617&displayMetrics=414*736&islocaltv=0&datatype=2&bt=20220324&pagetype=1&suid=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&islocaltv=0&manufacturer=Apple&guid=2d8af0f88f4a4278956be9eba1188e9b&adpr=0&seq=3&w=656&h=370&wdbn=656&hgbn=370&cheattype=16&sperotime=1648094769&tuv=FF49FF37-CCB8-4809-8AD9-B4D5E0614B9D&platsource=tv&indexip=127.0.0.1:60111&vu=0&vc=101141;101147;101152&ispgc=0&impressionid=1e4e9eade311174a3c87b8dc6de13ba6&scope=0&from=tvssp&sspreplacable=1&sspreqid=00000000jsy19-36-1930000796e623bee326213 ]]> </Impression>
+      <Creatives>
+        <Creative>
+          <CompanionAds more="http://hui.sohu.com/test/prj/brand/">
+            <Companion width="692" height="191">
+              <StaticResource creativeType="image/jpeg"> <![CDATA[ ]]> </StaticResource>
+              <AltText> <![CDATA[ ]]> </AltText>
+              <TrackingEvents/>
+            </Companion>
+          </CompanionAds>
+        </Creative>
+      </Creatives>
+      <Extensions>
+        <Extension>
+          <Resource>ssp</Resource>
+          <AdParams adStyle="1" postCode="15512"/>
+          <Position>2</Position>
+          <Status>0</Status>
+          <SupportUnion>1</SupportUnion>
+        </Extension>
+      </Extensions>
+    </InLine>
+  </Ad>
+  <Ad sequence="4" id="bigpicturetxt">
+    <InLine>
+      <AdSystem>sohu tv ad system</AdSystem>
+      <AdTitle> <![CDATA[ 14369 ]]> </AdTitle>
+      <Impression id="monitorServer"> <![CDATA[ http://mmg.aty.sohu.com/pv?type=1&du=1726&al=9479802&vid=4966860&tvid=106352081&rt=1648094769815_435_10.18.40.254_6947_6952&spead=0&uv=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&crid=0&ar=6&sip=10.18.40.254&plat=3&sver=9.6.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&source=1000080005&wt=wifi&v1=1048&v1code=101&v2code=101141&prot=json&openudid=80dc2964aada1d4c6e5bdb1bb36a7af1&appid=tv&sdkVersion=13.4.1&offline=0&density=3&idfa=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&idfv=586028DA-A3A4-4158-9D56-C3FD70C26617&displayMetrics=414*736&islocaltv=0&datatype=2&bt=20220324&endtime=20231231&ad=54917&b=417719&bk=115275314&pagetype=1&suid=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&islocaltv=0&manufacturer=Apple&guid=2d8af0f88f4a4278956be9eba1188e9b&adpr=0&seq=4&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1648094769&tuv=FF49FF37-CCB8-4809-8AD9-B4D5E0614B9D&template=bigpicturetxt&platsource=tv&indexip=127.0.0.1:60111&vu=0&vc=101141;101147;101152&ispgc=0&impressionid=1e4e9eade311174a3c87b8dc6de13ba6&scope=0&flightid=36582969&from=tvssp&vp=s&at=0&c=1&v1=1048&p=14369&loc=Unknown&adstyle=14369&ac=5480&ad=54917&pt=12613&b=417719&bk=115275314&pagetype=1&spead=0&rtm=__TIME__&err=[ERRORCODE] ]]> </Impression>
+      <Impression id="sohutv" offset=""> <![CDATA[ http://mmg.aty.sohu.com/pvlog?du=1726&al=9479802&vid=4966860&tvid=106352081&rt=1648094769815_435_10.18.40.254_6947_6952&spead=0&uv=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&crid=0&ar=6&sip=10.18.40.254&plat=3&sver=9.6.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&source=1000080005&wt=wifi&v1=1048&v1code=101&v2code=101141&prot=json&openudid=80dc2964aada1d4c6e5bdb1bb36a7af1&appid=tv&sdkVersion=13.4.1&offline=0&density=3&idfa=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&idfv=586028DA-A3A4-4158-9D56-C3FD70C26617&displayMetrics=414*736&islocaltv=0&datatype=2&bt=20220324&endtime=20231231&ad=54917&b=417719&bk=115275314&pagetype=1&suid=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&islocaltv=0&manufacturer=Apple&guid=2d8af0f88f4a4278956be9eba1188e9b&adpr=0&seq=4&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1648094769&tuv=FF49FF37-CCB8-4809-8AD9-B4D5E0614B9D&template=bigpicturetxt&platsource=tv&indexip=127.0.0.1:60111&vu=0&vc=101141;101147;101152&ispgc=0&impressionid=1e4e9eade311174a3c87b8dc6de13ba6&scope=0&flightid=36582969&from=tvssp&vp=0&at=0&c=1&v1=1048&p=14369&loc=Unknown&adstyle=14369&ac=5480&ad=54917&pt=12613&b=417719&bk=115275314&pagetype=1&spead=0&rtm=__TIME__ ]]> </Impression>
+      <Creatives>
+        <Creative>
+          <CompanionAds>
+            <Companion width="644" height="322">
+              <StaticResource creativeType="image/png"> <![CDATA[ https://images.sohu.com/ytv/BJ/11657/644322202007101626030.png ]]> </StaticResource>
+              <CompanionClickThrough> <![CDATA[ http://www.baidu.com ]]> </CompanionClickThrough>
+              <MultiClickTracking> <![CDATA[ http://mmg.aty.sohu.com/goto?du=1726&al=9479802&vid=4966860&tvid=106352081&rt=1648094769815_435_10.18.40.254_6947_6952&spead=0&uv=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&crid=0&ar=6&sip=10.18.40.254&plat=3&sver=9.6.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&source=1000080005&wt=wifi&v1=1048&v1code=101&v2code=101141&prot=json&openudid=80dc2964aada1d4c6e5bdb1bb36a7af1&appid=tv&sdkVersion=13.4.1&offline=0&density=3&idfa=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&idfv=586028DA-A3A4-4158-9D56-C3FD70C26617&displayMetrics=414*736&datatype=2&bt=20220324&endtime=20231231&ad=54917&b=417719&bk=115275314&pagetype=1&suid=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&islocaltv=0&manufacturer=Apple&guid=2d8af0f88f4a4278956be9eba1188e9b&adpr=0&seq=4&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1648094769&tuv=FF49FF37-CCB8-4809-8AD9-B4D5E0614B9D&template=bigpicturetxt&platsource=tv&indexip=127.0.0.1:60111&vu=0&vc=101141;101147;101152&ispgc=0&impressionid=1e4e9eade311174a3c87b8dc6de13ba6&scope=0&flightid=36582969&from=tvssp&err=[ERRORCODE]&at=0&c=1&v1=1048&p=14369&loc=Unknown&adstyle=14369&ac=5480&ad=54917&pt=12613&b=417719&bk=115275314&pagetype=1&spead=0&eventtype=deeplink ]]> </MultiClickTracking>
+              <CompanionClickTracking> <![CDATA[ http://mmg.aty.sohu.com/goto?du=1726&al=9479802&vid=4966860&tvid=106352081&rt=1648094769815_435_10.18.40.254_6947_6952&spead=0&uv=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&crid=0&ar=6&sip=10.18.40.254&plat=3&sver=9.6.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&source=1000080005&wt=wifi&v1=1048&v1code=101&v2code=101141&prot=json&openudid=80dc2964aada1d4c6e5bdb1bb36a7af1&appid=tv&sdkVersion=13.4.1&offline=0&density=3&idfa=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&idfv=586028DA-A3A4-4158-9D56-C3FD70C26617&displayMetrics=414*736&datatype=2&bt=20220324&endtime=20231231&ad=54917&b=417719&bk=115275314&pagetype=1&suid=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&islocaltv=0&manufacturer=Apple&guid=2d8af0f88f4a4278956be9eba1188e9b&adpr=0&seq=4&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1648094769&tuv=FF49FF37-CCB8-4809-8AD9-B4D5E0614B9D&template=bigpicturetxt&platsource=tv&indexip=127.0.0.1:60111&vu=0&vc=101141;101147;101152&ispgc=0&impressionid=1e4e9eade311174a3c87b8dc6de13ba6&scope=0&flightid=36582969&from=tvssp&err=[ERRORCODE]&at=0&c=1&v1=1048&p=14369&loc=Unknown&adstyle=14369&ac=5480&ad=54917&pt=12613&b=417719&bk=115275314&pagetype=1&spead=0&rtm=__TIME__ ]]> </CompanionClickTracking>
+              <TrackingEvents>
+                <Tracking event="av"> <![CDATA[ http://mmg.aty.sohu.com/av?type=1&du=1726&al=9479802&vid=4966860&tvid=106352081&rt=1648094769815_435_10.18.40.254_6947_6952&spead=0&uv=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&crid=0&ar=6&sip=10.18.40.254&plat=3&sver=9.6.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&source=1000080005&wt=wifi&v1=1048&v1code=101&v2code=101141&prot=json&openudid=80dc2964aada1d4c6e5bdb1bb36a7af1&appid=tv&sdkVersion=13.4.1&offline=0&density=3&idfa=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&idfv=586028DA-A3A4-4158-9D56-C3FD70C26617&displayMetrics=414*736&islocaltv=0&datatype=2&bt=20220324&endtime=20231231&ad=54917&b=417719&bk=115275314&pagetype=1&suid=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&islocaltv=0&manufacturer=Apple&guid=2d8af0f88f4a4278956be9eba1188e9b&adpr=0&seq=4&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1648094769&tuv=FF49FF37-CCB8-4809-8AD9-B4D5E0614B9D&template=bigpicturetxt&platsource=tv&indexip=127.0.0.1:60111&vu=0&vc=101141;101147;101152&ispgc=0&impressionid=1e4e9eade311174a3c87b8dc6de13ba6&scope=0&flightid=36582969&from=tvssp&vp=s&at=0&c=1&v1=1048&p=14369&loc=Unknown&adstyle=14369&ac=5480&ad=54917&pt=12613&b=417719&bk=115275314&pagetype=1 ]]> </Tracking>
+                <Tracking event="close"> <![CDATA[ http://mmg.aty.sohu.com/pvlog?du=1726&al=9479802&vid=4966860&tvid=106352081&rt=1648094769815_435_10.18.40.254_6947_6952&spead=0&uv=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&crid=0&ar=6&sip=10.18.40.254&plat=3&sver=9.6.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&source=1000080005&wt=wifi&v1=1048&v1code=101&v2code=101141&prot=json&openudid=80dc2964aada1d4c6e5bdb1bb36a7af1&appid=tv&sdkVersion=13.4.1&offline=0&density=3&idfa=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&idfv=586028DA-A3A4-4158-9D56-C3FD70C26617&displayMetrics=414*736&islocaltv=0&datatype=2&bt=20220324&endtime=20231231&ad=54917&b=417719&bk=115275314&pagetype=1&suid=2FF984AE-E6E9-44E2-93EF-6ECBAC4A628C&islocaltv=0&manufacturer=Apple&guid=2d8af0f88f4a4278956be9eba1188e9b&adpr=0&seq=4&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1648094769&tuv=FF49FF37-CCB8-4809-8AD9-B4D5E0614B9D&template=bigpicturetxt&platsource=tv&indexip=127.0.0.1:60111&vu=0&vc=101141;101147;101152&ispgc=0&impressionid=1e4e9eade311174a3c87b8dc6de13ba6&scope=0&flightid=36582969&from=tvssp?&err=[ERRORCODE]&at=0&c=1&v1=1048&p=14369&loc=Unknown&adstyle=14369&ac=5480&ad=54917&pt=12613&b=417719&bk=115275314&pagetype=1&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__ ]]> </Tracking>
+              </TrackingEvents>
+            </Companion>
+          </CompanionAds>
+        </Creative>
+      </Creatives>
+      <Extensions>
+        <Extension>
+          <Resource>ssp</Resource>
+          <AdParams adStyle="0" postCode="14369"/>
+          <Position>0</Position>
+          <Advertiser> <![CDATA[ 搜狐 ]]> </Advertiser>
+          <Status>1</Status>
+          <SupportDeepLink>0</SupportDeepLink>
+          <Hardflag>0</Hardflag>
+          <Excluded>0</Excluded>
+          <SupportUnion>1</SupportUnion>
+        </Extension>
+      </Extensions>
+    </InLine>
+  </Ad>
+</VAST>

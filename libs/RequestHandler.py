@@ -4,12 +4,11 @@
 @Author : liuyan
 @function : requests请求封装及返回数据的处理
 """
-
 import base64
 import simplejson as json
 import xmltodict
 import requests
-from Xxtea import Xxtea
+from libs.Xxtea import Xxtea
 
 
 class RequestHandler(object):

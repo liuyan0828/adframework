@@ -1,6 +1,9 @@
+
 import struct
 import base64
-#import xxtea
+
+
+# import xxtea
 ############################################################
 #                                                          #
 # The implementation of PHPRPC Protocol 3.0                #

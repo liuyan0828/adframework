@@ -5,9 +5,9 @@
 @function : 对比两个xml文件的异同
 """
 
-from GetAdData import GetAdData
+from libs.GetAdData import GetAdData
 import xml.etree.ElementTree as ET
-from UrlHandler import UrlHandler
+from libs.UrlHandler import UrlHandler
 
 
 class CompareXml(object):
@@ -18,22 +18,26 @@ class CompareXml(object):
         return tree.getroot()
 
     @staticmethod
-    def get_all_elements(root):
+    def get_all_elements(root,status):
         """
         处理值，去除其中的\t\n字符，如果是http开头的字符串，去除指定host中的指定字段，如果是None，设置为空字符串
         :return: 返回xml文件中所有的子节点,格式为[tag名, 属性， 值]
         """
         ele_list = []
         for i in root.iter():
-            if i.text:
-                i.text = i.text.replace("\t", "").replace("\n", "")
-            if i.text is None:
-                i.text = ''
-            i.text = i.text.strip()
-            if i.text.startswith('http'):
-                handle_url = UrlHandler(i.text)
-                i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'], ['encd', 'rt', 'sign', 'rip', 'fip', 'v2code', 'bt', 'bk', 'sperotime'])
-            ele_list.append([i.tag, i.attrib, i.text])
+            if i.tag != "ExpireTime":
+                if i.text:
+                    i.text = i.text.replace("\t", "").replace("\n", "")
+                if i.text is None:
+                    i.text = ''
+                i.text = i.text.strip()
+                if i.text.startswith('http'):
+                    handle_url = UrlHandler(i.text)
+                    i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'], ["vu",'du','appid','encd',"cheattype", 'rt','platsource', 'sign','warmup','rip', 'fip', 'v2code', 'bt','backtest','bk', 'sperotime',"impressionid","flightid","sspreqid"])
+                    if status==10001:
+                        i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],[ "tvid","crid", "ar", "datatype"])
+
+                ele_list.append([i.tag, i.attrib, i.text])
         return ele_list
 
     @staticmethod
