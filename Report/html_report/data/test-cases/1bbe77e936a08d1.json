@@ -1,0 +1,60 @@
+{
+  "uid" : "1bbe77e936a08d1",
+  "name" : "test_diff[iphone15512小图图文下载数据返回]",
+  "fullName" : "TestCase.Ad.15512_14369.test_iphone_15512xiaotutuwenxiazai#test_diff",
+  "historyId" : "b2dd33b9fd225e09a63a81a77f18b5c9",
+  "time" : {
+    "start" : 1655195130687,
+    "stop" : 1655195130739,
+    "duration" : 52
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'dictionary_...placable=1'}}} == []\n  Full diff:\n  - [\n  -  ,\n  - ]\n  + {\n  +  'dictionary_item_added': [root['CompanionAds'][0]['att']['more']],\n  +  'dictionary_item_removed': [root['CompanionClickThrough'], root['MultiClickTracking'], root['CompanionClickTracking'], root['ClickThrough'], root['ClickTracking'], root['Tracking'], root['Advertiser'], root['SupportDeepLink'], root['Hardflag'], root['Excluded'], root['Impression'][1]['att']['offset']],...\n  \n  ...Full output truncated (28 lines hidden), use '-vv' to show",
+  "statusTrace" : "data = {'ad_url': 'm?&adpr=0&adslotid=15512%7C14369&appid=tv&appv=9.6.30&c=tv&clientType=2&container=1&cv=9.6.30&density=3&di...8&vu=0', 'base_path': '/基准xml/15512_14369/iphone15512小图图文下载数据返回.xml', 'isEncrypt': 0, 'title': 'iphone15512小图图文下载数据返回'}\n\n    @pytest.mark.parametrize(\"data\", r[0], ids=r[1])\n    def test_diff(data):\n        status=0\n        base_xml = CompareXml.get_root(path_dir + data['base_path'])\n        base_el = CompareXml.get_all_elements(base_xml,status)\n        if data['isEncrypt'] == 1:\n            res = GetAdData.get_ad_decode_data(data['ad_url'])\n        else:\n            res = GetAdData.get_ad_data(data['ad_url'])\n        root = ET.XML(res)\n        cur_el = CompareXml.get_all_elements(root,status)\n>       assert DeepDiff(base_el, cur_el) == []\nE       AssertionError: assert {'dictionary_...placable=1'}}} == []\nE         Full diff:\nE         - [\nE         -  ,\nE         - ]\nE         + {\nE         +  'dictionary_item_added': [root['CompanionAds'][0]['att']['more']],\nE         +  'dictionary_item_removed': [root['CompanionClickThrough'], root['MultiClickTracking'], root['CompanionClickTracking'], root['ClickThrough'], root['ClickTracking'], root['Tracking'], root['Advertiser'], root['SupportDeepLink'], root['Hardflag'], root['Excluded'], root['Impression'][1]['att']['offset']],...\nE         \nE         ...Full output truncated (28 lines hidden), use '-vv' to show\n\nTestCase/Ad/15512_14369/test_iphone_15512xiaotutuwenxiazai.py:34: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.15512_14369"
+  }, {
+    "name" : "suite",
+    "value" : "test_iphone_15512xiaotutuwenxiazai"
+  }, {
+    "name" : "host",
+    "value" : "richardzhang-1.sohu-inc.com"
+  }, {
+    "name" : "thread",
+    "value" : "28347-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.15512_14369.test_iphone_15512xiaotutuwenxiazai"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'iphone15512小图图文下载数据返回', 'ad_url': 'm?&adpr=0&adslotid=15512%7C14369&appid=tv&appv=9.6.30&c=tv&clientType=2&container=1&cv=9.6.30&density=3&displayMetrics=414%2A736&encd=nb3SsmOd08BdrLiiMTKbwp088STNsNqeoSKtWfwnq5dSUFcot6TX4QrZVenJSrJt/7uVvOg5D2G5PMgVMQYqOs5GNr5Rkrl7oyeyBv0M7sRj8RZ3Y%2BV5xtZoqUacXQz%2Bv0qp34jI6MTeqCWe%2BKy90PpuK6/uSLlcYNxDmmI09rImMbK3ldBSt0vkt/4abxl26k64s84bBob5AbYlnSzaBKWyUY5r0Vmw/KhjbEgjEKzw2mL/DVg9iIFC7CXFG/ZyiDyzuV91W6W5Al0/SVG6A16AWiUBqV46eUZkJKdMdPJWmfrpeuetqYhWVZa9zxxmYdqp6ZPZ004NgeN7ZGOg8vxnSdF%2BW4%2BDDGqJd%2Bc4oEAKGau9VJyxJBHcQcW2wNVkvzGlp7eSi0D8IP0SiFnrDHU6V%2BDjNg75g7hcPxiPwYYff0BeCxxygt48vJs%2B6SXuUvMo1ET75qsV/6jBV4gYwHXRQJCOmwvUEU7PF2no%2BrzLH47jwheiGeVYq3Aqjk3UbTzmYH8P5anEmHBt/qIVRkYDdg7bvsLDIRnN1pLFSvxwSjwHEP1UEt9tIBopz6ka23AyLcFVeqA3fubje8IGYbFTlu2VyZukGxdNX7JloKdXJn8x3HzCnHeliAE4eLPPYCNielUs2KBU/aL9KC/7TTqSw%2Bch/RgMKLzFWeBElHL3wRvVHLB2cF5ekWzV6gJc6Lx5zw%3D%3D&guid=2d8af0f88f4a4278956be9eba1188e9b&islocaltv=0&offline=0&os=iOS&partner=6932&pay=0&plat=3&poid=1&privacy=1&prot=vast&pt=15512%7C14369&scs=124202208&sdkv=13.4.1&source=1000080005&sver=9.6.30&system_type=0&timetag=1648093249120&turn=25&vid=4966869&videoType=m3u8&vu=0', 'base_path': '/基准xml/15512_14369/iphone15512小图图文下载数据返回.xml', 'isEncrypt': 0}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1bbe77e936a08d1.json",
+  "parameterValues" : [ "{'title': 'iphone15512小图图文下载数据返回', 'ad_url': 'm?&adpr=0&adslotid=15512%7C14369&appid=tv&appv=9.6.30&c=tv&clientType=2&container=1&cv=9.6.30&density=3&displayMetrics=414%2A736&encd=nb3SsmOd08BdrLiiMTKbwp088STNsNqeoSKtWfwnq5dSUFcot6TX4QrZVenJSrJt/7uVvOg5D2G5PMgVMQYqOs5GNr5Rkrl7oyeyBv0M7sRj8RZ3Y%2BV5xtZoqUacXQz%2Bv0qp34jI6MTeqCWe%2BKy90PpuK6/uSLlcYNxDmmI09rImMbK3ldBSt0vkt/4abxl26k64s84bBob5AbYlnSzaBKWyUY5r0Vmw/KhjbEgjEKzw2mL/DVg9iIFC7CXFG/ZyiDyzuV91W6W5Al0/SVG6A16AWiUBqV46eUZkJKdMdPJWmfrpeuetqYhWVZa9zxxmYdqp6ZPZ004NgeN7ZGOg8vxnSdF%2BW4%2BDDGqJd%2Bc4oEAKGau9VJyxJBHcQcW2wNVkvzGlp7eSi0D8IP0SiFnrDHU6V%2BDjNg75g7hcPxiPwYYff0BeCxxygt48vJs%2B6SXuUvMo1ET75qsV/6jBV4gYwHXRQJCOmwvUEU7PF2no%2BrzLH47jwheiGeVYq3Aqjk3UbTzmYH8P5anEmHBt/qIVRkYDdg7bvsLDIRnN1pLFSvxwSjwHEP1UEt9tIBopz6ka23AyLcFVeqA3fubje8IGYbFTlu2VyZukGxdNX7JloKdXJn8x3HzCnHeliAE4eLPPYCNielUs2KBU/aL9KC/7TTqSw%2Bch/RgMKLzFWeBElHL3wRvVHLB2cF5ekWzV6gJc6Lx5zw%3D%3D&guid=2d8af0f88f4a4278956be9eba1188e9b&islocaltv=0&offline=0&os=iOS&partner=6932&pay=0&plat=3&poid=1&privacy=1&prot=vast&pt=15512%7C14369&scs=124202208&sdkv=13.4.1&source=1000080005&sver=9.6.30&system_type=0&timetag=1648093249120&turn=25&vid=4966869&videoType=m3u8&vu=0', 'base_path': '/基准xml/15512_14369/iphone15512小图图文下载数据返回.xml', 'isEncrypt': 0}" ]
+}

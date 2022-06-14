@@ -1,0 +1,64 @@
+{
+  "uid" : "3e7348cf419ac2b9",
+  "name" : "test_cis_01[cisv4请求板块信息1]",
+  "fullName" : "TestCase.Platform.cis.test_cisv4#test_cis_01",
+  "historyId" : "4f2c6190537efcab00121eb766ce8c9f",
+  "time" : {
+    "start" : 1651917809183,
+    "stop" : 1651917809336,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "板块"
+  }, {
+    "name" : "feature",
+    "value" : "Cis"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.Platform.cis"
+  }, {
+    "name" : "suite",
+    "value" : "test_cisv4"
+  }, {
+    "name" : "host",
+    "value" : "liuyandeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "13948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Platform.cis.test_cisv4"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'cisv4请求板块信息', 'base_url': 'http://t3.m.sohu.com/cisv4/feeds', 'url': 'https://cis.sohu.com/cisv4/feeds', 'paramater': {'suv': '220105104324TCFL', 'pvId': '1645169455057GplDHeH_46903', 'clientType': 1, 'resourceParam': [{'requestId': '1645169455343_22010510432_cWA', 'resourceId': '1645169455343455619', 'page': 1, 'size': 20, 'spm': 'smpc.topic_142.tpl-pc-feed-new', 'context': {'pro': '0,1', 'feedType': 'XTOPIC_SYNTHETICAL'}, 'resProductParam': {'productId': 202, 'productType': 14}, 'productParam': {'productId': 202, 'productType': 14, 'categoryId': '40', 'mediaId': 1}}]}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e7348cf419ac2b9.json",
+  "parameterValues" : [ "{'title': 'cisv4请求板块信息', 'base_url': 'http://t3.m.sohu.com/cisv4/feeds', 'url': 'https://cis.sohu.com/cisv4/feeds', 'paramater': {'suv': '220105104324TCFL', 'pvId': '1645169455057GplDHeH_46903', 'clientType': 1, 'resourceParam': [{'requestId': '1645169455343_22010510432_cWA', 'resourceId': '1645169455343455619', 'page': 1, 'size': 20, 'spm': 'smpc.topic_142.tpl-pc-feed-new', 'context': {'pro': '0,1', 'feedType': 'XTOPIC_SYNTHETICAL'}, 'resProductParam': {'productId': 202, 'productType': 14}, 'productParam': {'productId': 202, 'productType': 14, 'categoryId': '40', 'mediaId': 1}}]}}" ]
+}

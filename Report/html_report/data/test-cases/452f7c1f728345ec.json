@@ -1,0 +1,60 @@
+{
+  "uid" : "452f7c1f728345ec",
+  "name" : "test_diff[iphone前贴可跳过加密数据返回]",
+  "fullName" : "TestCase.Ad.oad.test_iphone_oadKeTiaoGuo#test_diff",
+  "historyId" : "7749c601b71d4a702656ebd91bcae9eb",
+  "time" : {
+    "start" : 1655195447676,
+    "stop" : 1655195447762,
+    "duration" : 86
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'dictionary_...'text': '1'}}} == []\n  +{'dictionary_item_added': [root['Adparams']], 'dictionary_item_removed': [root['Error'], root['ClickThrough'], root['MultiClickTracking'], root['ClickTracking'], root['TrackingEvents'], root['Tracking'], root['Extension'], root['AdParams'], root['ThirdLeague'], root['Playsound'], root['SupportDeepLink'], root['ExcludeFbarad'], root['ThirdMonitor'], root['Linear'][0]['att']['skipoffset'], root['MediaFile'][0]['att']['type']], 'values_changed': {\"root['Ad'][0]['att']['type']\": {'new_value': 'normal', 'old_value': 'skip'}, \"root['Impression'][0]['text']\": {'new_value': 'https://mmg.aty.sohu.com/pvlo...\n  \n  ...Full output truncated (56 lines hidden), use '-vv' to show",
+  "statusTrace" : "data = {'ad_url': 'm?pt=oad&VU=0&adoriginal=sohu&adpr=0&al=9016646&appid=tv&audited_level=0&build=9.6.20.0.1&c=tv&channeled=1...01&videoType=m3u8&vu=0', 'base_path': '/基准xml/oad/iphone前贴可跳过加密数据返回.xml', 'isEncrypt': 1, 'title': 'iphone前贴可跳过加密数据返回'}\n\n    @pytest.mark.parametrize(\"data\", r[0], ids=r[1])\n    def test_diff(data):\n        status=GetAdData.get_tvapi_data(data['ad_url'])\n        base_xml = CompareXml.get_root(path_dir + data['base_path'])\n        base_el = CompareXml.get_all_elements(base_xml,status)\n        if data['isEncrypt'] == 1:\n            res = GetAdData.get_ad_decode_data(data['ad_url'])\n        else:\n            res = GetAdData.get_ad_data(data['ad_url'])\n        root = ET.XML(res)\n        cur_el = CompareXml.get_all_elements(root,status)\n>       assert DeepDiff(base_el, cur_el) == []\nE       assert {'dictionary_...'text': '1'}}} == []\nE         +{'dictionary_item_added': [root['Adparams']], 'dictionary_item_removed': [root['Error'], root['ClickThrough'], root['MultiClickTracking'], root['ClickTracking'], root['TrackingEvents'], root['Tracking'], root['Extension'], root['AdParams'], root['ThirdLeague'], root['Playsound'], root['SupportDeepLink'], root['ExcludeFbarad'], root['ThirdMonitor'], root['Linear'][0]['att']['skipoffset'], root['MediaFile'][0]['att']['type']], 'values_changed': {\"root['Ad'][0]['att']['type']\": {'new_value': 'normal', 'old_value': 'skip'}, \"root['Impression'][0]['text']\": {'new_value': 'https://mmg.aty.sohu.com/pvlo...\nE         \nE         ...Full output truncated (56 lines hidden), use '-vv' to show\n\nTestCase/Ad/oad/test_iphone_oadKeTiaoGuo.py:33: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.oad"
+  }, {
+    "name" : "suite",
+    "value" : "test_iphone_oadKeTiaoGuo"
+  }, {
+    "name" : "host",
+    "value" : "richardzhang-1.sohu-inc.com"
+  }, {
+    "name" : "thread",
+    "value" : "28458-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.oad.test_iphone_oadKeTiaoGuo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'iphone前贴可跳过加密数据返回', 'ad_url': 'm?pt=oad&VU=0&adoriginal=sohu&adpr=0&al=9016646&appid=tv&audited_level=0&build=9.6.20.0.1&c=tv&channeled=1000080003&density=3&displayMetrics=414%2A736&du=2852.615966796875&encd=XuG4piPTCDvDaeDVgOL7DvKH3QxiL5sNbaRtZ7VZ7wzga86tyFlVBxQyuIDZF8oeCOlpcadmC8MDmAbuLGplDzIrJIGxICWVPnQ1yY5kZqh%2BvzHeoxYOR9gX358Zcth6eGKZ92Lto%2BrlGkQa0zuxlkpo8siuouchfTpyKwVm2nIMS5QhAySHW6r9QUboToTbzXmv9xRQRm3N0luxx5zmgljRkx/kp6vS1Pa%2BmV6WYnNqEiQ/yrZxzf0NPtOFWV/kN508BSCrMSKtIwjEOOKUN2L3SeNCcvgfFUiWXHY/aIkPFh6p9WWasYOpfZQi3K7yk%2BdHVdlXXep/T3RmDZrPuJJxZR8tr9a5JzHxGd/wgPvMX/jpVV9vhue8HJIzlmMmoZK9reRgCQEYvazOAS89WbFWUqxAPjUSAp0mul3tFqziuNY%2B8do3EKmrNiy2r8/EgItbUrJjfkl95cMk/4gUQO8xPheoChb6W/M237WH0Xkci02L1JwkqsF0UBRiVyyLJCgoKfojh4vH2PwOG%2B1zFKBsC/BZ9DrkJqs0DydijFZ7lT7J6VuQS7qzwAqCcDcy0ZC5IRLsCS%2BN/JrCih22RbKzkzBWpDTOhYn4Ww2sFQgJQ1IJve4yL5ddgXKVbELx%2B51/SKiD9Sqe9EM7Kg4TfJiBMpCfi2zl0kGaBbD4L6U4MEA3b5xU%2BDxAkRlPOn4XsSEDc/ApVcaInrrY1DZr1w%3D%3D&ext=2096591&exten=1%2C2%2C3%2C4%2C7%2C8&frontAdsTime=126&guid=2bc43291fac2aae7cff4335c6e477485&islocaltv=0&offline=0&partner=1&pay=0&plat=3&playerMetrics=&playerScale=0.563&playstyle=1&poid=1&privacy=1&prot=vast&protv=3.0&screenstate=1&sdkVersion=14.3.0&site=1&sver=9.6.20&system_type=0&vc=101%3B101157%3B101144&vid=2447701&videoType=m3u8&vu=0', 'base_path': '/基准xml/oad/iphone前贴可跳过加密数据返回.xml', 'isEncrypt': 1}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "452f7c1f728345ec.json",
+  "parameterValues" : [ "{'title': 'iphone前贴可跳过加密数据返回', 'ad_url': 'm?pt=oad&VU=0&adoriginal=sohu&adpr=0&al=9016646&appid=tv&audited_level=0&build=9.6.20.0.1&c=tv&channeled=1000080003&density=3&displayMetrics=414%2A736&du=2852.615966796875&encd=XuG4piPTCDvDaeDVgOL7DvKH3QxiL5sNbaRtZ7VZ7wzga86tyFlVBxQyuIDZF8oeCOlpcadmC8MDmAbuLGplDzIrJIGxICWVPnQ1yY5kZqh%2BvzHeoxYOR9gX358Zcth6eGKZ92Lto%2BrlGkQa0zuxlkpo8siuouchfTpyKwVm2nIMS5QhAySHW6r9QUboToTbzXmv9xRQRm3N0luxx5zmgljRkx/kp6vS1Pa%2BmV6WYnNqEiQ/yrZxzf0NPtOFWV/kN508BSCrMSKtIwjEOOKUN2L3SeNCcvgfFUiWXHY/aIkPFh6p9WWasYOpfZQi3K7yk%2BdHVdlXXep/T3RmDZrPuJJxZR8tr9a5JzHxGd/wgPvMX/jpVV9vhue8HJIzlmMmoZK9reRgCQEYvazOAS89WbFWUqxAPjUSAp0mul3tFqziuNY%2B8do3EKmrNiy2r8/EgItbUrJjfkl95cMk/4gUQO8xPheoChb6W/M237WH0Xkci02L1JwkqsF0UBRiVyyLJCgoKfojh4vH2PwOG%2B1zFKBsC/BZ9DrkJqs0DydijFZ7lT7J6VuQS7qzwAqCcDcy0ZC5IRLsCS%2BN/JrCih22RbKzkzBWpDTOhYn4Ww2sFQgJQ1IJve4yL5ddgXKVbELx%2B51/SKiD9Sqe9EM7Kg4TfJiBMpCfi2zl0kGaBbD4L6U4MEA3b5xU%2BDxAkRlPOn4XsSEDc/ApVcaInrrY1DZr1w%3D%3D&ext=2096591&exten=1%2C2%2C3%2C4%2C7%2C8&frontAdsTime=126&guid=2bc43291fac2aae7cff4335c6e477485&islocaltv=0&offline=0&partner=1&pay=0&plat=3&playerMetrics=&playerScale=0.563&playstyle=1&poid=1&privacy=1&prot=vast&protv=3.0&screenstate=1&sdkVersion=14.3.0&site=1&sver=9.6.20&system_type=0&vc=101%3B101157%3B101144&vid=2447701&videoType=m3u8&vu=0', 'base_path': '/基准xml/oad/iphone前贴可跳过加密数据返回.xml', 'isEncrypt': 1}" ]
+}

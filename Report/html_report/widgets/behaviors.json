@@ -1,0 +1,15 @@
+{
+  "total" : 76,
+  "items" : [ {
+    "uid" : "f876fa89b0ebb6c2a72e09d0e50abdbb",
+    "name" : "Cis",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}
