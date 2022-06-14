@@ -9,6 +9,7 @@ import simplejson as json
 import xmltodict
 import requests
 from libs.Xxtea import Xxtea
+from deepdiff import DeepDiff
 
 
 class RequestHandler(object):
@@ -79,17 +80,72 @@ class RequestHandler(object):
 
 # if __name__ == '__main__':
 #     request_url = RequestHandler()
-#     base_url = 'http://10.16.79.96:8080/jenkins/job/%E9%A6%96%E9%A1%B5%E7%BA%BF%E4%B8%8A%E7%9B%91%E6%8E%A7/'
-#     # 获取jenkins的lastBuild号
-#     newid = str(requests.get(base_url + 'lastBuild/buildNumber').text)
+#     base_url = 'https://cis.sohu.com/cisv4/feeds'
+#     pre_url = 'http://t3.m.sohu.com/cisv4/feeds'
 #
-#     behaviors_url = base_url + newid + '/allure/data/behaviors.json'
+#     paramater = {
+#     "suv":"220105104324TCFL",
+#     "pvId":"1645169455057GplDHeH_46903",
+#     "clientType":1,
+#     "resourceParam":[
+#         {
+#             "requestId":"1645169455343_22010510432_cWA",
+#             "resourceId":"1645169455343455619",
+#             "page":1,
+#             "size":20,
+#             "spm":"smpc.topic_142.tpl-pc-feed-new",
+#             "context":{
+#                 "pro":"0,1",
+#                 "feedType":"XTOPIC_SYNTHETICAL"
+#             },
+#             "resProductParam":{
+#                 "productId":202,
+#                 "productType":14
+#             },
+#             "productParam":{
+#                 "productId":202,
+#                 "productType":14,
+#                 "categoryId":"40",
+#                 "mediaId":1
+#             }
+#         }
+#     ]
+# }
 #
-#     res = request_url.request_main('post', behaviors_url)
-#
-#     response = res.content.decode("utf-8")
-#
-#     print(RequestHandler.json_to_dict(response))
+#     paramater1 = {
+#         "suv": "220105104324TCFL",
+#         "pvId": "1645169455057GplDHeH_46903",
+#         "clientType": 1,
+#         "resourceParam": [
+#             {
+#                 "requestId": "1645169455343_22010510432_cWA",
+#                 "resourceId": "1645169455343455619",
+#                 "page": 1,
+#                 "size": 20,
+#                 "spm": "smpc.topic_142.tpl-pc-feed-new",
+#                 "context": {
+#                     "pro": "0,1",
+#                     "feedType": "XTOPIC_SYNTHETICAL"
+#                 },
+#                 "resProductParam": {
+#                     "productId": 203,
+#                     "productType": 14
+#                 },
+#                 "productParam": {
+#                     "productId": 203,
+#                     "productType": 14,
+#                     "categoryId": "40",
+#                     "mediaId": 1
+#                 }
+#             }
+#         ]
+#     }
+#     res1 = request_url.request_main('post', base_url, json=paramater)
+#     res2 = request_url.request_main('post', pre_url, json=paramater1)
+#     print(res1.text)
+#     print(res2.text)
+#     print(DeepDiff(json.loads(res1.text), json.loads(res2.text)))
+
 
 
 

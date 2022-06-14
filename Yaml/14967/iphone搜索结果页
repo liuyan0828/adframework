@@ -8,6 +8,8 @@ testcase:
     base_path: /基准xml/14967/iphone搜索结果页数据返回.xml
     #是否加密，加密则需要解密后对比。1代表加密；0代表未加密
     isEncrypt: 0
+    #比较格式为JSON时1，XML时0
+    isJson: 0
   -
     #用例描述
     title: iphone搜索结果页加密数据返回
@@ -17,3 +19,16 @@ testcase:
     base_path: /基准xml/14967/iphone搜索结果页加密数据返回.xml
     #是否加密，加密则需要解密后对比。1代表加密；0代表未加密
     isEncrypt: 1
+    #比较格式为JSON时1，XML时0
+    isJson: 0
+  -
+    #用例描述
+    title: json diff校验
+    #请求链接
+    ad_url: m?prot=json&adslotid=16108&tvpid=93&gbcode=null&poid=1&catecode=0&partner=93&pt=16108&guid=null&pagecount=20&sdkv=tv7.6.73-SNAPSHOT&sver=9.7.00&density=3.0&appid=tv&forbid=0&privacy=1&timetag=1652086321011&uptime=21266727&plat=6&encd=aOgGZT5zsbIueYv45sEclvcTBWPc%2FLEGBheEOivdcM0yjjdp9AUjpby2eWsXSpAVDT%2F%2FCvcpw6o1Dr%2BFiKgO%2FcXg1q3bZAjLo6u8qRSLEySgu8VoQJjuAKhwHp1vspfACsM%2BcmqhvLqXiWyuFD%2FQ7%2BDT8DYcEg%2FaUHiq4DJGzyguwCXM9hmv0f59u5QKwAWYAPbBo34IXFdHi4ADC6N4ycz8pw5id9wI2fgZzFgklBHRyHid2OZkkPPggJGQ1XvE9Jdko4BoXKeSEzTKzUgLAuhM868sSZW21Z88XajjhZZGUfvRnWSz05v6oNMtzrGTOKbGeEmn4kXVJKotIdhEGDkY%2FX43X0z%2FULTnJp%2BlcPSZ2tft4GEVK4O%2Fa5nKON6CCpKKenbCPUCFFjBLWEvYry61xp%2BqqJaERUSOJNNIb6R%2BVx%2FuQqJkAZG33g4vr1Ld776G50vYT5WwIk7DJY64k%2Bqdc2gS5ax%2BpetDT%2FAl08988kAAXCuyP2VF6uA3TG5rq42leZr3PEuC46ObefNN%2BcDRs5PFbADC858i%2BAVZPawb1V206q4ukVBtn9FzjNZOuDPISMdF9uqaHN8D1%2BAx0vYsvNCMYN4J7dmhrAkh7zaM9y3sR%2FSCu2sd6xzp4%2Bej3EDg1AyI7nE1rUeQDcUT%2FM84w3YJXA9AfYLDKlaFdY%2BBHDGjb%2BqjDXWCydEUY0P0%2FkcZrPaLt9c1AejzVgbhcIbWsHD622J%2BxN7YYTAGUk0Bbd%2F2IjUv2AoUzHZQmsn6uyol8Pr1%2Brara2MX7lYuWn60eRSW%2F8Hq3uiLZLpuUDcZtNRssnD5fzNShHbGSSAohvUXzNF34EjK4qLK785wDRS%2FzU70D7mPoWlitY4UA1OS3B%2Fz8b0WtfU6gkS%2FqXGrYeuojO%2BMFW4%3D&vc=0&huawei_store_version=120101302&huawei_hms_version=60400312
+    #基准json文件路径
+    base_path: /基准xml/14967/json返回.json
+    #是否加密，加密则需要解密后对比。1代表加密；0代表未加密
+    isEncrypt: 0
+    #比较格式为JSON时1，XML时0
+    isJson: 1

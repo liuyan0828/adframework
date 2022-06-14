@@ -1,14 +1,15 @@
 """
 -*- coding: utf-8 -*-
-@Time : 2021/12/13 
+@updateTime : 2022/06/14
 @Author : liuyan
-@function : 前置处理
+@function : 前置处理+优化断言报错
 """
 import os
-
 import sys
+import TestCase
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 
 def preprocess(request):
     print("fixture部分-path:{}".format(request.param['base_path']))
@@ -26,6 +27,14 @@ def pytest_collection_modifyitems(items):
     for item in items:
         item.name = item.name.encode('utf-8').decode('unicode_escape')
         item._nodeid = item.nodeid.encode('utf-8').decode('unicode_escape')
+
+
+# def pytest_assertrepr_compare(op, left, right):
+#     if op == '==':
+#         return[
+#             f"返回存在多余字段"
+#         ]
+
 
 
 

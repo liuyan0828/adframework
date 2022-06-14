@@ -3,11 +3,15 @@
 @Time : 2021/12/7
 @Author : liuyan
 @function : 对比两个xml文件的异同
+2022.5.27 更新 增加JSON处理
 """
 
-from libs.GetAdData import GetAdData
 import xml.etree.ElementTree as ET
+
+from deepdiff import DeepDiff
+
 from libs.UrlHandler import UrlHandler
+import json
 
 
 class CompareXml(object):
@@ -18,109 +22,80 @@ class CompareXml(object):
         return tree.getroot()
 
     @staticmethod
-    def get_all_elements(root,status):
+    def get_all_elements(root, status):
         """
         处理值，去除其中的\t\n字符，如果是http开头的字符串，去除指定host中的指定字段，如果是None，设置为空字符串
         :return: 返回xml文件中所有的子节点,格式为[tag名, 属性， 值]
         """
-        ele_list = []
+        ele_list = {}
         for i in root.iter():
+            if i.text is None:
+                i.text = ''
+            i.text = i.text.strip()
+            if i.tag in ['Impression', 'CompanionClickTracking']:
+                if 'id' in i.attrib.keys():
+                    if i.attrib['id'] in ['mma', 'miaozhen', 'admaster', 'other']:
+                        h_url = UrlHandler(i.text)
+                        i.text = h_url.get_host()
+                        print(i.tag, i.attrib, i.text)
             if i.tag != "ExpireTime":
-                if i.text:
-                    i.text = i.text.replace("\t", "").replace("\n", "")
-                if i.text is None:
-                    i.text = ''
-                i.text = i.text.strip()
                 if i.text.startswith('http'):
                     handle_url = UrlHandler(i.text)
-                    i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'], ["vu",'du','appid','encd',"cheattype", 'rt','platsource', 'sign','warmup','rip', 'fip', 'v2code', 'bt','backtest','bk', 'sperotime',"impressionid","flightid","sspreqid"])
-                    if status==10001:
-                        i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],[ "tvid","crid", "ar", "datatype"])
+                    i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],
+                                                                ["vu", 'du', 'appid', 'encd', "cheattype", 'rt',
+                                                                 'platsource', 'sign', 'warmup', 'rip', 'fip', 'v2code',
+                                                                 'bt', 'backtest', 'bk', 'sperotime', "impressionid",
+                                                                 "flightid", "sspreqid"])
+                    if status == 10001:
+                        i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],
+                                                                    ["tvid", "crid", "ar", "datatype"])
+            if i.tag in ele_list.keys():
+                ele_list[i.tag].append({'att': i.attrib, 'text': i.text})
+            else:
+                ele_list[i.tag] = [{'att': i.attrib, 'text': i.text}]
 
-                ele_list.append([i.tag, i.attrib, i.text])
         return ele_list
 
+
+class JsonHandle:
+
+    # 只支持字典、列表嵌套的数据格式
     @staticmethod
-    def compare_elements(base_el, cur_el):
+    def get_target_result(dic):
         """
-        :param base_el: 基准xml文件的子节点列表
-        :param cur_el: 需要对比的xml文件子节点列表
-        :return: 返回差异点
+        :param dic: 需要处理的数据
+        :return: 处理后的dic
         """
-        # 对比基准xml多余的元素列表
-        extra_ele = [i for i in cur_el if i not in base_el]
-        # 对比基准xml缺少的元素列表
-        lack_ele = [j for j in base_el if j not in cur_el]
-        # 标志文件是否一致，如一致，flag为1
-        flag = 0
-
-        base_tag = list(i[0] for i in base_el)
-        cur_tag = list(i[0] for i in cur_el)
-        if extra_ele == [] and lack_ele == []:
-            # 如果不存在多余字段也没有缺少字段，且所有子节点tag顺序一致，则认为2个文件一致
-            if base_tag == cur_tag:
-                flag = 1
-            else:
-                print('两文件字段及对应属性值均一致，但结构不一致')
-
-        for i in extra_ele:
-            for j in lack_ele:
-                #  如果存在相同tag值的元素，找出该tag值属性和text的不同点
-                if len(i) != 0 and len(j) != 0:
-                    if i[:1] == j[:1]:
-                        if i[2] != j[2]:
-                            if not isinstance(i[2], str) and not isinstance(i[2], str):
-                                print('{}的text值存在差异'.format(i[0]))
-                                host1 = UrlHandler(i[2]).get_host()
-                                host2 = UrlHandler(j[2]).get_host()
-                                if host1 != host2:
-                                    print('其中host不同，基准为{}，但实际为{}'.format(host1, host2))
-                                params1 = UrlHandler(i[2]).get_all_params()
-                                params2 = UrlHandler(j[2]).get_all_params()
-                                lack_key = []
-                                for k, v in params1.items():
-                                    if k not in params2.keys():
-                                        lack_key.append({k:v})
-                                    if k in params2.keys():
-                                        if v != params2[k]:
-                                            print('其中{}值不同，基准为{}，但实际为{}'.format(k, params2[k], params1[k]))
-                                if lack_key:
-                                    print("测试文件的该字段缺少参数：{}".format(lack_key))
-                                extra_key = []
-                                for k, v in params2.items():
-                                    if k not in params1.keys():
-                                        extra_key.append({k:v})
-                                if extra_key:
-                                    print("测试文件的该字段多余参数：{}".format(lack_key))
-                            else:
-                                print('{}的text值存在差异: 基准text为{}，但实际text为{}'.format(i[0], i[2], j[2]))
-                            i.clear()
-                            j.clear()
-                    elif i[1] != j[1]:
-                        if i[2] == j[2]:
-                            print('{}的属性值存在差异：基准属性值为{}，但实际属性值为{}'.format(i[0], i[1], j[1]))
-                        else:
-                            print('{}的属性值及text均存在差异：基准属性值为{}，但实际属性值为{}'.format(i[0], i[1], j[1]))
-                            print('基准text为{}，但实际text为{}'.format(i[2], j[2]))
-                            i.clear()
-                            j.clear()
-        while [] in extra_ele:
-            extra_ele.remove([])
-        while [] in lack_ele:
-            lack_ele.remove([])
-        if extra_ele:
-            print("当前测试xml文件多余字段，具体字段信息如下: ")
-            for i in extra_ele:
-                print(i)
-        if lack_ele:
-            print("当前测试xml文件缺少字段，具体字段信息如下: ")
-            for j in lack_ele:
-                print(j)
-        return flag
+        if not dic:
+            return 'argv[1] cannot be empty'
+        # 对传入数据进行格式校验
+        if not isinstance(dic, dict) and not isinstance(dic, list):
+            return 'argv[1] not an dict or an list '
+        if isinstance(dic, dict):
+            for k, v in dic.items():
+                if isinstance(v, str) and v.startswith('http'):
+                    handle_url = UrlHandler(v)
+                    v = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],
+                                                                ["vu", 'du', 'appid', 'encd', "cheattype", 'rt',
+                                                                 'platsource', 'sign', 'warmup', 'rip', 'fip', 'v2code',
+                                                                 'bt', 'backtest', 'bk', 'sperotime', "impressionid",
+                                                                 "flightid", "sspreqid"])
+                    dic[k] = v
+                if isinstance(v, list):
+                    JsonHandle.get_target_result(dic[k])
+        else:
+            # 如果数据类型为列表，遍历列表调用get_target_result函数
+            for j in dic:
+                JsonHandle.get_target_result(j)
+        return dic
 
 
-
-
-
-
-
+# if __name__ == '__main__':
+#     with open('../基准xml/14967/json返回.json') as f:
+#         base_json = json.load(f)
+    # base_xml = CompareXml.get_root('../基准xml/验证xml.xml')
+    # base_el = CompareXml.get_all_elements(base_xml, 0)
+    # print(base_json)
+    # res = JsonHandle.get_target_result(base_json)
+    # print(res)
+    # print(DeepDiff(base_json, res))
