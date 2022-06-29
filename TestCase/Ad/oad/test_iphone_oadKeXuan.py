@@ -30,5 +30,4 @@ def test_diff(data):
         res = GetAdData.get_ad_data(data['ad_url'])
     root = ET.XML(res)
     cur_el = CompareXml.get_all_elements(root,status)
-    assert DeepDiff(base_el, cur_el) == []
-
+    assert DeepDiff(base_el, cur_el) == {}

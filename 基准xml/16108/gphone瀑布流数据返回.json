@@ -1,0 +1,145 @@
+{
+    "ads": [
+        {
+            "pt": "16108",
+            "ad": [
+                {
+                    "adtype": 0,
+                    "adfrom": "ade",
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pv?type=1&du=0&rt=1656411751297_5530_10.23.253.50_1257381_1257389&spead=0&uv=8d3af4834afeae31&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&v1code=0%0&prot=json&appid=tv&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&endtime=20231231&ad=54927&b=417694&bk=115142277&pagetype=1&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=1&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1656411751&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=0%0A&ispgc=0&impressionid=84c3f7fcf459b1dca34d54ce48d68a26&oaid=8d3af4834afeae31&scope=0&flightid=36585000&from=tvssp&advertiserid=11635&vp=s&at=0&c=1&p=falls_1&loc=Unknown&adstyle=16108&ac=5479&ad=54927&pt=12612&b=417694&bk=115142277&pagetype=1&spead=0&rtm=__TIME__&err=[ERRORCODE]&position=4",
+                            "event": 0,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/av?type=1&du=0&rt=1656411751297_5530_10.23.253.50_1257381_1257389&spead=0&uv=8d3af4834afeae31&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&v1code=0%0&prot=json&appid=tv&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&endtime=20231231&ad=54927&b=417694&bk=115142277&pagetype=1&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=1&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1656411751&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=0%0A&ispgc=0&impressionid=84c3f7fcf459b1dca34d54ce48d68a26&oaid=8d3af4834afeae31&scope=0&flightid=36585000&from=tvssp&advertiserid=11635&vp=s&at=0&c=1&p=falls_1&loc=Unknown&adstyle=16108&ac=5479&ad=54927&pt=12612&b=417694&bk=115142277&pagetype=1&position=4",
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1656411751297_5530_10.23.253.50_1257381_1257389&spead=0&uv=8d3af4834afeae31&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&v1code=0%0&prot=json&appid=tv&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&endtime=20231231&ad=54927&b=417694&bk=115142277&pagetype=1&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=1&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1656411751&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=0%0A&ispgc=0&impressionid=84c3f7fcf459b1dca34d54ce48d68a26&oaid=8d3af4834afeae31&scope=0&flightid=36585000&from=tvssp&advertiserid=11635&vp=0&at=0&c=1&p=falls_1&loc=Unknown&adstyle=16108&ac=5479&ad=54927&pt=12612&b=417694&bk=115142277&pagetype=1&spead=0&rtm=__TIME__&position=4",
+                            "time": 0,
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1656411751297_5530_10.23.253.50_1257381_1257389&spead=0&uv=8d3af4834afeae31&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&v1code=0%0&prot=json&appid=tv&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&endtime=20231231&ad=54927&b=417694&bk=115142277&pagetype=1&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=1&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1656411751&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=0%0A&ispgc=0&impressionid=84c3f7fcf459b1dca34d54ce48d68a26&oaid=8d3af4834afeae31&scope=0&flightid=36585000&from=tvssp&advertiserid=11635?&err=[ERRORCODE]&at=0&c=1&p=falls_1&loc=Unknown&adstyle=16108&ac=5479&ad=54927&pt=12612&b=417694&bk=115142277&pagetype=1&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__&position=4",
+                            "event": 4,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "creatives": {
+                        "advertiser": {
+                            "content": "广告主"
+                        },
+                        "picture": {
+                            "ratio": 0.66,
+                            "height": 960,
+                            "content": "https://images.sohu.com/ytv/BJ/12496/640960202108141510460.jpg",
+                            "materialType": "image/jpeg",
+                            "width": 640
+                        },
+                        "title": {
+                            "content": "图片标题"
+                        }
+                    },
+                    "pos": 0,
+                    "ext": {
+                        "hardflag": 3,
+                        "support_union": 1,
+                        "deeplinkflag": 0,
+                        "position": 4,
+                        "display_type": 0,
+                        "excluded": 0
+                    },
+                    "click_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1656411751297_5530_10.23.253.50_1257381_1257389&spead=0&uv=8d3af4834afeae31&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&v1code=0%0&prot=json&appid=tv&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&endtime=20231231&ad=54927&b=417694&bk=115142277&pagetype=1&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=1&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1656411751&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=0%0A&ispgc=0&impressionid=84c3f7fcf459b1dca34d54ce48d68a26&oaid=8d3af4834afeae31&scope=0&flightid=36585000&from=tvssp&advertiserid=11635&err=[ERRORCODE]&at=0&c=1&p=falls_1&loc=Unknown&adstyle=16108&ac=5479&ad=54927&pt=12612&b=417694&bk=115142277&pagetype=1&spead=0&rtm=__TIME__&position=4",
+                            "event": 5,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1656411751297_5530_10.23.253.50_1257381_1257389&spead=0&uv=8d3af4834afeae31&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&v1code=0%0&prot=json&appid=tv&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&endtime=20231231&ad=54927&b=417694&bk=115142277&pagetype=1&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=1&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1656411751&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=0%0A&ispgc=0&impressionid=84c3f7fcf459b1dca34d54ce48d68a26&oaid=8d3af4834afeae31&scope=0&flightid=36585000&from=tvssp&advertiserid=11635&err=[ERRORCODE]&at=0&c=1&p=falls_1&loc=Unknown&adstyle=16108&ac=5479&ad=54927&pt=12612&b=417694&bk=115142277&pagetype=1&spead=0&eventtype=deeplink&position=4",
+                            "event": 10,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "landing_url": "http://www.baidu.com",
+                    "template": "fallspicturetxt"
+                },
+                {
+                    "pos": 1,
+                    "adfrom": "ade",
+                    "ext": {
+                        "position": 9,
+                        "support_union": 1
+                    },
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?vp=s&c=1&p=falls_2&loc=Unknown&adstyle=16108&du=0&rt=1656411751297_5530_10.23.253.50_1257381_1257389&uv=8d3af4834afeae31&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&v1code=0%0&prot=json&appid=tv&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&pagetype=1&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=2&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1656411751&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=0%0A&ispgc=0&impressionid=84c3f7fcf459b1dca34d54ce48d68a26&oaid=8d3af4834afeae31&scope=0&from=tvssp&sspreplacable=1&sspreqid=ssp-app-qa-77997689cc-95wtm0000001262bad6670565_cl&position=9",
+                            "event": 0,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "adtype": -1,
+                    "repWithAdxAd": 1
+                },
+                {
+                    "pos": 2,
+                    "adfrom": "ade",
+                    "ext": {
+                        "position": 14,
+                        "support_union": 1
+                    },
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?vp=s&c=1&p=falls_3&loc=Unknown&adstyle=16108&du=0&rt=1656411751297_5530_10.23.253.50_1257381_1257389&uv=8d3af4834afeae31&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&v1code=0%0&prot=json&appid=tv&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&pagetype=1&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=3&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1656411751&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=0%0A&ispgc=0&impressionid=84c3f7fcf459b1dca34d54ce48d68a26&oaid=8d3af4834afeae31&scope=0&from=tvssp&sspreplacable=1&sspreqid=ssp-app-qa-77997689cc-95wtm0000001262bad6670565_cl&position=14",
+                            "event": 0,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "adtype": -1,
+                    "repWithAdxAd": 1
+                },
+                {
+                    "pos": 3,
+                    "adfrom": "ade",
+                    "ext": {
+                        "position": 19,
+                        "support_union": 1
+                    },
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?vp=s&c=1&p=falls_4&loc=Unknown&adstyle=16108&du=0&rt=1656411751297_5530_10.23.253.50_1257381_1257389&uv=8d3af4834afeae31&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&v1code=0%0&prot=json&appid=tv&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&pagetype=1&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=4&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1656411751&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=0%0A&ispgc=0&impressionid=84c3f7fcf459b1dca34d54ce48d68a26&oaid=8d3af4834afeae31&scope=0&from=tvssp&sspreplacable=1&sspreqid=ssp-app-qa-77997689cc-95wtm0000001262bad6670565_cl&position=19",
+                            "event": 0,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "adtype": -1,
+                    "repWithAdxAd": 1
+                },
+                {
+                    "pos": 4,
+                    "adfrom": "ade",
+                    "ext": {
+                        "position": 24,
+                        "support_union": 1
+                    },
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?vp=s&c=1&p=falls_5&loc=Unknown&adstyle=16108&du=0&rt=1656411751297_5530_10.23.253.50_1257381_1257389&uv=8d3af4834afeae31&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&v1code=0%0&prot=json&appid=tv&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&pagetype=1&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=5&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1656411751&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=0%0A&ispgc=0&impressionid=84c3f7fcf459b1dca34d54ce48d68a26&oaid=8d3af4834afeae31&scope=0&from=tvssp&sspreplacable=1&sspreqid=ssp-app-qa-77997689cc-95wtm0000001262bad6670565_cl&position=24",
+                            "event": 0,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "adtype": -1,
+                    "repWithAdxAd": 1
+                }
+            ]
+        }
+    ],
+    "ext": {},
+    "version": 3,
+    "impid": "1656411751297_5530_10.23.253.50_1257381_1257389"
+}

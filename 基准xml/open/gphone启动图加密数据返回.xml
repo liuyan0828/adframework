@@ -1,94 +1,82 @@
 <VAST version="3.0">
-    <Ad id="topview">
-        <InLine>
-            <AdSystem>sohu tv ad system</AdSystem>
-            <AdTitle>图片标题</AdTitle>
-            <Description>sohu tv</Description>
-            <Impression id="monitorServer">
-                <![CDATA[http://mmg.aty.sohu.com/pv?type=1&du=0&rt=1640590799184_9778_10.18.40.254_4602_4628&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&uuid=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&UUID=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&sip=10.18.40.254&plat=6&sver=9.3.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&protv=3.0&build=9.3.00&appid=tv&adoriginal=sohu&sdkVersion=tv8.3.10-SNAPSHOT&offline=0&density=3.0&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20211227&endtime=20231231&ad=54375&b=415435&bk=114831152&pagetype=2&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=16&sperotime=1640590799&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=video&platsource=tv&indexip=127.0.0.1:60111&warmup=0%0A%20%20%20%20%0A%20%20%20%20&ispgc=0&impressionid=65c4c0988f599cd72cba5fc043fd6c69&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36564274&from=tvssp&encd=QavKJ1KQ55sU86YvLZaeLMfX%2FdufF9nito%2FxPb8Jw7moO%2B4BD3BSHV4NX38n3Y3rEBWuOS7oECwBe7NjcIZQ2w%3D%3D&vp=s&at=0&c=2742&p=op&posid=op_aphone_1&loc=Unknown&adstyle=open&bar=9794&ac=5479&ad=54375&pt=12612&b=415435&bk=114831152&pagetype=2&spead=0&istopview=1&rtm=__TIME__&err=[ERRORCODE]]]>
-            </Impression>
-            <Creatives>
-                <Creative>
-                    <NonLinearAds>
-                        <NonLinear height="1136" minSuggestedDuration="00:00:05" width="640">
-                            <StaticResource creativeType="video/mp4" orientation="horizontal">
-                                <![CDATA[http://data.vod.itc.cn/?prod=ad&new=/247/88/UM9Nn9PAElVrjC0oylcbXJ.mp4]]>
-                            </StaticResource>
-                            <AltText>
-                                <![CDATA[图片标题]]>
-                            </AltText>
-                            <NonLinearClickThrough>
-                                <![CDATA[http://www.baidu.com]]>
-                            </NonLinearClickThrough>
-                            <MultiClickTracking>
-                                <![CDATA[http://mmg.aty.sohu.com/goto?du=0&rt=1640590799184_9778_10.18.40.254_4602_4628&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&uuid=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&UUID=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&sip=10.18.40.254&plat=6&sver=9.3.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&protv=3.0&build=9.3.00&appid=tv&adoriginal=sohu&sdkVersion=tv8.3.10-SNAPSHOT&offline=0&density=3.0&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20211227&endtime=20231231&ad=54375&b=415435&bk=114831152&pagetype=2&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=16&sperotime=1640590799&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=video&platsource=tv&indexip=127.0.0.1:60111&warmup=0%0A%20%20%20%20%0A%20%20%20%20&ispgc=0&impressionid=65c4c0988f599cd72cba5fc043fd6c69&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36564274&from=tvssp&encd=QavKJ1KQ55sU86YvLZaeLMfX%2FdufF9nito%2FxPb8Jw7moO%2B4BD3BSHV4NX38n3Y3rEBWuOS7oECwBe7NjcIZQ2w%3D%3D&err=[ERRORCODE]&vp=[REALTIME]&at=0&c=2742&p=op&posid=op_aphone_1&loc=Unknown&adstyle=open&bar=9794&ac=5479&ad=54375&pt=12612&b=415435&bk=114831152&pagetype=2&spead=0&istopview=1&eventtype=deeplink]]>
-                            </MultiClickTracking>
-                            <NonLinearClickTracking>
-                                <![CDATA[http://mmg.aty.sohu.com/goto?du=0&rt=1640590799184_9778_10.18.40.254_4602_4628&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&uuid=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&UUID=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&sip=10.18.40.254&plat=6&sver=9.3.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&protv=3.0&build=9.3.00&appid=tv&adoriginal=sohu&sdkVersion=tv8.3.10-SNAPSHOT&offline=0&density=3.0&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20211227&endtime=20231231&ad=54375&b=415435&bk=114831152&pagetype=2&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=16&sperotime=1640590799&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=video&platsource=tv&indexip=127.0.0.1:60111&warmup=0%0A%20%20%20%20%0A%20%20%20%20&ispgc=0&impressionid=65c4c0988f599cd72cba5fc043fd6c69&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36564274&from=tvssp&encd=QavKJ1KQ55sU86YvLZaeLMfX%2FdufF9nito%2FxPb8Jw7moO%2B4BD3BSHV4NX38n3Y3rEBWuOS7oECwBe7NjcIZQ2w%3D%3D&err=[ERRORCODE]&vp=[REALTIME]&at=0&c=2742&p=op&posid=op_aphone_1&loc=Unknown&adstyle=open&bar=9794&ac=5479&ad=54375&pt=12612&b=415435&bk=114831152&pagetype=2&spead=0&istopview=1&rtm=__TIME__]]>
-                            </NonLinearClickTracking>
-                        </NonLinear>
-                        <TrackingEvents>
-                            <Tracking event="av">
-                                <![CDATA[http://mmg.aty.sohu.com/av?type=1&du=0&rt=1640590799184_9778_10.18.40.254_4602_4628&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&uuid=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&UUID=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&sip=10.18.40.254&plat=6&sver=9.3.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&protv=3.0&build=9.3.00&appid=tv&adoriginal=sohu&sdkVersion=tv8.3.10-SNAPSHOT&offline=0&density=3.0&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20211227&endtime=20231231&ad=54375&b=415435&bk=114831152&pagetype=2&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=16&sperotime=1640590799&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=video&platsource=tv&indexip=127.0.0.1:60111&warmup=0%0A%20%20%20%20%0A%20%20%20%20&ispgc=0&impressionid=65c4c0988f599cd72cba5fc043fd6c69&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36564274&from=tvssp&encd=QavKJ1KQ55sU86YvLZaeLMfX%2FdufF9nito%2FxPb8Jw7moO%2B4BD3BSHV4NX38n3Y3rEBWuOS7oECwBe7NjcIZQ2w%3D%3D&vp=s&at=0&istopview=1&c=2742&p=op&posid=op_aphone_1&loc=Unknown&adstyle=open&bar=9794&ac=5479&ad=54375&pt=12612&b=415435&bk=114831152&pagetype=2&ps=1]]>
-                            </Tracking>
-                            <Tracking event="complete">
-                                <![CDATA[http://mmg.aty.sohu.com/pvlog?du=0&rt=1640590799184_9778_10.18.40.254_4602_4628&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&uuid=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&UUID=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&sip=10.18.40.254&plat=6&sver=9.3.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&protv=3.0&build=9.3.00&appid=tv&adoriginal=sohu&sdkVersion=tv8.3.10-SNAPSHOT&offline=0&density=3.0&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20211227&endtime=20231231&ad=54375&b=415435&bk=114831152&pagetype=2&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=16&sperotime=1640590799&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=video&platsource=tv&indexip=127.0.0.1:60111&warmup=0%0A%20%20%20%20%0A%20%20%20%20&ispgc=0&impressionid=65c4c0988f599cd72cba5fc043fd6c69&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36564274&from=tvssp&encd=QavKJ1KQ55sU86YvLZaeLMfX%2FdufF9nito%2FxPb8Jw7moO%2B4BD3BSHV4NX38n3Y3rEBWuOS7oECwBe7NjcIZQ2w%3D%3D&vp=e&at=0&c=2742&p=op&posid=op_aphone_1&loc=Unknown&adstyle=open&bar=9794&ac=5479&ad=54375&pt=12612&b=415435&bk=114831152&pagetype=2&spead=0&istopview=1&rtm=__TIME__&err=[ERRORCODE]&ps=1]]>
-                            </Tracking>
-                            <Tracking event="thirdimpression" id="sohutv" offset="00:00:00">
-                                <![CDATA[http://mmg.aty.sohu.com/pvlog?du=0&rt=1640590799184_9778_10.18.40.254_4602_4628&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&uuid=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&UUID=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&sip=10.18.40.254&plat=6&sver=9.3.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&protv=3.0&build=9.3.00&appid=tv&adoriginal=sohu&sdkVersion=tv8.3.10-SNAPSHOT&offline=0&density=3.0&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20211227&endtime=20231231&ad=54375&b=415435&bk=114831152&pagetype=2&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=16&sperotime=1640590799&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=video&platsource=tv&indexip=127.0.0.1:60111&warmup=0%0A%20%20%20%20%0A%20%20%20%20&ispgc=0&impressionid=65c4c0988f599cd72cba5fc043fd6c69&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36564274&from=tvssp&encd=QavKJ1KQ55sU86YvLZaeLMfX%2FdufF9nito%2FxPb8Jw7moO%2B4BD3BSHV4NX38n3Y3rEBWuOS7oECwBe7NjcIZQ2w%3D%3D&vp=0&at=0&c=2742&p=op&posid=op_aphone_1&loc=Unknown&adstyle=open&bar=9794&ac=5479&ad=54375&pt=12612&b=415435&bk=114831152&pagetype=2&spead=0&istopview=1&rtm=__TIME__]]>
-                            </Tracking>
-                            <Tracking event="close">
-                                <![CDATA[http://mmg.aty.sohu.com/pvlog?&err=[ERRORCODE]&vp=[SKIPTIME]&du=0&rt=1640590799184_9778_10.18.40.254_4602_4628&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&uuid=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&UUID=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&sip=10.18.40.254&plat=6&sver=9.3.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&protv=3.0&build=9.3.00&appid=tv&adoriginal=sohu&sdkVersion=tv8.3.10-SNAPSHOT&offline=0&density=3.0&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20211227&endtime=20231231&ad=54375&b=415435&bk=114831152&pagetype=2&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=16&sperotime=1640590799&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=video&platsource=tv&indexip=127.0.0.1:60111&warmup=0%0A%20%20%20%20%0A%20%20%20%20&ispgc=0&impressionid=65c4c0988f599cd72cba5fc043fd6c69&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36564274&from=tvssp&encd=QavKJ1KQ55sU86YvLZaeLMfX%2FdufF9nito%2FxPb8Jw7moO%2B4BD3BSHV4NX38n3Y3rEBWuOS7oECwBe7NjcIZQ2w%3D%3D&ischarge=0&eventtype=skip&at=0&c=2742&p=op&posid=op_aphone_1&loc=Unknown&adstyle=open&bar=9794&ac=5479&ad=54375&pt=12612&b=415435&bk=114831152&pagetype=2&spead=0&istopview=1]]>
-                            </Tracking>
-                        </TrackingEvents>
-                    </NonLinearAds>
-                    <CompanionAds>
-                        <Companion height="" width="">
-                            <CompanionStaticStartResource creativeType="image/jpeg"/>
-                        </Companion>
-                        <Companion height="" width="">
-                            <CompanionStaticEndResource creativeType="image/jpeg"/>
-                        </Companion>
-                        <Companion height="2436" width="1125">
-                            <CompanionStaticResource creativeType="image/png" is_full="0">
-                                <![CDATA[https://images.sohu.com/ytv/BJ/11645/1125243620210420151403.png]]>
-                            </CompanionStaticResource>
-                        </Companion>
-                        <Companion height="360" minSuggestedDuration="00:00:15" width="640">
-                            <CompanionMediaFile creativeType="video/mp4">
-                                <![CDATA[http://images.sohu.com/ytv/BJ/11655/64036020210421150908.mp4]]>
-                            </CompanionMediaFile>
-                        </Companion>
-                        <Companion height="80" width="80">
-                            <CompanionAdLogo creativeType="image/png">
-                                <![CDATA[http://images.sohu.com/ytv/BJ/11535/808020151020120130.png]]>
-                            </CompanionAdLogo>
-                        </Companion>
-                        <TrackingEvents>
-                            <Tracking event="av">
-                                <![CDATA[http://mmg.aty.sohu.com/av?type=1&du=0&rt=1640590799184_9778_10.18.40.254_4602_4628&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&uuid=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&UUID=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&sip=10.18.40.254&plat=6&sver=9.3.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&protv=3.0&build=9.3.00&appid=tv&adoriginal=sohu&sdkVersion=tv8.3.10-SNAPSHOT&offline=0&density=3.0&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20211227&endtime=20231231&ad=54375&b=415435&bk=114831152&pagetype=2&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=16&sperotime=1640590799&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=video&platsource=tv&indexip=127.0.0.1:60111&warmup=0%0A%20%20%20%20%0A%20%20%20%20&ispgc=0&impressionid=65c4c0988f599cd72cba5fc043fd6c69&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36564274&from=tvssp&encd=QavKJ1KQ55sU86YvLZaeLMfX%2FdufF9nito%2FxPb8Jw7moO%2B4BD3BSHV4NX38n3Y3rEBWuOS7oECwBe7NjcIZQ2w%3D%3D&vp=s&at=0&istopview=1&c=2742&p=op&posid=op_aphone_1&loc=Unknown&adstyle=open&bar=9794&ac=5479&ad=54375&pt=12612&b=415435&bk=114831152&pagetype=2&ps=2]]>
-                            </Tracking>
-                            <Tracking event="complete">
-                                <![CDATA[http://mmg.aty.sohu.com/pvlog?du=0&rt=1640590799184_9778_10.18.40.254_4602_4628&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&uuid=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&UUID=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&sip=10.18.40.254&plat=6&sver=9.3.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&protv=3.0&build=9.3.00&appid=tv&adoriginal=sohu&sdkVersion=tv8.3.10-SNAPSHOT&offline=0&density=3.0&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20211227&endtime=20231231&ad=54375&b=415435&bk=114831152&pagetype=2&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=16&sperotime=1640590799&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=video&platsource=tv&indexip=127.0.0.1:60111&warmup=0%0A%20%20%20%20%0A%20%20%20%20&ispgc=0&impressionid=65c4c0988f599cd72cba5fc043fd6c69&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36564274&from=tvssp&encd=QavKJ1KQ55sU86YvLZaeLMfX%2FdufF9nito%2FxPb8Jw7moO%2B4BD3BSHV4NX38n3Y3rEBWuOS7oECwBe7NjcIZQ2w%3D%3D&vp=e&at=0&c=2742&p=op&posid=op_aphone_1&loc=Unknown&adstyle=open&bar=9794&ac=5479&ad=54375&pt=12612&b=415435&bk=114831152&pagetype=2&spead=0&istopview=1&rtm=__TIME__&err=[ERRORCODE]&ps=2]]>
-                            </Tracking>
-                        </TrackingEvents>
-                    </CompanionAds>
-                </Creative>
-            </Creatives>
-            <Extensions>
-                <Extension>
-                    <AdParams adStyle="open" postCode="op_aphone_1">
-                        <OpenDelay>5</OpenDelay>
-                        <SupportDeepLink>0</SupportDeepLink>
-                        <DominantColor>-16777216</DominantColor>
-                        <ExpireTime>1642089599013</ExpireTime>
-                        <Advertiser>
-                            <![CDATA[广告主来源]]>
-                        </Advertiser>
-                        <DisplayType>0</DisplayType>
-                    </AdParams>
-                </Extension>
-            </Extensions>
-        </InLine>
-    </Ad>
+	<Ad>
+
+
+		<InLine>
+
+
+			<AdSystem>sohu tv ad system</AdSystem>
+
+
+			<AdTitle>sohu tv</AdTitle>
+
+
+			<Description>sohu tv</Description>
+
+
+			<Impression id="monitorServer">
+
+
+<![CDATA[http://mmg.aty.sohu.com/pvlog?vp=s&c=2742&p=op&posid=op_aphone_1&loc=Unknown&adstyle=open&bar=9792&du=0&rt=1656404857509_6038_10.23.253.50_1257381_1257391&plat=6&sver=9.3.00&partner=93&poid=1&adplat=3&prot=json&protv=3.0&build=9.3.00&appid=tv&adoriginal=sohu&sdkVersion=tv8.3.10-SNAPSHOT&offline=0&density=3.0&displayMetrics=1080*2340&bt=20220628&pagetype=2&guid=null&seq=1&w=400&h=300&wdbn=400&hgbn=300&cheattype=16&sperotime=1656404857&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&warmup=0%0A&backtest=test_c&ispgc=0&impressionid=1589c647d5ac0186aaadd672ed0c0c45&scope=0&from=tvssp&encd=NdignzQyP0sRM69%2BdiZS6we1OfetuJVrwBLo5v73BYaiDBOtzUJCqZPBZsuLqmGv4cOw0Q8hnKUKmOzFFz6blvGThrFxsAkJ0w1KnXhjE1sYt1l6I%2FiUflE98S07tXy0KUQVRgUoLJ4aG30Iq8QWyRrri4%2FC62NpIvCB5yiVZ%2FsYeqDMSUVPT%2BoSJbTGvfUXFfa5s0n9JToZcpsC0tJAptA2s9L%2BA6l79DEYmb3LcdQQ2%2FQRs3bBLd%2BwboidAJDYSW8HAKGtq5OYuJ0W%2Fexj4%2FlGL4gzxmq5isanU%2F52oUjwcq6SjviM8Nf5o%2BoeH6oXhGmI%2FJ1u51aIsH2jvVwRxmQ9x9PQpA5jPBgyjFZCcS6YZ7OwvADjAoFQDgngXYRyRyxQSZj6A2AqnSGC9aa%2FnD2XyICSnbQcobdqXBQ1LXlJGQzojQG5uCL1d%2B2MqpS0j0qC6xhMlV6IHM0jU6xSBEHkundM%2FIpiC%2FDM1LpWLYEQMOZ4XOLH5G4P5pouQCp%2BwJqRwWBHGKoUMP3Alps2gN367uFnHYxqQoEyKwvEDaV3wEgmI%2BcdpjTJIqIUoVpCMjSgKQ1exP43RS7rKyqvjo3PB3SDHR5SSwP7IFpYZ%2FXsVieePJZKoWP4gJ9ovGuVayeaNSarSz6ta%2FSyubR9BM8WM6EcZvp9oS%2BmP6mwtCMU%2B4rGxf3B0BELIv4CUWxpCZZ2pJDWeeZKVvRuWwLRbznKk8LyuCHTaogRsJHMhguwdTy%2BGmFSOLM%2Bi%2BBwPpc9JWxhkA%3D%3D&sspreplacable=1&sspreqid=ssp-app-qa-77997689cc-95wtm0000001162babb7a0135_cl]]>
+
+			</Impression>
+
+
+			<Creatives>
+
+
+				<Creative>
+
+
+					<NonLinearAds>
+
+
+						<NonLinear height="300" minSuggestedDuration="00:00:05" width="400">
+
+
+							<StaticResource>
+
+                        </StaticResource>
+
+
+						</NonLinear>
+
+
+					</NonLinearAds>
+
+
+				</Creative>
+
+
+			</Creatives>
+
+
+			<Extensions>
+
+
+				<Extension>
+
+
+					<AdParams adId="" adStyle="open" postCode="op_aphone_1">
+
+
+						<OpenDelay>5</OpenDelay>
+
+
+						<ExpireTime>1656460799000</ExpireTime>
+
+
+					</AdParams>
+
+
+				</Extension>
+
+
+			</Extensions>
+
+
+		</InLine>
+
+
+	</Ad>
 </VAST>

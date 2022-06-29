@@ -37,7 +37,7 @@ def test_diff(data):
         base_el = CompareXml.get_all_elements(base_xml, status)
         root = ET.XML(res)
         cur_el = CompareXml.get_all_elements(root, status)
-        assert  DeepDiff(base_el, cur_el) == []
+        assert  DeepDiff(base_el, cur_el) == {}
 
 
 #if __name__ == '__main__':

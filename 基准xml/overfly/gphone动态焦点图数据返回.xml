@@ -1,0 +1,26 @@
+<VAST version="3.0">
+    <Ad sequence="1">
+        <InLine>
+            <AdSystem>sohu tv ad system</AdSystem>
+            <AdTitle>float video ad test</AdTitle>
+            <Description>sohu tv</Description>
+            <Impression id="monitorServer">
+                <![CDATA[ http://mmg.aty.sohu.com/pvlog?vp=s&c=2742&p=overfly&posid=17001&loc=Unknown&adstyle=overfly&bar=100032&du=0&rt=1656409251222_2656_10.23.253.50_1257381_1257392&uv=8d3af4834afeae31&uuid=d2cd1d76-4d31-4b40-8b5c-b0c69ce8061e1656408786195&UUID=d2cd1d76-4d31-4b40-8b5c-b0c69ce8061e1656408786195&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=1&w=400&h=300&wdbn=400&hgbn=300&cheattype=16&sperotime=1656409251&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&backtest=test_c&ispgc=0&impressionid=c8051273d86bc75417b29b9c75ee6a19&oaid=8d3af4834afeae31&scope=0&from=tvssp&encrysig=lVUqoJj2mcCfN2P2uEgsCfZjCrv5P-yn24E2ySXN8o8dAY6v ]]>
+            </Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>00:00:00</Duration>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" width="400" height="300"/>
+                        </MediaFiles>
+                        <VideoClicks/>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <Extensions>
+                <Adparams adStyle="overfly" postCode="17001"/>
+            </Extensions>
+        </InLine>
+    </Ad>
+</VAST>
