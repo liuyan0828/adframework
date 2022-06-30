@@ -30,30 +30,31 @@ class CompareXml(object):
         ele_list = {}
         for i in root.iter():
             if i.tag != "ExpireTime":
-                if i.text is None:
-                    i.text = ''
-                i.text = i.text.strip()
-                if i.tag in ['Impression', 'CompanionClickTracking']:
-                    if 'id' in i.attrib.keys():
-                        if i.attrib['id'] in ['mma', 'miaozhen', 'admaster', 'other']:
-                            h_url = UrlHandler(i.text)
-                            i.text = h_url.get_host()
-                            print(i.tag, i.attrib, i.text)
-                if i.text.startswith('http'):
-                    handle_url = UrlHandler(i.text)
-                    i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],
+                if i.tag != "SupportUnion":
+                    if i.text is None:
+                        i.text = ''
+                    i.text = i.text.strip()
+                    if i.tag in ['Impression', 'CompanionClickTracking']:
+                        if 'id' in i.attrib.keys():
+                            if i.attrib['id'] in ['mma', 'miaozhen', 'admaster', 'other']:
+                                h_url = UrlHandler(i.text)
+                                i.text = h_url.get_host()
+                                print(i.tag, i.attrib, i.text)
+                    if i.text.startswith('http'):
+                        handle_url = UrlHandler(i.text)
+                        i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],
                                                                     ["vu", 'du', 'appid', 'encd', "cheattype", 'rt',
                                                                      'platsource', 'sign', 'warmup', 'rip', 'fip',
                                                                      'v2code', 'bt', 'backtest', 'bk', 'sperotime',
                                                                      "impressionid", "flightid", "sspreqid", "sip",
-                                                                     "indexip", "v2"])
-                    if status == 10001:
-                        i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],
+                                                                     "indexip", "v2","encrysig"])
+                        if status == 10001:
+                            i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],
                                                                         ["tvid", "crid", "ar", "datatype"])
-                if i.tag in ele_list.keys():
-                    ele_list[i.tag].append({'att': i.attrib, 'text': i.text})
-                else:
-                    ele_list[i.tag] = [{'att': i.attrib, 'text': i.text}]
+                    if i.tag in ele_list.keys():
+                        ele_list[i.tag].append({'att': i.attrib, 'text': i.text})
+                    else:
+                        ele_list[i.tag] = [{'att': i.attrib, 'text': i.text}]
         return ele_list
 
 
@@ -90,12 +91,3 @@ class JsonHandle:
         return dic
 
 
-# if __name__ == '__main__':
-#     with open('../基准xml/14967/json返回.json') as f:
-#         base_json = json.load(f)
-    # base_xml = CompareXml.get_root('../基准xml/验证xml.xml')
-    # base_el = CompareXml.get_all_elements(base_xml, 0)
-    # print(base_json)
-    # res = JsonHandle.get_target_result(base_json)
-    # print(res)
-    # print(DeepDiff(base_json, res))
