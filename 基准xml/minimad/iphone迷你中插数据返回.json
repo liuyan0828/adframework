@@ -1,0 +1,103 @@
+{
+    "ads": [
+        {
+            "pt": "minimad",
+            "ad": [
+                {
+                    "adgroup": {
+                        "lineid": "417737",
+                        "advid": "11635",
+                        "saletype": 1,
+                        "campaignid": "12613",
+                        "tradetype": 0
+                    },
+                    "adtype": 0,
+                    "adfrom": "ade",
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pv?type=1&du=254&adtime=15&trule=0&mx=1&al=nil&vid=401341473&tvid=401341473&rt=1679301684813_4278_10.33.8.112_15_24&spead=8&mnum=1&uv=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&uuid=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&UUID=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&vt=ugc&crid=nil&ugcode2=MCSOTk%253Dr0mM95%252D%252D2iV3r1kz6urskepd2aQfTTAmBOLeZ47O8vrpILfXwdA0894WeK3D59nJdPxmpw%252E%252E&ar=nil&sip=10.33.8.112&plat=3&sver=9.8.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&wt=wifi&v1code=305&prot=json&protv=3.0&openudid=a8734ff9c90f4bc73a18fed5d98ff2b9&playstyle=2&build=9.8.30.0.7&appid=tv&adoriginal=sohu&sdkVersion=12.3.5&offline=0&density=3&udid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfa=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfv=18312DA5-58DE-4396-8000-C24031D92F00&displayMetrics=414*736&islocaltv=0&datatype=82&bt=20230320&endtime=20231231&ad=54938&b=417737&bk=116966220&pagetype=1&suid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&islocaltv=0&manufacturer=Apple&guid=9e8d5d44e441f610f8097799a2bf9084&pgcauthor=346640781&adpr=0&seq=1&w=264&h=150&wdbn=264&hgbn=150&cheattype=16&sperotime=1679301684&tuv=BBA9CAFA-8715-4825-87A9-8557C1380DCC&site=2&template=skip,pictxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&channeled=1000022600&vu=0&vc=305;305300&restype=ugc&ispgc=0&impressionid=4b530caa0a17187de5c3c62f475ff20c&scope=0&flightid=36605979&from=tvssp&advertiserid=11635&caid=86c70f9a5e778fcab86637356048bf7b&vp=s&at=15&c=21666&p=minimad&posid=minimad1&loc=Unknown&adstyle=minimad&ac=5480&ad=54938&pt=12613&b=417737&bk=116966220&pagetype=1&spead=8&rtm=__TIME__&err=[ERRORCODE]",
+                            "event": 0,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/av?type=1&du=254&adtime=15&trule=0&mx=1&al=nil&vid=401341473&tvid=401341473&rt=1679301684813_4278_10.33.8.112_15_24&spead=8&mnum=1&uv=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&uuid=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&UUID=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&vt=ugc&crid=nil&ugcode2=MCSOTk%253Dr0mM95%252D%252D2iV3r1kz6urskepd2aQfTTAmBOLeZ47O8vrpILfXwdA0894WeK3D59nJdPxmpw%252E%252E&ar=nil&sip=10.33.8.112&plat=3&sver=9.8.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&wt=wifi&v1code=305&prot=json&protv=3.0&openudid=a8734ff9c90f4bc73a18fed5d98ff2b9&playstyle=2&build=9.8.30.0.7&appid=tv&adoriginal=sohu&sdkVersion=12.3.5&offline=0&density=3&udid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfa=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfv=18312DA5-58DE-4396-8000-C24031D92F00&displayMetrics=414*736&islocaltv=0&datatype=82&bt=20230320&endtime=20231231&ad=54938&b=417737&bk=116966220&pagetype=1&suid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&islocaltv=0&manufacturer=Apple&guid=9e8d5d44e441f610f8097799a2bf9084&pgcauthor=346640781&adpr=0&seq=1&w=264&h=150&wdbn=264&hgbn=150&cheattype=16&sperotime=1679301684&tuv=BBA9CAFA-8715-4825-87A9-8557C1380DCC&site=2&template=skip,pictxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&channeled=1000022600&vu=0&vc=305;305300&restype=ugc&ispgc=0&impressionid=4b530caa0a17187de5c3c62f475ff20c&scope=0&flightid=36605979&from=tvssp&advertiserid=11635&caid=86c70f9a5e778fcab86637356048bf7b&vp=s&at=15&c=21666&p=minimad&posid=minimad1&loc=Unknown&adstyle=minimad&ac=5480&ad=54938&pt=12613&b=417737&bk=116966220&pagetype=1&rtm=__TIME__",
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=254&adtime=15&trule=0&mx=1&al=nil&vid=401341473&tvid=401341473&rt=1679301684813_4278_10.33.8.112_15_24&spead=8&mnum=1&uv=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&uuid=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&UUID=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&vt=ugc&crid=nil&ugcode2=MCSOTk%253Dr0mM95%252D%252D2iV3r1kz6urskepd2aQfTTAmBOLeZ47O8vrpILfXwdA0894WeK3D59nJdPxmpw%252E%252E&ar=nil&sip=10.33.8.112&plat=3&sver=9.8.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&wt=wifi&v1code=305&prot=json&protv=3.0&openudid=a8734ff9c90f4bc73a18fed5d98ff2b9&playstyle=2&build=9.8.30.0.7&appid=tv&adoriginal=sohu&sdkVersion=12.3.5&offline=0&density=3&udid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfa=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfv=18312DA5-58DE-4396-8000-C24031D92F00&displayMetrics=414*736&islocaltv=0&datatype=82&bt=20230320&endtime=20231231&ad=54938&b=417737&bk=116966220&pagetype=1&suid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&islocaltv=0&manufacturer=Apple&guid=9e8d5d44e441f610f8097799a2bf9084&pgcauthor=346640781&adpr=0&seq=1&w=264&h=150&wdbn=264&hgbn=150&cheattype=16&sperotime=1679301684&tuv=BBA9CAFA-8715-4825-87A9-8557C1380DCC&site=2&template=skip,pictxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&channeled=1000022600&vu=0&vc=305;305300&restype=ugc&ispgc=0&impressionid=4b530caa0a17187de5c3c62f475ff20c&scope=0&flightid=36605979&from=tvssp&advertiserid=11635&caid=86c70f9a5e778fcab86637356048bf7b&vp=0&at=15&c=21666&p=minimad&posid=minimad1&loc=Unknown&adstyle=minimad&ac=5480&ad=54938&pt=12613&b=417737&bk=116966220&pagetype=1&spead=8&rtm=__TIME__",
+                            "time": 0,
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?&err=[ERRORCODE]&vp=[SKIPTIME]&du=254&adtime=15&trule=0&mx=1&al=nil&vid=401341473&tvid=401341473&rt=1679301684813_4278_10.33.8.112_15_24&spead=8&mnum=1&uv=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&uuid=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&UUID=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&vt=ugc&crid=nil&ugcode2=MCSOTk%253Dr0mM95%252D%252D2iV3r1kz6urskepd2aQfTTAmBOLeZ47O8vrpILfXwdA0894WeK3D59nJdPxmpw%252E%252E&ar=nil&sip=10.33.8.112&plat=3&sver=9.8.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&wt=wifi&v1code=305&prot=json&protv=3.0&openudid=a8734ff9c90f4bc73a18fed5d98ff2b9&playstyle=2&build=9.8.30.0.7&appid=tv&adoriginal=sohu&sdkVersion=12.3.5&offline=0&density=3&udid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfa=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfv=18312DA5-58DE-4396-8000-C24031D92F00&displayMetrics=414*736&islocaltv=0&datatype=82&bt=20230320&endtime=20231231&ad=54938&b=417737&bk=116966220&pagetype=1&suid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&islocaltv=0&manufacturer=Apple&guid=9e8d5d44e441f610f8097799a2bf9084&pgcauthor=346640781&adpr=0&seq=1&w=264&h=150&wdbn=264&hgbn=150&cheattype=16&sperotime=1679301684&tuv=BBA9CAFA-8715-4825-87A9-8557C1380DCC&site=2&template=skip,pictxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&channeled=1000022600&vu=0&vc=305;305300&restype=ugc&ispgc=0&impressionid=4b530caa0a17187de5c3c62f475ff20c&scope=0&flightid=36605979&from=tvssp&advertiserid=11635&caid=86c70f9a5e778fcab86637356048bf7b&ischarge=0&eventtype=skip&at=15&c=21666&p=minimad&posid=minimad1&loc=Unknown&adstyle=minimad&ac=5480&ad=54938&pt=12613&b=417737&bk=116966220&pagetype=1&spead=8",
+                            "event": 12,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/av?&du=254&adtime=15&trule=0&mx=1&al=nil&vid=401341473&tvid=401341473&rt=1679301684813_4278_10.33.8.112_15_24&spead=8&mnum=1&uv=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&uuid=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&UUID=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&vt=ugc&crid=nil&ugcode2=MCSOTk%253Dr0mM95%252D%252D2iV3r1kz6urskepd2aQfTTAmBOLeZ47O8vrpILfXwdA0894WeK3D59nJdPxmpw%252E%252E&ar=nil&sip=10.33.8.112&plat=3&sver=9.8.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&wt=wifi&v1code=305&prot=json&protv=3.0&openudid=a8734ff9c90f4bc73a18fed5d98ff2b9&playstyle=2&build=9.8.30.0.7&appid=tv&adoriginal=sohu&sdkVersion=12.3.5&offline=0&density=3&udid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfa=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfv=18312DA5-58DE-4396-8000-C24031D92F00&displayMetrics=414*736&islocaltv=0&datatype=82&bt=20230320&endtime=20231231&ad=54938&b=417737&bk=116966220&pagetype=1&suid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&islocaltv=0&manufacturer=Apple&guid=9e8d5d44e441f610f8097799a2bf9084&pgcauthor=346640781&adpr=0&seq=1&w=264&h=150&wdbn=264&hgbn=150&cheattype=16&sperotime=1679301684&tuv=BBA9CAFA-8715-4825-87A9-8557C1380DCC&site=2&template=skip,pictxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&channeled=1000022600&vu=0&vc=305;305300&restype=ugc&ispgc=0&impressionid=4b530caa0a17187de5c3c62f475ff20c&scope=0&flightid=36605979&from=tvssp&advertiserid=11635&caid=86c70f9a5e778fcab86637356048bf7b&vp=s&at=15&c=21666&p=minimad&posid=minimad1&loc=Unknown&adstyle=minimad&ac=5480&ad=54938&pt=12613&b=417737&bk=116966220&pagetype=1&rtm=__TIME__&event=1001",
+                            "event": 1001,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=254&adtime=15&trule=0&mx=1&al=nil&vid=401341473&tvid=401341473&rt=1679301684813_4278_10.33.8.112_15_24&spead=8&mnum=1&uv=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&uuid=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&UUID=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&vt=ugc&crid=nil&ugcode2=MCSOTk%253Dr0mM95%252D%252D2iV3r1kz6urskepd2aQfTTAmBOLeZ47O8vrpILfXwdA0894WeK3D59nJdPxmpw%252E%252E&ar=nil&sip=10.33.8.112&plat=3&sver=9.8.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&wt=wifi&v1code=305&prot=json&protv=3.0&openudid=a8734ff9c90f4bc73a18fed5d98ff2b9&playstyle=2&build=9.8.30.0.7&appid=tv&adoriginal=sohu&sdkVersion=12.3.5&offline=0&density=3&udid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfa=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfv=18312DA5-58DE-4396-8000-C24031D92F00&displayMetrics=414*736&islocaltv=0&datatype=82&bt=20230320&endtime=20231231&ad=54938&b=417737&bk=116966220&pagetype=1&suid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&islocaltv=0&manufacturer=Apple&guid=9e8d5d44e441f610f8097799a2bf9084&pgcauthor=346640781&adpr=0&seq=1&w=264&h=150&wdbn=264&hgbn=150&cheattype=16&sperotime=1679301684&tuv=BBA9CAFA-8715-4825-87A9-8557C1380DCC&site=2&template=skip,pictxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&channeled=1000022600&vu=0&vc=305;305300&restype=ugc&ispgc=0&impressionid=4b530caa0a17187de5c3c62f475ff20c&scope=0&flightid=36605979&from=tvssp&advertiserid=11635&caid=86c70f9a5e778fcab86637356048bf7b&err=[ERRORCODE]&at=15&c=21666&p=minimad&posid=minimad1&loc=Unknown&adstyle=minimad&ac=5480&ad=54938&pt=12613&b=417737&bk=116966220&pagetype=1&spead=8&eventtype=feedback&feedbackreason=__FEEDBACKCODE__",
+                            "event": 4,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "template": "pictxt",
+                    "creatives": {
+                        "picture": {
+                            "content": "https://images.sohu.com/ytv/BJ/13455/26415020221209173215.png",
+                            "width": 264,
+                            "height": 150
+                        },
+                        "buttontxt": {
+                            "content": "点击广告查看详情"
+                        },
+                        "title": {
+                            "content": "mini"
+                        }
+                    },
+                    "pos": 0,
+                    "ext": {
+                        "hardflag": 0,
+                        "ClickType": 1,
+                        "display_type": 0,
+                        "support_union": 1,
+                        "deeplinkflag": 0,
+                        "clicktype": 1,
+                        "skipoffset": 5,
+                        "excluded": 0
+                    },
+                    "click_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=254&adtime=15&trule=0&mx=1&al=nil&vid=401341473&tvid=401341473&rt=1679301684813_4278_10.33.8.112_15_24&spead=8&mnum=1&uv=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&uuid=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&UUID=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&vt=ugc&crid=nil&ugcode2=MCSOTk%253Dr0mM95%252D%252D2iV3r1kz6urskepd2aQfTTAmBOLeZ47O8vrpILfXwdA0894WeK3D59nJdPxmpw%252E%252E&ar=nil&sip=10.33.8.112&plat=3&sver=9.8.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&wt=wifi&v1code=305&prot=json&protv=3.0&openudid=a8734ff9c90f4bc73a18fed5d98ff2b9&playstyle=2&build=9.8.30.0.7&appid=tv&adoriginal=sohu&sdkVersion=12.3.5&offline=0&density=3&udid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfa=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfv=18312DA5-58DE-4396-8000-C24031D92F00&displayMetrics=414*736&datatype=82&bt=20230320&endtime=20231231&ad=54938&b=417737&bk=116966220&pagetype=1&suid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&islocaltv=0&manufacturer=Apple&guid=9e8d5d44e441f610f8097799a2bf9084&pgcauthor=346640781&adpr=0&seq=1&w=264&h=150&wdbn=264&hgbn=150&cheattype=16&sperotime=1679301684&tuv=BBA9CAFA-8715-4825-87A9-8557C1380DCC&site=2&template=skip,pictxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&channeled=1000022600&vu=0&vc=305;305300&restype=ugc&ispgc=0&impressionid=4b530caa0a17187de5c3c62f475ff20c&scope=0&flightid=36605979&from=tvssp&advertiserid=11635&caid=86c70f9a5e778fcab86637356048bf7b&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=15&c=21666&p=minimad&posid=minimad1&loc=Unknown&adstyle=minimad&ac=5480&ad=54938&pt=12613&b=417737&bk=116966220&pagetype=1&spead=8&rtm=__TIME__",
+                            "event": 5,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=254&adtime=15&trule=0&mx=1&al=nil&vid=401341473&tvid=401341473&rt=1679301684813_4278_10.33.8.112_15_24&spead=8&mnum=1&uv=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&uuid=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&UUID=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&vt=ugc&crid=nil&ugcode2=MCSOTk%253Dr0mM95%252D%252D2iV3r1kz6urskepd2aQfTTAmBOLeZ47O8vrpILfXwdA0894WeK3D59nJdPxmpw%252E%252E&ar=nil&sip=10.33.8.112&plat=3&sver=9.8.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&wt=wifi&v1code=305&prot=json&protv=3.0&openudid=a8734ff9c90f4bc73a18fed5d98ff2b9&playstyle=2&build=9.8.30.0.7&appid=tv&adoriginal=sohu&sdkVersion=12.3.5&offline=0&density=3&udid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfa=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfv=18312DA5-58DE-4396-8000-C24031D92F00&displayMetrics=414*736&datatype=82&bt=20230320&endtime=20231231&ad=54938&b=417737&bk=116966220&pagetype=1&suid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&islocaltv=0&manufacturer=Apple&guid=9e8d5d44e441f610f8097799a2bf9084&pgcauthor=346640781&adpr=0&seq=1&w=264&h=150&wdbn=264&hgbn=150&cheattype=16&sperotime=1679301684&tuv=BBA9CAFA-8715-4825-87A9-8557C1380DCC&site=2&template=skip,pictxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&channeled=1000022600&vu=0&vc=305;305300&restype=ugc&ispgc=0&impressionid=4b530caa0a17187de5c3c62f475ff20c&scope=0&flightid=36605979&from=tvssp&advertiserid=11635&caid=86c70f9a5e778fcab86637356048bf7b&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=15&c=21666&p=minimad&posid=minimad1&loc=Unknown&adstyle=minimad&ac=5480&ad=54938&pt=12613&b=417737&bk=116966220&pagetype=1&spead=8&eventtype=deeplink",
+                            "event": 10,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=254&adtime=15&trule=0&mx=1&al=nil&vid=401341473&tvid=401341473&rt=1679301684813_4278_10.33.8.112_15_24&spead=8&mnum=1&uv=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&uuid=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&UUID=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&vt=ugc&crid=nil&ugcode2=MCSOTk%253Dr0mM95%252D%252D2iV3r1kz6urskepd2aQfTTAmBOLeZ47O8vrpILfXwdA0894WeK3D59nJdPxmpw%252E%252E&ar=nil&sip=10.33.8.112&plat=3&sver=9.8.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&wt=wifi&v1code=305&prot=json&protv=3.0&openudid=a8734ff9c90f4bc73a18fed5d98ff2b9&playstyle=2&build=9.8.30.0.7&appid=tv&adoriginal=sohu&sdkVersion=12.3.5&offline=0&density=3&udid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfa=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfv=18312DA5-58DE-4396-8000-C24031D92F00&displayMetrics=414*736&datatype=82&bt=20230320&endtime=20231231&ad=54938&b=417737&bk=116966220&pagetype=1&suid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&islocaltv=0&manufacturer=Apple&guid=9e8d5d44e441f610f8097799a2bf9084&pgcauthor=346640781&adpr=0&seq=1&w=264&h=150&wdbn=264&hgbn=150&cheattype=16&sperotime=1679301684&tuv=BBA9CAFA-8715-4825-87A9-8557C1380DCC&site=2&template=skip,pictxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&channeled=1000022600&vu=0&vc=305;305300&restype=ugc&ispgc=0&impressionid=4b530caa0a17187de5c3c62f475ff20c&scope=0&flightid=36605979&from=tvssp&advertiserid=11635&caid=86c70f9a5e778fcab86637356048bf7b&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=15&c=21666&p=minimad&posid=minimad1&loc=Unknown&adstyle=minimad&ac=5480&ad=54938&pt=12613&b=417737&bk=116966220&pagetype=1&spead=8&rtm=__TIME__&event=1005",
+                            "event": 1005,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=254&adtime=15&trule=0&mx=1&al=nil&vid=401341473&tvid=401341473&rt=1679301684813_4278_10.33.8.112_15_24&spead=8&mnum=1&uv=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&uuid=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&UUID=2B4D7F65-13EB-4771-A0D9-426450B2ABA1&vt=ugc&crid=nil&ugcode2=MCSOTk%253Dr0mM95%252D%252D2iV3r1kz6urskepd2aQfTTAmBOLeZ47O8vrpILfXwdA0894WeK3D59nJdPxmpw%252E%252E&ar=nil&sip=10.33.8.112&plat=3&sver=9.8.30&partner=6932&poid=1&pn=iPhone10,2&sysver=14.0&adplat=2&wt=wifi&v1code=305&prot=json&protv=3.0&openudid=a8734ff9c90f4bc73a18fed5d98ff2b9&playstyle=2&build=9.8.30.0.7&appid=tv&adoriginal=sohu&sdkVersion=12.3.5&offline=0&density=3&udid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfa=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&idfv=18312DA5-58DE-4396-8000-C24031D92F00&displayMetrics=414*736&datatype=82&bt=20230320&endtime=20231231&ad=54938&b=417737&bk=116966220&pagetype=1&suid=8D9A358A-F8ED-47CA-89CA-F1E489E0D04A&islocaltv=0&manufacturer=Apple&guid=9e8d5d44e441f610f8097799a2bf9084&pgcauthor=346640781&adpr=0&seq=1&w=264&h=150&wdbn=264&hgbn=150&cheattype=16&sperotime=1679301684&tuv=BBA9CAFA-8715-4825-87A9-8557C1380DCC&site=2&template=skip,pictxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&channeled=1000022600&vu=0&vc=305;305300&restype=ugc&ispgc=0&impressionid=4b530caa0a17187de5c3c62f475ff20c&scope=0&flightid=36605979&from=tvssp&advertiserid=11635&caid=86c70f9a5e778fcab86637356048bf7b&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=15&c=21666&p=minimad&posid=minimad1&loc=Unknown&adstyle=minimad&ac=5480&ad=54938&pt=12613&b=417737&bk=116966220&pagetype=1&spead=8&eventtype=deeplink&event=1010",
+                            "event": 1010,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "landing_url": "http://www.baidu.com"
+                }
+            ]
+        }
+    ],
+    "version": 3,
+    "impid": "ssp-app-qa-5497974754-4vxqf0000882264181c35e4f1_cl"
+}

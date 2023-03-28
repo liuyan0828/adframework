@@ -1,182 +1,311 @@
 <VAST version="3.0">
-    <Ad sequence="1" id="banner">
-        <InLine>
-            <AdSystem>sohu tv ad system</AdSystem>
-            <AdTitle>
-                <![CDATA[ad]]>
-            </AdTitle>
-            <Impression id="monitorServer">
-                <![CDATA[http://mmg.aty.sohu.com/pv?type=1&du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54908&b=417712&bk=115203008&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=1&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36579095&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&vp=s&at=0&c=21666&p=AD00071&loc=Unknown&adstyle=AD00071&ac=5479&ad=54908&pt=12612&b=417712&bk=115203008&pagetype=1&spead=0&rtm=__TIME__&err=[ERRORCODE]]]>
-            </Impression>
-            <Impression id="sohutv" offset="">
-                <![CDATA[http://mmg.aty.sohu.com/pvlog?du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54908&b=417712&bk=115203008&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=1&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36579095&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&vp=0&at=0&c=21666&p=AD00071&loc=Unknown&adstyle=AD00071&ac=5479&ad=54908&pt=12612&b=417712&bk=115203008&pagetype=1&spead=0&rtm=__TIME__]]>
-            </Impression>
-            <Creatives>
-                <Creative>
-                    <CompanionAds>
-                        <Companion width="230" height="130">
-                            <StaticResource creativeType="image/jpeg">
-                                <![CDATA[https://images.sohu.com/ytv/BJ/11643/23013020190425100945.jpg]]>
-                            </StaticResource>
-                            <CompanionClickThrough>
-                                <![CDATA[http://www.baidu.com]]>
-                            </CompanionClickThrough>
-                            <MultiClickThrough>
-                                <![CDATA[openapp.jdmobile://virtual?params=XX]]>
-                            </MultiClickThrough>
-                            <MultiClickTracking>
-                                <![CDATA[http://mmg.aty.sohu.com/goto?du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54908&b=417712&bk=115203008&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=1&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36579095&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&err=[ERRORCODE]&at=0&c=21666&p=AD00071&loc=Unknown&adstyle=AD00071&ac=5479&ad=54908&pt=12612&b=417712&bk=115203008&pagetype=1&spead=0&eventtype=deeplink]]>
-                            </MultiClickTracking>
-                            <CompanionClickTracking>
-                                <![CDATA[http://mmg.aty.sohu.com/goto?du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54908&b=417712&bk=115203008&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=1&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36579095&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&err=[ERRORCODE]&at=0&c=21666&p=AD00071&loc=Unknown&adstyle=AD00071&ac=5479&ad=54908&pt=12612&b=417712&bk=115203008&pagetype=1&spead=0&rtm=__TIME__]]>
-                            </CompanionClickTracking>
-                            <TrackingEvents>
-                                <Tracking event="av">
-                                    <![CDATA[http://mmg.aty.sohu.com/av?type=1&du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54908&b=417712&bk=115203008&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=1&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36579095&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&vp=s&at=0&c=21666&p=AD00071&loc=Unknown&adstyle=AD00071&ac=5479&ad=54908&pt=12612&b=417712&bk=115203008&pagetype=1]]>
-                                </Tracking>
-                                <Tracking event="close">
-                                    <![CDATA[http://mmg.aty.sohu.com/pvlog?du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54908&b=417712&bk=115203008&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=1&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36579095&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5?&err=[ERRORCODE]&at=0&c=21666&p=AD00071&loc=Unknown&adstyle=AD00071&ac=5479&ad=54908&pt=12612&b=417712&bk=115203008&pagetype=1&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__]]>
-                                </Tracking>
-                            </TrackingEvents>
-                        </Companion>
-                    </CompanionAds>
-                </Creative>
-            </Creatives>
-            <Extensions>
-                <Extension>
-                    <Resource>ssp</Resource>
-                    <AdParams adStyle="0" postCode="AD00071"/>
-                    <Position>0</Position>
-                    <Advertiser>
-                        <![CDATA[puc二]]>
-                    </Advertiser>
-                    <Status>1</Status>
-                    <SupportDeepLink>1</SupportDeepLink>
-                    <Hardflag>0</Hardflag>
-                    <Excluded>0</Excluded>
-                    <SupportUnion>1</SupportUnion>
-                </Extension>
-            </Extensions>
-        </InLine>
-    </Ad>
-    <Ad sequence="2" id="banner">
-        <InLine>
-            <AdSystem>sohu tv ad system</AdSystem>
-            <AdTitle>
-                <![CDATA[ad]]>
-            </AdTitle>
-            <Impression id="monitorServer">
-                <![CDATA[http://mmg.aty.sohu.com/pv?type=1&du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54909&b=417713&bk=115202724&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=2&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36578811&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&vp=s&at=0&c=21666&p=AD00072&loc=Unknown&adstyle=AD00072&ac=5479&ad=54909&pt=12612&b=417713&bk=115202724&pagetype=1&spead=0&rtm=__TIME__&err=[ERRORCODE]]]>
-            </Impression>
-            <Impression id="sohutv" offset="">
-                <![CDATA[http://mmg.aty.sohu.com/pvlog?du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54909&b=417713&bk=115202724&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=2&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36578811&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&vp=0&at=0&c=21666&p=AD00072&loc=Unknown&adstyle=AD00072&ac=5479&ad=54909&pt=12612&b=417713&bk=115202724&pagetype=1&spead=0&rtm=__TIME__]]>
-            </Impression>
-            <Creatives>
-                <Creative>
-                    <CompanionAds>
-                        <Companion width="230" height="130">
-                            <StaticResource creativeType="image/jpeg">
-                                <![CDATA[https://images.sohu.com/ytv/BJ/11645/23013020190709112639.jpg]]>
-                            </StaticResource>
-                            <CompanionClickThrough>
-                                <![CDATA[http://www.baidu.com]]>
-                            </CompanionClickThrough>
-                            <MultiClickTracking>
-                                <![CDATA[http://mmg.aty.sohu.com/goto?du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54909&b=417713&bk=115202724&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=2&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36578811&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&err=[ERRORCODE]&at=0&c=21666&p=AD00072&loc=Unknown&adstyle=AD00072&ac=5479&ad=54909&pt=12612&b=417713&bk=115202724&pagetype=1&spead=0&eventtype=deeplink]]>
-                            </MultiClickTracking>
-                            <CompanionClickTracking>
-                                <![CDATA[http://mmg.aty.sohu.com/goto?du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54909&b=417713&bk=115202724&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=2&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36578811&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&err=[ERRORCODE]&at=0&c=21666&p=AD00072&loc=Unknown&adstyle=AD00072&ac=5479&ad=54909&pt=12612&b=417713&bk=115202724&pagetype=1&spead=0&rtm=__TIME__]]>
-                            </CompanionClickTracking>
-                            <ClickThrough>
-                                <![CDATA[sohuvideo://action.cmd?action=xxx]]>
-                            </ClickThrough>
-                            <ClickTracking>
-                                <![CDATA[http://mmg.aty.sohu.com/goto?du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54909&b=417713&bk=115202724&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=2&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36578811&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&err=[ERRORCODE]&at=0&c=21666&p=AD00072&loc=Unknown&adstyle=AD00072&ac=5479&ad=54909&pt=12612&b=417713&bk=115202724&pagetype=1&spead=0&rtm=__TIME__]]>
-                            </ClickTracking>
-                            <TrackingEvents>
-                                <Tracking event="av">
-                                    <![CDATA[http://mmg.aty.sohu.com/av?type=1&du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54909&b=417713&bk=115202724&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=2&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36578811&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&vp=s&at=0&c=21666&p=AD00072&loc=Unknown&adstyle=AD00072&ac=5479&ad=54909&pt=12612&b=417713&bk=115202724&pagetype=1]]>
-                                </Tracking>
-                                <Tracking event="close">
-                                    <![CDATA[http://mmg.aty.sohu.com/pvlog?du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54909&b=417713&bk=115202724&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=2&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36578811&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5?&err=[ERRORCODE]&at=0&c=21666&p=AD00072&loc=Unknown&adstyle=AD00072&ac=5479&ad=54909&pt=12612&b=417713&bk=115202724&pagetype=1&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__]]>
-                                </Tracking>
-                            </TrackingEvents>
-                        </Companion>
-                    </CompanionAds>
-                </Creative>
-            </Creatives>
-            <Extensions>
-                <Extension>
-                    <Resource>ssp</Resource>
-                    <AdParams adStyle="0" postCode="AD00072"/>
-                    <Position>0</Position>
-                    <Advertiser>
-                        <![CDATA[pgc六]]>
-                    </Advertiser>
-                    <Status>1</Status>
-                    <SupportDeepLink>0</SupportDeepLink>
-                    <Hardflag>0</Hardflag>
-                    <Excluded>0</Excluded>
-                    <SupportUnion>1</SupportUnion>
-                </Extension>
-            </Extensions>
-        </InLine>
-    </Ad>
-    <Ad sequence="3" id="banner">
-        <InLine>
-            <AdSystem>sohu tv ad system</AdSystem>
-            <AdTitle>
-                <![CDATA[ad]]>
-            </AdTitle>
-            <Impression id="monitorServer">
-                <![CDATA[http://mmg.aty.sohu.com/pv?type=1&du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54910&b=417714&bk=115202440&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=3&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36578527&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&vp=s&at=0&c=21666&p=AD00073&loc=Unknown&adstyle=AD00073&ac=5479&ad=54910&pt=12612&b=417714&bk=115202440&pagetype=1&spead=0&rtm=__TIME__&err=[ERRORCODE]]]>
-            </Impression>
-            <Impression id="sohutv" offset="">
-                <![CDATA[http://mmg.aty.sohu.com/pvlog?du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54910&b=417714&bk=115202440&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=3&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36578527&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&vp=0&at=0&c=21666&p=AD00073&loc=Unknown&adstyle=AD00073&ac=5479&ad=54910&pt=12612&b=417714&bk=115202440&pagetype=1&spead=0&rtm=__TIME__]]>
-            </Impression>
-            <Creatives>
-                <Creative>
-                    <CompanionAds>
-                        <Companion width="230" height="130">
-                            <StaticResource creativeType="image/jpeg">
-                                <![CDATA[https://images.sohu.com/ytv/BJ/11643/23013020190425100945.jpg]]>
-                            </StaticResource>
-                            <CompanionClickThrough>
-                                <![CDATA[http://www.baidu.com]]>
-                            </CompanionClickThrough>
-                            <MultiClickTracking>
-                                <![CDATA[http://mmg.aty.sohu.com/goto?du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54910&b=417714&bk=115202440&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=3&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36578527&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&err=[ERRORCODE]&at=0&c=21666&p=AD00073&loc=Unknown&adstyle=AD00073&ac=5479&ad=54910&pt=12612&b=417714&bk=115202440&pagetype=1&spead=0&eventtype=deeplink]]>
-                            </MultiClickTracking>
-                            <CompanionClickTracking>
-                                <![CDATA[http://mmg.aty.sohu.com/goto?du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54910&b=417714&bk=115202440&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=3&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36578527&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&err=[ERRORCODE]&at=0&c=21666&p=AD00073&loc=Unknown&adstyle=AD00073&ac=5479&ad=54910&pt=12612&b=417714&bk=115202440&pagetype=1&spead=0&rtm=__TIME__]]>
-                            </CompanionClickTracking>
-                            <TrackingEvents>
-                                <Tracking event="av">
-                                    <![CDATA[http://mmg.aty.sohu.com/av?type=1&du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54910&b=417714&bk=115202440&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=3&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36578527&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5&vp=s&at=0&c=21666&p=AD00073&loc=Unknown&adstyle=AD00073&ac=5479&ad=54910&pt=12612&b=417714&bk=115202440&pagetype=1]]>
-                                </Tracking>
-                                <Tracking event="close">
-                                    <![CDATA[http://mmg.aty.sohu.com/pvlog?du=45&al=nil&vid=262358267&tvid=262358267&rt=1656468264758_4998_10.23.253.50_1315572_1315580&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20220629&endtime=20231231&ad=54910&b=417714&bk=115202440&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=3&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1656468264&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=71e3dda91d4f866a5306a2dbe671cccc&scope=0&flightid=36578527&from=tvssp&advertiserid=11635&encd=oBEktI1GHQ2N9FO%2FqSVAtwD14JXK%2FfGo2yCxL7arX9y1iRBeI1kIMtpQJdRoKfsJRoLlNZaQ0%2FKoViIOSYVmeT7PF9k4EEetGx3z4j3vSktm8eEjR%2F9h2uD1q2jHJOtBHJuP9pLCoyr7ooFwsm4lAFt29z%2Ff4r2J2IprnSN3ZYDzZX%2Biuq9sBtaHkjWJgq6q98wKWi%2Fj4Yc2nyh%2BX97dIcshrF2Zp2%2FCARuU3rAaZYLPoLkb2mjV5amQEEV3tkIhZFG%2Bt1bxd7UPreKoltQFChyJjwA6d%2FEejvwVq99IhWKZcMYyeIso0YtEvBZUy2yH6GTtJTEGl2iKVLkF%2Bl45WwbwSzjfDXWqAl3kCQGxjMWrb4kjDiC%2FL0tUDsh%2FrmrTVeJsLWFR2P%2FW6pGQ1aWPBFZBvAcCP0CD0xvGGyXJkKuICaEqnQRproavecsl1vk6SqGUw%2F2GLKjJd4BElrRt8saJ5vn6tWyIyKYN8XYTjnBANSgMRI1Jjft9pcqR7SRg339xaOTb53qGYapiw2wkyWED5ZIIIWMKh1URw%2Btz2GZz6CT7qwUqoD%2Bq%2B5PRkrs0Mj7xLVRc8jmIZ4ew0JprrdE%2BNneHm4TVDSOfAGpZD6hj6tvL%2F1WqT0uOVs3bDdAYnXJnZc8O06525PVXp7htktSjd4T2YjcQS1Un6GtlLleLZp%2B5?&err=[ERRORCODE]&at=0&c=21666&p=AD00073&loc=Unknown&adstyle=AD00073&ac=5479&ad=54910&pt=12612&b=417714&bk=115202440&pagetype=1&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__]]>
-                                </Tracking>
-                            </TrackingEvents>
-                        </Companion>
-                    </CompanionAds>
-                </Creative>
-            </Creatives>
-            <Extensions>
-                <Extension>
-                    <Resource>ssp</Resource>
-                    <AdParams adStyle="0" postCode="AD00073"/>
-                    <Position>0</Position>
-                    <Advertiser>
-                        <![CDATA[pgc十]]>
-                    </Advertiser>
-                    <Status>1</Status>
-                    <SupportDeepLink>0</SupportDeepLink>
-                    <Hardflag>0</Hardflag>
-                    <Excluded>0</Excluded>
-                    <SupportUnion>1</SupportUnion>
-                </Extension>
-            </Extensions>
-        </InLine>
-    </Ad>
+	<Ad id="banner" sequence="1">
+
+
+		<InLine>
+
+
+			<AdSystem>sohu tv ad system</AdSystem>
+
+
+			<AdTitle>
+<![CDATA[ad]]>			</AdTitle>
+			<Impression id="monitorServer">
+<![CDATA[http://mmg.aty.sohu.com/pv?type=1&du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54908&b=417712&bk=115395875&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=1&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36593895&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&vp=s&at=0&c=21666&p=AD00071&posid=AD00071&loc=Unknown&adstyle=AD00071&ac=5479&ad=54908&pt=12612&b=417712&bk=115395875&pagetype=1&spead=0&rtm=__TIME__&err=[ERRORCODE]]]>			</Impression>
+
+			<Impression id="sohutv" offset="">
+<![CDATA[http://mmg.aty.sohu.com/pvlog?du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54908&b=417712&bk=115395875&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=1&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36593895&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&vp=0&at=0&c=21666&p=AD00071&posid=AD00071&loc=Unknown&adstyle=AD00071&ac=5479&ad=54908&pt=12612&b=417712&bk=115395875&pagetype=1&spead=0&rtm=__TIME__]]>			</Impression>
+
+
+			<Creatives>
+
+
+				<Creative>
+
+
+					<CompanionAds>
+
+
+						<Companion height="130" width="230">
+
+
+							<StaticResource creativeType="image/jpeg">
+<![CDATA[https://images.sohu.com/ytv/BJ/11643/23013020190425100945.jpg]]>							</StaticResource>
+							<CompanionClickThrough>
+<![CDATA[http://www.baidu.com]]>							</CompanionClickThrough>
+							<MultiClickThrough>
+<![CDATA[openapp.jdmobile://virtual?params=XX]]>							</MultiClickThrough>
+							<MultiClickTracking>
+<![CDATA[http://mmg.aty.sohu.com/goto?du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54908&b=417712&bk=115395875&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=1&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36593895&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=21666&p=AD00071&posid=AD00071&loc=Unknown&adstyle=AD00071&ac=5479&ad=54908&pt=12612&b=417712&bk=115395875&pagetype=1&spead=0&eventtype=deeplink]]>							</MultiClickTracking>
+							<CompanionClickTracking>
+<![CDATA[http://mmg.aty.sohu.com/goto?du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54908&b=417712&bk=115395875&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=1&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36593895&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=21666&p=AD00071&posid=AD00071&loc=Unknown&adstyle=AD00071&ac=5479&ad=54908&pt=12612&b=417712&bk=115395875&pagetype=1&spead=0&rtm=__TIME__]]>							</CompanionClickTracking>
+
+							<TrackingEvents>
+
+
+								<Tracking event="av">
+<![CDATA[http://mmg.aty.sohu.com/av?type=1&du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54908&b=417712&bk=115395875&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=1&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36593895&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&vp=s&at=0&c=21666&p=AD00071&posid=AD00071&loc=Unknown&adstyle=AD00071&ac=5479&ad=54908&pt=12612&b=417712&bk=115395875&pagetype=1&rtm=__TIME__]]>								</Tracking>
+
+
+								<Tracking event="close">
+<![CDATA[http://mmg.aty.sohu.com/pvlog?du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54908&b=417712&bk=115395875&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=1&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36593895&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&err=[ERRORCODE]&at=0&c=21666&p=AD00071&posid=AD00071&loc=Unknown&adstyle=AD00071&ac=5479&ad=54908&pt=12612&b=417712&bk=115395875&pagetype=1&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__]]>								</Tracking>
+
+
+							</TrackingEvents>
+
+
+						</Companion>
+
+
+					</CompanionAds>
+
+
+				</Creative>
+
+
+			</Creatives>
+
+
+			<Extensions>
+
+
+				<Extension>
+
+
+					<Resource>ssp</Resource>
+
+					<AdParams adStyle="0" postCode="AD00071"/>
+
+
+					<Position>0</Position>
+					<Advertiser>
+<![CDATA[puc二]]>					</Advertiser>
+
+					<Status>1</Status>
+
+
+					<SupportDeepLink>1</SupportDeepLink>
+					<Hardflag>0</Hardflag>
+					<Excluded>0</Excluded>
+					<SupportUnion>1</SupportUnion>
+
+				</Extension>
+
+
+			</Extensions>
+
+
+		</InLine>
+
+
+	</Ad>
+
+
+	<Ad id="banner" sequence="2">
+
+
+		<InLine>
+
+
+			<AdSystem>sohu tv ad system</AdSystem>
+
+
+			<AdTitle>
+<![CDATA[ad]]>			</AdTitle>
+			<Impression id="monitorServer">
+<![CDATA[http://mmg.aty.sohu.com/pv?type=1&du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54909&b=417713&bk=115394993&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=2&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36594208&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&vp=s&at=0&c=21666&p=AD00072&posid=AD00072&loc=Unknown&adstyle=AD00072&ac=5479&ad=54909&pt=12612&b=417713&bk=115394993&pagetype=1&spead=0&rtm=__TIME__&err=[ERRORCODE]]]>			</Impression>
+
+			<Impression id="sohutv" offset="">
+<![CDATA[http://mmg.aty.sohu.com/pvlog?du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54909&b=417713&bk=115394993&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=2&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36594208&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&vp=0&at=0&c=21666&p=AD00072&posid=AD00072&loc=Unknown&adstyle=AD00072&ac=5479&ad=54909&pt=12612&b=417713&bk=115394993&pagetype=1&spead=0&rtm=__TIME__]]>			</Impression>
+
+
+			<Creatives>
+
+
+				<Creative>
+
+
+					<CompanionAds>
+
+
+						<Companion height="130" width="230">
+
+
+							<StaticResource creativeType="image/jpeg">
+<![CDATA[https://images.sohu.com/ytv/BJ/11645/23013020190709112639.jpg]]>							</StaticResource>
+							<CompanionClickThrough>
+<![CDATA[http://www.baidu.com]]>							</CompanionClickThrough>
+							<MultiClickTracking>
+<![CDATA[http://mmg.aty.sohu.com/goto?du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54909&b=417713&bk=115394993&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=2&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36594208&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=21666&p=AD00072&posid=AD00072&loc=Unknown&adstyle=AD00072&ac=5479&ad=54909&pt=12612&b=417713&bk=115394993&pagetype=1&spead=0&eventtype=deeplink]]>							</MultiClickTracking>
+							<CompanionClickTracking>
+<![CDATA[http://mmg.aty.sohu.com/goto?du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54909&b=417713&bk=115394993&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=2&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36594208&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=21666&p=AD00072&posid=AD00072&loc=Unknown&adstyle=AD00072&ac=5479&ad=54909&pt=12612&b=417713&bk=115394993&pagetype=1&spead=0&rtm=__TIME__]]>							</CompanionClickTracking>
+
+							<ClickThrough>
+<![CDATA[sohuvideo://action.cmd?action=xxx]]>							</ClickThrough>
+
+
+							<ClickTracking>
+<![CDATA[http://mmg.aty.sohu.com/goto?du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54909&b=417713&bk=115394993&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=2&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36594208&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=21666&p=AD00072&posid=AD00072&loc=Unknown&adstyle=AD00072&ac=5479&ad=54909&pt=12612&b=417713&bk=115394993&pagetype=1&spead=0&rtm=__TIME__]]>							</ClickTracking>
+
+							<TrackingEvents>
+
+
+								<Tracking event="av">
+<![CDATA[http://mmg.aty.sohu.com/av?type=1&du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54909&b=417713&bk=115394993&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=2&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36594208&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&vp=s&at=0&c=21666&p=AD00072&posid=AD00072&loc=Unknown&adstyle=AD00072&ac=5479&ad=54909&pt=12612&b=417713&bk=115394993&pagetype=1&rtm=__TIME__]]>								</Tracking>
+
+
+								<Tracking event="close">
+<![CDATA[http://mmg.aty.sohu.com/pvlog?du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54909&b=417713&bk=115394993&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=2&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36594208&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&err=[ERRORCODE]&at=0&c=21666&p=AD00072&posid=AD00072&loc=Unknown&adstyle=AD00072&ac=5479&ad=54909&pt=12612&b=417713&bk=115394993&pagetype=1&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__]]>								</Tracking>
+
+
+							</TrackingEvents>
+
+
+						</Companion>
+
+
+					</CompanionAds>
+
+
+				</Creative>
+
+
+			</Creatives>
+
+
+			<Extensions>
+
+
+				<Extension>
+
+
+					<Resource>ssp</Resource>
+
+					<AdParams adStyle="0" postCode="AD00072"/>
+
+
+					<Position>0</Position>
+					<Advertiser>
+<![CDATA[pgc六]]>					</Advertiser>
+
+					<Status>1</Status>
+
+
+					<SupportDeepLink>0</SupportDeepLink>
+					<Hardflag>0</Hardflag>
+					<Excluded>0</Excluded>
+					<SupportUnion>1</SupportUnion>
+
+				</Extension>
+
+
+			</Extensions>
+
+
+		</InLine>
+
+
+	</Ad>
+
+
+	<Ad id="banner" sequence="3">
+
+
+		<InLine>
+
+
+			<AdSystem>sohu tv ad system</AdSystem>
+
+
+			<AdTitle>
+<![CDATA[ad]]>			</AdTitle>
+			<Impression id="monitorServer">
+<![CDATA[http://mmg.aty.sohu.com/pv?type=1&du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54910&b=417714&bk=115394111&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=3&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36594521&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&vp=s&at=0&c=21666&p=AD00073&posid=AD00073&loc=Unknown&adstyle=AD00073&ac=5479&ad=54910&pt=12612&b=417714&bk=115394111&pagetype=1&spead=0&rtm=__TIME__&err=[ERRORCODE]]]>			</Impression>
+
+			<Impression id="sohutv" offset="">
+<![CDATA[http://mmg.aty.sohu.com/pvlog?du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54910&b=417714&bk=115394111&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=3&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36594521&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&vp=0&at=0&c=21666&p=AD00073&posid=AD00073&loc=Unknown&adstyle=AD00073&ac=5479&ad=54910&pt=12612&b=417714&bk=115394111&pagetype=1&spead=0&rtm=__TIME__]]>			</Impression>
+
+
+			<Creatives>
+
+
+				<Creative>
+
+
+					<CompanionAds>
+
+
+						<Companion height="130" width="230">
+
+
+							<StaticResource creativeType="image/jpeg">
+<![CDATA[https://images.sohu.com/ytv/BJ/11643/23013020190425100945.jpg]]>							</StaticResource>
+							<CompanionClickThrough>
+<![CDATA[http://www.baidu.com]]>							</CompanionClickThrough>
+							<MultiClickTracking>
+<![CDATA[http://mmg.aty.sohu.com/goto?du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54910&b=417714&bk=115394111&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=3&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36594521&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=21666&p=AD00073&posid=AD00073&loc=Unknown&adstyle=AD00073&ac=5479&ad=54910&pt=12612&b=417714&bk=115394111&pagetype=1&spead=0&eventtype=deeplink]]>							</MultiClickTracking>
+							<CompanionClickTracking>
+<![CDATA[http://mmg.aty.sohu.com/goto?du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54910&b=417714&bk=115394111&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=3&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36594521&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=21666&p=AD00073&posid=AD00073&loc=Unknown&adstyle=AD00073&ac=5479&ad=54910&pt=12612&b=417714&bk=115394111&pagetype=1&spead=0&rtm=__TIME__]]>							</CompanionClickTracking>
+
+							<TrackingEvents>
+
+
+								<Tracking event="av">
+<![CDATA[http://mmg.aty.sohu.com/av?type=1&du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54910&b=417714&bk=115394111&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=3&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36594521&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&vp=s&at=0&c=21666&p=AD00073&posid=AD00073&loc=Unknown&adstyle=AD00073&ac=5479&ad=54910&pt=12612&b=417714&bk=115394111&pagetype=1&rtm=__TIME__]]>								</Tracking>
+
+
+								<Tracking event="close">
+<![CDATA[http://mmg.aty.sohu.com/pvlog?du=45&al=nil&vid=262358267&tvid=262358267&rt=1677057193650_2720_10.33.8.112_15_25&spead=0&vt=ugc&crid=nil&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&ar=nil&plat=6&sver=9.6.30&partner=93&poid=1&adplat=3&v1code=300&prot=json&protv=3.0&build=9.6.30&appid=tv%0A%20%20%20%0A%20%20%20%20&adoriginal=sohu&sdkVersion=tv8.3.51&offline=0&density=3.0&displayMetrics=1080*2340&datatype=82&bt=20230222&endtime=20231231&ad=54910&b=417714&bk=115394111&pagetype=1&guid=da00fd9360e3a3cfca9036d058188b45&pgcauthor=335942326&seq=3&w=230&h=130&wdbn=230&hgbn=130&cheattype=16&sperotime=1677057193&site=2&template=null&platsource=other&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vc=300;300312&restype=ugc&ispgc=0&impressionid=f67ddfc23f2e40ce3341ccc2c5e72dee&scope=0&flightid=36594521&from=tvssp&advertiserid=11635&encd=OR%2FKfwOqmSopbwJ4pwtq9Hc1fc61%2FyE9SYv6VG3qDJRhefXcwnhCcCGpknXZn%2Bc6PVDLZJr54e0za2KaNLrZWvWH3mXKLIJier2Y7QbY0YaGmM4l5n%2F5bR5uK4RfQzBT2%2Fcn5g9zvZGUXOwPMmV7PURs8ueAU1j8Sdh8Fb57mO981xHQY1EHz1b1x1wI0cndODD9%2F9HYKDJIRTdzeyMnhaHDFuGKNtxKznaRgAZ43zxhb%2BTbBezMm1E3ESGKv819VJEl0CGQVBanEe%2FGKUc7AUa6bGco6ZiPv9kIYyDOc0KYS57MJdZS8K3E5rJlAEJ7hbOZWJUyMr3rjRLTKMrEvLYe%2F8H%2FkT5YfwWI9QgO2w6j2N6dlToHbUxhlfKYEUWNVDMMHGAnS6s8LX0o0%2BB%2B6fzHj78lb1foUIbEUUP8HAtuW64s1sGO%2BA5tlfnCxAPkIr8v%2BjyShxHYF9Yn6%2Bo7mz4lqyZgem3bIn%2FFKOxB4cu9WxbAJI%2BM2nRpR1Zp8qwyZVvGbMfM7oXNZ9G7K8y1%2BvxAvsckqZYBQ%2FinCWS27YLYyDhD6qwTUs90iQlTvX488b3nI0d6Jl5nvqTsJc3LsTfYsmik7JO5KepUZPXHd6pcEEqeSXABTTjoMGW%2F4C0Qyj0aMp6njtKB0y8rAGfMKddZasBVRpBXbiww5hoJdxiVmhy9&err=[ERRORCODE]&at=0&c=21666&p=AD00073&posid=AD00073&loc=Unknown&adstyle=AD00073&ac=5479&ad=54910&pt=12612&b=417714&bk=115394111&pagetype=1&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__]]>								</Tracking>
+
+
+							</TrackingEvents>
+
+
+						</Companion>
+
+
+					</CompanionAds>
+
+
+				</Creative>
+
+
+			</Creatives>
+
+
+			<Extensions>
+
+
+				<Extension>
+
+
+					<Resource>ssp</Resource>
+
+					<AdParams adStyle="0" postCode="AD00073"/>
+
+
+					<Position>0</Position>
+					<Advertiser>
+<![CDATA[pgc十]]>					</Advertiser>
+
+					<Status>1</Status>
+
+
+					<SupportDeepLink>0</SupportDeepLink>
+					<Hardflag>0</Hardflag>
+					<Excluded>0</Excluded>
+					<SupportUnion>1</SupportUnion>
+
+				</Extension>
+
+
+			</Extensions>
+
+
+		</InLine>
+
+
+	</Ad>
+
+
 </VAST>

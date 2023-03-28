@@ -1,84 +1,81 @@
 <VAST version="3.0">
-    <Ad sequence="1">
-        <InLine>
-            <AdSystem>sohu tv ad system</AdSystem>
-            <AdTitle>sohu tv</AdTitle>
-            <Description>sohu tv</Description>
-            <Impression id="monitorServer">
-                <![CDATA[ http://mmg.aty.sohu.com/pvlog?du=0&rt=1656406502460_7567_10.23.253.50_1257381_1257390&uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=1&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1656406502&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&backtest=test_c&ispgc=0&impressionid=991346c662ad313a03e7611a6b0e676c&oaid=8d3af4834afeae31&scope=0&from=tvssp&vp=s&c=2742&p=focus&posid=15705&loc=Unknown&adstyle=focus&bar=9955&encrysig=lVUqoJj2mcCfN2P2uEgsCfZjCrv5P-yn24E2ySXN8o8dAY6v ]]>
-            </Impression>
-            <Creatives>
-                <Creative>
-                    <CompanionAds more="http://hui.sohu.com/test/prj/brand/">
-                        <Companion width="644" height="322">
-                            <StaticResource>
-                                <![CDATA[ ]]>
-                            </StaticResource>
-                        </Companion>
-                    </CompanionAds>
-                </Creative>
-            </Creatives>
-            <Extensions>
-                <Extension>
-                    <AdParams adStyle="focus" postCode="15705">
-                        <Hardflag>0</Hardflag>
-                        <SupportUnion>1</SupportUnion>
-                    </AdParams>
-                </Extension>
-            </Extensions>
-        </InLine>
-    </Ad>
-    <Ad sequence="2">
-        <InLine>
-            <AdSystem>sohu tv ad system</AdSystem>
-            <AdTitle>sohu tv</AdTitle>
-            <Description>sohu tv</Description>
-            <Impression id="monitorServer">
-                <![CDATA[ http://mmg.aty.sohu.com/pv?type=1&du=0&rt=1656406502460_7567_10.23.253.50_1257381_1257390&spead=0&uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&endtime=20231231&ad=54931&b=417715&bk=115202155&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=2&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1656406502&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&backtest=test_c&ispgc=0&impressionid=991346c662ad313a03e7611a6b0e676c&oaid=8d3af4834afeae31&scope=0&flightid=36585851&from=tvssp&advertiserid=11635&vp=s&at=0&c=2742&p=focus&posid=15706&loc=Unknown&adstyle=focus&bar=9871&ac=5479&ad=54931&pt=12612&b=417715&bk=115202155&pagetype=2&spead=0&rtm=__TIME__&err=[ERRORCODE]&encrysig=lVUqoJj2mcCfN2P2uEgsCfZjCrv5P-yn24E2ySXN8o8dAY6v ]]>
-            </Impression>
-            <Creatives>
-                <Creative>
-                    <CompanionAds more="http://hui.sohu.com/test/prj/brand/">
-                        <Companion width="644" height="322">
-                            <StaticResource creativeType="image/png">
-                                <![CDATA[ http://images.sohu.com/ytv/BJ/11657/644322202009291822250.png ]]>
-                            </StaticResource>
-                            <AltText>
-                                <![CDATA[ 焦点图 ]]>
-                            </AltText>
-                            <CompanionClickThrough>
-                                <![CDATA[ http://www.baidu.com ]]>
-                            </CompanionClickThrough>
-                            <MultiClickTracking>
-                                <![CDATA[ http://mmg.aty.sohu.com/goto?du=0&rt=1656406502460_7567_10.23.253.50_1257381_1257390&spead=0&uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&endtime=20231231&ad=54931&b=417715&bk=115202155&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=2&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1656406502&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&backtest=test_c&ispgc=0&impressionid=991346c662ad313a03e7611a6b0e676c&oaid=8d3af4834afeae31&scope=0&flightid=36585851&from=tvssp&advertiserid=11635&err=[ERRORCODE]&at=0&c=2742&p=focus&posid=15706&loc=Unknown&adstyle=focus&bar=9871&ac=5479&ad=54931&pt=12612&b=417715&bk=115202155&pagetype=2&spead=0&eventtype=deeplink&encrysig=lVUqoJj2mcCfN2P2uEgsCfZjCrv5P-yn24E2ySXN8o8dAY6v ]]>
-                            </MultiClickTracking>
-                            <CompanionClickTracking>
-                                <![CDATA[ http://mmg.aty.sohu.com/goto?du=0&rt=1656406502460_7567_10.23.253.50_1257381_1257390&spead=0&uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&endtime=20231231&ad=54931&b=417715&bk=115202155&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=2&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1656406502&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&backtest=test_c&ispgc=0&impressionid=991346c662ad313a03e7611a6b0e676c&oaid=8d3af4834afeae31&scope=0&flightid=36585851&from=tvssp&advertiserid=11635&err=[ERRORCODE]&at=0&c=2742&p=focus&posid=15706&loc=Unknown&adstyle=focus&bar=9871&ac=5479&ad=54931&pt=12612&b=417715&bk=115202155&pagetype=2&spead=0&rtm=__TIME__&encrysig=iwT8TGbuLa_R5V3ZqfITXJW0ekOiHGd3E6j8tsIEKlgnbdyb ]]>
-                            </CompanionClickTracking>
-                            <TrackingEvents>
-                                <Tracking event="av">
-                                    <![CDATA[ http://mmg.aty.sohu.com/av?type=1&du=0&rt=1656406502460_7567_10.23.253.50_1257381_1257390&spead=0&uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&endtime=20231231&ad=54931&b=417715&bk=115202155&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=2&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1656406502&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&backtest=test_c&ispgc=0&impressionid=991346c662ad313a03e7611a6b0e676c&oaid=8d3af4834afeae31&scope=0&flightid=36585851&from=tvssp&advertiserid=11635&vp=s&at=0&c=2742&p=focus&posid=15706&loc=Unknown&adstyle=focus&bar=9871&ac=5479&ad=54931&pt=12612&b=417715&bk=115202155&pagetype=2 ]]>
-                                </Tracking>
-                                <Tracking event="progress" id="sohutv" offset="00:00:00">
-                                    <![CDATA[ http://mmg.aty.sohu.com/pvlog?du=0&rt=1656406502460_7567_10.23.253.50_1257381_1257390&spead=0&uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&endtime=20231231&ad=54931&b=417715&bk=115202155&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=2&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1656406502&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&backtest=test_c&ispgc=0&impressionid=991346c662ad313a03e7611a6b0e676c&oaid=8d3af4834afeae31&scope=0&flightid=36585851&from=tvssp&advertiserid=11635&vp=0&at=0&c=2742&p=focus&posid=15706&loc=Unknown&adstyle=focus&bar=9871&ac=5479&ad=54931&pt=12612&b=417715&bk=115202155&pagetype=2&spead=0&rtm=__TIME__&encrysig=iwT8TGbuLa_R5V3ZqfITXJW0ekOiHGd3E6j8tsIEKlgnbdyb ]]>
-                                </Tracking>
-                                <Tracking event="close">
-                                    <![CDATA[ http://mmg.aty.sohu.com/pvlog?du=0&rt=1656406502460_7567_10.23.253.50_1257381_1257390&spead=0&uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&sip=10.23.253.50&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220628&endtime=20231231&ad=54931&b=417715&bk=115202155&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=2&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1656406502&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.adveng.svc.cluster.local:60111&backtest=test_c&ispgc=0&impressionid=991346c662ad313a03e7611a6b0e676c&oaid=8d3af4834afeae31&scope=0&flightid=36585851&from=tvssp&advertiserid=11635?&err=[ERRORCODE]&at=0&c=2742&p=focus&posid=15706&loc=Unknown&adstyle=focus&bar=9871&ac=5479&ad=54931&pt=12612&b=417715&bk=115202155&pagetype=2&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__&encrysig=EVuPFGwd5Np4k7-bWzwcCtxegTu3sCc73aQ3a57lc1YKBf70 ]]>
-                                </Tracking>
-                            </TrackingEvents>
-                        </Companion>
-                    </CompanionAds>
-                </Creative>
-            </Creatives>
-            <Extensions>
-                <Extension>
-                    <AdParams adStyle="focus" postCode="15706">
-                        <Hardflag>3</Hardflag>
-                        <SupportDeepLink>0</SupportDeepLink>
-                        <SupportUnion>1</SupportUnion>
-                    </AdParams>
-                </Extension>
-            </Extensions>
-        </InLine>
-    </Ad>
+<Ad sequence="1">
+<InLine>
+<AdSystem>sohu tv ad system</AdSystem>
+<AdTitle>sohu tv</AdTitle>
+<Description>sohu tv</Description>
+<Impression id="monitorServer">
+<![CDATA[ http://mmg.aty.sohu.com/pvlog?du=0&rt=1677058044460_4087_10.33.8.112_15_22&uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&sip=10.33.8.112&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20230222&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=1&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1677058044&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&ispgc=0&impressionid=ffd460640d145dc2988656e6b4dc6071&oaid=8d3af4834afeae31&scope=0&from=tvssp&vp=s&c=2742&p=focus&posid=15705&loc=Unknown&adstyle=focus&bar=9955&encrysig=lVUqoJj2mcCfN2P2uEgsCfZjCrv5P-yn24E2ySXN8o8dAY6v ]]>
+</Impression>
+<Creatives>
+<Creative>
+<CompanionAds more="http://hui.sohu.com/test/prj/brand/">
+<Companion width="644" height="322">
+<StaticResource>
+<![CDATA[ ]]>
+</StaticResource>
+</Companion>
+</CompanionAds>
+</Creative>
+</Creatives>
+<Extensions>
+<Extension>
+<AdParams adStyle="focus" postCode="15705">
+<Hardflag>0</Hardflag>
+<SupportUnion>1</SupportUnion>
+</AdParams>
+</Extension>
+</Extensions>
+</InLine>
+</Ad>
+<Ad sequence="2">
+<InLine>
+<AdSystem>sohu tv ad system</AdSystem>
+<AdTitle>sohu tv</AdTitle>
+<Description>sohu tv</Description>
+<Impression id="monitorServer">
+<![CDATA[ http://mmg.aty.sohu.com/pv?type=1&du=0&rt=1677058044460_4087_10.33.8.112_15_22&spead=0&uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&sip=10.33.8.112&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20230222&endtime=20231231&ad=54907&b=417715&bk=115966650&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=2&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1677058044&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&ispgc=0&impressionid=ffd460640d145dc2988656e6b4dc6071&oaid=8d3af4834afeae31&scope=0&flightid=36593582&from=tvssp&advertiserid=11635&vp=s&at=0&c=2742&p=focus&posid=15706&loc=Unknown&adstyle=focus&bar=9871&ac=5479&ad=54907&pt=12612&b=417715&bk=115966650&pagetype=2&spead=0&rtm=__TIME__&err=[ERRORCODE]&encrysig=lVUqoJj2mcCfN2P2uEgsCfZjCrv5P-yn24E2ySXN8o8dAY6v ]]>
+</Impression>
+<Creatives>
+<Creative>
+<CompanionAds more="http://hui.sohu.com/test/prj/brand/">
+<Companion width="644" height="322">
+<StaticResource creativeType="image/jpeg">
+<![CDATA[ http://images.sohu.com/ytv/BJ/11657/64432220200812145036.jpg ]]>
+</StaticResource>
+<CompanionClickThrough>
+<![CDATA[ http://www.baidu.com ]]>
+</CompanionClickThrough>
+<MultiClickTracking>
+<![CDATA[ http://mmg.aty.sohu.com/goto?du=0&rt=1677058044460_4087_10.33.8.112_15_22&spead=0&uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&sip=10.33.8.112&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20230222&endtime=20231231&ad=54907&b=417715&bk=115966650&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=2&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1677058044&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&ispgc=0&impressionid=ffd460640d145dc2988656e6b4dc6071&oaid=8d3af4834afeae31&scope=0&flightid=36593582&from=tvssp&advertiserid=11635&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2742&p=focus&posid=15706&loc=Unknown&adstyle=focus&bar=9871&ac=5479&ad=54907&pt=12612&b=417715&bk=115966650&pagetype=2&spead=0&eventtype=deeplink&encrysig=lVUqoJj2mcCfN2P2uEgsCfZjCrv5P-yn24E2ySXN8o8dAY6v ]]>
+</MultiClickTracking>
+<CompanionClickTracking>
+<![CDATA[ http://mmg.aty.sohu.com/goto?du=0&rt=1677058044460_4087_10.33.8.112_15_22&spead=0&uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&sip=10.33.8.112&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20230222&endtime=20231231&ad=54907&b=417715&bk=115966650&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=2&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1677058044&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&ispgc=0&impressionid=ffd460640d145dc2988656e6b4dc6071&oaid=8d3af4834afeae31&scope=0&flightid=36593582&from=tvssp&advertiserid=11635&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2742&p=focus&posid=15706&loc=Unknown&adstyle=focus&bar=9871&ac=5479&ad=54907&pt=12612&b=417715&bk=115966650&pagetype=2&spead=0&rtm=__TIME__&encrysig=iwT8TGbuLa_R5V3ZqfITXJW0ekOiHGd3E6j8tsIEKlgnbdyb ]]>
+</CompanionClickTracking>
+<TrackingEvents>
+<Tracking event="av">
+<![CDATA[ http://mmg.aty.sohu.com/av?type=1&du=0&rt=1677058044460_4087_10.33.8.112_15_22&spead=0&uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&sip=10.33.8.112&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20230222&endtime=20231231&ad=54907&b=417715&bk=115966650&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=2&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1677058044&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&ispgc=0&impressionid=ffd460640d145dc2988656e6b4dc6071&oaid=8d3af4834afeae31&scope=0&flightid=36593582&from=tvssp&advertiserid=11635&vp=s&at=0&c=2742&p=focus&posid=15706&loc=Unknown&adstyle=focus&bar=9871&ac=5479&ad=54907&pt=12612&b=417715&bk=115966650&pagetype=2&rtm=__TIME__ ]]>
+</Tracking>
+<Tracking event="progress" id="sohutv" offset="00:00:00">
+<![CDATA[ http://mmg.aty.sohu.com/pvlog?du=0&rt=1677058044460_4087_10.33.8.112_15_22&spead=0&uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&sip=10.33.8.112&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20230222&endtime=20231231&ad=54907&b=417715&bk=115966650&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=2&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1677058044&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&ispgc=0&impressionid=ffd460640d145dc2988656e6b4dc6071&oaid=8d3af4834afeae31&scope=0&flightid=36593582&from=tvssp&advertiserid=11635&vp=0&at=0&c=2742&p=focus&posid=15706&loc=Unknown&adstyle=focus&bar=9871&ac=5479&ad=54907&pt=12612&b=417715&bk=115966650&pagetype=2&spead=0&rtm=__TIME__&encrysig=iwT8TGbuLa_R5V3ZqfITXJW0ekOiHGd3E6j8tsIEKlgnbdyb ]]>
+</Tracking>
+<Tracking event="close">
+<![CDATA[ http://mmg.aty.sohu.com/pvlog?du=0&rt=1677058044460_4087_10.33.8.112_15_22&spead=0&uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&sip=10.33.8.112&plat=6&sver=9.7.20&partner=93&poid=1&pn=Mi+10&sysver=30&adplat=3&wt=WIFI&prot=vast&protv=3.0&build=9.7.20&appid=tv&adoriginal=sohu&sdkVersion=tv7.6.90-SNAPSHOT&offline=0&density=2.75&displayMetrics=1080*2340&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20230222&endtime=20231231&ad=54907&b=417715&bk=115966650&pagetype=2&suid=8d3af4834afeae31&AndroidID=821de193843e3678&manufacturer=Xiaomi&guid=null&imsi=null&seq=2&w=644&h=322&wdbn=644&hgbn=322&cheattype=16&sperotime=1677058044&tuv=SV_-Ce-zQ6fMlHuIdxDvuMeSO0GDB9YfDeVRGJAWx2dSX8&template=null&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&ispgc=0&impressionid=ffd460640d145dc2988656e6b4dc6071&oaid=8d3af4834afeae31&scope=0&flightid=36593582&from=tvssp&advertiserid=11635&err=[ERRORCODE]&at=0&c=2742&p=focus&posid=15706&loc=Unknown&adstyle=focus&bar=9871&ac=5479&ad=54907&pt=12612&b=417715&bk=115966650&pagetype=2&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__&encrysig=EVuPFGwd5Np4k7-bWzwcCtxegTu3sCc73aQ3a57lc1YKBf70 ]]>
+</Tracking>
+</TrackingEvents>
+</Companion>
+</CompanionAds>
+</Creative>
+</Creatives>
+<Extensions>
+<Extension>
+<AdParams adStyle="focus" postCode="15706">
+<Hardflag>3</Hardflag>
+<SupportDeepLink>0</SupportDeepLink>
+<SupportUnion>1</SupportUnion>
+</AdParams>
+</Extension>
+</Extensions>
+</InLine>
+</Ad>
 </VAST>

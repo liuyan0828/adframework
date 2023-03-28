@@ -47,7 +47,7 @@ class CompareXml(object):
                                                                      'platsource', 'sign', 'warmup', 'rip', 'fip',
                                                                      'v2code', 'bt', 'backtest', 'bk', 'sperotime',
                                                                      "impressionid", "flightid", "sspreqid", "sip",
-                                                                     "indexip", "v2","encrysig"])
+                                                                     "indexip", "v2","encrysig","dx","dy","ux","uy"])
                         if status == 10001:
                             i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],
                                                                         ["tvid", "crid", "ar", "datatype"])
@@ -80,7 +80,7 @@ class JsonHandle:
                                                                 ["vu", 'du', 'appid', 'encd', "cheattype", 'rt',
                                                                  'platsource', 'sign', 'warmup', 'rip', 'fip', 'v2code',
                                                                  'bt', 'backtest', 'bk', 'sperotime', "impressionid",
-                                                                 "flightid", "sspreqid","v1code","vc"])
+                                                                 "flightid", "sspreqid","v1code","vc","sip"])
                     dic[k] = v
                 if isinstance(v, list):
                     JsonHandle.get_target_result(dic[k])

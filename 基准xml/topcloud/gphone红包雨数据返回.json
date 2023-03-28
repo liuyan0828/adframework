@@ -1,0 +1,86 @@
+{
+    "ads": [
+        {
+            "pt": "topcloud",
+            "ad": [
+                {
+                    "adgroup": {
+                        "lineid": "417740",
+                        "advid": "11635",
+                        "saletype": 2,
+                        "campaignid": "12612",
+                        "tradetype": 0
+                    },
+                    "adtype": 0,
+                    "adfrom": "ade",
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?type=2&du=0&rt=1679552121906_4441_10.33.8.152_15_24&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&uuid=f66ddc2a-acb9-4d5a-a4fa-73c4bec9154c1679306547553&UUID=f66ddc2a-acb9-4d5a-a4fa-73c4bec9154c1679306547553&sip=10.33.8.152&plat=6&sver=9.8.30&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&protv=3.0&build=9.8.30&appid=tv&adoriginal=sohu&sdkVersion=tv7.4.81&offline=0&density=3.0&displayMetrics=1080*2340&bt=20230323&endtime=20231231&ad=54937&b=417740&bk=116336518&pagetype=2&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=1&w=680&h=322&wdbn=680&hgbn=322&cheattype=16&sperotime=1679552121&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=topcloud&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&ispgc=0&impressionid=aeb048f6bbee48216e6183fccef5992c&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36606552&from=tvssp&advertiserid=11635&vp=s&at=0&c=2742&p=topcloud&posid=topcloud&loc=Unknown&adstyle=topcloud&bar=100147&ac=5479&ad=54937&pt=12612&b=417740&bk=116336518&pagetype=2&spead=0&rtm=__TIME__&err=[ERRORCODE]",
+                            "event": 0,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/av?type=2&du=0&rt=1679552121906_4441_10.33.8.152_15_24&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&uuid=f66ddc2a-acb9-4d5a-a4fa-73c4bec9154c1679306547553&UUID=f66ddc2a-acb9-4d5a-a4fa-73c4bec9154c1679306547553&sip=10.33.8.152&plat=6&sver=9.8.30&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&protv=3.0&build=9.8.30&appid=tv&adoriginal=sohu&sdkVersion=tv7.4.81&offline=0&density=3.0&displayMetrics=1080*2340&bt=20230323&endtime=20231231&ad=54937&b=417740&bk=116336518&pagetype=2&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=1&w=680&h=322&wdbn=680&hgbn=322&cheattype=16&sperotime=1679552121&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=topcloud&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&ispgc=0&impressionid=aeb048f6bbee48216e6183fccef5992c&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36606552&from=tvssp&advertiserid=11635&vp=s&at=0&c=2742&p=topcloud&posid=topcloud&loc=Unknown&adstyle=topcloud&bar=100147&ac=5479&ad=54937&pt=12612&b=417740&bk=116336518&pagetype=2&rtm=__TIME__",
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1679552121906_4441_10.33.8.152_15_24&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&uuid=f66ddc2a-acb9-4d5a-a4fa-73c4bec9154c1679306547553&UUID=f66ddc2a-acb9-4d5a-a4fa-73c4bec9154c1679306547553&sip=10.33.8.152&plat=6&sver=9.8.30&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&protv=3.0&build=9.8.30&appid=tv&adoriginal=sohu&sdkVersion=tv7.4.81&offline=0&density=3.0&displayMetrics=1080*2340&bt=20230323&endtime=20231231&ad=54937&b=417740&bk=116336518&pagetype=2&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=1&w=680&h=322&wdbn=680&hgbn=322&cheattype=16&sperotime=1679552121&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=topcloud&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&ispgc=0&impressionid=aeb048f6bbee48216e6183fccef5992c&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36606552&from=tvssp&advertiserid=11635&vp=0&at=0&c=2742&p=topcloud&posid=topcloud&loc=Unknown&adstyle=topcloud&bar=100147&ac=5479&ad=54937&pt=12612&b=417740&bk=116336518&pagetype=2&spead=0&rtm=__TIME__",
+                            "time": 0,
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?&err=[ERRORCODE]&at=0&c=2742&p=topcloud&posid=topcloud&loc=Unknown&adstyle=topcloud&bar=100147&ac=5479&ad=54937&pt=12612&b=417740&bk=116336518&pagetype=2&spead=0",
+                            "event": 12,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "template": "topcloud",
+                    "creatives": {
+                        "horizontal": {
+                            "content": "https://images.sohu.com/ytv/BJ/13450/162414020221025154948.webp",
+                            "width": 1624,
+                            "materialtype": "image/webp",
+                            "height": 140
+                        },
+                        "vertical": {
+                            "content": "https://images.sohu.com/ytv/BJ/13451/136064420221025155226.webp",
+                            "width": 1360,
+                            "materialtype": "image/webp",
+                            "height": 644
+                        }
+                    },
+                    "pos": 0,
+                    "ext": {
+                        "servertime": "1679552121",
+                        "support_union": 1,
+                        "expiretime": "1711814400",
+                        "hardflag": 0,
+                        "targettime": "1743350400",
+                        "ClickType": 1,
+                        "deeplinkflag": 0,
+                        "reqtime": "1743349691",
+                        "display_type": 0,
+                        "excluded": 0
+                    },
+                    "click_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1679552121906_4441_10.33.8.152_15_24&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&uuid=f66ddc2a-acb9-4d5a-a4fa-73c4bec9154c1679306547553&UUID=f66ddc2a-acb9-4d5a-a4fa-73c4bec9154c1679306547553&sip=10.33.8.152&plat=6&sver=9.8.30&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&protv=3.0&build=9.8.30&appid=tv&adoriginal=sohu&sdkVersion=tv7.4.81&offline=0&density=3.0&displayMetrics=1080*2340&bt=20230323&endtime=20231231&ad=54937&b=417740&bk=116336518&pagetype=2&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=1&w=680&h=322&wdbn=680&hgbn=322&cheattype=16&sperotime=1679552121&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=topcloud&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&ispgc=0&impressionid=aeb048f6bbee48216e6183fccef5992c&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36606552&from=tvssp&advertiserid=11635&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2742&p=topcloud&posid=topcloud&loc=Unknown&adstyle=topcloud&bar=100147&ac=5479&ad=54937&pt=12612&b=417740&bk=116336518&pagetype=2&spead=0&rtm=__TIME__",
+                            "event": 5,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1679552121906_4441_10.33.8.152_15_24&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&uuid=f66ddc2a-acb9-4d5a-a4fa-73c4bec9154c1679306547553&UUID=f66ddc2a-acb9-4d5a-a4fa-73c4bec9154c1679306547553&sip=10.33.8.152&plat=6&sver=9.8.30&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&protv=3.0&build=9.8.30&appid=tv&adoriginal=sohu&sdkVersion=tv7.4.81&offline=0&density=3.0&displayMetrics=1080*2340&bt=20230323&endtime=20231231&ad=54937&b=417740&bk=116336518&pagetype=2&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=1&w=680&h=322&wdbn=680&hgbn=322&cheattype=16&sperotime=1679552121&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=topcloud&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&ispgc=0&impressionid=aeb048f6bbee48216e6183fccef5992c&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36606552&from=tvssp&advertiserid=11635&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2742&p=topcloud&posid=topcloud&loc=Unknown&adstyle=topcloud&bar=100147&ac=5479&ad=54937&pt=12612&b=417740&bk=116336518&pagetype=2&spead=0&eventtype=deeplink",
+                            "event": 10,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "landing_url": "http://www.sohu,com"
+                }
+            ]
+        }
+    ],
+    "version": 3,
+    "impid": "ssp-app-qa-5497974754-4vxqf00008823641bee7a0265_cl"
+}

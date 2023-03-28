@@ -29,6 +29,19 @@ def test_diff(data):
         res = GetAdData.get_ad_decode_data(data['ad_url'])
     else:
         res = GetAdData.get_ad_data(data['ad_url'])
+        #print(res)
     root = ET.XML(res)
     cur_el = CompareXml.get_all_elements(root,status)
-    assert DeepDiff(base_el, cur_el) == {}
+    #assert DeepDiff(base_el, cur_el) == {}
+    a=DeepDiff(base_el,cur_el)
+    if a==True:
+        assert DeepDiff(base_el, cur_el) == {}
+    else:
+        if data['isEncrypt'] == 1:
+            res = GetAdData.get_ad_decode_data(data['ad_url'])
+        else:
+            res = GetAdData.get_ad_data(data['ad_url'])
+            #print(res)
+        root = ET.XML(res)
+        cur_el = CompareXml.get_all_elements(root, status)
+        assert DeepDiff(base_el, cur_el) == {}

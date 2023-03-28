@@ -1,0 +1,145 @@
+{
+    "ads": [
+        {
+            "pt": "16108",
+            "ad": [
+                {
+                    "adtype": 0,
+                    "adfrom": "ade",
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pv?type=1&du=0&rt=1652087096646_4531_10.18.40.254_6947_6950&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&sip=10.18.40.254&plat=6&sver=9.7.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&appid=tv&sdkVersion=tv7.6.73-SNAPSHOT&offline=0&density=3.0&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220509&endtime=20231231&ad=54927&b=417694&bk=115142227&pagetype=1&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=1&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1652087096&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=null&platsource=tv&indexip=127.0.0.1:60111&vc=0&ispgc=0&impressionid=1e0b4fdb23b3e995e016be75ba22dbe0&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36584950&from=tvssp&vp=s&at=0&c=1&p=falls_1&loc=Unknown&adstyle=16108&ac=5479&ad=54927&pt=12612&b=417694&bk=115142227&pagetype=1&spead=0&rtm=__TIME__&err=[ERRORCODE]&position=4",
+                            "event": 0,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/av?type=1&du=0&rt=1652087096646_4531_10.18.40.254_6947_6950&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&sip=10.18.40.254&plat=6&sver=9.7.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&appid=tv&sdkVersion=tv7.6.73-SNAPSHOT&offline=0&density=3.0&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220509&endtime=20231231&ad=54927&b=417694&bk=115142227&pagetype=1&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=1&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1652087096&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=null&platsource=tv&indexip=127.0.0.1:60111&vc=0&ispgc=0&impressionid=1e0b4fdb23b3e995e016be75ba22dbe0&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36584950&from=tvssp&vp=s&at=0&c=1&p=falls_1&loc=Unknown&adstyle=16108&ac=5479&ad=54927&pt=12612&b=417694&bk=115142227&pagetype=1&position=4",
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1652087096646_4531_10.18.40.254_6947_6950&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&sip=10.18.40.254&plat=6&sver=9.7.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&appid=tv&sdkVersion=tv7.6.73-SNAPSHOT&offline=0&density=3.0&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220509&endtime=20231231&ad=54927&b=417694&bk=115142227&pagetype=1&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=1&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1652087096&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=null&platsource=tv&indexip=127.0.0.1:60111&vc=0&ispgc=0&impressionid=1e0b4fdb23b3e995e016be75ba22dbe0&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36584950&from=tvssp&vp=0&at=0&c=1&p=falls_1&loc=Unknown&adstyle=16108&ac=5479&ad=54927&pt=12612&b=417694&bk=115142227&pagetype=1&spead=0&rtm=__TIME__&position=4",
+                            "time": 0,
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1652087096646_4531_10.18.40.254_6947_6950&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&sip=10.18.40.254&plat=6&sver=9.7.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&appid=tv&sdkVersion=tv7.6.73-SNAPSHOT&offline=0&density=3.0&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220509&endtime=20231231&ad=54927&b=417694&bk=115142227&pagetype=1&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=1&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1652087096&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=null&platsource=tv&indexip=127.0.0.1:60111&vc=0&ispgc=0&impressionid=1e0b4fdb23b3e995e016be75ba22dbe0&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36584950&from=tvssp?&err=[ERRORCODE]&at=0&c=1&p=falls_1&loc=Unknown&adstyle=16108&ac=5479&ad=54927&pt=12612&b=417694&bk=115142227&pagetype=1&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__&position=4",
+                            "event": 4,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "creatives": {
+                        "advertiser": {
+                            "content": "广告主"
+                        },
+                        "picture": {
+                            "ratio": 0.66,
+                            "height": 960,
+                            "content": "https://images.sohu.com/ytv/BJ/12496/640960202108141510460.jpg",
+                            "materialType": "image/jpeg",
+                            "width": 640
+                        },
+                        "title": {
+                            "content": "图片标题"
+                        }
+                    },
+                    "pos": 0,
+                    "ext": {
+                        "hardflag": 3,
+                        "support_union": 1,
+                        "deeplinkflag": 0,
+                        "position": 4,
+                        "display_type": 0,
+                        "excluded": 0
+                    },
+                    "click_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1652087096646_4531_10.18.40.254_6947_6950&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&sip=10.18.40.254&plat=6&sver=9.7.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&appid=tv&sdkVersion=tv7.6.73-SNAPSHOT&offline=0&density=3.0&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220509&endtime=20231231&ad=54927&b=417694&bk=115142227&pagetype=1&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=1&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1652087096&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=null&platsource=tv&indexip=127.0.0.1:60111&vc=0&ispgc=0&impressionid=1e0b4fdb23b3e995e016be75ba22dbe0&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36584950&from=tvssp&err=[ERRORCODE]&at=0&c=1&p=falls_1&loc=Unknown&adstyle=16108&ac=5479&ad=54927&pt=12612&b=417694&bk=115142227&pagetype=1&spead=0&rtm=__TIME__&position=4",
+                            "event": 5,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1652087096646_4531_10.18.40.254_6947_6950&spead=0&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&sip=10.18.40.254&plat=6&sver=9.7.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&appid=tv&sdkVersion=tv7.6.73-SNAPSHOT&offline=0&density=3.0&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220509&endtime=20231231&ad=54927&b=417694&bk=115142227&pagetype=1&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=1&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1652087096&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&template=null&platsource=tv&indexip=127.0.0.1:60111&vc=0&ispgc=0&impressionid=1e0b4fdb23b3e995e016be75ba22dbe0&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&flightid=36584950&from=tvssp&err=[ERRORCODE]&at=0&c=1&p=falls_1&loc=Unknown&adstyle=16108&ac=5479&ad=54927&pt=12612&b=417694&bk=115142227&pagetype=1&spead=0&eventtype=deeplink&position=4",
+                            "event": 10,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "landing_url": "http://www.baidu.com",
+                    "template": "fallspicturetxt"
+                },
+                {
+                    "pos": 1,
+                    "adfrom": "ade",
+                    "ext": {
+                        "position": 9,
+                        "support_union": 1
+                    },
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?vp=s&c=1&p=falls_2&loc=Unknown&adstyle=16108&du=0&rt=1652087096646_4531_10.18.40.254_6947_6950&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&sip=10.18.40.254&plat=6&sver=9.7.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&appid=tv&sdkVersion=tv7.6.73-SNAPSHOT&offline=0&density=3.0&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220509&pagetype=1&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=2&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1652087096&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&platsource=tv&indexip=127.0.0.1:60111&vc=0&ispgc=0&impressionid=1e0b4fdb23b3e995e016be75ba22dbe0&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&from=tvssp&sspreplacable=1&sspreqid=00000000jsy19-36-1930000796d6278d9396c16&position=9",
+                            "event": 0,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "adtype": -1,
+                    "repWithAdxAd": 1
+                },
+                {
+                    "pos": 2,
+                    "adfrom": "ade",
+                    "ext": {
+                        "position": 14,
+                        "support_union": 1
+                    },
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?vp=s&c=1&p=falls_3&loc=Unknown&adstyle=16108&du=0&rt=1652087096646_4531_10.18.40.254_6947_6950&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&sip=10.18.40.254&plat=6&sver=9.7.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&appid=tv&sdkVersion=tv7.6.73-SNAPSHOT&offline=0&density=3.0&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220509&pagetype=1&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=3&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1652087096&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&platsource=tv&indexip=127.0.0.1:60111&vc=0&ispgc=0&impressionid=1e0b4fdb23b3e995e016be75ba22dbe0&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&from=tvssp&sspreplacable=1&sspreqid=00000000jsy19-36-1930000796d6278d9396c16&position=14",
+                            "event": 0,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "adtype": -1,
+                    "repWithAdxAd": 1
+                },
+                {
+                    "pos": 3,
+                    "adfrom": "ade",
+                    "ext": {
+                        "position": 19,
+                        "support_union": 1
+                    },
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?vp=s&c=1&p=falls_4&loc=Unknown&adstyle=16108&du=0&rt=1652087096646_4531_10.18.40.254_6947_6950&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&sip=10.18.40.254&plat=6&sver=9.7.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&appid=tv&sdkVersion=tv7.6.73-SNAPSHOT&offline=0&density=3.0&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220509&pagetype=1&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=4&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1652087096&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&platsource=tv&indexip=127.0.0.1:60111&vc=0&ispgc=0&impressionid=1e0b4fdb23b3e995e016be75ba22dbe0&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&from=tvssp&sspreplacable=1&sspreqid=00000000jsy19-36-1930000796d6278d9396c16&position=19",
+                            "event": 0,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "adtype": -1,
+                    "repWithAdxAd": 1
+                },
+                {
+                    "pos": 4,
+                    "adfrom": "ade",
+                    "ext": {
+                        "position": 24,
+                        "support_union": 1
+                    },
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?vp=s&c=1&p=falls_5&loc=Unknown&adstyle=16108&du=0&rt=1652087096646_4531_10.18.40.254_6947_6950&uv=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&sip=10.18.40.254&plat=6&sver=9.7.00&partner=93&poid=1&pn=VOG-AL00&sysver=29&adplat=3&wt=WIFI&prot=json&appid=tv&sdkVersion=tv7.6.73-SNAPSHOT&offline=0&density=3.0&bssid=02%3A00%3A00%3A00%3A00%3A00&ssid=%3Cunknown+ssid%3E&bt=20220509&pagetype=1&suid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&mac=F6:E7:A5:B3:2E:58&AndroidID=ec91f6f6916f7c0e&manufacturer=HUAWEI&guid=null&imsi=null&seq=5&w=640&h=960&wdbn=640&hgbn=960&cheattype=16&sperotime=1652087096&tuv=SV_XacejO3AzKksKxHFCanHEq7lahna-Y0lPZ2T2OmICoqSpPN4whGO28JlBg8D5Xdc&platsource=tv&indexip=127.0.0.1:60111&vc=0&ispgc=0&impressionid=1e0b4fdb23b3e995e016be75ba22dbe0&oaid=ad9b3a32-cffd-488b-8d41-5ea01134a6b1&scope=0&from=tvssp&sspreplacable=1&sspreqid=00000000jsy19-36-1930000796d6278d9396c16&position=24",
+                            "event": 0,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "adtype": -1,
+                    "repWithAdxAd": 1
+                }
+            ]
+        }
+    ],
+    "ext": {},
+    "version": 3,
+    "impid": "1652087096646_4531_10.18.40.254_6947_6950"
+}
