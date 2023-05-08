@@ -32,7 +32,7 @@ def test_diff(data):
     root = ET.XML(res)
     cur_el = CompareXml.get_all_elements(root,status)
     #assert DeepDiff(base_el, cur_el) == {}
-    if DeepDiff(base_el, cur_el) == True:
+    if DeepDiff(base_el, cur_el) == {}:
         assert DeepDiff(base_el, cur_el) == {}
     else:
         if data['isEncrypt'] == 1:

@@ -33,4 +33,3 @@ def test_diff(data):
     cur_el = CompareXml.get_all_elements(root,status)
     assert DeepDiff(base_el, cur_el) == {}
 
-
