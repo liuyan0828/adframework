@@ -1,0 +1,53 @@
+{
+  "uid" : "1b7cd5cb40b271c2",
+  "name" : "test_diff[gphone片头画中画加密数据返回]",
+  "fullName" : "TestCase.Ad.frontframe.test_gphone_frontframe#test_diff",
+  "historyId" : "6834eb5abad3fe304aaab1c3e559aa23",
+  "time" : {
+    "start" : 1683518056830,
+    "stop" : 1683518056898,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.frontframe"
+  }, {
+    "name" : "suite",
+    "value" : "test_gphone_frontframe"
+  }, {
+    "name" : "host",
+    "value" : "weihuaguo1"
+  }, {
+    "name" : "thread",
+    "value" : "19280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.frontframe.test_gphone_frontframe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'gphone片头画中画加密数据返回', 'ad_url': 'm?channeled=1000190002&gid=x0107402101016b630b9fec1400033df46b2d1537be2&pt=frontframe&frontAdsTime=185&privacy=1&source=1000190002&huawei_hms_version=61000312&forbid=0&playstyle=1&exten=1,2,3,4,5,6,7,8&vid=8281929&du=2378.293&offline=0&huawei_store_version=130001301&prot=json&isFoldDevice=0&isBgPlay=0&plat=6&UUID=aceb824e-4a6e-4201-ae6a-fd6ab6854d981679303003508&brand=HUAWEI&ext=2097151&c=tv&density=3.0&displayMetrics=10802340&encd=VcAQ3MNK7L1UIzrf%2FoH43aOhhVrnJUJxbIT5nvH0znOwNQHzZ0h4fpVhA5O6EtGTHo6g2uvhraxIXqcCh%2BtROViSiYc7jmOqHMjZA7jBIYmlwGu91hBuGml3JHZxe%2FRw1dAWP%2FwOveGsg0yKijLkHqTwzZbYO9sEZehqloF9oj9yV7j9%2FD2uD7Ta5MTUQPVpSD9P7gCS7BjlEQzdtI5wyQwkdzfesqF8vvRkMu6UBPtfaWTEWIJ41MTeMsTWaT9hQST9ucGaLaEOdX7g6iVK2N0lih71KkrfVWWabJNUy%2BILmm%2BQf6LV3IS1lbBNCF3vao8foURLr7c0hMZXCWKcyoj50%2FNl5BQ5u%2BcV2iDLI8HkpqPE%2BH1s%2F6AKw6M6bZllqnZPS7zm3SFpePFWsAdOaZM6SZ8UdYILjizTlAO6l9kT0hWuEppqxKsCb%2BD7H3xm6N683Hb4peDTy9N5jt0ilrVQVsMIeX%2BqiKEaaVGiexA%2BhHluCpdWOVU7bPCjh1QqDBSBJ0EcYgzTykFRnQZsMw224YBDi6eccz%2BC5pKqq9DpavEAYmHtbnYlndGXquxNzFuu3skew%2F79lzgzigcS5E7GeDebjYHFYXWo1zCowxpfKjVB2ZQip3AVbXIut6DxvBHQ7%2BTACUZ3Y70ckeRRRm4CS9%2B38iwZ2E%2FnRKW6jTqRuSlfxtwWUNY8KhY%2B0ao1pFrqF22jLq486WkquZf6xKfgPQW3wpF0zrkW4zoGFkvKdK6bdCv%2BKq9tO9kECDZF&sver=9.8.30&islocaltv=0&al=9790439&vc=101145;101147;101161&playerScale=0.5625&screenstate=1&poid=1&audited_level=-1&uptime=1694363379&protv=3.0&site=1&partner=93&adoriginal=sohu&build=9.8.30&broadcastID=0&appid=tv&guid=577c52c94331822d169a55a0ad465791&sdkVersion=tv8.4.81&floatwindow=0&playerMetrics=1080607&vu=0', 'base_path': '/基准xml/frontframe/gphone片头画中画加密数据返回.json', 'isEncrypt': 1, 'isJson': 1}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b7cd5cb40b271c2.json",
+  "parameterValues" : [ "{'title': 'gphone片头画中画加密数据返回', 'ad_url': 'm?channeled=1000190002&gid=x0107402101016b630b9fec1400033df46b2d1537be2&pt=frontframe&frontAdsTime=185&privacy=1&source=1000190002&huawei_hms_version=61000312&forbid=0&playstyle=1&exten=1,2,3,4,5,6,7,8&vid=8281929&du=2378.293&offline=0&huawei_store_version=130001301&prot=json&isFoldDevice=0&isBgPlay=0&plat=6&UUID=aceb824e-4a6e-4201-ae6a-fd6ab6854d981679303003508&brand=HUAWEI&ext=2097151&c=tv&density=3.0&displayMetrics=10802340&encd=VcAQ3MNK7L1UIzrf%2FoH43aOhhVrnJUJxbIT5nvH0znOwNQHzZ0h4fpVhA5O6EtGTHo6g2uvhraxIXqcCh%2BtROViSiYc7jmOqHMjZA7jBIYmlwGu91hBuGml3JHZxe%2FRw1dAWP%2FwOveGsg0yKijLkHqTwzZbYO9sEZehqloF9oj9yV7j9%2FD2uD7Ta5MTUQPVpSD9P7gCS7BjlEQzdtI5wyQwkdzfesqF8vvRkMu6UBPtfaWTEWIJ41MTeMsTWaT9hQST9ucGaLaEOdX7g6iVK2N0lih71KkrfVWWabJNUy%2BILmm%2BQf6LV3IS1lbBNCF3vao8foURLr7c0hMZXCWKcyoj50%2FNl5BQ5u%2BcV2iDLI8HkpqPE%2BH1s%2F6AKw6M6bZllqnZPS7zm3SFpePFWsAdOaZM6SZ8UdYILjizTlAO6l9kT0hWuEppqxKsCb%2BD7H3xm6N683Hb4peDTy9N5jt0ilrVQVsMIeX%2BqiKEaaVGiexA%2BhHluCpdWOVU7bPCjh1QqDBSBJ0EcYgzTykFRnQZsMw224YBDi6eccz%2BC5pKqq9DpavEAYmHtbnYlndGXquxNzFuu3skew%2F79lzgzigcS5E7GeDebjYHFYXWo1zCowxpfKjVB2ZQip3AVbXIut6DxvBHQ7%2BTACUZ3Y70ckeRRRm4CS9%2B38iwZ2E%2FnRKW6jTqRuSlfxtwWUNY8KhY%2B0ao1pFrqF22jLq486WkquZf6xKfgPQW3wpF0zrkW4zoGFkvKdK6bdCv%2BKq9tO9kECDZF&sver=9.8.30&islocaltv=0&al=9790439&vc=101145;101147;101161&playerScale=0.5625&screenstate=1&poid=1&audited_level=-1&uptime=1694363379&protv=3.0&site=1&partner=93&adoriginal=sohu&build=9.8.30&broadcastID=0&appid=tv&guid=577c52c94331822d169a55a0ad465791&sdkVersion=tv8.4.81&floatwindow=0&playerMetrics=1080607&vu=0', 'base_path': '/基准xml/frontframe/gphone片头画中画加密数据返回.json', 'isEncrypt': 1, 'isJson': 1}" ]
+}

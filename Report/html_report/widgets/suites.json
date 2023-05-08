@@ -1,39 +1,6 @@
 {
-  "total" : 14,
+  "total" : 17,
   "items" : [ {
-    "uid" : "0a53fd62f2664ced9ff59e42a9cca096",
-    "name" : "TestCase.Ad.focus",
-    "statistic" : {
-      "failed" : 2,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 4
-    }
-  }, {
-    "uid" : "447c11e0275c58bcee94af6132f6044d",
-    "name" : "TestCase.Ad.open",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 3,
-      "unknown" : 0,
-      "total" : 4
-    }
-  }, {
-    "uid" : "24f5c1b9b42ae6b6afc21bcdd2a66a78",
-    "name" : "TestCase.Ad.overfly",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 3,
-      "unknown" : 0,
-      "total" : 4
-    }
-  }, {
     "uid" : "5deb186ff4ba42935c485a0a160e9e81",
     "name" : "TestCase.Ad.15512_14369",
     "statistic" : {
@@ -102,6 +69,39 @@
   }, {
     "uid" : "bf3b9f2c3a9e1ae0cfd7d39b3927e33d",
     "name" : "TestCase.Ad.AD00071AD00072AD00073",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "ba7f0b5b0fe605ed176ced95a9caa603",
+    "name" : "TestCase.Ad.flogo",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "0a53fd62f2664ced9ff59e42a9cca096",
+    "name" : "TestCase.Ad.focus",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "2359cfdc091c7e9b4fa62a7f4fa611b8",
+    "name" : "TestCase.Ad.frontframe",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
