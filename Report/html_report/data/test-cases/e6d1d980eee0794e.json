@@ -1,0 +1,53 @@
+{
+  "uid" : "e6d1d980eee0794e",
+  "name" : "test_diff[gphone视频流加密数据返回]",
+  "fullName" : "TestCase.Ad.16107.test_gphone_16107#test_diff",
+  "historyId" : "b7d79e059596d5039f2f2c6466404242",
+  "time" : {
+    "start" : 1683528672970,
+    "stop" : 1683528673172,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.16107"
+  }, {
+    "name" : "suite",
+    "value" : "test_gphone_16107"
+  }, {
+    "name" : "host",
+    "value" : "weihuaguo1"
+  }, {
+    "name" : "thread",
+    "value" : "16136-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.16107.test_gphone_16107"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'gphone视频流加密数据返回', 'ad_url': 'm?adslotid=16107&vid=&vc=6306&tvpid=93&gbcode=&poid=1&site=&ugcode2=&prot=vast&catecode=6306&partner=93&pt=16107&guid=null&pagecount=12&rr=3&lc=1&rc=2&action=2&sdkv=tv8.3.42&sver=9.6.21&scs=108002340&density=3.0&appid=tv&forbid=0&privacy=1&container=1&turn=97&timetag=1646902608329&device=HIGHEND_PHONE&uptime=18891026&plat=6&huawei_store_version=120001301&huawei_hms_version=60400302&encd=WKiqo23lLwqdyQMc%2BWT6RU9kSFCFwJVDQVE%2Baw3RuIU2X61Xp4d3aJHC9Z2%2Bl6%2FEYaOZjKlunEAnr6292HY2Cpe90r53cJcM7gzqqp09ltXq26fSUiJbucfwW7esDd4RA%2Bf89BaBGlAzbYDdbyoV5UPSgGTkHqSEOlDr1w5ZDm1htXJYMwPMZ6xRPMyNcmAB6TCIbBxUvmy9qZbjQng7E9ytzIX%2B4Ge%2Fv5%2F1tk0pQDZFxFpDDIW1dgYEIP7RqAn0F3Vaj%2FiMG2IdmPwGF%2FS3%2BA1RYMs7XvzlibDEYg2RGj6wqxdvC16kJmx8atOZWU9CPx94E7u4zUQR%2Flw6d5ZTM3O40tOx3KoSCTm7zlpyJfXGwYNw1mAdAQfMFGMh0Xs1UVdodRZy8uNCOFfRfeoirxtUXYjI8J9fKoqwrmr2CTHbW51T5BiRCzfMldMz99xkUvyEBL1f5YA9ZeV28nOWmHoSDT3nqRR20B6pQFnAqFtN%2FGePf0Emxp3i3mkyeJtUUFLo%2FLIpK5gtpqcTq3d56zZJVJE1%2B%2FzV6l5AdtNsQ7NkAjocNJOUzsaWzbGtyacPb1IZ%2BNykvj8BHTUEiy9GcBQk554cgZZXaHA5A6M%2FH0FysgA2%2B9wp3YD70vEYNsDNb2nP1Av4R2mRbvBLL6oECtILvM2nZnTlWOcyws994rV%2FQVGd4E1760itNZ5CWLfMeUW%2FubzJO1vUtZnQLxUqd6sYE%2BK4dnZIYs%2FCdVHu%2F8Yhn6YLvJsdlCqC64Azj6tXqjypW4VbYslw9mRGdJrZjQb6G7Nvdtck07TcWVrI4ej4Nxw2jhi1FBuxSmtyF4u5tplMQJxcNMeDlOb%2B102NeCvV53JJFAotZHTRaL6GekKiWg0Y27Ta%2BwnLFhIV7Qmg', 'base_path': '/基准xml/16107/gphone视频流加密数据返回.xml', 'isEncrypt': 1}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6d1d980eee0794e.json",
+  "parameterValues" : [ "{'title': 'gphone视频流加密数据返回', 'ad_url': 'm?adslotid=16107&vid=&vc=6306&tvpid=93&gbcode=&poid=1&site=&ugcode2=&prot=vast&catecode=6306&partner=93&pt=16107&guid=null&pagecount=12&rr=3&lc=1&rc=2&action=2&sdkv=tv8.3.42&sver=9.6.21&scs=108002340&density=3.0&appid=tv&forbid=0&privacy=1&container=1&turn=97&timetag=1646902608329&device=HIGHEND_PHONE&uptime=18891026&plat=6&huawei_store_version=120001301&huawei_hms_version=60400302&encd=WKiqo23lLwqdyQMc%2BWT6RU9kSFCFwJVDQVE%2Baw3RuIU2X61Xp4d3aJHC9Z2%2Bl6%2FEYaOZjKlunEAnr6292HY2Cpe90r53cJcM7gzqqp09ltXq26fSUiJbucfwW7esDd4RA%2Bf89BaBGlAzbYDdbyoV5UPSgGTkHqSEOlDr1w5ZDm1htXJYMwPMZ6xRPMyNcmAB6TCIbBxUvmy9qZbjQng7E9ytzIX%2B4Ge%2Fv5%2F1tk0pQDZFxFpDDIW1dgYEIP7RqAn0F3Vaj%2FiMG2IdmPwGF%2FS3%2BA1RYMs7XvzlibDEYg2RGj6wqxdvC16kJmx8atOZWU9CPx94E7u4zUQR%2Flw6d5ZTM3O40tOx3KoSCTm7zlpyJfXGwYNw1mAdAQfMFGMh0Xs1UVdodRZy8uNCOFfRfeoirxtUXYjI8J9fKoqwrmr2CTHbW51T5BiRCzfMldMz99xkUvyEBL1f5YA9ZeV28nOWmHoSDT3nqRR20B6pQFnAqFtN%2FGePf0Emxp3i3mkyeJtUUFLo%2FLIpK5gtpqcTq3d56zZJVJE1%2B%2FzV6l5AdtNsQ7NkAjocNJOUzsaWzbGtyacPb1IZ%2BNykvj8BHTUEiy9GcBQk554cgZZXaHA5A6M%2FH0FysgA2%2B9wp3YD70vEYNsDNb2nP1Av4R2mRbvBLL6oECtILvM2nZnTlWOcyws994rV%2FQVGd4E1760itNZ5CWLfMeUW%2FubzJO1vUtZnQLxUqd6sYE%2BK4dnZIYs%2FCdVHu%2F8Yhn6YLvJsdlCqC64Azj6tXqjypW4VbYslw9mRGdJrZjQb6G7Nvdtck07TcWVrI4ej4Nxw2jhi1FBuxSmtyF4u5tplMQJxcNMeDlOb%2B102NeCvV53JJFAotZHTRaL6GekKiWg0Y27Ta%2BwnLFhIV7Qmg', 'base_path': '/基准xml/16107/gphone视频流加密数据返回.xml', 'isEncrypt': 1}" ]
+}

@@ -1,0 +1,53 @@
+{
+  "uid" : "66d9f6bd80415bcb",
+  "name" : "test_diff[测试gphone中插加密广告返回]",
+  "fullName" : "TestCase.Ad.mad.test_gphone_mad#test_diff",
+  "historyId" : "2833d2b5b27d23b542ad2609a2aacc74",
+  "time" : {
+    "start" : 1683528675454,
+    "stop" : 1683528675586,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.mad"
+  }, {
+    "name" : "suite",
+    "value" : "test_gphone_mad"
+  }, {
+    "name" : "host",
+    "value" : "weihuaguo1"
+  }, {
+    "name" : "thread",
+    "value" : "16136-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.mad.test_gphone_mad"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': '测试gphone中插加密广告返回', 'ad_url': 'm?pt=mad&source=1000080005&huawei_hms_version=60200302&userid=0&vid=3281409&du=3226.326&plat=6&UUID=2b448156-aa56-4411-8aa5-1e21a42793711640154270627&ext=2097151&islocaltv=0&al=9182663&replay=0&vc=101141;101145;101152&protv=3.0&adoriginal=sohu&broadcastID=0&guid=1eaf2b46377b8eb6f1cd548fabff3354&sdkVersion=tv8.3.02-SNAPSHOT&isroot=false&floatwindow=0&playerMetrics=1080*607&vu=0&channeled=1000080005&gid=x010740210101471f4b8af41b0000f001eba0d6743ac&frontAdsTime=185&privacy=1&forbid=0&playstyle=1&battery=61&exten=1,2,3,4,5,6,7,8&offline=0&huawei_store_version=110501300&prot=vast&encrypt=0t2d1rdHrDBhpuBec7uHekygeprZEPUsTVt5hvBCnqnVeNMSZn2LZDr7GzxSV9vUhGls0Db8GZ4%3D&isBgPlay=0&player=1&c=tv&density=3.0&displayMetrics=1080*2340&encd=g6mEf%2Fw3AWjvgWudW3FoKbxAnS2CnHNhygaYXdKe7vIUDiBNRRV4kD9zIpxwOCDRkjitSQ4E2W%2FdZ17WzpGcIs4J5v2Mk6mDxyDCAYC40uBW%2BHmhbEGNi3Qmn8BJwOXfwnqUTJ68Cnr8qkO2GBiiXUKoDhKVRJ1EAxGZKMReRJYCqRvfIrv%2BbzE59meGl842zqeJPE4h69JmV8v9BOYe8YQHedzabyIMvihPqZ2%2FtrgbWNuduzAgqgqoIs4OqAJp%2BsRsauCSmw7fnLOOiyDGmMxIL9W65Jk5rSNPJ1Rtjatu%2BsYkuGbz7AbLbEKWwQ1oF%2FQNhEkN1g3MWK6WtpX5PAh3otxYMD4ASQvrPNik9EUEXTsMEd6bXPzPH%2BToZyOGxzL18QbTyd4FuU6UjFH6YtAqiyE5WwJJpXrpJR8reNGqHrOlW0y0QnGzfCP6Wm0PGykKfvCxGewqcOwb%2FFQjfM6b0OYoEDWFjb%2F%2BjYUeLIqyvRxk4dEM7zaqQ1OAgdKhXEY%2BghInznpVPXGc45TBWLbJ8UbnE0dEwF1C6h8WXnPVAJtXWEg1rcsxLQ%2BUqtVmNTJxH7S8tvo%2BHo66%2BbdEELxTQHSLOTjBZ%2F%2FRiabHFStMQkzR7Cwkx3DMlSygpMD37tFKpIMb%2F0Xz3K874cyRjAoG9Xfzzar3e%2F7BLVBjwLUlFeTUnd8Rb1wqX21Fiedh9p11Ngux%2BG8yKmJEQfmipqgEkvwDCHbwQDbZTwndfL3m1%2BwHwgzsAHMoLezsHYE5gQWPfh8YfqcwgW4HB565dSAVKUHLMrkh0GGHU9bv0NuYvBGpvbU1KDfWLOSSmOXAE3BQLTLDxkdf7QsaBnoN6eK%2FQC7Zr45OD%2F2zcsTCXFiojYzZ&sver=9.3.00&playerScale=0.5625&poid=1&audited_level=-1&uptime=3672178438&site=1&partner=93&build=9.3.00&appid=tv&inx=1&instream=0&ead=0', 'base_path': '/基准xml/mad/gphone中插加密广告返回.xml', 'isEncrypt': 1}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "66d9f6bd80415bcb.json",
+  "parameterValues" : [ "{'title': '测试gphone中插加密广告返回', 'ad_url': 'm?pt=mad&source=1000080005&huawei_hms_version=60200302&userid=0&vid=3281409&du=3226.326&plat=6&UUID=2b448156-aa56-4411-8aa5-1e21a42793711640154270627&ext=2097151&islocaltv=0&al=9182663&replay=0&vc=101141;101145;101152&protv=3.0&adoriginal=sohu&broadcastID=0&guid=1eaf2b46377b8eb6f1cd548fabff3354&sdkVersion=tv8.3.02-SNAPSHOT&isroot=false&floatwindow=0&playerMetrics=1080*607&vu=0&channeled=1000080005&gid=x010740210101471f4b8af41b0000f001eba0d6743ac&frontAdsTime=185&privacy=1&forbid=0&playstyle=1&battery=61&exten=1,2,3,4,5,6,7,8&offline=0&huawei_store_version=110501300&prot=vast&encrypt=0t2d1rdHrDBhpuBec7uHekygeprZEPUsTVt5hvBCnqnVeNMSZn2LZDr7GzxSV9vUhGls0Db8GZ4%3D&isBgPlay=0&player=1&c=tv&density=3.0&displayMetrics=1080*2340&encd=g6mEf%2Fw3AWjvgWudW3FoKbxAnS2CnHNhygaYXdKe7vIUDiBNRRV4kD9zIpxwOCDRkjitSQ4E2W%2FdZ17WzpGcIs4J5v2Mk6mDxyDCAYC40uBW%2BHmhbEGNi3Qmn8BJwOXfwnqUTJ68Cnr8qkO2GBiiXUKoDhKVRJ1EAxGZKMReRJYCqRvfIrv%2BbzE59meGl842zqeJPE4h69JmV8v9BOYe8YQHedzabyIMvihPqZ2%2FtrgbWNuduzAgqgqoIs4OqAJp%2BsRsauCSmw7fnLOOiyDGmMxIL9W65Jk5rSNPJ1Rtjatu%2BsYkuGbz7AbLbEKWwQ1oF%2FQNhEkN1g3MWK6WtpX5PAh3otxYMD4ASQvrPNik9EUEXTsMEd6bXPzPH%2BToZyOGxzL18QbTyd4FuU6UjFH6YtAqiyE5WwJJpXrpJR8reNGqHrOlW0y0QnGzfCP6Wm0PGykKfvCxGewqcOwb%2FFQjfM6b0OYoEDWFjb%2F%2BjYUeLIqyvRxk4dEM7zaqQ1OAgdKhXEY%2BghInznpVPXGc45TBWLbJ8UbnE0dEwF1C6h8WXnPVAJtXWEg1rcsxLQ%2BUqtVmNTJxH7S8tvo%2BHo66%2BbdEELxTQHSLOTjBZ%2F%2FRiabHFStMQkzR7Cwkx3DMlSygpMD37tFKpIMb%2F0Xz3K874cyRjAoG9Xfzzar3e%2F7BLVBjwLUlFeTUnd8Rb1wqX21Fiedh9p11Ngux%2BG8yKmJEQfmipqgEkvwDCHbwQDbZTwndfL3m1%2BwHwgzsAHMoLezsHYE5gQWPfh8YfqcwgW4HB565dSAVKUHLMrkh0GGHU9bv0NuYvBGpvbU1KDfWLOSSmOXAE3BQLTLDxkdf7QsaBnoN6eK%2FQC7Zr45OD%2F2zcsTCXFiojYzZ&sver=9.3.00&playerScale=0.5625&poid=1&audited_level=-1&uptime=3672178438&site=1&partner=93&build=9.3.00&appid=tv&inx=1&instream=0&ead=0', 'base_path': '/基准xml/mad/gphone中插加密广告返回.xml', 'isEncrypt': 1}" ]
+}

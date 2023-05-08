@@ -1,0 +1,53 @@
+{
+  "uid" : "ce70b067bcfbf2a0",
+  "name" : "test_diff[iphone迷你中插数据返回]",
+  "fullName" : "TestCase.Ad.minimad.test_iphone_minimad#test_diff",
+  "historyId" : "9a580e23e5a33f625f0f41b6aebbfb8f",
+  "time" : {
+    "start" : 1683527696620,
+    "stop" : 1683527696717,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.minimad"
+  }, {
+    "name" : "suite",
+    "value" : "test_iphone_minimad"
+  }, {
+    "name" : "host",
+    "value" : "weihuaguo1"
+  }, {
+    "name" : "thread",
+    "value" : "7856-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.minimad.test_iphone_minimad"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'iphone迷你中插数据返回', 'ad_url': 'm?pt=minimad&islocaltv=0&al=0&adoriginal=sohu&vu=0&channeled=1000022600&privacy=1&playstyle=2&offline=0&prot=json&c=tv&sver=9.8.30&poid=1&site=2&inx=1&appid=tv&bdprice=&adpr=0&build=9.8.30.0.7&density=3&displayMetrics=414%2A736&du=254&encd=5x3jfL94DHTbnQLhyI62bcmp%2BeW3rDvuALq2KK1xdQo/aEniPenRXirIxhddsUe8A0of4wsE/BAjKoPomPvis6ei/Gt1AFxpQLF4p3Q2Iotb1jw1/GupwenX7tOcw12E9jrkYwk798eFywlNmE6TZChh4gh%2BLRMnac40S7uYk50eiUu/vHBJVHXfWS5AqIDl2j4PYKhlsm3bdRnUVk8hZmKBqEVTsHASSzrre7kf/P9i0QVeVRJcH1YzQ%2BUZH1VqhQ7c4PqMddSlEtTx4OUW/tuVd4syLSuJuoAD4sRlc3JY4pMGjrEuZbsiX8dTBBnrDky3dQPHENPCHNnZx9WKgQFkD7okceiJDHB0%2BotPnOLeZcO1bIGxvtfDp0Kw0Ev9WTDnSTHF4cxxeWkbvGU5te6ml0KMIQtDl/Nt2HnATXM/Z4mY5g9qZG%2Bq5BRBsaQtrW2oXluKuJufAIkN0ieTyxFEpM2OAlzNCZvoI0/kd9ZfwLicDZcuGjZ64sbEpg8UsxKG5mn%2BG9vAgrROM8BHdufNLxC7mdplLRfeb3tB81ee1j/b%2B1MfOdV7wHyM1aDrpwZqLjSiMrX6VISapTxkYJbcTP8fYVJ72mLTABvboVniQ1qgziA7e4mwfDLT2HyyFzlQidhxgBWTpKIzInFyVXWAwyPB3I1exucBn7O/l0IR6Ptr8jZG0T7Tu/nVDYfdIih1WbSOLhgbM2Wizx%2BhSQDcrrf53ERuFQC8wUSiTUj5HgjPj6GeDn6efx1aoZIJB7j1wJiu4x8w2djTk%2BLd1qB3XD4WXi3545dgUZdF2LeNWeLPZRPS2MAyJd%2BiCSsRTgR2Nxj4ZrrdgAYoKFKBkuHoVbidmkbj1Onn9arr29uRcS3iOsnJe14qdjiC/8Ufz0bSGg%2BI/TBdY04aI0JkWLEwFw3KUrVfbMxsUBLMJUBHWDCpp5caY60tE38SucjtmOZb9LK0m1bm9kDLP0Ry50S1IqSxDM0MiZVpnOG37nEyVv0iGbbJ8uOwnUoBaB7AEZTZkcd44OXbT4meeO9TAq6Akg9tDO7j/R2XKoE08Pmy3itJ%2Bz3MlweXvr0fuP8XQIw7jyrWbHXwuInrQRE/f6%2BmosI%3D&ext=2096591&exten=1%2C2%2C3%2C4%2C7%2C8&guid=9e8d5d44e441f610f8097799a2bf9084&partner=6932&pay=0&plat=3&playerMetrics=960%2A540&playerScale=0.562&protv=3.0&ptime=0&screenstate=1&sdkVersion=12.3.5&system_type=0&ugcode2=MCSOTk%253Dr0mM95%252D%252D2iV3r1kz6urskepd2aQfTTAmBOLeZ47O8vrpILfXwdA0894WeK3D59nJdPxmpw%252E%252E&userid=346640781&vc=305300&vid=401341473&videoType=m3u8&cache_count=0&instream=1&broadcastID=', 'base_path': '/基准xml/minimad/iphone迷你中插数据返回.json', 'isEncrypt': 0, 'isJson': 1}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce70b067bcfbf2a0.json",
+  "parameterValues" : [ "{'title': 'iphone迷你中插数据返回', 'ad_url': 'm?pt=minimad&islocaltv=0&al=0&adoriginal=sohu&vu=0&channeled=1000022600&privacy=1&playstyle=2&offline=0&prot=json&c=tv&sver=9.8.30&poid=1&site=2&inx=1&appid=tv&bdprice=&adpr=0&build=9.8.30.0.7&density=3&displayMetrics=414%2A736&du=254&encd=5x3jfL94DHTbnQLhyI62bcmp%2BeW3rDvuALq2KK1xdQo/aEniPenRXirIxhddsUe8A0of4wsE/BAjKoPomPvis6ei/Gt1AFxpQLF4p3Q2Iotb1jw1/GupwenX7tOcw12E9jrkYwk798eFywlNmE6TZChh4gh%2BLRMnac40S7uYk50eiUu/vHBJVHXfWS5AqIDl2j4PYKhlsm3bdRnUVk8hZmKBqEVTsHASSzrre7kf/P9i0QVeVRJcH1YzQ%2BUZH1VqhQ7c4PqMddSlEtTx4OUW/tuVd4syLSuJuoAD4sRlc3JY4pMGjrEuZbsiX8dTBBnrDky3dQPHENPCHNnZx9WKgQFkD7okceiJDHB0%2BotPnOLeZcO1bIGxvtfDp0Kw0Ev9WTDnSTHF4cxxeWkbvGU5te6ml0KMIQtDl/Nt2HnATXM/Z4mY5g9qZG%2Bq5BRBsaQtrW2oXluKuJufAIkN0ieTyxFEpM2OAlzNCZvoI0/kd9ZfwLicDZcuGjZ64sbEpg8UsxKG5mn%2BG9vAgrROM8BHdufNLxC7mdplLRfeb3tB81ee1j/b%2B1MfOdV7wHyM1aDrpwZqLjSiMrX6VISapTxkYJbcTP8fYVJ72mLTABvboVniQ1qgziA7e4mwfDLT2HyyFzlQidhxgBWTpKIzInFyVXWAwyPB3I1exucBn7O/l0IR6Ptr8jZG0T7Tu/nVDYfdIih1WbSOLhgbM2Wizx%2BhSQDcrrf53ERuFQC8wUSiTUj5HgjPj6GeDn6efx1aoZIJB7j1wJiu4x8w2djTk%2BLd1qB3XD4WXi3545dgUZdF2LeNWeLPZRPS2MAyJd%2BiCSsRTgR2Nxj4ZrrdgAYoKFKBkuHoVbidmkbj1Onn9arr29uRcS3iOsnJe14qdjiC/8Ufz0bSGg%2BI/TBdY04aI0JkWLEwFw3KUrVfbMxsUBLMJUBHWDCpp5caY60tE38SucjtmOZb9LK0m1bm9kDLP0Ry50S1IqSxDM0MiZVpnOG37nEyVv0iGbbJ8uOwnUoBaB7AEZTZkcd44OXbT4meeO9TAq6Akg9tDO7j/R2XKoE08Pmy3itJ%2Bz3MlweXvr0fuP8XQIw7jyrWbHXwuInrQRE/f6%2BmosI%3D&ext=2096591&exten=1%2C2%2C3%2C4%2C7%2C8&guid=9e8d5d44e441f610f8097799a2bf9084&partner=6932&pay=0&plat=3&playerMetrics=960%2A540&playerScale=0.562&protv=3.0&ptime=0&screenstate=1&sdkVersion=12.3.5&system_type=0&ugcode2=MCSOTk%253Dr0mM95%252D%252D2iV3r1kz6urskepd2aQfTTAmBOLeZ47O8vrpILfXwdA0894WeK3D59nJdPxmpw%252E%252E&userid=346640781&vc=305300&vid=401341473&videoType=m3u8&cache_count=0&instream=1&broadcastID=', 'base_path': '/基准xml/minimad/iphone迷你中插数据返回.json', 'isEncrypt': 0, 'isJson': 1}" ]
+}
