@@ -2,7 +2,6 @@
 
 import pytest
 import os
-import pytest_html
 
 if __name__ == '__main__':
     # s输出打印信息，v输出详细信息。不指定则运行所有
