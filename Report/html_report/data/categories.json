@@ -7,13 +7,13 @@
       "name" : "AssertionError: assert {'dictionary_...value': '3'}}} == {}\n  Left contains 2 more items:\n  {'dictionary_item_removed': [root['CompanionClickThrough'], root['MultiClickTracking'], root['CompanionClickTracking'], root['TrackingEvents'], root['Tracking'], root['SupportDeepLink'], root['StaticResource'][1]['att']['creativeType']],\n   'values_changed': {\"root['Hardflag'][1]['text']\": {'new_value': '0',\n                                                      'old_value': '3'},\n                      \"root['Impression'][1]['text']\": {'new_value': 'http://mmg.aty.sohu.com/pvlog?uv=8d3af4834afeae31&uuid=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&UUID=58f44790-4753-49d0-8c88...\n  \n  ...Full output truncated (5 lines hidden), use '-vv' to show",
       "children" : [ {
         "name" : "test_diff[gphone焦点图数据返回]",
-        "uid" : "a9afad2508029f93",
+        "uid" : "273f5546608045de",
         "parentUid" : "18df9c67d8eecf1ec56fdeb40fc2bc03",
         "status" : "failed",
         "time" : {
-          "start" : 1683528674689,
-          "stop" : 1683528674735,
-          "duration" : 46
+          "start" : 1683529216758,
+          "stop" : 1683529216808,
+          "duration" : 50
         },
         "flaky" : true,
         "parameters" : [ "{'title': 'gphone焦点图数据返回', 'ad_url': 'm?gid=x01074021010155d76afe881200086fca9307185826e&pt=focus&privacy=1&forbid=0&battery=30&exten=1,2,3,4,5,6,7,8&offline=0&prot=vast&encrypt=AkOgXZDPvuMDkJnM3iJZMX42tHEA9EhclmDbVELmy5qQRamOVH9UpBfV4VGZ2%2FexcKyZEQIY6zY%3D&plat=6&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&brand=Xiaomi&ext=2097151&c=tv&density=2.75&displayMetrics=1080*2340&encd=CsPS0QTTtjI4rpA68tSuN%2FCVznrZkE47U4AsKQeY74svoJB26ptD1hJ16YJAP2CGHEkgKQfHzyjlxgq%2BnvWbDgyfbAdlrr5JU%2B19KPUQtysMRmHINuZWy0hCzQqGXPpfhOrwi9NgmB2mndCjw4vihATrW8%2F%2F%2Bf74jUWYZ1zR5Bth8gISP0ts3MsiAhfEZhSTeym0GefcNoRhtzNayfhvyEWJrIFEwYbEeyME%2FqV44TJ%2FFQeVl0Hu8l%2FIimo3M27uo1bbshOp0Nztm188aoetUhRxmNP9qrxCG9pX2ockTQ3iICnptWDpXWBRuda5N5Aogice%2B%2Bp3cpgWOmLNf%2BHCaC1nOajTfy6X06Mv8rZvDYKEva62faI%2FRtYIBM2jXg0bwxjX2SK5uqrYg2OfeD5KSLV%2FDCpHK0VXdObOR%2BZbWTvn8JeKKyM7yCaSda20CXaVkykvL8yH4mOMXwNmRcsc1M2Hwg2bGBEJCnRh6eotwRUpgzQYKKxVzpgC23hWrA0Jzrnlls7MM8FD%2BrNln3QEZQuhv%2BgFgsXVpOET%2FC%2BUgc0LtJrcZUs602NKo89n%2BkByMj9Y747jV0w%2FZP0thNjqq%2FgtboDvu5%2FEAbjfEnDxZTdFMABPYSGMbjpA2sw077baUcKs5P5BRMzIfseOaf2iAie6B9208XO7JS9qgE3%2Fe5oUPfsC5IFhd4nVHSQzjabJc7TSBXsmYAOoyKkAC9zmUFw%2BxslKRlz8EkCXou%2FcCVeDjV9c%2Bac%2Fcw%3D%3D&poscode=15705%7C15706&sver=9.7.20&poid=1&uptime=1664576017&protv=3.0&partner=93&adoriginal=sohu&build=9.7.20&appid=tv&guid=null&sdkVersion=tv7.6.90-SNAPSHOT&isroot=false&catecode=ad1', 'base_path': '/基准xml/focus/gphone焦点图数据返回.xml', 'isEncrypt': 0}" ]
@@ -23,94 +23,18 @@
       "name" : "AssertionError: assert {'dictionary_...value': '3'}}} == {}\n  Left contains 2 more items:\n  {'dictionary_item_removed': [root['CompanionClickThrough'], root['MultiClickTracking'], root['CompanionClickTracking'], root['TrackingEvents'], root['Tracking'], root['SupportDeepLink'], root['StaticResource'][1]['att']['creativeType']],\n   'values_changed': {\"root['Hardflag'][1]['text']\": {'new_value': '0',\n                                                      'old_value': '3'},\n                      \"root['Impression'][1]['text']\": {'new_value': 'http://mmg.aty.sohu.com/pvlog?plat=6&sver=9.7.20&partner=93&poid=1&adplat=3&prot=vast&protv=3.0&build=9.7.20&adoriginal=sohu&sdkVersi...\n  \n  ...Full output truncated (5 lines hidden), use '-vv' to show",
       "children" : [ {
         "name" : "test_diff[gphone焦点图加密数据返回]",
-        "uid" : "c3391783227c2a9e",
+        "uid" : "7a224d6f14494123",
         "parentUid" : "42b6d2ca5defed4c0f16aaed400a12e5",
         "status" : "failed",
         "time" : {
-          "start" : 1683528674803,
-          "stop" : 1683528674838,
-          "duration" : 35
+          "start" : 1683529216882,
+          "stop" : 1683529216921,
+          "duration" : 39
         },
         "flaky" : true,
         "parameters" : [ "{'title': 'gphone焦点图加密数据返回', 'ad_url': 'm?gid=x01074021010155d76afe881200086fca9307185826e&pt=focus&privacy=1&forbid=0&battery=30&exten=1,2,3,4,5,6,7,8&offline=0&prot=vast&encrypt=AkOgXZDPvuMDkJnM3iJZMX42tHEA9EhclmDbVELmy5qQRamOVH9UpBfV4VGZ2%2FexcKyZEQIY6zY%3D&plat=6&UUID=58f44790-4753-49d0-8c88-9936bb5d29771656406113530&brand=Xiaomi&ext=2097151&c=tv&density=2.75&displayMetrics=1080*2340&encd=CsPS0QTTtjI4rpA68tSuN%2FCVznrZkE47U4AsKQeY74svoJB26ptD1hJ16YJAP2CGHEkgKQfHzyjlxgq%2BnvWbDgyfbAdlrr5JU%2B19KPUQtysMRmHINuZWy0hCzQqGXPpfhOrwi9NgmB2mndCjw4vihATrW8%2F%2F%2Bf74jUWYZ1zR5Bth8gISP0ts3MsiAhfEZhSTeym0GefcNoRhtzNayfhvyEWJrIFEwYbEeyME%2FqV44TJ%2FFQeVl0Hu8l%2FIimo3M27uo1bbshOp0Nztm188aoetUhRxmNP9qrxCG9pX2ockTQ3iICnptWDpXWBRuda5N5Aogice%2B%2Bp3cpgWOmLNf%2BHCaC1nOajTfy6X06Mv8rZvDYKEva62faI%2FRtYIBM2jXg0bwxjX2SK5uqrYg2OfeD5KSLV%2FDCpHK0VXdObOR%2BZbWTvn8JeKKyM7yCaSda20CXaVkykvL8yH4mOMXwNmRcsc1M2Hwg2bGBEJCnRh6eotwRUpgzQYKKxVzpgC23hWrA0Jzrnlls7MM8FD%2BrNln3QEZQuhv%2BgFgsXVpOET%2FC%2BUgc0LtJrcZUs602NKo89n%2BkByMj9Y747jV0w%2FZP0thNjqq%2FgtboDvu5%2FEAbjfEnDxZTdFMABPYSGMbjpA2sw077baUcKs5P5BRMzIfseOaf2iAie6B9208XO7JS9qgE3%2Fe5oUPfsC5IFhd4nVHSQzjabJc7TSBXsmYAOoyKkAC9zmUFw%2BxslKRlz8EkCXou%2FcCVeDjV9c%2Bac%2Fcw%3D%3D&poscode=15705%7C15706&sver=9.7.20&poid=1&uptime=1664576017&protv=3.0&partner=93&adoriginal=sohu&build=9.7.20&appid=tv&guid=null&sdkVersion=tv8.6.90-SNAPSHOT&isroot=false&catecode=ad1', 'base_path': '/基准xml/focus/gphone焦点图加密数据返回.xml', 'isEncrypt': 1}" ]
       } ],
       "uid" : "42b6d2ca5defed4c0f16aaed400a12e5"
-    }, {
-      "name" : "AssertionError: assert {'dictionary_... 'text': ''}}} == {}\n  Left contains 5 more items:\n  {'dictionary_item_added': [root['CompanionAds'][0]['att']['more'], root['CompanionAds'][1]['att']['more'], root['CompanionAds'][2]['att']['more'], root['CompanionAds'][4]['att']['more'], root['CompanionAds'][5]['att']['more']],\n   'dictionary_item_removed': [root['Linear'], root['Duration'], root['MediaFile'], root['VideoClicks'], root['ClickThrough'], root['Tracking'], root['CompanionClickThrough'], root['MultiClickTracking'], root['CompanionClickTracking'], root['Advertiser'], root['SupportDeepLink'], root['Hardflag'], root['Excluded'], root['ClickTracking'], root['Ad'][0...\n  \n  ...Full output truncated (100 lines hidden), use '-vv' to show",
-      "children" : [ {
-        "name" : "test_diff[测试gphone首页框外加密返回]",
-        "uid" : "cf5eb6048a42aec6",
-        "parentUid" : "0ec604246d0278d803297f2568a1103c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1683528676094,
-          "stop" : 1683528676401,
-          "duration" : 307
-        },
-        "flaky" : false,
-        "parameters" : [ "{'title': '测试gphone首页框外加密返回', 'ad_url': 'm?container=1&timetag=1640329570231&pt=mp&pagecount=0&huawei_hms_version=60200302&vid=null&plat=6&gbcode=null&ext=1048575&scs=108002340&vc=0&ugcode2=null&protv=3.0&adoriginal=sohu&guid=null&sdkVersion=tv8.3.10-SNAPSHOT&catecode=0&gid=x010740210101475640008c580004d6ac70b882eb698&sdkv=tv8.3.10-SNAPSHOT&privacy=1&forbid=0&turn=103&exten=1,2,3,4,5,6,7,8&tvpid=93&huawei_store_version=110501300&prot=vast&adslotid=15133%7C15134%7C15135%7C15726%7Csw_1%7Cnav_1&c=tv&displayMetrics=1080*2340&density=3.0&encd=9fCghDgEFk9V9vH1kTSneIyofGs72Jlaw2Y0sT5p3syT%2BjGJ9dbZVRxuJUsjx%2Bli0%2FtHxzRdu%2FVjAipFRus0GP8gPtkjdwZjky9BbYB4%2Fb6%2B3q5HiWnkz4Wz2L644QrU2x7xTj4DcddDoMpd22QLouMcQFOb%2BfbHetoDG656F4zaQexdO13XNYfQeYqJSu%2Fzgv9GgpZFjNOS0mR%2FekpJd5%2BrCYx0MMtCOJBoVNf2tqGBBiPzaLuNjafqvnI9u0zjH29j4W%2FCU9lZm2HiNcPDeJt3EKvoZkBhDHFYQVuXsQIEoaZ17lgkiGYljhuj%2FWEYnG3p4gp2XBDbre4EpqHt%2BXg0%2FP08ogDujeNPfu%2FGAwov1lil8PdWZONeabbi3nkM98UV3kU%2BpntJQcIb2gmJUsKwaR9ETdi8aiFLw2lCTjIGYaDmJ93xmfrmQTMMZKsSnc4AHHsH4OcW7jDz12a7lfi1J0yCoukDUOZ15QBScCLi0eiX%2BuFnKNsvttu%2FCX%2BcSZHwn%2BOzOicBjpVa4YOT0VMs6jK3VeoFRILKXqmwZ5tj4oeXOWsEYiM76yzxg9RVO6ivd2e12Y5IniU02lD3zZQR6Tv6lQ8SK%2ByrOVzOyi%2FF8%2B%2F%2FkBCj3J6qWrDyMNKWf1jm3QBZPfFEWgdDugfnRQbc%2BShFL1%2BlqUAh9lttAAlGsJBWjygi9%2F%2FA77opblEfkLWjyrAAlUeDLjcb11jpZFsRrxYe0zXi9796hUGcW6u0q7tDAAUS1OEC59qTNq23TiBJ1WmuCPXYWhaCA4eUxLzi5NTQytG19f1QWtYNPZ4%3D&sver=9.3.00&poid=1&uptime=3847479315&site=null&partner=93&build=9.3.00&appid=tv', 'base_path': '/基准xml/mainPage/测试gphone首页框外加密返回.xml', 'isEncrypt': 1}" ]
-      } ],
-      "uid" : "0ec604246d0278d803297f2568a1103c"
-    }, {
-      "name" : "AssertionError: assert {'dictionary_... 'text': ''}}} == {}\n  Left contains 5 more items:\n  {'dictionary_item_added': [root['Description'], root['AltText'], root['CompanionAds'][0]['att']['more'], root['CompanionAds'][1]['att']['more'], root['CompanionAds'][2]['att']['more'], root['CompanionAds'][3]['att']['more'], root['CompanionAds'][4]['att']['more'], root['CompanionAds'][5]['att']['more']],\n   'dictionary_item_removed': [root['Linear'], root['Duration'], root['MediaFile'], root['VideoClicks'], root['ClickThrough'], root['Tracking'], root['CompanionClickThrough'], root['MultiClickTracking'], root['CompanionClickTracking'], root['Advertiser'], root['SupportDeepL...\n  \n  ...Full output truncated (98 lines hidden), use '-vv' to show",
-      "children" : [ {
-        "name" : "test_diff[测试iphone首页框外返回]",
-        "uid" : "cdb9764268f2efa0",
-        "parentUid" : "09f0c3b47a647012bff77888c32e108a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1683528676410,
-          "stop" : 1683528676733,
-          "duration" : 323
-        },
-        "flaky" : false,
-        "parameters" : [ "{'title': '测试iphone首页框外返回', 'ad_url': 'm?&adpr=0&adslotid=15133%7C15134%7C15135%7C15726%7Csw_1%7Cnav_1&appid=tv&appv=9.3.00&c=tv&clientType=2&container=1&cv=9.3.00&density=3&displayMetrics=414%2A736&encd=rnxrqzAiaVhWwPbwl2nkF/x2y0eULBSFsMYREiw/OQqodAk3C9DJFJgkEMizBKe31uSInbmBy8t6HKe8%2BSh0hDurk6IpUKEaFqjNP2egurgCnttektSknDq15M7MHhtecj1y1LFdI0fxZDf7obISl%2B7coWtp54aoHmSf6au3N00SE7j5VaS%2B6uRQCGkwThmpRftDWZNjzeJieAtlj9ZKkTtkNg9l%2BFZf%2Bf/hOwl3itD1eSeoQ05418um4xdQSfgZGmbkXdwselSJnuQUFP0F9ajRi8eQWs5dNO5mHxIJf0lGD4YMo/hVzdZaSBSjb373PYc%2BD2op6HhjlO%2By1LCtw6WsDwq%2BLsb%2B7qqR1lBvXEX5dVUZKQMOgvp7t0sfoijKjPIm41jjbRtK3Ix2zai8q7tnVGMPe6Y/aLHlwCpO3qDOoQyWS1m3vQxMISk%2BsLW3y22r%2BNTqw1M%2BfzKVpOK42D3VAOXLfihREdnac4F/gQHfGEHe73NRj461qZICCY/Ef8gHlFlgwW3RzzLXtyeSE9VGPGaFpZrq6rbD5M7/jlKc%2BtdoqVYAjfhrlU1Zvp7/yItvb3REj314c7gPU07B2hbdjjAvuki0zXCzlA6k6IpVEjWCLM5RxtActF390gawDBYbN6%2BKqdHWbNlR1tQmezmOMod67a3cEbAyptEYwqv3N5xufh/7sSyx85bvM0JUT7Jecm7188Vy2IMZ&guid=&islocaltv=0&offline=0&os=iOS&partner=6932&pay=0&plat=3&poid=1&privacy=1&prot=vast&pt=mp&scs=124202208&sdkv=13.7.0&sver=9.3.00&system_type=0&timetag=1640575376983&turn=96&vc=0&videoType=m3u8&vu=0', 'base_path': '/基准xml/mainPage/测试iphone首页框外返回.xml', 'isEncrypt': 0}" ]
-      } ],
-      "uid" : "09f0c3b47a647012bff77888c32e108a"
-    }, {
-      "name" : "AssertionError: assert {'dictionary_...ag': 'sohu'}}} == {}\n  Left contains 4 more items:\n  {'dictionary_item_added': [root['ads'][0]['ad'][0]['adgroup']['def_code']],\n   'dictionary_item_removed': [root['ads'][0]['ad'][0]['template'], root['ads'][0]['ad'][0]['creatives'], root['ads'][0]['ad'][0]['click_monitor'], root['ads'][0]['ad'][0]['landing_url'], root['ads'][0]['ad'][0]['adgroup']['lineid'], root['ads'][0]['ad'][0]['adgroup']['advid'], root['ads'][0]['ad'][0]['adgroup']['saletype'], root['ads'][0]['ad'][0]['adgroup']['campaignid'], root['ads'][0]['ad'][0]['adgroup']['tradetype'], root['ads'][0]['ad'][0]['ext']['hardflag'], root['ads'][0]['ad'][0]['ext']['di...\n  \n  ...Full output truncated (22 lines hidden), use '-vv' to show",
-      "children" : [ {
-        "name" : "test_diff[gphone迷你中插数据返回]",
-        "uid" : "f22489afb9e2d3",
-        "parentUid" : "4be3a1c0194720a8d3c1ebd1269fba3f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1683528676997,
-          "stop" : 1683528677252,
-          "duration" : 255
-        },
-        "flaky" : false,
-        "parameters" : [ "{'title': 'gphone迷你中插数据返回', 'ad_url': 'm?pt=minimad&source=1000022600&huawei_hms_version=61000312&userid=19380060&vid=342687517&du=65.0&isFoldDevice=0&plat=6&UUID=03e21b99-3b44-4fc0-a8ff-98a9f2dd58d31679296455924&brand=HUAWEI&ext=2097151&islocaltv=0&al=0&replay=0&vc=309300&ugcode2=MCFOTk=pejoVlRdNYXgvWb8SZkwNC-LdiZTYz4kuVNxyYHa4JSvKhRSzgnu4OWIlSJpPhk0dUpEoA..&adoriginal=sohu&broadcastID=0&guid=319a7706efe318784a139df9cbce4ed2&sdkVersion=tv7.4.81&playerMetrics=1080*607&vu=0&channeled=1000022600&gid=x0107402101016b630b9fec1400033df46b2d1537be2&frontAdsTime=185&privacy=1&forbid=0&playstyle=2&exten=1,2,3,4,5,6,7,8&offline=0&huawei_store_version=130001301&prot=json&isBgPlay=0&player=0&c=tv&density=3.0&displayMetrics=1080*2340&encd=VcAQ3MNK7L1UIzrf%2FoH43aOhhVrnJUJxbIT5nvH0znOwNQHzZ0h4fpVhA5O6EtGTHo6g2uvhraxIXqcCh%2BtROViSiYc7jmOqHMjZA7jBIYmlwGu91hBuGml3JHZxe%2FRw1dAWP%2FwOveGsg0yKijLkHqTwzZbYO9sEZehqloF9oj9yV7j9%2FD2uD7Ta5MTUQPVpSD9P7gCS7BjlEQzdtI5wyQwkdzfesqF8vvRkMu6UBPtfaWTEWIJ41MTeMsTWaT9hQST9ucGaLaEOdX7g6iVK2N0lih71KkrfVWWabJNUy%2BILmm%2BQf6LV3IS1lbBNCF3vao8foURLr7c0hMZXCWKcyoj50%2FNl5BQ5u%2BcV2iDLI8HkpqPE%2BH1s%2F6AKw6M6bZllqnZPS7zm3SFpePFWsAdOaZM6SZ8UdYILjizTlAO6l9kT0hWuEppqxKsCb%2BD7H3xm6N683Hb4peDTy9N5jt0ilrVQVsMIeX%2BqiKEaaVGiexA%2BhHluCpdWOVU7bPCjh1QqDBSBJ0EcYgzTykFRnQZsMw224YBDi6eccz%2BC5pKqq9DpavEAYmHtbnYlndGXquxNzFuu3skew%2F79lzgzigcS5E7GeDebjYHFYXWo1zCowxpfKjVB2ZQip3AVbXIut6DxvBHQ7%2BTACUZ3Y70ckeRRRm4CS9%2B38iwZ2E%2FnRKW6jTqRuSlfxtwWUNY8KhY%2B0ao1pFrqF22jLq486WkquZf6xKfgPQW3wpF0zrkW4zoGFkvKdK6bdCv%2BKq9tO9kECDZF&sver=9.8.30&poscode=90010&playerScale=0.5625&poid=1&audited_level=-1&uptime=1687815794&site=2&inx=1&partner=93&build=9.8.30&appid=tv&instream=1', 'base_path': '/基准xml/minimad/gphone迷你中插数据返回.json', 'isEncrypt': 0, 'isJson': 1}" ]
-      }, {
-        "name" : "test_diff[iphone迷你中插数据返回]",
-        "uid" : "51a1d0818acc9d5f",
-        "parentUid" : "4be3a1c0194720a8d3c1ebd1269fba3f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1683528677365,
-          "stop" : 1683528677617,
-          "duration" : 252
-        },
-        "flaky" : false,
-        "parameters" : [ "{'title': 'iphone迷你中插数据返回', 'ad_url': 'm?pt=minimad&islocaltv=0&al=0&adoriginal=sohu&vu=0&channeled=1000022600&privacy=1&playstyle=2&offline=0&prot=json&c=tv&sver=9.8.30&poid=1&site=2&inx=1&appid=tv&bdprice=&adpr=0&build=9.8.30.0.7&density=3&displayMetrics=414%2A736&du=254&encd=5x3jfL94DHTbnQLhyI62bcmp%2BeW3rDvuALq2KK1xdQo/aEniPenRXirIxhddsUe8A0of4wsE/BAjKoPomPvis6ei/Gt1AFxpQLF4p3Q2Iotb1jw1/GupwenX7tOcw12E9jrkYwk798eFywlNmE6TZChh4gh%2BLRMnac40S7uYk50eiUu/vHBJVHXfWS5AqIDl2j4PYKhlsm3bdRnUVk8hZmKBqEVTsHASSzrre7kf/P9i0QVeVRJcH1YzQ%2BUZH1VqhQ7c4PqMddSlEtTx4OUW/tuVd4syLSuJuoAD4sRlc3JY4pMGjrEuZbsiX8dTBBnrDky3dQPHENPCHNnZx9WKgQFkD7okceiJDHB0%2BotPnOLeZcO1bIGxvtfDp0Kw0Ev9WTDnSTHF4cxxeWkbvGU5te6ml0KMIQtDl/Nt2HnATXM/Z4mY5g9qZG%2Bq5BRBsaQtrW2oXluKuJufAIkN0ieTyxFEpM2OAlzNCZvoI0/kd9ZfwLicDZcuGjZ64sbEpg8UsxKG5mn%2BG9vAgrROM8BHdufNLxC7mdplLRfeb3tB81ee1j/b%2B1MfOdV7wHyM1aDrpwZqLjSiMrX6VISapTxkYJbcTP8fYVJ72mLTABvboVniQ1qgziA7e4mwfDLT2HyyFzlQidhxgBWTpKIzInFyVXWAwyPB3I1exucBn7O/l0IR6Ptr8jZG0T7Tu/nVDYfdIih1WbSOLhgbM2Wizx%2BhSQDcrrf53ERuFQC8wUSiTUj5HgjPj6GeDn6efx1aoZIJB7j1wJiu4x8w2djTk%2BLd1qB3XD4WXi3545dgUZdF2LeNWeLPZRPS2MAyJd%2BiCSsRTgR2Nxj4ZrrdgAYoKFKBkuHoVbidmkbj1Onn9arr29uRcS3iOsnJe14qdjiC/8Ufz0bSGg%2BI/TBdY04aI0JkWLEwFw3KUrVfbMxsUBLMJUBHWDCpp5caY60tE38SucjtmOZb9LK0m1bm9kDLP0Ry50S1IqSxDM0MiZVpnOG37nEyVv0iGbbJ8uOwnUoBaB7AEZTZkcd44OXbT4meeO9TAq6Akg9tDO7j/R2XKoE08Pmy3itJ%2Bz3MlweXvr0fuP8XQIw7jyrWbHXwuInrQRE/f6%2BmosI%3D&ext=2096591&exten=1%2C2%2C3%2C4%2C7%2C8&guid=9e8d5d44e441f610f8097799a2bf9084&partner=6932&pay=0&plat=3&playerMetrics=960%2A540&playerScale=0.562&protv=3.0&ptime=0&screenstate=1&sdkVersion=12.3.5&system_type=0&ugcode2=MCSOTk%253Dr0mM95%252D%252D2iV3r1kz6urskepd2aQfTTAmBOLeZ47O8vrpILfXwdA0894WeK3D59nJdPxmpw%252E%252E&userid=346640781&vc=305300&vid=401341473&videoType=m3u8&cache_count=0&instream=1&broadcastID=', 'base_path': '/基准xml/minimad/iphone迷你中插数据返回.json', 'isEncrypt': 0, 'isJson': 1}" ]
-      } ],
-      "uid" : "4be3a1c0194720a8d3c1ebd1269fba3f"
-    }, {
-      "name" : "AssertionError: assert {'dictionary_... 'event': 4}}} == {}\n  Left contains 4 more items:\n  {'dictionary_item_added': [root['ads'][0]['ad'][0]['adgroup']['def_code']],\n   'dictionary_item_removed': [root['ads'][0]['ad'][0]['landing_url'], root['ads'][0]['ad'][0]['creatives'], root['ads'][0]['ad'][0]['click_monitor'], root['ads'][0]['ad'][0]['template'], root['ads'][0]['ad'][0]['adgroup']['advid'], root['ads'][0]['ad'][0]['adgroup']['campaignid'], root['ads'][0]['ad'][0]['adgroup']['lineid'], root['ads'][0]['ad'][0]['adgroup']['tradetype'], root['ads'][0]['ad'][0]['adgroup']['saletype'], root['ads'][0]['ad'][0]['ext']['skipoffset'], root['ads'][0]['ad'][0]['ext']['...\n  \n  ...Full output truncated (22 lines hidden), use '-vv' to show",
-      "children" : [ {
-        "name" : "test_diff[iphone迷你中插加密数据返回]",
-        "uid" : "239902b5e9273113",
-        "parentUid" : "52757ff12d7d53d06907f33ab0492a9b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1683528677626,
-          "stop" : 1683528677886,
-          "duration" : 260
-        },
-        "flaky" : false,
-        "parameters" : [ "{'title': 'iphone迷你中插加密数据返回', 'ad_url': 'm?pt=minimad&adoriginal=sohu&adpr=0&al=0&appid=tv&build=9.8.30.0.7&c=tv&channeled=1000022600&density=3&displayMetrics=414%2A736&du=254&encd=5x3jfL94DHTbnQLhyI62bcmp%2BeW3rDvuALq2KK1xdQo/aEniPenRXirIxhddsUe8A0of4wsE/BAjKoPomPvis6ei/Gt1AFxpQLF4p3Q2Iotb1jw1/GupwenX7tOcw12E9jrkYwk798eFywlNmE6TZChh4gh%2BLRMnac40S7uYk50eiUu/vHBJVHXfWS5AqIDl2j4PYKhlsm3bdRnUVk8hZmKBqEVTsHASSzrre7kf/P9i0QVeVRJcH1YzQ%2BUZH1VqhQ7c4PqMddSlEtTx4OUW/tuVd4syLSuJuoAD4sRlc3JY4pMGjrEuZbsiX8dTBBnrDky3dQPHENPCHNnZx9WKgQFkD7okceiJDHB0%2BotPnOLeZcO1bIGxvtfDp0Kw0Ev9WTDnSTHF4cxxeWkbvGU5te6ml0KMIQtDl/Nt2HnATXM/Z4mY5g9qZG%2Bq5BRBsaQtrW2oXluKuJufAIkN0ieTyxFEpM2OAlzNCZvoI0/kd9ZfwLicDZcuGjZ64sbEpg8UsxKG5mn%2BG9vAgrROM8BHdufNLxC7mdplLRfeb3tB81ee1j/b%2B1MfOdV7wHyM1aDrpwZqLjSiMrX6VISapTxkYJbcTP8fYVJ72mLTABvboVniQ1qgziA7e4mwfDLT2HyyFzlQidhxgBWTpKIzInFyVXWAwyPB3I1exucBn7O/l0IR6Ptr8jZG0T7Tu/nVDYfdIih1WbSOLhgbM2Wizx%2BhSQDcrrf53ERuFQC8wUSiTUj5HgjPj6GeDn6efx1aoZIJB7j1wJiu4x8w2djTk%2BLd1qB3XD4WXi3545dgUZdF2LeNWeLPZRPS2MAyJd%2BiCSsRTgR2Nxj4ZrrdgAYoKFKBkuHoVbidmkbj1Onn9arr29uRcS3iOsnJe14qdjiC/8Ufz0bSGg%2BI/TBdY04aI0JkWLEwFw3KUrVfbMxsUBLMJUBHWDCpp5caY60tE38SucjtmOZb9LK0m1bm9kDLP0Ry50S1IqSxDM0MiZVpnOG37nEyVv0iGbbJ8uOwnUoBaB7AEZTZkcd44OXbT4meeO9TAq6Akg9tDO7j/R2XKoE08Pmy3itJ%2Bz3MlweXvr0fuP8XQIw7jyrWbHXwuInrQRE/f6%2BmosI%3D&ext=2096591&exten=1%2C2%2C3%2C4%2C7%2C8&guid=9e8d5d44e441f610f8097799a2bf9084&inx=1&islocaltv=0&offline=0&partner=6932&pay=0&plat=3&playerMetrics=960%2A540&playerScale=0.562&playstyle=2&poid=1&privacy=1&prot=json&protv=3.0&ptime=0&screenstate=1&sdkVersion=15.3.5&site=2&sver=9.8.30&system_type=0&ugcode2=MCSOTk%253Dr0mM95%252D%252D2iV3r1kz6urskepd2aQfTTAmBOLeZ47O8vrpILfXwdA0894WeK3D59nJdPxmpw%252E%252E&userid=346640781&vc=305300&vid=401341473&videoType=m3u8&vu=0&cache_count=0&bdprice=&instream=1&broadcastID=', 'base_path': '/基准xml/minimad/iphone迷你中插加密数据返回.json', 'isEncrypt': 1, 'isJson': 1}" ]
-      } ],
-      "uid" : "52757ff12d7d53d06907f33ab0492a9b"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

@@ -2,6 +2,12 @@
 
 import pytest
 import os
+import sys
+
+
+curPath=os.path.abspath(os.path.dirname(__file__))
+rootPath=os.path.split(curPath)[0]
+sys.path.append(rootPath)
 
 if __name__ == '__main__':
     # s输出打印信息，v输出详细信息。不指定则运行所有
