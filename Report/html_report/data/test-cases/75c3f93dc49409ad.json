@@ -1,0 +1,53 @@
+{
+  "uid" : "75c3f93dc49409ad",
+  "name" : "test_diff[iphone前贴可跳过数据返回]",
+  "fullName" : "TestCase.Ad.oad.test_iphone_oadKeTiaoGuo#test_diff",
+  "historyId" : "72782a55b635276ae91fbfdd6a8a2800",
+  "time" : {
+    "start" : 1683528658275,
+    "stop" : 1683528658352,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.oad"
+  }, {
+    "name" : "suite",
+    "value" : "test_iphone_oadKeTiaoGuo"
+  }, {
+    "name" : "host",
+    "value" : "weihuaguo1"
+  }, {
+    "name" : "thread",
+    "value" : "12192-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.oad.test_iphone_oadKeTiaoGuo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'iphone前贴可跳过数据返回', 'ad_url': 'm?pt=oad&VU=0&adoriginal=sohu&adpr=0&al=9016646&appid=tv&audited_level=0&build=9.6.20.0.1&c=tv&channeled=1000080003&density=3&displayMetrics=414%2A736&du=2852.615966796875&encd=XuG4piPTCDvDaeDVgOL7DvKH3QxiL5sNbaRtZ7VZ7wzga86tyFlVBxQyuIDZF8oeCOlpcadmC8MDmAbuLGplDzIrJIGxICWVPnQ1yY5kZqh%2BvzHeoxYOR9gX358Zcth6eGKZ92Lto%2BrlGkQa0zuxlkpo8siuouchfTpyKwVm2nIMS5QhAySHW6r9QUboToTbzXmv9xRQRm3N0luxx5zmgljRkx/kp6vS1Pa%2BmV6WYnNqEiQ/yrZxzf0NPtOFWV/kN508BSCrMSKtIwjEOOKUN2L3SeNCcvgfFUiWXHY/aIkPFh6p9WWasYOpfZQi3K7yk%2BdHVdlXXep/T3RmDZrPuJJxZR8tr9a5JzHxGd/wgPvMX/jpVV9vhue8HJIzlmMmoZK9reRgCQEYvazOAS89WbFWUqxAPjUSAp0mul3tFqziuNY%2B8do3EKmrNiy2r8/EgItbUrJjfkl95cMk/4gUQO8xPheoChb6W/M237WH0Xkci02L1JwkqsF0UBRiVyyLJCgoKfojh4vH2PwOG%2B1zFKBsC/BZ9DrkJqs0DydijFZ7lT7J6VuQS7qzwAqCcDcy0ZC5IRLsCS%2BN/JrCih22RbKzkzBWpDTOhYn4Ww2sFQgJQ1IJve4yL5ddgXKVbELx%2B51/SKiD9Sqe9EM7Kg4TfJiBMpCfi2zl0kGaBbD4L6U4MEA3b5xU%2BDxAkRlPOn4XsSEDc/ApVcaInrrY1DZr1w%3D%3D&ext=2096591&exten=1%2C2%2C3%2C4%2C7%2C8&frontAdsTime=126&guid=2bc43291fac2aae7cff4335c6e477485&islocaltv=0&offline=0&partner=1&pay=0&plat=3&playerMetrics=&playerScale=0.563&playstyle=1&poid=1&privacy=1&prot=vast&protv=3.0&screenstate=1&sdkVersion=12.3.0&site=1&sver=9.6.20&system_type=0&vc=101%3B101157%3B101144&vid=2447701&videoType=m3u8&vu=0', 'base_path': '/基准xml/oad/iphone前贴可跳过数据返回.xml', 'isEncrypt': 0}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75c3f93dc49409ad.json",
+  "parameterValues" : [ "{'title': 'iphone前贴可跳过数据返回', 'ad_url': 'm?pt=oad&VU=0&adoriginal=sohu&adpr=0&al=9016646&appid=tv&audited_level=0&build=9.6.20.0.1&c=tv&channeled=1000080003&density=3&displayMetrics=414%2A736&du=2852.615966796875&encd=XuG4piPTCDvDaeDVgOL7DvKH3QxiL5sNbaRtZ7VZ7wzga86tyFlVBxQyuIDZF8oeCOlpcadmC8MDmAbuLGplDzIrJIGxICWVPnQ1yY5kZqh%2BvzHeoxYOR9gX358Zcth6eGKZ92Lto%2BrlGkQa0zuxlkpo8siuouchfTpyKwVm2nIMS5QhAySHW6r9QUboToTbzXmv9xRQRm3N0luxx5zmgljRkx/kp6vS1Pa%2BmV6WYnNqEiQ/yrZxzf0NPtOFWV/kN508BSCrMSKtIwjEOOKUN2L3SeNCcvgfFUiWXHY/aIkPFh6p9WWasYOpfZQi3K7yk%2BdHVdlXXep/T3RmDZrPuJJxZR8tr9a5JzHxGd/wgPvMX/jpVV9vhue8HJIzlmMmoZK9reRgCQEYvazOAS89WbFWUqxAPjUSAp0mul3tFqziuNY%2B8do3EKmrNiy2r8/EgItbUrJjfkl95cMk/4gUQO8xPheoChb6W/M237WH0Xkci02L1JwkqsF0UBRiVyyLJCgoKfojh4vH2PwOG%2B1zFKBsC/BZ9DrkJqs0DydijFZ7lT7J6VuQS7qzwAqCcDcy0ZC5IRLsCS%2BN/JrCih22RbKzkzBWpDTOhYn4Ww2sFQgJQ1IJve4yL5ddgXKVbELx%2B51/SKiD9Sqe9EM7Kg4TfJiBMpCfi2zl0kGaBbD4L6U4MEA3b5xU%2BDxAkRlPOn4XsSEDc/ApVcaInrrY1DZr1w%3D%3D&ext=2096591&exten=1%2C2%2C3%2C4%2C7%2C8&frontAdsTime=126&guid=2bc43291fac2aae7cff4335c6e477485&islocaltv=0&offline=0&partner=1&pay=0&plat=3&playerMetrics=&playerScale=0.563&playstyle=1&poid=1&privacy=1&prot=vast&protv=3.0&screenstate=1&sdkVersion=12.3.0&site=1&sver=9.6.20&system_type=0&vc=101%3B101157%3B101144&vid=2447701&videoType=m3u8&vu=0', 'base_path': '/基准xml/oad/iphone前贴可跳过数据返回.xml', 'isEncrypt': 0}" ]
+}

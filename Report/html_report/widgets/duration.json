@@ -1,2000 +1,1000 @@
 [ {
-  "uid" : "f8a8bcb65bf10fa4",
-  "name" : "test_diff[iphone角标加密数据返回]",
-  "time" : {
-    "start" : 1683526203461,
-    "stop" : 1683526203558,
-    "duration" : 97
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ce0e1c00db191c1f",
-  "name" : "test_diff[iphone动态焦点图数据返回]",
-  "time" : {
-    "start" : 1683526234663,
-    "stop" : 1683526234793,
-    "duration" : 130
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5952167a39e07231",
-  "name" : "test_diff[iphone角标数据返回]",
-  "time" : {
-    "start" : 1683526203382,
-    "stop" : 1683526203456,
-    "duration" : 74
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "96ca8d20b8b6539d",
-  "name" : "test_diff[测试gphone暂停图片返回]",
-  "time" : {
-    "start" : 1683526819736,
-    "stop" : 1683526819874,
-    "duration" : 138
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4e91693d87d4f72c",
-  "name" : "test_diff[iphone片尾画中画数据返回]",
-  "time" : {
-    "start" : 1683526236803,
-    "stop" : 1683526236898,
-    "duration" : 95
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "11930297475edef1",
-  "name" : "test_diff[测试gphone中插广告返回]",
-  "time" : {
-    "start" : 1683526228883,
-    "stop" : 1683526229008,
-    "duration" : 125
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "26c168711edf8a60",
-  "name" : "test_diff[测试iphone首页框外加密返回]",
-  "time" : {
-    "start" : 1683526230121,
-    "stop" : 1683526230385,
-    "duration" : 264
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cd7f2e313afb8064",
-  "name" : "test_diff[iphone前贴可跳过数据返回]",
-  "time" : {
-    "start" : 1683526817521,
-    "stop" : 1683526817621,
-    "duration" : 100
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2387fcb683c42824",
-  "name" : "test_diff[gphone15512小图图文下载加密数据返回]",
-  "time" : {
-    "start" : 1683526200816,
-    "stop" : 1683526200917,
-    "duration" : 101
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "84e1b650e05c3212",
-  "name" : "test_diff[测试gphone中插广告返回]",
-  "time" : {
-    "start" : 1683526813034,
-    "stop" : 1683526813171,
-    "duration" : 137
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2ff011add057b000",
-  "name" : "test_diff[iphone搜索结果页数据返回]",
-  "time" : {
-    "start" : 1683526784367,
-    "stop" : 1683526784403,
-    "duration" : 36
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "89aea525a7172a83",
-  "name" : "test_diff[gphone15512小图图文下载数据返回]",
-  "time" : {
-    "start" : 1683526200733,
-    "stop" : 1683526200812,
-    "duration" : 79
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "be26f6c4a5e0685a",
-  "name" : "test_diff[gphone15512小图图文数据返回]",
-  "time" : {
-    "start" : 1683526200594,
-    "stop" : 1683526200658,
-    "duration" : 64
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "904dd8c3acc68a9b",
-  "name" : "test_diff[iphone前贴数据返回]",
-  "time" : {
-    "start" : 1683526816811,
-    "stop" : 1683526817098,
-    "duration" : 287
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4dfec1b6b4073b88",
-  "name" : "test_diff[测试gphone暂停视频返回]",
-  "time" : {
-    "start" : 1683526819528,
-    "stop" : 1683526819615,
-    "duration" : 87
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a672a64806cb8d97",
-  "name" : "test_diff[gphone瀑布流数据返回]",
-  "time" : {
-    "start" : 1683526786573,
-    "stop" : 1683526786631,
-    "duration" : 58
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7f7da00b23dc9c59",
-  "name" : "test_diff[iphone瀑布流数据返回]",
-  "time" : {
-    "start" : 1683526202401,
-    "stop" : 1683526202460,
-    "duration" : 59
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f5dc86684bb4bfdd",
-  "name" : "test_diff[测试gphone中插加密广告返回]",
-  "time" : {
-    "start" : 1683526229012,
-    "stop" : 1683526229167,
-    "duration" : 155
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d4b105f12a338450",
-  "name" : "test_diff[gphone15512通栏视频加密数据返回]",
-  "time" : {
-    "start" : 1683526200490,
-    "stop" : 1683526200588,
-    "duration" : 98
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c7e0e8e8da197392",
-  "name" : "test_diff[测试iphone暂停标版视频返回]",
-  "time" : {
-    "start" : 1683526820024,
-    "stop" : 1683526820115,
-    "duration" : 91
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "85d16653fee18bdc",
-  "name" : "test_diff[gphonePGC播放页数据返回]",
-  "time" : {
-    "start" : 1683526202545,
-    "stop" : 1683526202703,
-    "duration" : 158
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a754caa307b0fd95",
-  "name" : "test_diff[测试iphone中插广告返回]",
-  "time" : {
-    "start" : 1683526813371,
-    "stop" : 1683526813525,
-    "duration" : 154
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bf612fb6b713a5c7",
-  "name" : "test_diff[测试gphone暂停图片返回]",
-  "time" : {
-    "start" : 1683526235379,
-    "stop" : 1683526235496,
-    "duration" : 117
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f53d88bcbd9bda28",
-  "name" : "test_diff[测试iphone暂停视频返回]",
-  "time" : {
-    "start" : 1683526820243,
-    "stop" : 1683526820418,
-    "duration" : 175
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c9e4ce3e415e66b0",
-  "name" : "test_diff[测试iphone暂停视频返回]",
-  "time" : {
-    "start" : 1683526235866,
-    "stop" : 1683526235977,
-    "duration" : 111
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "243bf6a2481b0b0b",
-  "name" : "test_diff[iphone15512小图图文下载数据返回]",
-  "time" : {
-    "start" : 1683526201484,
-    "stop" : 1683526201538,
-    "duration" : 54
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "866d898d2d820c20",
-  "name" : "test_diff[iphone15512小图图文数据返回]",
-  "time" : {
-    "start" : 1683526785584,
-    "stop" : 1683526785645,
-    "duration" : 61
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "85723c6cc3f5ecf7",
-  "name" : "test_diff[测试gphone暂停标版视频加密返回]",
-  "time" : {
-    "start" : 1683526819443,
-    "stop" : 1683526819524,
-    "duration" : 81
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "22fa3849caf783e2",
-  "name" : "test_diff[iphone15512三图模板播放页剧集下方14369数据返回]",
-  "time" : {
-    "start" : 1683526785161,
-    "stop" : 1683526785245,
-    "duration" : 84
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c1b5bb186718e066",
-  "name" : "test_diff[iphone前贴数据返回]",
-  "time" : {
-    "start" : 1683526232530,
-    "stop" : 1683526232855,
-    "duration" : 325
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "845db265ab381a1c",
-  "name" : "test_diff[iphone15512三图模板播放页剧集下方14369数据返回]",
-  "time" : {
-    "start" : 1683526200922,
-    "stop" : 1683526201007,
-    "duration" : 85
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "22b977f1b2e13f97",
-  "name" : "test_diff[测试iphone暂停标版视频返回]",
-  "time" : {
-    "start" : 1683526235645,
-    "stop" : 1683526235733,
-    "duration" : 88
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5058dc1d0c48fdab",
-  "name" : "test_diff[gphone15512小图图文下载数据返回]",
-  "time" : {
-    "start" : 1683526784981,
-    "stop" : 1683526785059,
-    "duration" : 78
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "603c0edb0b87977d",
-  "name" : "test_diff[gphone15512三图模板播放页剧集下方14369数据返回]",
-  "time" : {
-    "start" : 1683526200164,
-    "stop" : 1683526200265,
-    "duration" : 101
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3bc3a675693f313a",
-  "name" : "test_diff[gphone前贴数据返回]",
-  "time" : {
-    "start" : 1683526230886,
-    "stop" : 1683526231194,
-    "duration" : 308
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6da7f27099a3975c",
-  "name" : "test_diff[gphone瀑布流加密数据返回]",
-  "time" : {
-    "start" : 1683526786636,
-    "stop" : 1683526786697,
-    "duration" : 61
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aafe03b57e6fb019",
-  "name" : "test_diff[iphone视频流加密数据返回]",
-  "time" : {
-    "start" : 1683526786382,
-    "stop" : 1683526786568,
-    "duration" : 186
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "494398d6b18162c3",
-  "name" : "test_diff[gphone动态焦点图加密数据返回]",
-  "time" : {
-    "start" : 1683526234606,
-    "stop" : 1683526234655,
-    "duration" : 49
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "58d64aa2d550a9f9",
-  "name" : "test_diff[gphonePGC播放页加密数据返回]",
-  "time" : {
-    "start" : 1683526786957,
-    "stop" : 1683526787162,
-    "duration" : 205
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c6bfd497beb4d57c",
-  "name" : "test_diff[gphone前贴可跳过加密数据返回]",
-  "time" : {
-    "start" : 1683526815836,
-    "stop" : 1683526815939,
-    "duration" : 103
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "127372a19f676eb9",
-  "name" : "test_diff[gphone15512小图图文加密数据返回]",
-  "time" : {
-    "start" : 1683526784900,
-    "stop" : 1683526784976,
-    "duration" : 76
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "12a55ccdebc1c46d",
-  "name" : "test_diff[gphone前贴联动数据返回]",
-  "time" : {
-    "start" : 1683526816546,
-    "stop" : 1683526816668,
-    "duration" : 122
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "576d00783230bae3",
-  "name" : "test_diff[iphone前贴可跳过数据返回]",
-  "time" : {
-    "start" : 1683526233209,
-    "stop" : 1683526233291,
-    "duration" : 82
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c7afec5da5730060",
-  "name" : "test_diff[iphone15512小图图文下载数据返回]",
-  "time" : {
-    "start" : 1683526785728,
-    "stop" : 1683526785800,
-    "duration" : 72
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1a2f894af642f7cd",
-  "name" : "test_diff[gphone焦点图加密数据返回]",
-  "time" : {
-    "start" : 1683526228164,
-    "stop" : 1683526228265,
-    "duration" : 101
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9859a9d2d9439752",
-  "name" : "test_diff[gphone角标数据返回]",
-  "time" : {
-    "start" : 1683526787475,
-    "stop" : 1683526787540,
-    "duration" : 65
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "69c47a015c7ed411",
-  "name" : "test_diff[gphone角标数据返回]",
-  "time" : {
-    "start" : 1683526203177,
-    "stop" : 1683526203282,
-    "duration" : 105
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f13005f57dcf5ef",
-  "name" : "test_diff[iphone片头画中画加密数据返回]",
-  "time" : {
-    "start" : 1683526812949,
-    "stop" : 1683526813028,
-    "duration" : 79
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "68d3597da06bb409",
-  "name" : "test_diff[iphone15512通栏视频数据返回]",
-  "time" : {
-    "start" : 1683526785397,
-    "stop" : 1683526785476,
-    "duration" : 79
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e819bb9feb68f9e6",
-  "name" : "test_diff[测试iphone暂停图片返回]",
-  "time" : {
-    "start" : 1683526820563,
-    "stop" : 1683526820665,
-    "duration" : 102
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ffcaa49d20693ce5",
-  "name" : "test_diff[gphonePGC播放页加密数据返回]",
-  "time" : {
-    "start" : 1683526202708,
-    "stop" : 1683526202881,
-    "duration" : 173
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "912908f37367a288",
-  "name" : "test_diff[gphone前贴可跳过数据返回]",
-  "time" : {
-    "start" : 1683526231547,
-    "stop" : 1683526231658,
-    "duration" : 111
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f95309e50c8e5211",
-  "name" : "test_diff[iphone前贴联动数据返回]",
-  "time" : {
-    "start" : 1683526818338,
-    "stop" : 1683526818452,
-    "duration" : 114
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4c769b3950626bc6",
-  "name" : "test_diff[gphone动态焦点图加密数据返回]",
-  "time" : {
-    "start" : 1683526818988,
-    "stop" : 1683526819023,
-    "duration" : 35
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "16961bc39c96d405",
-  "name" : "test_diff[测试iphone暂停标版视频加密返回]",
-  "time" : {
-    "start" : 1683526235739,
-    "stop" : 1683526235861,
-    "duration" : 122
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2d1faad222d3e2a4",
-  "name" : "test_diff[iphone15512三图模板播放页剧集下方14369加密数据返回]",
-  "time" : {
-    "start" : 1683526201011,
-    "stop" : 1683526201140,
-    "duration" : 129
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "12556ec32ecbfd5f",
-  "name" : "test_diff[测试iphone首页框外加密返回]",
-  "time" : {
-    "start" : 1683526814361,
-    "stop" : 1683526814617,
-    "duration" : 256
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6a55c8b115f821ac",
-  "name" : "test_diff[iphone启动图加密数据返回]",
-  "time" : {
-    "start" : 1683526234435,
-    "stop" : 1683526234546,
-    "duration" : 111
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "db2a4904f3f50a98",
-  "name" : "test_diff[iphone迷你中插数据返回]",
-  "time" : {
-    "start" : 1683526230603,
-    "stop" : 1683526230741,
-    "duration" : 138
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "af830b8f2928b931",
-  "name" : "test_diff[iphone红包雨数据返回]",
-  "time" : {
-    "start" : 1683526820912,
-    "stop" : 1683526820948,
-    "duration" : 36
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba007df09e9e1100",
-  "name" : "test_diff[测试gphone暂停视频加密返回]",
-  "time" : {
-    "start" : 1683526235271,
-    "stop" : 1683526235374,
-    "duration" : 103
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8191f6a2be0524e9",
-  "name" : "test_diff[iphone迷你中插加密数据返回]",
-  "time" : {
-    "start" : 1683526814913,
-    "stop" : 1683526815021,
-    "duration" : 108
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "79588d10fed0bad5",
-  "name" : "test_diff[测试iphone暂停视频加密返回]",
-  "time" : {
-    "start" : 1683526820427,
-    "stop" : 1683526820557,
-    "duration" : 130
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1ecca2a254f3e7b8",
-  "name" : "test_diff[gphone视频流数据返回]",
-  "time" : {
-    "start" : 1683526201617,
-    "stop" : 1683526201753,
-    "duration" : 136
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ef025c8279310d65",
-  "name" : "test_diff[测试gphone首页框外加密返回]",
-  "time" : {
-    "start" : 1683526813896,
-    "stop" : 1683526814130,
-    "duration" : 234
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e22714835130ab79",
-  "name" : "test_diff[iphone前贴联动数据返回]",
-  "time" : {
-    "start" : 1683526233946,
-    "stop" : 1683526234062,
-    "duration" : 116
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "525e0aef1eef247",
-  "name" : "test_diff[测试iphone中插加密广告返回]",
-  "time" : {
-    "start" : 1683526813529,
-    "stop" : 1683526813711,
-    "duration" : 182
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e90fc973be45ad3b",
-  "name" : "test_diff[gphone前贴可选数据返回]",
-  "time" : {
-    "start" : 1683526231774,
-    "stop" : 1683526232013,
-    "duration" : 239
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b623623729d534d1",
-  "name" : "test_diff[gphone前贴加密数据返回]",
-  "time" : {
-    "start" : 1683526815365,
-    "stop" : 1683526815726,
-    "duration" : 361
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "90afa7142d0cd96e",
-  "name" : "test_diff[iphone片尾画中画加密数据返回]",
-  "time" : {
-    "start" : 1683526236904,
-    "stop" : 1683526237008,
-    "duration" : 104
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7edff44a4f4daa82",
-  "name" : "test_diff[iphone视频流加密数据返回]",
-  "time" : {
-    "start" : 1683526202073,
-    "stop" : 1683526202244,
-    "duration" : 171
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c15e9044d7953d96",
-  "name" : "test_diff[测试iphone暂停图片加密返回]",
-  "time" : {
-    "start" : 1683526820674,
-    "stop" : 1683526820818,
-    "duration" : 144
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c5426c70212c1b40",
-  "name" : "test_diff[gphone启动图数据返回]",
-  "time" : {
-    "start" : 1683526818616,
-    "stop" : 1683526818681,
-    "duration" : 65
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e3be18c0bfd8c430",
-  "name" : "test_diff[iphone启动图数据返回]",
-  "time" : {
-    "start" : 1683526818743,
-    "stop" : 1683526818842,
-    "duration" : 99
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2c542c791b82256e",
-  "name" : "test_diff[iphone焦点图数据返回]",
-  "time" : {
-    "start" : 1683526812486,
-    "stop" : 1683526812573,
-    "duration" : 87
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "347b67636e7d2b41",
-  "name" : "test_diff[测试gphone首页框外返回]",
-  "time" : {
-    "start" : 1683526813717,
-    "stop" : 1683526813891,
-    "duration" : 174
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cde901e8592ac8f6",
-  "name" : "test_diff[gphone前贴可跳过数据返回]",
-  "time" : {
-    "start" : 1683526815731,
-    "stop" : 1683526815831,
-    "duration" : 100
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a0d0091158a3f7b5",
-  "name" : "test_diff[gphone前贴联动加密数据返回]",
-  "time" : {
-    "start" : 1683526816673,
-    "stop" : 1683526816806,
-    "duration" : 133
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4f907ab9e80eea8a",
-  "name" : "test_diff[iphone红包雨加密数据返回]",
-  "time" : {
-    "start" : 1683526236532,
-    "stop" : 1683526236608,
-    "duration" : 76
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5d8e82f53039e4e0",
-  "name" : "test_diff[测试gphone首页框外返回]",
-  "time" : {
-    "start" : 1683526229479,
-    "stop" : 1683526229656,
-    "duration" : 177
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ddb089baec090be9",
-  "name" : "test_diff[gphone15512三图模板播放页剧集下方14369加密数据返回]",
-  "time" : {
-    "start" : 1683526200270,
-    "stop" : 1683526200389,
-    "duration" : 119
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "da1c19b496dd70e9",
-  "name" : "test_diff[iphone15512小图图文加密数据返回]",
-  "time" : {
-    "start" : 1683526785649,
-    "stop" : 1683526785722,
-    "duration" : 73
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4747f7b0fcf48b4a",
-  "name" : "test_diff[iphone动态焦点图加密数据返回]",
-  "time" : {
-    "start" : 1683526234802,
-    "stop" : 1683526234974,
-    "duration" : 172
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a3a8b553f81f0381",
-  "name" : "test_diff[测试gphone中插加密广告返回]",
-  "time" : {
-    "start" : 1683526813176,
-    "stop" : 1683526813366,
-    "duration" : 190
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "33bcfa1e8cc5c7b3",
-  "name" : "test_diff[gphone片尾画中画数据返回]",
-  "time" : {
-    "start" : 1683526821017,
-    "stop" : 1683526821095,
-    "duration" : 78
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "accff5e6ecd7f81a",
-  "name" : "test_diff[iphone片尾画中画加密数据返回]",
-  "time" : {
-    "start" : 1683526821246,
-    "stop" : 1683526821353,
-    "duration" : 107
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "18d7c6dc1e6ff2eb",
-  "name" : "test_diff[gphone前贴可选加密数据返回]",
-  "time" : {
-    "start" : 1683526232018,
-    "stop" : 1683526232287,
-    "duration" : 269
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aee460142422a7a6",
-  "name" : "test_diff[测试iphone首页框外返回]",
-  "time" : {
-    "start" : 1683526229901,
-    "stop" : 1683526230117,
-    "duration" : 216
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "577463f11309f4b3",
-  "name" : "test_diff[gphone视频流加密数据返回]",
-  "time" : {
-    "start" : 1683526786025,
-    "stop" : 1683526786209,
-    "duration" : 184
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "edfe5e1ccc7c2d79",
-  "name" : "test_diff[iphone动态焦点图加密数据返回]",
-  "time" : {
-    "start" : 1683526819203,
-    "stop" : 1683526819322,
-    "duration" : 119
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "38181b10e3f3489b",
-  "name" : "test_diff[gphone15512小图图文加密数据返回]",
-  "time" : {
-    "start" : 1683526200663,
-    "stop" : 1683526200727,
-    "duration" : 64
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b915ddbeb34d960f",
-  "name" : "test_diff[iphone启动图加密数据返回]",
-  "time" : {
-    "start" : 1683526818846,
-    "stop" : 1683526818947,
-    "duration" : 101
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3eb8a59d08e85c7f",
-  "name" : "test_diff[iphone片头画中画加密数据返回]",
-  "time" : {
-    "start" : 1683526228788,
-    "stop" : 1683526228877,
-    "duration" : 89
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4e50dcbcc872be8",
-  "name" : "test_diff[测试gphone暂停标版视频加密返回]",
-  "time" : {
-    "start" : 1683526235065,
-    "stop" : 1683526235190,
-    "duration" : 125
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2be73a5198a35bbe",
-  "name" : "test_diff[iphone焦点图加密数据返回]",
-  "time" : {
-    "start" : 1683526812581,
-    "stop" : 1683526812748,
-    "duration" : 167
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b7cf46a2b3fe155f",
-  "name" : "test_diff[测试gphone暂停视频返回]",
-  "time" : {
-    "start" : 1683526235194,
-    "stop" : 1683526235266,
-    "duration" : 72
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8ec8adb70dfa15cc",
-  "name" : "test_diff[iphone角标加密数据返回]",
-  "time" : {
-    "start" : 1683526787719,
-    "stop" : 1683526787819,
-    "duration" : 100
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8e99771b86827520",
-  "name" : "test_diff[gphone启动图数据返回]",
-  "time" : {
-    "start" : 1683526234199,
-    "stop" : 1683526234271,
-    "duration" : 72
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a8c8c23d3c067520",
-  "name" : "test_diff[gphone迷你中插数据返回]",
-  "time" : {
-    "start" : 1683526230390,
-    "stop" : 1683526230490,
-    "duration" : 100
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "88e81ef4b7606702",
-  "name" : "test_diff[gphone搜索结果页数据返回]",
-  "time" : {
-    "start" : 1683526199932,
-    "stop" : 1683526199993,
-    "duration" : 61
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1b3355a62b9650f6",
-  "name" : "test_diff[iphone15512通栏视频数据返回]",
-  "time" : {
-    "start" : 1683526201145,
-    "stop" : 1683526201221,
-    "duration" : 76
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3bdf68994561ae29",
-  "name" : "test_diff[iphone前贴可选加密数据返回]",
-  "time" : {
-    "start" : 1683526233658,
-    "stop" : 1683526233940,
-    "duration" : 282
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c0fca0b38b5137cb",
-  "name" : "test_diff[gphone迷你中插数据返回]",
-  "time" : {
-    "start" : 1683526814623,
-    "stop" : 1683526814707,
-    "duration" : 84
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fa8212c8a2588add",
-  "name" : "test_diff[iphone瀑布流加密数据返回]",
-  "time" : {
-    "start" : 1683526786752,
-    "stop" : 1683526786814,
-    "duration" : 62
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "363019d57917eb8c",
-  "name" : "test_diff[iphone迷你中插加密数据返回]",
-  "time" : {
-    "start" : 1683526230745,
-    "stop" : 1683526230879,
-    "duration" : 134
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f125cdadee9f7c2e",
+  "uid" : "f7a0403aed51548b",
   "name" : "test_diff[测试gphone暂停标版视频返回]",
   "time" : {
-    "start" : 1683526234979,
-    "stop" : 1683526235061,
-    "duration" : 82
+    "start" : 1683528681672,
+    "stop" : 1683528681735,
+    "duration" : 63
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8b2a2a1a86c95113",
-  "name" : "test_diff[gphone15512三图模板播放页剧集下方14369数据返回]",
+  "uid" : "d54ec298999cc27b",
+  "name" : "test_diff[测试iphone中插加密广告返回]",
   "time" : {
-    "start" : 1683526784457,
-    "stop" : 1683526784550,
-    "duration" : 93
+    "start" : 1683528675713,
+    "stop" : 1683528675902,
+    "duration" : 189
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "17e069e4af4ea23e",
-  "name" : "test_diff[gphone红包雨加密数据返回]",
+  "uid" : "19e8e227c7eacf29",
+  "name" : "test_diff[gphone前贴可选数据返回]",
   "time" : {
-    "start" : 1683526820864,
-    "stop" : 1683526820907,
-    "duration" : 43
+    "start" : 1683528678728,
+    "stop" : 1683528678951,
+    "duration" : 223
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6deccaa114e17686",
-  "name" : "test_diff[iphone前贴可跳过加密数据返回]",
+  "uid" : "f22489afb9e2d3",
+  "name" : "test_diff[gphone迷你中插数据返回]",
   "time" : {
-    "start" : 1683526817626,
-    "stop" : 1683526817741,
-    "duration" : 115
+    "start" : 1683528676997,
+    "stop" : 1683528677252,
+    "duration" : 255
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "55825598872e80d5",
-  "name" : "test_diff[gphone红包雨数据返回]",
+  "uid" : "29e0c28aa9d4ff7e",
+  "name" : "test_diff[iphone动态焦点图数据返回]",
   "time" : {
-    "start" : 1683526236359,
-    "stop" : 1683526236403,
-    "duration" : 44
+    "start" : 1683528681357,
+    "stop" : 1683528681513,
+    "duration" : 156
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "581296473a43e448",
-  "name" : "test_diff[测试iphone暂停视频加密返回]",
-  "time" : {
-    "start" : 1683526235984,
-    "stop" : 1683526236108,
-    "duration" : 124
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "29a4da4a91bb0bcd",
-  "name" : "test_diff[iphone前贴加密数据返回]",
-  "time" : {
-    "start" : 1683526817104,
-    "stop" : 1683526817514,
-    "duration" : 410
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "151ffa4ac75fdbc3",
+  "uid" : "a5586643dc816564",
   "name" : "test_diff[iphone搜索结果页加密数据返回]",
   "time" : {
-    "start" : 1683526784408,
-    "stop" : 1683526784454,
-    "duration" : 46
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "705ea0a4b51c2384",
-  "name" : "test_diff[gphone片尾画中画加密数据返回]",
-  "time" : {
-    "start" : 1683526236710,
-    "stop" : 1683526236798,
-    "duration" : 88
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "72efe8b93b68c0e5",
-  "name" : "test_diff[测试gphone暂停图片加密返回]",
-  "time" : {
-    "start" : 1683526819879,
-    "stop" : 1683526820020,
-    "duration" : 141
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e1ae182b3cb0bfb2",
-  "name" : "test_diff[iphonePGC播放页数据返回]",
-  "time" : {
-    "start" : 1683526787167,
-    "stop" : 1683526787314,
-    "duration" : 147
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "364aca4589aa2165",
-  "name" : "test_diff[iphone迷你中插数据返回]",
-  "time" : {
-    "start" : 1683526814815,
-    "stop" : 1683526814909,
-    "duration" : 94
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6821b39272e08dc2",
-  "name" : "test_diff[测试gphone暂停视频加密返回]",
-  "time" : {
-    "start" : 1683526819620,
-    "stop" : 1683526819729,
-    "duration" : 109
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cef908c182a18bc8",
-  "name" : "test_diff[iphone前贴可选数据返回]",
-  "time" : {
-    "start" : 1683526817747,
-    "stop" : 1683526817999,
-    "duration" : 252
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3b2b4729853aee2f",
-  "name" : "test_diff[gphone启动图加密数据返回]",
-  "time" : {
-    "start" : 1683526234275,
-    "stop" : 1683526234314,
-    "duration" : 39
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4c669648405677a3",
-  "name" : "test_diff[测试iphone暂停图片加密返回]",
-  "time" : {
-    "start" : 1683526236235,
-    "stop" : 1683526236354,
-    "duration" : 119
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "40adab7f5c55f1bf",
-  "name" : "test_diff[iphonePGC播放页加密数据返回]",
-  "time" : {
-    "start" : 1683526203028,
-    "stop" : 1683526203171,
-    "duration" : 143
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "75deb6ce630878a9",
-  "name" : "test_diff[iphone前贴可选数据返回]",
-  "time" : {
-    "start" : 1683526233406,
-    "stop" : 1683526233653,
-    "duration" : 247
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2a1546bfc2453d7d",
-  "name" : "test_diff[iphone15512小图图文下载加密数据返回]",
-  "time" : {
-    "start" : 1683526785806,
-    "stop" : 1683526785870,
-    "duration" : 64
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9dfab77818c4f97e",
-  "name" : "test_diff[gphone角标加密数据返回]",
-  "time" : {
-    "start" : 1683526787545,
-    "stop" : 1683526787644,
-    "duration" : 99
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "32795ece638331e3",
-  "name" : "test_diff[gphone15512三图模板播放页剧集下方14369加密数据返回]",
-  "time" : {
-    "start" : 1683526784554,
-    "stop" : 1683526784675,
-    "duration" : 121
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "960bfb968b087dc2",
-  "name" : "test_diff[iphone前贴可选加密数据返回]",
-  "time" : {
-    "start" : 1683526818003,
-    "stop" : 1683526818332,
-    "duration" : 329
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cbd675ec91537498",
-  "name" : "test_diff[iphone搜索结果页加密数据返回]",
-  "time" : {
-    "start" : 1683526200110,
-    "stop" : 1683526200160,
+    "start" : 1683528671466,
+    "stop" : 1683528671516,
     "duration" : 50
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8f8cd1c697d13d5a",
-  "name" : "test_diff[gphone前贴可选加密数据返回]",
+  "uid" : "28a9b812474735eb",
+  "name" : "test_diff[iphone前贴可跳过加密数据返回]",
   "time" : {
-    "start" : 1683526816213,
-    "stop" : 1683526816542,
-    "duration" : 329
+    "start" : 1683528680185,
+    "stop" : 1683528680290,
+    "duration" : 105
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "45a38b8f622b8a60",
-  "name" : "test_diff[gphone启动图加密数据返回]",
+  "uid" : "e40dde82452836b2",
+  "name" : "test_diff[iphone红包雨数据返回]",
   "time" : {
-    "start" : 1683526818691,
-    "stop" : 1683526818735,
-    "duration" : 44
+    "start" : 1683528682788,
+    "stop" : 1683528682903,
+    "duration" : 115
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e6b99d4d59a987d9",
-  "name" : "test_diff[iphone15512三图模板播放页剧集下方14369加密数据返回]",
+  "uid" : "d7a5838239505a96",
+  "name" : "test_diff[gphone前贴可跳过数据返回]",
   "time" : {
-    "start" : 1683526785249,
-    "stop" : 1683526785390,
-    "duration" : 141
+    "start" : 1683528678530,
+    "stop" : 1683528678615,
+    "duration" : 85
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a5cb7fd5db0762ff",
-  "name" : "test_diff[gphone搜索结果页数据返回]",
+  "uid" : "b6aab7c19b0b11c5",
+  "name" : "test_diff[iphone角标加密数据返回]",
   "time" : {
-    "start" : 1683526784244,
-    "stop" : 1683526784301,
-    "duration" : 57
+    "start" : 1683528674610,
+    "stop" : 1683528674684,
+    "duration" : 74
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f8b35eecda0799f6",
-  "name" : "test_diff[gphone前贴联动加密数据返回]",
+  "uid" : "a753abddc11fe25a",
+  "name" : "test_diff[iphonePGC播放页数据返回]",
   "time" : {
-    "start" : 1683526818461,
-    "stop" : 1683526818611,
-    "duration" : 150
+    "start" : 1683528674063,
+    "stop" : 1683528674201,
+    "duration" : 138
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "18624ca2855adaa9",
-  "name" : "test_diff[iphone启动图数据返回]",
+  "uid" : "73f3e86582ca8dd2",
+  "name" : "test_diff[iphone焦点图数据返回]",
   "time" : {
-    "start" : 1683526234321,
-    "stop" : 1683526234430,
-    "duration" : 109
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "503babd9176deb6a",
-  "name" : "test_diff[gphone瀑布流加密数据返回]",
-  "time" : {
-    "start" : 1683526202314,
-    "stop" : 1683526202396,
-    "duration" : 82
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "34f76fa46a1f3059",
-  "name" : "test_diff[gphone动态焦点图数据返回]",
-  "time" : {
-    "start" : 1683526234556,
-    "stop" : 1683526234597,
-    "duration" : 41
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b80f398fd91f6865",
-  "name" : "test_diff[测试gphone暂停标版视频返回]",
-  "time" : {
-    "start" : 1683526819331,
-    "stop" : 1683526819438,
-    "duration" : 107
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f9e517546bc30507",
-  "name" : "test_diff[gphone视频流加密数据返回]",
-  "time" : {
-    "start" : 1683526199998,
-    "stop" : 1683526200054,
-    "duration" : 56
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9aa252cdd981c1fd",
-  "name" : "test_diff[gphone前贴可选数据返回]",
-  "time" : {
-    "start" : 1683526815944,
-    "stop" : 1683526816208,
-    "duration" : 264
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3f4632d7e7e3c50d",
-  "name" : "test_diff[gphone焦点图数据返回]",
-  "time" : {
-    "start" : 1683526215857,
-    "stop" : 1683526215934,
-    "duration" : 77
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b390dbb58cd62b66",
-  "name" : "test_diff[iphone片尾画中画数据返回]",
-  "time" : {
-    "start" : 1683526821182,
-    "stop" : 1683526821238,
-    "duration" : 56
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "49efb834bd5f6a19",
-  "name" : "test_diff[gphone前贴联动数据返回]",
-  "time" : {
-    "start" : 1683526232294,
-    "stop" : 1683526232402,
-    "duration" : 108
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e4a8602d80e4ef1c",
-  "name" : "test_diff[测试gphone暂停图片加密返回]",
-  "time" : {
-    "start" : 1683526235501,
-    "stop" : 1683526235640,
-    "duration" : 139
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b57665fcf4490225",
-  "name" : "test_diff[gphone片尾画中画加密数据返回]",
-  "time" : {
-    "start" : 1683526821100,
-    "stop" : 1683526821178,
-    "duration" : 78
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "13982d967d89d590",
-  "name" : "test_diff[iphone红包雨加密数据返回]",
-  "time" : {
-    "start" : 1683526820953,
-    "stop" : 1683526821012,
-    "duration" : 59
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de6ef36cce64d9a0",
-  "name" : "test_diff[测试iphone暂停图片返回]",
-  "time" : {
-    "start" : 1683526236112,
-    "stop" : 1683526236231,
-    "duration" : 119
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5303367275a777ca",
-  "name" : "test_diff[iphone15512通栏视频加密数据返回]",
-  "time" : {
-    "start" : 1683526785482,
-    "stop" : 1683526785577,
-    "duration" : 95
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6e8c24602cbb16c3",
-  "name" : "test_diff[gphone片头画中画加密数据返回]",
-  "time" : {
-    "start" : 1683526812807,
-    "stop" : 1683526812880,
+    "start" : 1683528674845,
+    "stop" : 1683528674918,
     "duration" : 73
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ea3c30e52d0543e9",
-  "name" : "test_diff[gphone前贴联动加密数据返回]",
+  "uid" : "c47dee9876a3c4d3",
+  "name" : "test_diff[测试iphone暂停标版视频返回]",
   "time" : {
-    "start" : 1683526232407,
-    "stop" : 1683526232524,
-    "duration" : 117
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fcfe3e878aedd7f3",
-  "name" : "test_diff[gphone前贴可跳过加密数据返回]",
-  "time" : {
-    "start" : 1683526231663,
-    "stop" : 1683526231768,
-    "duration" : 105
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cedd78e33045e689",
-  "name" : "test_diff[gphone视频流加密数据返回]",
-  "time" : {
-    "start" : 1683526201757,
-    "stop" : 1683526201945,
-    "duration" : 188
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9b46cae90600dd53",
-  "name" : "test_diff[iphone15512小图图文下载加密数据返回]",
-  "time" : {
-    "start" : 1683526201543,
-    "stop" : 1683526201611,
-    "duration" : 68
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "429e0f57f464c02b",
-  "name" : "test_diff[iphone角标数据返回]",
-  "time" : {
-    "start" : 1683526787649,
-    "stop" : 1683526787714,
+    "start" : 1683528682156,
+    "stop" : 1683528682221,
     "duration" : 65
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d29ee3ce14367028",
-  "name" : "test_diff[iphone视频流数据返回]",
+  "uid" : "a0a70ad6f850ab2f",
+  "name" : "test_diff[iphone角标数据返回]",
   "time" : {
-    "start" : 1683526786215,
-    "stop" : 1683526786376,
-    "duration" : 161
+    "start" : 1683528674547,
+    "stop" : 1683528674605,
+    "duration" : 58
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b9f494f022674d91",
-  "name" : "test_diff[测试gphone首页框外加密返回]",
+  "uid" : "a482230e6ddb5e01",
+  "name" : "test_diff[gphone15512小图图文下载加密数据返回]",
   "time" : {
-    "start" : 1683526229661,
-    "stop" : 1683526229895,
-    "duration" : 234
+    "start" : 1683528672055,
+    "stop" : 1683528672125,
+    "duration" : 70
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b4f13a332e3c4b67",
-  "name" : "test_diff[iphone焦点图加密数据返回]",
+  "uid" : "d6a7be540eab67ae",
+  "name" : "test_diff[iphonePGC播放页加密数据返回]",
   "time" : {
-    "start" : 1683526228392,
-    "stop" : 1683526228535,
-    "duration" : 143
+    "start" : 1683528674206,
+    "stop" : 1683528674361,
+    "duration" : 155
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "848ac20638727d3",
-  "name" : "test_diff[gphone片尾画中画数据返回]",
-  "time" : {
-    "start" : 1683526236613,
-    "stop" : 1683526236706,
-    "duration" : 93
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b13fefcad9498638",
-  "name" : "test_diff[gphone15512小图图文数据返回]",
-  "time" : {
-    "start" : 1683526784841,
-    "stop" : 1683526784895,
-    "duration" : 54
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "112c38ea106104f9",
+  "uid" : "6016968c13e065da",
   "name" : "test_diff[gphone动态焦点图数据返回]",
   "time" : {
-    "start" : 1683526818952,
-    "stop" : 1683526818978,
+    "start" : 1683528681288,
+    "stop" : 1683528681314,
     "duration" : 26
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e22ecc59c2d828a6",
-  "name" : "test_diff[gphone焦点图数据返回]",
+  "uid" : "dd9d0d0603f1d095",
+  "name" : "test_diff[gphone启动图加密数据返回]",
   "time" : {
-    "start" : 1683526800133,
-    "stop" : 1683526800178,
-    "duration" : 45
+    "start" : 1683528681065,
+    "stop" : 1683528681095,
+    "duration" : 30
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4e25f27c5aff144d",
-  "name" : "test_diff[iphone红包雨数据返回]",
+  "uid" : "3d9fa06105cb3e49",
+  "name" : "test_diff[gphone红包雨加密数据返回]",
   "time" : {
-    "start" : 1683526236470,
-    "stop" : 1683526236527,
-    "duration" : 57
+    "start" : 1683528682736,
+    "stop" : 1683528682783,
+    "duration" : 47
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "53c648017a02ceca",
-  "name" : "test_diff[iphone15512小图图文加密数据返回]",
+  "uid" : "28e3160ba02d7d03",
+  "name" : "test_diff[gphone15512小图图文加密数据返回]",
   "time" : {
-    "start" : 1683526201414,
-    "stop" : 1683526201478,
-    "duration" : 64
+    "start" : 1683528671913,
+    "stop" : 1683528671986,
+    "duration" : 73
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "863beeff2c42b6ce",
-  "name" : "test_diff[iphone动态焦点图数据返回]",
+  "uid" : "e7f5afe882f797fa",
+  "name" : "test_diff[gphone前贴可跳过加密数据返回]",
   "time" : {
-    "start" : 1683526819033,
-    "stop" : 1683526819198,
-    "duration" : 165
+    "start" : 1683528678620,
+    "stop" : 1683528678723,
+    "duration" : 103
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4272005f2372fba4",
-  "name" : "test_diff[gphone迷你中插加密数据返回]",
-  "time" : {
-    "start" : 1683526230494,
-    "stop" : 1683526230599,
-    "duration" : 105
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "51a001bdf96cc155",
-  "name" : "test_diff[gphone瀑布流数据返回]",
-  "time" : {
-    "start" : 1683526202251,
-    "stop" : 1683526202309,
-    "duration" : 58
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "974f9008e42d1a78",
-  "name" : "test_diff[测试iphone中插加密广告返回]",
-  "time" : {
-    "start" : 1683526229316,
-    "stop" : 1683526229473,
-    "duration" : 157
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1b5e8e16ba986850",
+  "uid" : "f5f53a5446af175c",
   "name" : "test_diff[iphone片头画中画数据返回]",
   "time" : {
-    "start" : 1683526228714,
-    "stop" : 1683526228784,
-    "duration" : 70
+    "start" : 1683528675186,
+    "stop" : 1683528675235,
+    "duration" : 49
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "be4c540a22c93d11",
-  "name" : "test_diff[gphone视频流加密数据返回]",
+  "uid" : "b0c4aad03d47bf29",
+  "name" : "test_diff[gphone角标加密数据返回]",
   "time" : {
-    "start" : 1683526784306,
-    "stop" : 1683526784363,
-    "duration" : 57
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5bbb142617d00721",
-  "name" : "test_diff[测试iphone首页框外返回]",
-  "time" : {
-    "start" : 1683526814135,
-    "stop" : 1683526814356,
-    "duration" : 221
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9a84a113c2b7bbb8",
-  "name" : "test_diff[iphone前贴可跳过加密数据返回]",
-  "time" : {
-    "start" : 1683526233295,
-    "stop" : 1683526233400,
-    "duration" : 105
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5c1951a67a0261d9",
-  "name" : "test_diff[gphone片头画中画加密数据返回]",
-  "time" : {
-    "start" : 1683526228615,
-    "stop" : 1683526228710,
-    "duration" : 95
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7f724b75e1695594",
-  "name" : "test_diff[gphone15512通栏视频数据返回]",
-  "time" : {
-    "start" : 1683526200393,
-    "stop" : 1683526200481,
-    "duration" : 88
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "48e13c94d3c4fa32",
-  "name" : "test_diff[gphone前贴加密数据返回]",
-  "time" : {
-    "start" : 1683526231199,
-    "stop" : 1683526231540,
-    "duration" : 341
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "daab51ad1ef178b9",
-  "name" : "test_diff[测试iphone中插广告返回]",
-  "time" : {
-    "start" : 1683526229173,
-    "stop" : 1683526229312,
-    "duration" : 139
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "909cff734e5ac0dc",
-  "name" : "test_diff[gphone15512通栏视频数据返回]",
-  "time" : {
-    "start" : 1683526784679,
-    "stop" : 1683526784749,
-    "duration" : 70
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a57ebfcfcb3069f3",
-  "name" : "test_diff[iphone视频流数据返回]",
-  "time" : {
-    "start" : 1683526201951,
-    "stop" : 1683526202068,
-    "duration" : 117
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "18e582bb2f1e4d31",
-  "name" : "test_diff[gphone片头画中画数据返回]",
-  "time" : {
-    "start" : 1683526812753,
-    "stop" : 1683526812801,
-    "duration" : 48
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f0326cb5f8425329",
-  "name" : "test_diff[gphone红包雨数据返回]",
-  "time" : {
-    "start" : 1683526820823,
-    "stop" : 1683526820859,
-    "duration" : 36
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "11da2ce4010a5723",
-  "name" : "test_diff[gphone15512通栏视频加密数据返回]",
-  "time" : {
-    "start" : 1683526784754,
-    "stop" : 1683526784836,
-    "duration" : 82
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fe8aebceced20820",
-  "name" : "test_diff[测试iphone暂停标版视频加密返回]",
-  "time" : {
-    "start" : 1683526820121,
-    "stop" : 1683526820237,
-    "duration" : 116
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "513d884b02d309e0",
-  "name" : "test_diff[iphone15512小图图文数据返回]",
-  "time" : {
-    "start" : 1683526201331,
-    "stop" : 1683526201409,
-    "duration" : 78
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a86243054cd8319f",
-  "name" : "test_diff[iphonePGC播放页加密数据返回]",
-  "time" : {
-    "start" : 1683526787324,
-    "stop" : 1683526787470,
-    "duration" : 146
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c12a3f4e6e6110d3",
-  "name" : "test_diff[gphone15512小图图文下载加密数据返回]",
-  "time" : {
-    "start" : 1683526785064,
-    "stop" : 1683526785155,
+    "start" : 1683528674452,
+    "stop" : 1683528674543,
     "duration" : 91
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9f01bb54a082ec39",
-  "name" : "test_diff[iphone片头画中画数据返回]",
+  "uid" : "6287cde0635ca0ee",
+  "name" : "test_diff[gphone红包雨数据返回]",
   "time" : {
-    "start" : 1683526812885,
-    "stop" : 1683526812944,
-    "duration" : 59
+    "start" : 1683528682692,
+    "stop" : 1683528682731,
+    "duration" : 39
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "baab4bfc36e3ba82",
-  "name" : "test_diff[iphone瀑布流数据返回]",
+  "uid" : "2bbce52cf7fb0c88",
+  "name" : "test_diff[iphone前贴可选数据返回]",
   "time" : {
-    "start" : 1683526786703,
-    "stop" : 1683526786746,
-    "duration" : 43
+    "start" : 1683528680294,
+    "stop" : 1683528680538,
+    "duration" : 244
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "947bee80c2f199c6",
-  "name" : "test_diff[gphone角标加密数据返回]",
+  "uid" : "cee2e4b84907c912",
+  "name" : "test_diff[iphone15512小图图文数据返回]",
   "time" : {
-    "start" : 1683526203287,
-    "stop" : 1683526203377,
-    "duration" : 90
+    "start" : 1683528672495,
+    "stop" : 1683528672570,
+    "duration" : 75
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6f3b403602c41a01",
-  "name" : "test_diff[iphone瀑布流加密数据返回]",
+  "uid" : "cf5eb6048a42aec6",
+  "name" : "test_diff[测试gphone首页框外加密返回]",
   "time" : {
-    "start" : 1683526202464,
-    "stop" : 1683526202540,
-    "duration" : 76
+    "start" : 1683528676094,
+    "stop" : 1683528676401,
+    "duration" : 307
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "3ef2e81cd43229e3",
-  "name" : "test_diff[iphone前贴加密数据返回]",
-  "time" : {
-    "start" : 1683526232859,
-    "stop" : 1683526233204,
-    "duration" : 345
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e5d07819b092e16e",
-  "name" : "test_diff[iphone焦点图数据返回]",
-  "time" : {
-    "start" : 1683526228271,
-    "stop" : 1683526228387,
-    "duration" : 116
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "47196b1ba3c4fc62",
+  "uid" : "c3391783227c2a9e",
   "name" : "test_diff[gphone焦点图加密数据返回]",
   "time" : {
-    "start" : 1683526812378,
-    "stop" : 1683526812482,
-    "duration" : 104
+    "start" : 1683528674803,
+    "stop" : 1683528674838,
+    "duration" : 35
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "42ecc270d7ba8b1f",
+  "name" : "test_diff[测试gphone暂停图片加密返回]",
+  "time" : {
+    "start" : 1683528682049,
+    "stop" : 1683528682151,
+    "duration" : 102
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c433ce3f7e127223",
-  "name" : "test_diff[iphone15512通栏视频加密数据返回]",
+  "uid" : "cf82768eeffcaf7",
+  "name" : "test_diff[iphone前贴可跳过数据返回]",
   "time" : {
-    "start" : 1683526201226,
-    "stop" : 1683526201325,
-    "duration" : 99
+    "start" : 1683528680103,
+    "stop" : 1683528680181,
+    "duration" : 78
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d20d0cdc1b837a30",
-  "name" : "test_diff[iphonePGC播放页数据返回]",
+  "uid" : "a9afad2508029f93",
+  "name" : "test_diff[gphone焦点图数据返回]",
   "time" : {
-    "start" : 1683526202886,
-    "stop" : 1683526203023,
-    "duration" : 137
+    "start" : 1683528674689,
+    "stop" : 1683528674735,
+    "duration" : 46
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "a797bcf2a632d616",
-  "name" : "test_diff[gphone前贴数据返回]",
+  "uid" : "55253750b70ea47b",
+  "name" : "test_diff[gphone片尾画中画数据返回]",
   "time" : {
-    "start" : 1683526815027,
-    "stop" : 1683526815360,
-    "duration" : 333
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2278973aab41a083",
-  "name" : "test_diff[gphone视频流数据返回]",
-  "time" : {
-    "start" : 1683526785875,
-    "stop" : 1683526786020,
-    "duration" : 145
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e59914956db64fe4",
-  "name" : "test_diff[gphone迷你中插加密数据返回]",
-  "time" : {
-    "start" : 1683526814712,
-    "stop" : 1683526814810,
-    "duration" : 98
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5ebb3d6652ebf768",
-  "name" : "test_diff[gphone前贴联动加密数据返回]",
-  "time" : {
-    "start" : 1683526234067,
-    "stop" : 1683526234193,
-    "duration" : 126
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f979b661848ab620",
-  "name" : "test_diff[gphonePGC播放页数据返回]",
-  "time" : {
-    "start" : 1683526786825,
-    "stop" : 1683526786952,
-    "duration" : 127
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4924afef67b2637d",
-  "name" : "test_diff[gphone片头画中画数据返回]",
-  "time" : {
-    "start" : 1683526228541,
-    "stop" : 1683526228611,
+    "start" : 1683528682976,
+    "stop" : 1683528683046,
     "duration" : 70
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "82af65f6fd719f75",
+  "uid" : "c80153c29566b11c",
+  "name" : "test_diff[gphone15512三图模板播放页剧集下方14369数据返回]",
+  "time" : {
+    "start" : 1683528671521,
+    "stop" : 1683528671607,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c861545583870c50",
+  "name" : "test_diff[gphone瀑布流数据返回]",
+  "time" : {
+    "start" : 1683528673515,
+    "stop" : 1683528673557,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "239902b5e9273113",
+  "name" : "test_diff[iphone迷你中插加密数据返回]",
+  "time" : {
+    "start" : 1683528677626,
+    "stop" : 1683528677886,
+    "duration" : 260
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b84a6447fcb93626",
+  "name" : "test_diff[测试gphone首页框外返回]",
+  "time" : {
+    "start" : 1683528675907,
+    "stop" : 1683528676088,
+    "duration" : 181
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a20da9041eea992",
+  "name" : "test_diff[iphone片尾画中画数据返回]",
+  "time" : {
+    "start" : 1683528683135,
+    "stop" : 1683528683193,
+    "duration" : 58
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dafb583cc7964dc9",
+  "name" : "test_diff[iphone15512通栏视频数据返回]",
+  "time" : {
+    "start" : 1683528672345,
+    "stop" : 1683528672404,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a440adbd07a1c5d",
+  "name" : "test_diff[gphone启动图数据返回]",
+  "time" : {
+    "start" : 1683528681012,
+    "stop" : 1683528681060,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "337c5fe9f43b26b3",
+  "name" : "test_diff[gphone片头画中画加密数据返回]",
+  "time" : {
+    "start" : 1683528675102,
+    "stop" : 1683528675180,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1260dc49251b692",
+  "name" : "test_diff[测试iphone中插广告返回]",
+  "time" : {
+    "start" : 1683528675591,
+    "stop" : 1683528675709,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "860a746a54650be5",
+  "name" : "test_diff[iphone红包雨加密数据返回]",
+  "time" : {
+    "start" : 1683528682907,
+    "stop" : 1683528682965,
+    "duration" : 58
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bcf2834ac0ad514",
+  "name" : "test_diff[测试gphone中插广告返回]",
+  "time" : {
+    "start" : 1683528675320,
+    "stop" : 1683528675448,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9dec2296e121f3e",
+  "name" : "test_diff[gphone前贴加密数据返回]",
+  "time" : {
+    "start" : 1683528678202,
+    "stop" : 1683528678525,
+    "duration" : 323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c18cdf46dfc701c",
+  "name" : "test_diff[测试iphone暂停图片返回]",
+  "time" : {
+    "start" : 1683528682509,
+    "stop" : 1683528682599,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a2dcac64dcaa9f4",
+  "name" : "test_diff[gphone15512三图模板播放页剧集下方14369加密数据返回]",
+  "time" : {
+    "start" : 1683528671612,
+    "stop" : 1683528671724,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55b998faa3fd7451",
+  "name" : "test_diff[iphone动态焦点图加密数据返回]",
+  "time" : {
+    "start" : 1683528681519,
+    "stop" : 1683528681667,
+    "duration" : 148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c3f4dd398248fc5",
+  "name" : "test_diff[gphone视频流数据返回]",
+  "time" : {
+    "start" : 1683528672819,
+    "stop" : 1683528672965,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "959e124480bb4a22",
+  "name" : "test_diff[iphone瀑布流数据返回]",
+  "time" : {
+    "start" : 1683528673612,
+    "stop" : 1683528673664,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cfb98aed539c811",
+  "name" : "test_diff[iphone15512小图图文加密数据返回]",
+  "time" : {
+    "start" : 1683528672574,
+    "stop" : 1683528672653,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c17c80fa9775c6d0",
+  "name" : "test_diff[iphone片头画中画加密数据返回]",
+  "time" : {
+    "start" : 1683528675240,
+    "stop" : 1683528675314,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "565eea69bfd5c7d0",
+  "name" : "test_diff[gphone前贴可选加密数据返回]",
+  "time" : {
+    "start" : 1683528678955,
+    "stop" : 1683528679240,
+    "duration" : 285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aea4a729490803ab",
+  "name" : "test_diff[gphonePGC播放页加密数据返回]",
+  "time" : {
+    "start" : 1683528673888,
+    "stop" : 1683528674059,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f323eb4aa2fb1ce4",
+  "name" : "test_diff[iphone瀑布流加密数据返回]",
+  "time" : {
+    "start" : 1683528673669,
+    "stop" : 1683528673735,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8776460d2fd1cf54",
+  "name" : "test_diff[iphone启动图数据返回]",
+  "time" : {
+    "start" : 1683528681100,
+    "stop" : 1683528681198,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbffd1deec0df5c1",
+  "name" : "test_diff[测试gphone中插加密广告返回]",
+  "time" : {
+    "start" : 1683528675454,
+    "stop" : 1683528675586,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ebecb86da1afaaf",
+  "name" : "test_diff[iphone前贴加密数据返回]",
+  "time" : {
+    "start" : 1683528679745,
+    "stop" : 1683528680098,
+    "duration" : 353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afd6950af83677f6",
+  "name" : "test_diff[iphone焦点图加密数据返回]",
+  "time" : {
+    "start" : 1683528674923,
+    "stop" : 1683528675036,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c97d60b26226b3a",
+  "name" : "test_diff[gphone迷你中插加密数据返回]",
+  "time" : {
+    "start" : 1683528677263,
+    "stop" : 1683528677360,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d49aad101009142",
+  "name" : "test_diff[gphone搜索结果页数据返回]",
+  "time" : {
+    "start" : 1683528671301,
+    "stop" : 1683528671357,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e56e6afe2d21e3a3",
+  "name" : "test_diff[测试iphone暂停视频返回]",
+  "time" : {
+    "start" : 1683528682310,
+    "stop" : 1683528682392,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5876568f1a6e4ab7",
+  "name" : "test_diff[测试iphone首页框外加密返回]",
+  "time" : {
+    "start" : 1683528676743,
+    "stop" : 1683528676992,
+    "duration" : 249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "908a2cae121d1bcb",
+  "name" : "test_diff[gphone15512通栏视频加密数据返回]",
+  "time" : {
+    "start" : 1683528671787,
+    "stop" : 1683528671853,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ee79eed836adf59",
   "name" : "test_diff[iphone搜索结果页数据返回]",
   "time" : {
-    "start" : 1683526200059,
-    "stop" : 1683526200105,
+    "start" : 1683528671424,
+    "stop" : 1683528671462,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd2f9d80668ce70b",
+  "name" : "test_diff[iphone15512三图模板播放页剧集下方14369数据返回]",
+  "time" : {
+    "start" : 1683528672130,
+    "stop" : 1683528672232,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27c2ada6c1892c1c",
+  "name" : "test_diff[iphone视频流数据返回]",
+  "time" : {
+    "start" : 1683528673177,
+    "stop" : 1683528673326,
+    "duration" : 149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ba0e8aa0e98e8ad",
+  "name" : "test_diff[iphone片尾画中画加密数据返回]",
+  "time" : {
+    "start" : 1683528683198,
+    "stop" : 1683528683302,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e374dfa7703028f3",
+  "name" : "test_diff[iphone15512三图模板播放页剧集下方14369加密数据返回]",
+  "time" : {
+    "start" : 1683528672238,
+    "stop" : 1683528672338,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82dcb5bf1e93fed9",
+  "name" : "test_diff[gphonePGC播放页数据返回]",
+  "time" : {
+    "start" : 1683528673741,
+    "stop" : 1683528673883,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a27e6b2b502dbcce",
+  "name" : "test_diff[gphone角标数据返回]",
+  "time" : {
+    "start" : 1683528674366,
+    "stop" : 1683528674447,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "daf8089bc48b723e",
+  "name" : "test_diff[iphone15512小图图文下载加密数据返回]",
+  "time" : {
+    "start" : 1683528672725,
+    "stop" : 1683528672813,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b774493ff4acc241",
+  "name" : "test_diff[gphone片头画中画数据返回]",
+  "time" : {
+    "start" : 1683528675041,
+    "stop" : 1683528675097,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90aff4702dfa7425",
+  "name" : "test_diff[gphone视频流加密数据返回]",
+  "time" : {
+    "start" : 1683528672970,
+    "stop" : 1683528673172,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a43eb825603ad3c",
+  "name" : "test_diff[iphone启动图加密数据返回]",
+  "time" : {
+    "start" : 1683528681203,
+    "stop" : 1683528681283,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fdb8be57f8cde50",
+  "name" : "test_diff[测试iphone暂停标版视频加密返回]",
+  "time" : {
+    "start" : 1683528682226,
+    "stop" : 1683528682305,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fa84934f02ff901",
+  "name" : "test_diff[测试gphone暂停视频返回]",
+  "time" : {
+    "start" : 1683528681818,
+    "stop" : 1683528681877,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e97b1bd8d6b5a7f",
+  "name" : "test_diff[iphone视频流加密数据返回]",
+  "time" : {
+    "start" : 1683528673333,
+    "stop" : 1683528673510,
+    "duration" : 177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6672526dcf349710",
+  "name" : "test_diff[gphone片尾画中画加密数据返回]",
+  "time" : {
+    "start" : 1683528683051,
+    "stop" : 1683528683131,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72cfd9087c04bcf9",
+  "name" : "test_diff[gphone前贴数据返回]",
+  "time" : {
+    "start" : 1683528677893,
+    "stop" : 1683528678197,
+    "duration" : 304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1f0fc1895fd7ac4",
+  "name" : "test_diff[gphone15512小图图文下载数据返回]",
+  "time" : {
+    "start" : 1683528671991,
+    "stop" : 1683528672051,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a86d6d54f4259494",
+  "name" : "test_diff[gphone视频流加密数据返回]",
+  "time" : {
+    "start" : 1683528671362,
+    "stop" : 1683528671421,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcf9df4fea6f3a4f",
+  "name" : "test_diff[gphone15512通栏视频数据返回]",
+  "time" : {
+    "start" : 1683528671728,
+    "stop" : 1683528671783,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba9c309baba3039b",
+  "name" : "test_diff[gphone瀑布流加密数据返回]",
+  "time" : {
+    "start" : 1683528673562,
+    "stop" : 1683528673608,
     "duration" : 46
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8285d01e2eb64945",
-  "name" : "test_diff[gphone红包雨加密数据返回]",
+  "uid" : "91c7c08ce39a7d95",
+  "name" : "test_diff[gphone15512小图图文数据返回]",
   "time" : {
-    "start" : 1683526236407,
-    "stop" : 1683526236465,
-    "duration" : 58
+    "start" : 1683528671858,
+    "stop" : 1683528671908,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32ef664d7163f3ad",
+  "name" : "test_diff[测试gphone暂停视频加密返回]",
+  "time" : {
+    "start" : 1683528681881,
+    "stop" : 1683528681961,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a3c85fff24a5b85",
+  "name" : "test_diff[iphone前贴数据返回]",
+  "time" : {
+    "start" : 1683528679427,
+    "stop" : 1683528679740,
+    "duration" : 313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28784a2a638a59fb",
+  "name" : "test_diff[测试gphone暂停图片返回]",
+  "time" : {
+    "start" : 1683528681965,
+    "stop" : 1683528682044,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5551a03c6b0fc9b8",
+  "name" : "test_diff[测试gphone暂停标版视频加密返回]",
+  "time" : {
+    "start" : 1683528681739,
+    "stop" : 1683528681813,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdb9764268f2efa0",
+  "name" : "test_diff[测试iphone首页框外返回]",
+  "time" : {
+    "start" : 1683528676410,
+    "stop" : 1683528676733,
+    "duration" : 323
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5c57c383178330c",
+  "name" : "test_diff[gphone前贴联动加密数据返回]",
+  "time" : {
+    "start" : 1683528680913,
+    "stop" : 1683528681007,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "210f164792509a17",
+  "name" : "test_diff[gphone前贴联动加密数据返回]",
+  "time" : {
+    "start" : 1683528679336,
+    "stop" : 1683528679423,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d10dff7490b5e4a",
+  "name" : "test_diff[iphone前贴联动数据返回]",
+  "time" : {
+    "start" : 1683528680816,
+    "stop" : 1683528680908,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b80a60a0d89986bd",
+  "name" : "test_diff[iphone15512小图图文下载数据返回]",
+  "time" : {
+    "start" : 1683528672658,
+    "stop" : 1683528672722,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ed814d0aec4f24b",
+  "name" : "test_diff[iphone15512通栏视频加密数据返回]",
+  "time" : {
+    "start" : 1683528672408,
+    "stop" : 1683528672487,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d0fac4c4128ac48",
+  "name" : "test_diff[iphone前贴可选加密数据返回]",
+  "time" : {
+    "start" : 1683528680543,
+    "stop" : 1683528680813,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67443d0d0c7279a",
+  "name" : "test_diff[gphone动态焦点图加密数据返回]",
+  "time" : {
+    "start" : 1683528681319,
+    "stop" : 1683528681351,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a115056b97f84b3",
+  "name" : "test_diff[测试iphone暂停视频加密返回]",
+  "time" : {
+    "start" : 1683528682396,
+    "stop" : 1683528682505,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4a9d100b9a9f0f3",
+  "name" : "test_diff[gphone前贴联动数据返回]",
+  "time" : {
+    "start" : 1683528679245,
+    "stop" : 1683528679331,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51a1d0818acc9d5f",
+  "name" : "test_diff[iphone迷你中插数据返回]",
+  "time" : {
+    "start" : 1683528677365,
+    "stop" : 1683528677617,
+    "duration" : 252
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9003d7835a91963",
+  "name" : "test_diff[测试iphone暂停图片加密返回]",
+  "time" : {
+    "start" : 1683528682604,
+    "stop" : 1683528682687,
+    "duration" : 83
   },
   "status" : "passed",
   "severity" : "normal"
