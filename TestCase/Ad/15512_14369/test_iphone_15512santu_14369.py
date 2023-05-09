@@ -19,7 +19,6 @@ filename = path_dir + r'/Yaml/15512_14369/iphone15512三图模板播放页剧集
 r = ReadYaml(filename).GetTestData()
 
 
-@pytest.mark.flaky(reruns=4)
 @pytest.mark.parametrize("data", r[0], ids=r[1])
 def test_diff(data):
     status=0

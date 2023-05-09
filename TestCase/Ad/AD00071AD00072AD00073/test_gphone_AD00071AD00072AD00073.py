@@ -19,7 +19,6 @@ filename = path_dir + r'/Yaml/AD00071AD00072AD00073/gphonePGC播放页'
 r = ReadYaml(filename).GetTestData()
 
 
-@pytest.mark.flaky(reruns=4)
 @pytest.mark.parametrize("data", r[0], ids=r[1])
 def test_diff(data):
     status=0

@@ -20,7 +20,6 @@ filename = path_dir + r'/Yaml/pad/iphone暂停图片'
 r = ReadYaml(filename).GetTestData()
 
 
-@pytest.mark.flaky(reruns=4)
 @pytest.mark.parametrize("data", r[0], ids=r[1])
 def test_diff(data):
     status=GetAdData.get_tvapi_data(data['ad_url'])

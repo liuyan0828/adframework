@@ -3,6 +3,54 @@
   <component name="ChangeListManager">
     <list default="true" id="467bbdc0-d35c-4732-9658-ba23c3e8e14d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/14967/test_gphone_14967.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/14967/test_gphone_14967.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/14967/test_iphone_14967.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/14967/test_iphone_14967.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_gphone_15512tonglanshipin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_gphone_15512tonglanshipin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_gphone_15512xiaotutuwen.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_gphone_15512xiaotutuwen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_gphone_15512xiaotutuwenxiazai.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_gphone_15512xiaotutuwenxiazai.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_iphone_15512santu_14369.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_iphone_15512santu_14369.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_iphone_15512tonglanshipin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_iphone_15512tonglanshipin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_iphone_15512xiaotutuwen.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_iphone_15512xiaotutuwen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_iphone_15512xiaotutuwenxiazai.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_iphone_15512xiaotutuwenxiazai.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16107/test_gphone_16107.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/16107/test_gphone_16107.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16107/test_iphone_16107.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/16107/test_iphone_16107.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16108/test_gphone_16108.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/16108/test_gphone_16108.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16108/test_iphone_16108.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/16108/test_iphone_16108.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/AD00071AD00072AD00073/test_gphone_AD00071AD00072AD00073.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/AD00071AD00072AD00073/test_gphone_AD00071AD00072AD00073.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/AD00071AD00072AD00073/test_iphone_AD00071AD00072AD00073.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/AD00071AD00072AD00073/test_iphone_AD00071AD00072AD00073.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/flogo/test_gphone_flogo.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/flogo/test_gphone_flogo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/flogo/test_iphone_flogo.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/flogo/test_iphone_flogo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/focus/test_gphone_focus.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/focus/test_gphone_focus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/focus/test_iphone_focus.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/focus/test_iphone_focus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/frontframe/test_gphone_frontframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/frontframe/test_gphone_frontframe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/frontframe/test_iphone_frontframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/frontframe/test_iphone_frontframe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/mad/test_gphone_mad.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/mad/test_gphone_mad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/mad/test_iphone_mad.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/mad/test_iphone_mad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/mainPage/test_gphone_mainPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/mainPage/test_gphone_mainPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/mainPage/test_iphone_mainPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/mainPage/test_iphone_mainPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/minimad/test_gphone_minimad.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/minimad/test_gphone_minimad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/minimad/test_iphone_minimad.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/minimad/test_iphone_minimad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_gphone_oad.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/oad/test_gphone_oad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_gphone_oadKeTiaoGuo.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/oad/test_gphone_oadKeTiaoGuo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_gphone_oadKeXuan.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/oad/test_gphone_oadKeXuan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_gphone_oadLianDong.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/oad/test_gphone_oadLianDong.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_iphone_oad.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/oad/test_iphone_oad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_iphone_oadKeTiaoGuo.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/oad/test_iphone_oadKeTiaoGuo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_iphone_oadKeXuan.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/oad/test_iphone_oadKeXuan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_iphone_oadLianDong.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/oad/test_iphone_oadLianDong.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/open/test_gphone_open.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/open/test_gphone_open.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/open/test_iphone_open.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/open/test_iphone_open.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/overfly/test_gphone_overfly.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/overfly/test_gphone_overfly.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/overfly/test_iphone_overfly.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/overfly/test_iphone_overfly.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/pad/test_gphone_padBiaoBanShiPin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/pad/test_gphone_padBiaoBanShiPin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/pad/test_gphone_padShiPin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/pad/test_gphone_padShiPin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/pad/test_gphone_padTuPian.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/pad/test_gphone_padTuPian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/pad/test_iphone_padBiaoBanShiPin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/pad/test_iphone_padBiaoBanShiPin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/pad/test_iphone_padShiPin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/pad/test_iphone_padShiPin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/pad/test_iphone_padTuPian.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/pad/test_iphone_padTuPian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/topcloud/test_gphone_topcloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/topcloud/test_gphone_topcloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/topcloud/test_iphone__topcloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/topcloud/test_iphone__topcloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

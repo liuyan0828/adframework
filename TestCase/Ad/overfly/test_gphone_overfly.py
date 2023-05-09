@@ -18,8 +18,6 @@ path_dir = str(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../..
 filename = path_dir + r'/Yaml/overfly/gphone动态焦点图'
 r = ReadYaml(filename).GetTestData()
 
-
-@pytest.mark.flaky(reruns=4)
 @pytest.mark.parametrize("data", r[0], ids=r[1])
 def test_diff(data):
     status=0
