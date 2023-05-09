@@ -9,8 +9,8 @@ import sys
 if __name__ == '__main__':
     sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
     # s输出打印信息，v输出详细信息。不指定则运行所有
-    #args = ['-s', '-q', 'TestCase/Ad', '--alluredir', 'Report/xml_report', '--reruns=4', '--reruns-delay=4']
-    args = ['-s', '-q', 'TestCase/Ad', '--alluredir', 'Report/xml_report']
+    args = ['-s', '-q', 'TestCase/Ad', '--alluredir', 'Report/xml_report', '--reruns=4', '--reruns-delay=4']
+    #args = ['-s', '-q', 'TestCase/Ad', '--alluredir', 'Report/xml_report']
 
     pytest.main(args)
 
