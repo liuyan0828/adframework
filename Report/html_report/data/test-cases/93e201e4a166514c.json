@@ -1,0 +1,170 @@
+{
+  "uid" : "93e201e4a166514c",
+  "name" : "test_diff[gphonePGC播放页数据返回]",
+  "fullName" : "TestCase.Ad.AD00071AD00072AD00073.test_gphone_AD00071AD00072AD00073#test_diff",
+  "historyId" : "1e9c649b4eb5dd118ddc48929b1cd8d6",
+  "time" : {
+    "start" : 1683623333419,
+    "stop" : 1683623333558,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "flaky(reruns=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.AD00071AD00072AD00073"
+  }, {
+    "name" : "suite",
+    "value" : "test_gphone_AD00071AD00072AD00073"
+  }, {
+    "name" : "host",
+    "value" : "weihuaguo1"
+  }, {
+    "name" : "thread",
+    "value" : "20068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.AD00071AD00072AD00073.test_gphone_AD00071AD00072AD00073"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'gphonePGC播放页数据返回', 'ad_url': 'm?container=1&timetag=1648030016878&pt=AD00071%7CAD00072%7CAD00073&pagecount=0&pugc_banner_type=B&huawei_hms_version=60400312&vid=262358267&plat=6&gbcode=null&ext=1048575&scs=108002340&vc=300;300312&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&protv=3.0&adoriginal=sohu&guid=da00fd9360e3a3cfca9036d058188b45&sdkVersion=tv7.3.51&catecode=ad6&gid=x0107402101014e19f47b3c4c0005b0ad65a2e3129fb&sdkv=tv8.3.51&privacy=1&forbid=0&turn=32&exten=1,2,3,4,5,6,7,8&tvpid=93&huawei_store_version=120001301&prot=vast&adslotid=AD00071%7CAD00072%7CAD00073&c=tv&displayMetrics=1080*2340&density=3.0&encd=M%2FIAimUG6O8Oej6M9A2Z1iYzMUfNE961pXSiBc862lvis6qjOqFfjcwFtQKY12tMi6LMROS8wZ3KkZ2UpFNBfkTMudpIxTIDAPKLohzYUd69Ew9F%2FbJfIq%2FC9oEtphbW1kCvZEp%2FHWRsP6rob0xb%2FUc6Esc%2F%2FJ6vVMPYvtwAGPtkns4qNPQocBXa4HFc1frSNAxMEJS%2FG%2FSZHOouN2b4fbWIbtPcbSIincPF492YWkviAGCVJdPT9icCLY6pOzenl2WfdEUQ%2BRYj7pJ4mCWUe%2Bdn6nroUXFtvSJiHvh7liLV1g9UzV1QaK9R0HsYnbM1F17L6qjSupJy8YxgeA5mceJqt8doKx34Ws65UI04NDwL%2BdVrL%2FZkBOj8rYIYhKtZIpVS95uIS6KpkLTS3mphFupAgjgprBYKglG%2BX1n2R0ZcrMdWuvFtBjs9TCYGvZvdjDNTJ3qtmGnVP%2FfqTgSZRw0AzNaMtkXW1i%2BmQuO7cMJi9S3jH7%2F6nF%2F5nDdM7HlrNzWtroTYs1Uov1dBKq%2FZwDdlcBVmRTpttflLH%2FCJom%2FyxqhKC%2BjD%2FeCYA9DP5z3org%2BNKoTVTRoJklZIzu8LuKseqihiX9U1zLPl9SKR1CKWBsHcKGJ1DQwVJLbN3uFFGKSoYS6te8umZ82e7NI%2FQC2gh%2BCC%2BuTfTkRwwYYfWhFSEOvGxV0759FGdu9kP23ga8kPvEHXPJ4JDTm7gXJaadp1ITWGH6yaEbCWm8VrRAYyaKabHcBS%2BkBohQSYQHI6eOdhwMCRhZvldwJWpydBRnMq4%2BJ7cyun8aVszeyRsF8RVn61%2FjrbrpNifi6nKOpMrsq8tRSF7azh3d7l8sH%2BOHp1WbCIDqCYNry9FjyNg%2B9vPredXgCsD3YgAp0g22Pi1zaUwqMlz81fQ8vyhMt%2BOQ%3D%3D&sver=9.6.30&poid=1&uptime=461019890&site=2&partner=93&build=9.6.30&appid=tv', 'base_path': '/基准xml/AD00071AD00072AD00073/gphonePGC播放页数据返回.xml', 'isEncrypt': 0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c0f2b9bf49d6a6cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683622481340,
+        "stop" : 1683622481508,
+        "duration" : 168
+      }
+    }, {
+      "uid" : "eda48344125c6754",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683622327498,
+        "stop" : 1683622327631,
+        "duration" : 133
+      }
+    }, {
+      "uid" : "1653bd2ad4bd236d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683622018707,
+        "stop" : 1683622018884,
+        "duration" : 177
+      }
+    }, {
+      "uid" : "9dea180211777409",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683621739165,
+        "stop" : 1683621739415,
+        "duration" : 250
+      }
+    }, {
+      "uid" : "7bb1a2cb01a8e11e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683621612943,
+        "stop" : 1683621613146,
+        "duration" : 203
+      }
+    }, {
+      "uid" : "558e762003f27ed9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683617063036,
+        "stop" : 1683617063244,
+        "duration" : 208
+      }
+    }, {
+      "uid" : "1716a1914475d2ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616912845,
+        "stop" : 1683616912964,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "b7ee31dfd0279432",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616875149,
+        "stop" : 1683616875291,
+        "duration" : 142
+      }
+    }, {
+      "uid" : "e3ec8bc1de938d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616780076,
+        "stop" : 1683616780198,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "3eeaab5ed7d1cb84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616702854,
+        "stop" : 1683616702977,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "455ce82c518f8f85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616644241,
+        "stop" : 1683616644368,
+        "duration" : 127
+      }
+    }, {
+      "uid" : "6cb6511714ad2a7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616492661,
+        "stop" : 1683616492809,
+        "duration" : 148
+      }
+    }, {
+      "uid" : "21dc247c7529d9ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683614168419,
+        "stop" : 1683614168526,
+        "duration" : 107
+      }
+    }, {
+      "uid" : "55a54788b21b1682",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683614127085,
+        "stop" : 1683614127276,
+        "duration" : 191
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=4)" ]
+  },
+  "source" : "93e201e4a166514c.json",
+  "parameterValues" : [ "{'title': 'gphonePGC播放页数据返回', 'ad_url': 'm?container=1&timetag=1648030016878&pt=AD00071%7CAD00072%7CAD00073&pagecount=0&pugc_banner_type=B&huawei_hms_version=60400312&vid=262358267&plat=6&gbcode=null&ext=1048575&scs=108002340&vc=300;300312&ugcode2=MCSOTk=7BsAkOE9DEGH4xNx97GCatznT30Ir41TCqbNyMctQuMAu0Ze3JHwKa22RZiB32TGZw07Jw..&protv=3.0&adoriginal=sohu&guid=da00fd9360e3a3cfca9036d058188b45&sdkVersion=tv7.3.51&catecode=ad6&gid=x0107402101014e19f47b3c4c0005b0ad65a2e3129fb&sdkv=tv8.3.51&privacy=1&forbid=0&turn=32&exten=1,2,3,4,5,6,7,8&tvpid=93&huawei_store_version=120001301&prot=vast&adslotid=AD00071%7CAD00072%7CAD00073&c=tv&displayMetrics=1080*2340&density=3.0&encd=M%2FIAimUG6O8Oej6M9A2Z1iYzMUfNE961pXSiBc862lvis6qjOqFfjcwFtQKY12tMi6LMROS8wZ3KkZ2UpFNBfkTMudpIxTIDAPKLohzYUd69Ew9F%2FbJfIq%2FC9oEtphbW1kCvZEp%2FHWRsP6rob0xb%2FUc6Esc%2F%2FJ6vVMPYvtwAGPtkns4qNPQocBXa4HFc1frSNAxMEJS%2FG%2FSZHOouN2b4fbWIbtPcbSIincPF492YWkviAGCVJdPT9icCLY6pOzenl2WfdEUQ%2BRYj7pJ4mCWUe%2Bdn6nroUXFtvSJiHvh7liLV1g9UzV1QaK9R0HsYnbM1F17L6qjSupJy8YxgeA5mceJqt8doKx34Ws65UI04NDwL%2BdVrL%2FZkBOj8rYIYhKtZIpVS95uIS6KpkLTS3mphFupAgjgprBYKglG%2BX1n2R0ZcrMdWuvFtBjs9TCYGvZvdjDNTJ3qtmGnVP%2FfqTgSZRw0AzNaMtkXW1i%2BmQuO7cMJi9S3jH7%2F6nF%2F5nDdM7HlrNzWtroTYs1Uov1dBKq%2FZwDdlcBVmRTpttflLH%2FCJom%2FyxqhKC%2BjD%2FeCYA9DP5z3org%2BNKoTVTRoJklZIzu8LuKseqihiX9U1zLPl9SKR1CKWBsHcKGJ1DQwVJLbN3uFFGKSoYS6te8umZ82e7NI%2FQC2gh%2BCC%2BuTfTkRwwYYfWhFSEOvGxV0759FGdu9kP23ga8kPvEHXPJ4JDTm7gXJaadp1ITWGH6yaEbCWm8VrRAYyaKabHcBS%2BkBohQSYQHI6eOdhwMCRhZvldwJWpydBRnMq4%2BJ7cyun8aVszeyRsF8RVn61%2FjrbrpNifi6nKOpMrsq8tRSF7azh3d7l8sH%2BOHp1WbCIDqCYNry9FjyNg%2B9vPredXgCsD3YgAp0g22Pi1zaUwqMlz81fQ8vyhMt%2BOQ%3D%3D&sver=9.6.30&poid=1&uptime=461019890&site=2&partner=93&build=9.6.30&appid=tv', 'base_path': '/基准xml/AD00071AD00072AD00073/gphonePGC播放页数据返回.xml', 'isEncrypt': 0}" ]
+}

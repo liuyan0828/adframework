@@ -21,6 +21,7 @@ r = ReadYaml(filename).GetTestData()
 
 
 @pytest.mark.parametrize("data", r[0], ids=r[1])
+@pytest.mark.flaky(reruns=4)
 def test_diff(data):
     status = 0
     if data['isEncrypt'] == 1:

@@ -1,0 +1,53 @@
+{
+  "uid" : "ffc5484abd32fe69",
+  "name" : "test_diff[iphone瀑布流加密数据返回]",
+  "fullName" : "TestCase.Ad.16108.test_iphone_16108#test_diff",
+  "historyId" : "925e78525a02b6e4abe90f27111b017b",
+  "time" : {
+    "start" : 1683616912782,
+    "stop" : 1683616912840,
+    "duration" : 58
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.16108"
+  }, {
+    "name" : "suite",
+    "value" : "test_iphone_16108"
+  }, {
+    "name" : "host",
+    "value" : "weihuaguo1"
+  }, {
+    "name" : "thread",
+    "value" : "8592-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.16108.test_iphone_16108"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'iphone瀑布流加密数据返回', 'ad_url': 'm?&adslotid=16108&appid=tv&catecode=0&density=3.000000&encd=BCNpgB%2BkfIu76KYJTi/sQK7v3GD%2Bj/2GWFy5agH%2BGAu/cC5jsBKs9PDwxU0bW9186WHDJ1p8GpAqHPtmo8fyffhdSVIYCRbryBsTFfx9S6e57QJuFV113pbMPD%2BHIrTKu6DCdr6nUcoL0mEIDQJ13cAJc/NE0ifUhEzQaJ8oHLBCN%2BiRpQFaitCrzgFELItXa9ESpjOMkga2IB19fiwfzXfdxTVM8fmVpWgsRQ0r2KomvgkTzLM0/x4ImvDLtRXqVuWo0nGBhpSoLtuoHiND96NtduQvUIIDev3fxZssKKE1d4b0aSco60IXswvVh63tY4edo3jLsBSiv2K2q%2BTgizZGGlO2o/3LNzuRvZEXvbRKd8WIIcE%2BcmTPffu5pZYly1ohYAlB4Xes0cmGC7GVNeJSO1Ypp12h7VeYUpqgm9m%2BDR7kTsayOcBlhjWixRTwuZQ0IVeW/uWF4pzwZM5aKrJIBQ1uTk36Shjdj1Dx4PdGBM2%2BT3YNQLqmj%2BDuGdOM/qmOuP6DgJBu13NnqoooCrw2G/X1nX5tvAlo3pl1ZxrjUirPkx%2BLOACkXvgWuR5D2GCXTie4C/6LxIDnapAUeOASmKOvdP1w2uuuUW%2BVCU75JYZkEE%2B6knGdMuI8NtjO5DAZ2xKNAjbzSF%2BW&gid=x010740101010f9daeaabb0790000ca76acfc8f79b81&guid=&pagecount=20&partner=6932&plat=3&poid=1&poscode=op_iphone_1&privacy=1&prot=json&pt=16108&sdkv=14.8.0&sver=9.7.20&timetag=1656467236539&tvpid=6932&vc=0', 'base_path': '/基准xml/16108/iphone瀑布流加密数据返回.json', 'isEncrypt': 1, 'isJson': 1}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ffc5484abd32fe69.json",
+  "parameterValues" : [ "{'title': 'iphone瀑布流加密数据返回', 'ad_url': 'm?&adslotid=16108&appid=tv&catecode=0&density=3.000000&encd=BCNpgB%2BkfIu76KYJTi/sQK7v3GD%2Bj/2GWFy5agH%2BGAu/cC5jsBKs9PDwxU0bW9186WHDJ1p8GpAqHPtmo8fyffhdSVIYCRbryBsTFfx9S6e57QJuFV113pbMPD%2BHIrTKu6DCdr6nUcoL0mEIDQJ13cAJc/NE0ifUhEzQaJ8oHLBCN%2BiRpQFaitCrzgFELItXa9ESpjOMkga2IB19fiwfzXfdxTVM8fmVpWgsRQ0r2KomvgkTzLM0/x4ImvDLtRXqVuWo0nGBhpSoLtuoHiND96NtduQvUIIDev3fxZssKKE1d4b0aSco60IXswvVh63tY4edo3jLsBSiv2K2q%2BTgizZGGlO2o/3LNzuRvZEXvbRKd8WIIcE%2BcmTPffu5pZYly1ohYAlB4Xes0cmGC7GVNeJSO1Ypp12h7VeYUpqgm9m%2BDR7kTsayOcBlhjWixRTwuZQ0IVeW/uWF4pzwZM5aKrJIBQ1uTk36Shjdj1Dx4PdGBM2%2BT3YNQLqmj%2BDuGdOM/qmOuP6DgJBu13NnqoooCrw2G/X1nX5tvAlo3pl1ZxrjUirPkx%2BLOACkXvgWuR5D2GCXTie4C/6LxIDnapAUeOASmKOvdP1w2uuuUW%2BVCU75JYZkEE%2B6knGdMuI8NtjO5DAZ2xKNAjbzSF%2BW&gid=x010740101010f9daeaabb0790000ca76acfc8f79b81&guid=&pagecount=20&partner=6932&plat=3&poid=1&poscode=op_iphone_1&privacy=1&prot=json&pt=16108&sdkv=14.8.0&sver=9.7.20&timetag=1656467236539&tvpid=6932&vc=0', 'base_path': '/基准xml/16108/iphone瀑布流加密数据返回.json', 'isEncrypt': 1, 'isJson': 1}" ]
+}

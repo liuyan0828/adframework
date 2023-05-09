@@ -1,0 +1,178 @@
+{
+  "uid" : "7f17a26abb458a64",
+  "name" : "test_diff[iphone15512三图模板播放页剧集下方14369数据返回]",
+  "fullName" : "TestCase.Ad.15512_14369.test_iphone_15512santu_14369#test_diff",
+  "historyId" : "1caa15319e8adf377e60283eb6c310fa",
+  "time" : {
+    "start" : 1683623331517,
+    "stop" : 1683623331624,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "flaky(reruns=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.15512_14369"
+  }, {
+    "name" : "suite",
+    "value" : "test_iphone_15512santu_14369"
+  }, {
+    "name" : "host",
+    "value" : "weihuaguo1"
+  }, {
+    "name" : "thread",
+    "value" : "20068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.15512_14369.test_iphone_15512santu_14369"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'iphone15512三图模板播放页剧集下方14369数据返回', 'ad_url': 'm?&adpr=0&adslotid=15512%7C14369&appid=tv&appv=9.6.30&c=tv&clientType=2&container=1&cv=9.6.30&density=3&displayMetrics=414%2A736&encd=nb3SsmOd08BdrLiiMTKbwp088STNsNqeoSKtWfwnq5dSUFcot6TX4QrZVenJSrJt/7uVvOg5D2G5PMgVMQYqOs5GNr5Rkrl7oyeyBv0M7sRj8RZ3Y%2BV5xtZoqUacXQz%2Bv0qp34jI6MTeqCWe%2BKy90PpuK6/uSLlcYNxDmmI09rImMbK3ldBSt0vkt/4abxl26k64s84bBob5AbYlnSzaBKWyUY5r0Vmw/KhjbEgjEKzw2mL/DVg9iIFC7CXFG/ZyiDyzuV91W6W5Al0/SVG6A16AWiUBqV46eUZkJKdMdPJWmfrpeuetqYhWVZa9zxxmYdqp6ZPZ004NgeN7ZGOg8vxnSdF%2BW4%2BDDGqJd%2Bc4oEAKGau9VJyxJBHcQcW2wNVkvzGlp7eSi0D8IP0SiFnrDHU6V%2BDjNg75g7hcPxiPwYYff0BeCxxygt48vJs%2B6SXuUvMo1ET75qsV/6jBV4gYwHXRQJCOmwvUEU7PF2no%2BrzLH47jwheiGeVYq3Aqjk3UbTzmYH8P5anEmHBt/qIVRkYDdg7bvsLDIRnN1pLFSvxwSjwHEP1UEt9tIBopz6ka23AyLcFVeqA3fubje8IGYbFTlu2VyZukGxdNX7JloKdXJn8x3HzCnHeliAE4eLPPYCNielUs2KBU/aL9KC/7TTqSw%2Bch/RgMKLzFWeBElHL3wRvVHLB2cF5ekWzV6gJc6Lx5zw%3D%3D&guid=2d8af0f88f4a4278956be9eba1188e9b&islocaltv=0&offline=0&os=iOS&partner=6932&pay=0&plat=3&poid=1&privacy=1&prot=vast&pt=15512%7C14369&scs=124202208&sdkv=13.4.1&source=1000080005&sver=9.6.30&system_type=0&timetag=1648093249120&turn=25&vid=4966860&videoType=m3u8&vu=0', 'base_path': '/基准xml/15512_14369/iphone15512三图模板播放页剧集下方14369数据返回.xml', 'isEncrypt': 0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f7308293b01b6a01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683622479545,
+        "stop" : 1683622479667,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "fff6cc2e4fc3ccc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683622325666,
+        "stop" : 1683622325760,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "28593600001a1ea1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683622016804,
+        "stop" : 1683622016933,
+        "duration" : 129
+      }
+    }, {
+      "uid" : "4c34b5a5de6b53f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683621736672,
+        "stop" : 1683621736849,
+        "duration" : 177
+      }
+    }, {
+      "uid" : "8566109ff9393daa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683621610199,
+        "stop" : 1683621610309,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "8923c4cf8e7f76b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683617061245,
+        "stop" : 1683617061343,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "cea625d540948ae1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616911046,
+        "stop" : 1683616911145,
+        "duration" : 99
+      }
+    }, {
+      "uid" : "56f5b0e6a1b88f0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616873385,
+        "stop" : 1683616873489,
+        "duration" : 104
+      }
+    }, {
+      "uid" : "c634be6cca855245",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616778311,
+        "stop" : 1683616778411,
+        "duration" : 100
+      }
+    }, {
+      "uid" : "a8b5e0bfa8e56267",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616701284,
+        "stop" : 1683616701380,
+        "duration" : 96
+      }
+    }, {
+      "uid" : "15807a81db79e34a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616642587,
+        "stop" : 1683616642694,
+        "duration" : 107
+      }
+    }, {
+      "uid" : "f43cd5e89e2fb72d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616490905,
+        "stop" : 1683616491008,
+        "duration" : 103
+      }
+    }, {
+      "uid" : "9d2393261223940f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683614165631,
+        "stop" : 1683614165739,
+        "duration" : 108
+      }
+    }, {
+      "uid" : "5a4a91439416e16a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683614124275,
+        "stop" : 1683614124508,
+        "duration" : 233
+      }
+    }, {
+      "uid" : "8ff7a08fecd80471",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683614119032,
+        "stop" : 1683614119119,
+        "duration" : 87
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=4)" ]
+  },
+  "source" : "7f17a26abb458a64.json",
+  "parameterValues" : [ "{'title': 'iphone15512三图模板播放页剧集下方14369数据返回', 'ad_url': 'm?&adpr=0&adslotid=15512%7C14369&appid=tv&appv=9.6.30&c=tv&clientType=2&container=1&cv=9.6.30&density=3&displayMetrics=414%2A736&encd=nb3SsmOd08BdrLiiMTKbwp088STNsNqeoSKtWfwnq5dSUFcot6TX4QrZVenJSrJt/7uVvOg5D2G5PMgVMQYqOs5GNr5Rkrl7oyeyBv0M7sRj8RZ3Y%2BV5xtZoqUacXQz%2Bv0qp34jI6MTeqCWe%2BKy90PpuK6/uSLlcYNxDmmI09rImMbK3ldBSt0vkt/4abxl26k64s84bBob5AbYlnSzaBKWyUY5r0Vmw/KhjbEgjEKzw2mL/DVg9iIFC7CXFG/ZyiDyzuV91W6W5Al0/SVG6A16AWiUBqV46eUZkJKdMdPJWmfrpeuetqYhWVZa9zxxmYdqp6ZPZ004NgeN7ZGOg8vxnSdF%2BW4%2BDDGqJd%2Bc4oEAKGau9VJyxJBHcQcW2wNVkvzGlp7eSi0D8IP0SiFnrDHU6V%2BDjNg75g7hcPxiPwYYff0BeCxxygt48vJs%2B6SXuUvMo1ET75qsV/6jBV4gYwHXRQJCOmwvUEU7PF2no%2BrzLH47jwheiGeVYq3Aqjk3UbTzmYH8P5anEmHBt/qIVRkYDdg7bvsLDIRnN1pLFSvxwSjwHEP1UEt9tIBopz6ka23AyLcFVeqA3fubje8IGYbFTlu2VyZukGxdNX7JloKdXJn8x3HzCnHeliAE4eLPPYCNielUs2KBU/aL9KC/7TTqSw%2Bch/RgMKLzFWeBElHL3wRvVHLB2cF5ekWzV6gJc6Lx5zw%3D%3D&guid=2d8af0f88f4a4278956be9eba1188e9b&islocaltv=0&offline=0&os=iOS&partner=6932&pay=0&plat=3&poid=1&privacy=1&prot=vast&pt=15512%7C14369&scs=124202208&sdkv=13.4.1&source=1000080005&sver=9.6.30&system_type=0&timetag=1648093249120&turn=25&vid=4966860&videoType=m3u8&vu=0', 'base_path': '/基准xml/15512_14369/iphone15512三图模板播放页剧集下方14369数据返回.xml', 'isEncrypt': 0}" ]
+}

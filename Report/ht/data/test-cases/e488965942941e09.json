@@ -1,0 +1,53 @@
+{
+  "uid" : "e488965942941e09",
+  "name" : "test_diff[iphone角标数据返回]",
+  "fullName" : "TestCase.Ad.flogo.test_iphone_flogo#test_diff",
+  "historyId" : "84e12119b15d7afef5ac2abdcc44c3f7",
+  "time" : {
+    "start" : 1683614169711,
+    "stop" : 1683614169847,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.flogo"
+  }, {
+    "name" : "suite",
+    "value" : "test_iphone_flogo"
+  }, {
+    "name" : "host",
+    "value" : "weihuaguo1"
+  }, {
+    "name" : "thread",
+    "value" : "17968-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.flogo.test_iphone_flogo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'iphone角标数据返回', 'ad_url': 'm?pt=flogo&adoriginal=sohu&adpr=0&al=9740212&appid=tv&build=9.6.20.0.1&c=tv&channeled=1000021000&density=3&displayMetrics=736%2A414&du=2718.976&encd=VzUvPaGOObdTnsAxsIKi7K59hfDsgOCWSP%2B%2BaSso5%2BFn8uhvrzuT19Y1DLvL0z9cTTYDX4mEeBbLkE9%2Bf87A7Hj8LzbV7SjQW8eHtvAPA8EJuIABDLo0FD5TPhRDq7sxHG6uEAfEcG63xLTyui/hfXAW8aCpMzrISSsv/K725Afm6NgJUrI8Dftp7oSlL4jjZB/7v8Ii7iCdlWCt562kxNPinCruztw4rxQnETXR0f3iqxQWtanmtEuBUx8MjE0PXnkrTo9mpfVM1oRUc/6TOSofKpVNJr9h49s5Mq/4JknxI5WAW3GbV/wSv%2B6rRRLl8K9MaXVIh5v/a/3CcUEk6Fw6y97/LjVNxwUqUaJBWbzwSPj6ftF8GdiCxr1DgpJys/5egY7u%2BaiGFmrw1drJ/rcfPCb3JG12LMNhrkEPkAXFcORlLjypub%2BtXAUFlYv73wI0N6q//Q7yUpm94Uz/i9J/IX1ZfOQbUuVtKJf8SAS0IXSwvgONiZ8%2Bb1kkILQ0PA/b7kmEAyNUj2TR1DEfLp1y3ZSB/9VvtYSPqOnkgxO4mH3tfh5qdMFU6TMdgjG5XCFPYz2lRoFT%2B%2BLse/4jfFc7yXOzozyIA7UHJmzXk7wVPsMSonnBoz/U9gxylenxr1g8bNPT31y7KucqTf3WRUT8qPa5qzmbDjB2wG1pQwypqAP7Zx8FX5%2B7cd/G6WFXO86QlVwqmwhWqDByjigq6Q%3D%3D&ext=2096591&exten=1%2C2%2C3%2C4%2C7%2C8&guid=fea63c18ca41e802a05357931c0a2318&islocaltv=0&offline=0&partner=1&pay=0&plat=3&playerMetrics=&playerScale=0.563&playstyle=1&poid=1&privacy=1&prot=vast&protv=3.0&qt=0&sdkVersion=13.3.0&site=1&sver=9.6.20&system_type=0&vc=101%3B101145%3B101143&vid=7691478&videoType=m3u8&vu=0', 'base_path': '/基准xml/flogo/iphone角标数据返回.xml', 'isEncrypt': 0}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e488965942941e09.json",
+  "parameterValues" : [ "{'title': 'iphone角标数据返回', 'ad_url': 'm?pt=flogo&adoriginal=sohu&adpr=0&al=9740212&appid=tv&build=9.6.20.0.1&c=tv&channeled=1000021000&density=3&displayMetrics=736%2A414&du=2718.976&encd=VzUvPaGOObdTnsAxsIKi7K59hfDsgOCWSP%2B%2BaSso5%2BFn8uhvrzuT19Y1DLvL0z9cTTYDX4mEeBbLkE9%2Bf87A7Hj8LzbV7SjQW8eHtvAPA8EJuIABDLo0FD5TPhRDq7sxHG6uEAfEcG63xLTyui/hfXAW8aCpMzrISSsv/K725Afm6NgJUrI8Dftp7oSlL4jjZB/7v8Ii7iCdlWCt562kxNPinCruztw4rxQnETXR0f3iqxQWtanmtEuBUx8MjE0PXnkrTo9mpfVM1oRUc/6TOSofKpVNJr9h49s5Mq/4JknxI5WAW3GbV/wSv%2B6rRRLl8K9MaXVIh5v/a/3CcUEk6Fw6y97/LjVNxwUqUaJBWbzwSPj6ftF8GdiCxr1DgpJys/5egY7u%2BaiGFmrw1drJ/rcfPCb3JG12LMNhrkEPkAXFcORlLjypub%2BtXAUFlYv73wI0N6q//Q7yUpm94Uz/i9J/IX1ZfOQbUuVtKJf8SAS0IXSwvgONiZ8%2Bb1kkILQ0PA/b7kmEAyNUj2TR1DEfLp1y3ZSB/9VvtYSPqOnkgxO4mH3tfh5qdMFU6TMdgjG5XCFPYz2lRoFT%2B%2BLse/4jfFc7yXOzozyIA7UHJmzXk7wVPsMSonnBoz/U9gxylenxr1g8bNPT31y7KucqTf3WRUT8qPa5qzmbDjB2wG1pQwypqAP7Zx8FX5%2B7cd/G6WFXO86QlVwqmwhWqDByjigq6Q%3D%3D&ext=2096591&exten=1%2C2%2C3%2C4%2C7%2C8&guid=fea63c18ca41e802a05357931c0a2318&islocaltv=0&offline=0&partner=1&pay=0&plat=3&playerMetrics=&playerScale=0.563&playstyle=1&poid=1&privacy=1&prot=vast&protv=3.0&qt=0&sdkVersion=13.3.0&site=1&sver=9.6.20&system_type=0&vc=101%3B101145%3B101143&vid=7691478&videoType=m3u8&vu=0', 'base_path': '/基准xml/flogo/iphone角标数据返回.xml', 'isEncrypt': 0}" ]
+}

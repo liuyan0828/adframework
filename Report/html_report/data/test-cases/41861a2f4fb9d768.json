@@ -1,0 +1,170 @@
+{
+  "uid" : "41861a2f4fb9d768",
+  "name" : "test_diff[iphone启动图加密数据返回]",
+  "fullName" : "TestCase.Ad.open.test_iphone_open#test_diff",
+  "historyId" : "3e1bde8483066153900b78590cc3669d",
+  "time" : {
+    "start" : 1683623341047,
+    "stop" : 1683623341144,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "flaky(reruns=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.open"
+  }, {
+    "name" : "suite",
+    "value" : "test_iphone_open"
+  }, {
+    "name" : "host",
+    "value" : "weihuaguo1"
+  }, {
+    "name" : "thread",
+    "value" : "20068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.open.test_iphone_open"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'iphone启动图加密数据返回', 'ad_url': 'm?&adoriginal=sohu&appid=tv&build=com.sohu.inhouse.iphonevideo&density=3.000000&displayMetrics=414%2A736&encd=1zdWgialPK6remrJZcMlyMv6sTqZib8NncrwDlxZp/DKjNtyt87F2e/%2BtXJs55CpkIZNlCOZSa6%2Bh8PH9pyQrEPMmBILhpZ7iwlevgBETfs4hIPNgCF75L0kfxlDcNljVxmOZ0rFfNScSnXocwFk8YtogQusHZml8j0BUex3aLi18UdUyJV17Vl1pXuJvwB9ciYtu3PvNc6Kfc793BuNNYWB3wgtZ6zqIjPbdQ0cwW9R42Jv4GlIkmLqHH1U2olm98uNZht60U5JU%2BUTyb4KgPYxTgu/3iBzh8Nlr%2BZ8ZDYPwBghat7qxj6HzJ9xGvmvsK63ff9sYDxcZ2aGkL7EvAWD1mF8SOplUmq%2BlWjS6DVFDqKLmy3ibq8oBxSkxpTWlGRD63TOKy0LNaIJg8PfqB/KzUQX8tPX2Ym951GGNDxOubpkL2W05IPXqv30m80peU/NmB8bqVXMQUW%2BJUA/CGbmSciiDi9oZZ597wcJM4dbqSE0J9hYxk/eRYOxqjBSnbtu2cnv3BGHWz3AUJn7SToDjRP4s3jwhpzBgYS/w2Gnwwez70xpDKBAB7fU3vBkK6fJ8nSz8QXfqO1w0pj9V6mFC3ofw/xCHVSIoTbxrHVbO3DZ08Rta0ry4DBzQBflAvsVFXoYQVYjiR5C9r7Qsud2qmL2lRrtRFzw3yT8zLA%2Bb4IzK1H5dQ25FzapCXZdoG7Rb5ncTJGKYxtSj9GVTQ%3D%3D&expired=0&ext=2096591&exten=1%2C2%2C3%2C4%2C7%2C8&gid=x010740101010f9daeaabb0790000ca76acfc8f79b81&guid=&height=736&islocaltv=0&partner=6932&plat=3&poid=1&poscode=op_iphone_1&privacy=1&prot=vast&protv=3.0&pt=open&sdkVersion=14.0.0&site=1&sver=9.3.00&system_type=0&tvpid=6932&width=414', 'base_path': '/基准xml/open/iphone启动图加密数据返回.xml', 'isEncrypt': 1}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "833f6bb0897cdbb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683622489176,
+        "stop" : 1683622489289,
+        "duration" : 113
+      }
+    }, {
+      "uid" : "32f16b3752b24f27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683622336458,
+        "stop" : 1683622336562,
+        "duration" : 104
+      }
+    }, {
+      "uid" : "65b82d6eee054a78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683622026327,
+        "stop" : 1683622026430,
+        "duration" : 103
+      }
+    }, {
+      "uid" : "c248af807e5c3c39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683621749975,
+        "stop" : 1683621750089,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "e0ff6c74f9c45aae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683621622076,
+        "stop" : 1683621622185,
+        "duration" : 109
+      }
+    }, {
+      "uid" : "a78a19f34412367e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683617070592,
+        "stop" : 1683617070694,
+        "duration" : 102
+      }
+    }, {
+      "uid" : "8db2f2c8dbd89f41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616920318,
+        "stop" : 1683616920430,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "69031e2317227c16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616882429,
+        "stop" : 1683616882526,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "6528af6d6959e4f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616796522,
+        "stop" : 1683616796617,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "4b19fe55a0c85ab5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616719480,
+        "stop" : 1683616719578,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "a9b77a5585c73b25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616651409,
+        "stop" : 1683616651551,
+        "duration" : 142
+      }
+    }, {
+      "uid" : "70ca0fffd6dea647",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683616500586,
+        "stop" : 1683616500686,
+        "duration" : 100
+      }
+    }, {
+      "uid" : "bf34153564a2de46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683614177667,
+        "stop" : 1683614177753,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "d6071a9aaefdfe01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683614137967,
+        "stop" : 1683614138071,
+        "duration" : 104
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=4)" ]
+  },
+  "source" : "41861a2f4fb9d768.json",
+  "parameterValues" : [ "{'title': 'iphone启动图加密数据返回', 'ad_url': 'm?&adoriginal=sohu&appid=tv&build=com.sohu.inhouse.iphonevideo&density=3.000000&displayMetrics=414%2A736&encd=1zdWgialPK6remrJZcMlyMv6sTqZib8NncrwDlxZp/DKjNtyt87F2e/%2BtXJs55CpkIZNlCOZSa6%2Bh8PH9pyQrEPMmBILhpZ7iwlevgBETfs4hIPNgCF75L0kfxlDcNljVxmOZ0rFfNScSnXocwFk8YtogQusHZml8j0BUex3aLi18UdUyJV17Vl1pXuJvwB9ciYtu3PvNc6Kfc793BuNNYWB3wgtZ6zqIjPbdQ0cwW9R42Jv4GlIkmLqHH1U2olm98uNZht60U5JU%2BUTyb4KgPYxTgu/3iBzh8Nlr%2BZ8ZDYPwBghat7qxj6HzJ9xGvmvsK63ff9sYDxcZ2aGkL7EvAWD1mF8SOplUmq%2BlWjS6DVFDqKLmy3ibq8oBxSkxpTWlGRD63TOKy0LNaIJg8PfqB/KzUQX8tPX2Ym951GGNDxOubpkL2W05IPXqv30m80peU/NmB8bqVXMQUW%2BJUA/CGbmSciiDi9oZZ597wcJM4dbqSE0J9hYxk/eRYOxqjBSnbtu2cnv3BGHWz3AUJn7SToDjRP4s3jwhpzBgYS/w2Gnwwez70xpDKBAB7fU3vBkK6fJ8nSz8QXfqO1w0pj9V6mFC3ofw/xCHVSIoTbxrHVbO3DZ08Rta0ry4DBzQBflAvsVFXoYQVYjiR5C9r7Qsud2qmL2lRrtRFzw3yT8zLA%2Bb4IzK1H5dQ25FzapCXZdoG7Rb5ncTJGKYxtSj9GVTQ%3D%3D&expired=0&ext=2096591&exten=1%2C2%2C3%2C4%2C7%2C8&gid=x010740101010f9daeaabb0790000ca76acfc8f79b81&guid=&height=736&islocaltv=0&partner=6932&plat=3&poid=1&poscode=op_iphone_1&privacy=1&prot=vast&protv=3.0&pt=open&sdkVersion=14.0.0&site=1&sver=9.3.00&system_type=0&tvpid=6932&width=414', 'base_path': '/基准xml/open/iphone启动图加密数据返回.xml', 'isEncrypt': 1}" ]
+}

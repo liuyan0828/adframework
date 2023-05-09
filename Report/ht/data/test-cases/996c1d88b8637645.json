@@ -1,0 +1,53 @@
+{
+  "uid" : "996c1d88b8637645",
+  "name" : "test_diff[gphone瀑布流数据返回]",
+  "fullName" : "TestCase.Ad.16108.test_gphone_16108#test_diff",
+  "historyId" : "e6bbe5f6beb1872f5c01937f89941f1b",
+  "time" : {
+    "start" : 1683614126557,
+    "stop" : 1683614126652,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.16108"
+  }, {
+    "name" : "suite",
+    "value" : "test_gphone_16108"
+  }, {
+    "name" : "host",
+    "value" : "weihuaguo1"
+  }, {
+    "name" : "thread",
+    "value" : "15808-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.16108.test_gphone_16108"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'gphone瀑布流数据返回', 'ad_url': 'm?prot=json&adslotid=16108&tvpid=93&gbcode=null&poid=1&catecode=0&partner=93&pt=16108&guid=null&pagecount=20&sdkv=tv7.6.90-SNAPSHOT&sver=9.7.20&density=2.75&appid=tv&forbid=0&privacy=1&timetag=1656411107058&uptime=1669569545&plat=6&encd=DokGyqDJd%2BfTWSB41jPGvLa9LfOfERlKKvdmiyMJJWglDUj4RNoPkr8RKXhDrRrivW65bNKtr26doyPz7lnFkDftT%2B7nWiDSGklhQ0CWDk9If%2BSC70tFtGKiiF9nxcA57X%2BCvE3tufplaB8xPdOOz2GlE3PnfzNvHqIfKlGKLny8l0%2BQ5rZrbqZuP3z1FXR2HfzsLjETw4ut2d9aUf4p%2FhQeg10391plbq5zUNd%2FWQNlUGT1jXcKIF0vDQzSmzrA%2FXGFizY93SPZEKBHVCGEQOEikQHGNXu9egseq63GCtKVzb4dptcezTccyvVb%2Fmr1lpZUFIVAVXprHUKkC81BpVpgbsPh7Pw1IFDankqv%2BUsc4A6z8P8gVIwiZmpzUvS46kr3S4QepWlpD0I9C24PUPLBRaGBj96k8BPvF6wETSZZ4pE607xhpHHS2i0H9G6POMqD4E2cZ3tCteoGDUlqp0JWlib35mX9O6gp9JljGhZuLCuDebBtGbIm2fvwuM7EHNUCxnFh%2FwuHzdGVT3pYVoKtb%2BbaFTHk9eat2D9mqf%2BvOrghXq%2Ff4kESygBlx5XnbXJz6vc379m1iWkATb208Wv8UkZv8xHSyBHQyzeW8pSqLecKkLc02fOPKYiqo377t0Ctqenm4uRuI9Pa5YMBhE6J8ELz0NpNjwJR1zHCv%2BkTGyPrd3OTN8NQCXcTv6DIDQKSidpDSyABwKVOWEKhG9k0QqKfrNbfHmp0%2BpccWDGVpoGgfcN5vUcjffs8ByXZlpa7nw%3D%3D&vc=0', 'base_path': '/基准xml/16108/gphone瀑布流数据返回.json', 'isEncrypt': 0, 'isJson': 1}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "996c1d88b8637645.json",
+  "parameterValues" : [ "{'title': 'gphone瀑布流数据返回', 'ad_url': 'm?prot=json&adslotid=16108&tvpid=93&gbcode=null&poid=1&catecode=0&partner=93&pt=16108&guid=null&pagecount=20&sdkv=tv7.6.90-SNAPSHOT&sver=9.7.20&density=2.75&appid=tv&forbid=0&privacy=1&timetag=1656411107058&uptime=1669569545&plat=6&encd=DokGyqDJd%2BfTWSB41jPGvLa9LfOfERlKKvdmiyMJJWglDUj4RNoPkr8RKXhDrRrivW65bNKtr26doyPz7lnFkDftT%2B7nWiDSGklhQ0CWDk9If%2BSC70tFtGKiiF9nxcA57X%2BCvE3tufplaB8xPdOOz2GlE3PnfzNvHqIfKlGKLny8l0%2BQ5rZrbqZuP3z1FXR2HfzsLjETw4ut2d9aUf4p%2FhQeg10391plbq5zUNd%2FWQNlUGT1jXcKIF0vDQzSmzrA%2FXGFizY93SPZEKBHVCGEQOEikQHGNXu9egseq63GCtKVzb4dptcezTccyvVb%2Fmr1lpZUFIVAVXprHUKkC81BpVpgbsPh7Pw1IFDankqv%2BUsc4A6z8P8gVIwiZmpzUvS46kr3S4QepWlpD0I9C24PUPLBRaGBj96k8BPvF6wETSZZ4pE607xhpHHS2i0H9G6POMqD4E2cZ3tCteoGDUlqp0JWlib35mX9O6gp9JljGhZuLCuDebBtGbIm2fvwuM7EHNUCxnFh%2FwuHzdGVT3pYVoKtb%2BbaFTHk9eat2D9mqf%2BvOrghXq%2Ff4kESygBlx5XnbXJz6vc379m1iWkATb208Wv8UkZv8xHSyBHQyzeW8pSqLecKkLc02fOPKYiqo377t0Ctqenm4uRuI9Pa5YMBhE6J8ELz0NpNjwJR1zHCv%2BkTGyPrd3OTN8NQCXcTv6DIDQKSidpDSyABwKVOWEKhG9k0QqKfrNbfHmp0%2BpccWDGVpoGgfcN5vUcjffs8ByXZlpa7nw%3D%3D&vc=0', 'base_path': '/基准xml/16108/gphone瀑布流数据返回.json', 'isEncrypt': 0, 'isJson': 1}" ]
+}

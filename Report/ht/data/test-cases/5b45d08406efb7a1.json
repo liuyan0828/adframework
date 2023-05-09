@@ -1,0 +1,53 @@
+{
+  "uid" : "5b45d08406efb7a1",
+  "name" : "test_diff[gphone启动图加密数据返回]",
+  "fullName" : "TestCase.Ad.open.test_gphone_open#test_diff",
+  "historyId" : "1ad13238b8e91e2e9b6ced19fa93e8fe",
+  "time" : {
+    "start" : 1683614137853,
+    "stop" : 1683614137881,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.open"
+  }, {
+    "name" : "suite",
+    "value" : "test_gphone_open"
+  }, {
+    "name" : "host",
+    "value" : "weihuaguo1"
+  }, {
+    "name" : "thread",
+    "value" : "15808-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.open.test_gphone_open"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'gphone启动图加密数据返回', 'ad_url': 'm?gid=x010740210101475640008c580004d6ac70b882eb698&pt=open&privacy=1&huawei_hms_version=60200302&forbid=0&battery=75&exten=1,2,3,4,5,6,7,8&offline=0&huawei_store_version=110501300&expired=0&prot=vast&encrypt=r%2FJ%2BLCHmBL776YPnKIAnwb1nkX3xNOTwYD2%2F%2FvAluepTthhtUFks5w%3D%3D&plat=6&privacy_permitted=1&UUID=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&ext=2097151&c=tv&density=3.0&displayMetrics=1080*2340&encd=cNghadxcH1WSfHc8NzlKPNzE7TIkaB5q460i5yd4z2lTpnCo0gUgbUpAKsbqfC3c9YPoUziYvDxnLqo%2BJZQWCGj1fr229fUX5NAbIp6BP7LOvM6SXRC0LiMPPw50H%2BosPtSner6AgZ0G7JCoEuqWmROU2N6qxAifia%2BhAZJBBvvU1xlCJM2JgBgRpITofhFBhnlQUl85rRRDT4lU2uDWSGu8hw3ReY4UQIZPSPG5V9%2F3FSH57O1ziEG4eUrUI7ld6SujUio5Kwq7UO5A7J7H4u1HQ49JX1VxezIP1Pokli0qO%2BrXIgieMkzOWP2iEvekLYQXkAnnB6tPQ1u2QyVAlBdATFzPV3fESTYK23eiE6GGd8KJmUOvkCXQispEPZ7LwcImWQfAGPbtQSoAUqhnuK8jPMO%2FknGJT8Df5DNvuIwqS3Gz%2B%2Bklqs%2BUw4Vf2%2FR3%2FPzCci6WbwfMBTewVj%2BSyxnINWjZnfZ81mYX0o65FsphWka%2FAqFHPBKwKgD6uSfTsCgH%2BtGzdGLjEIPb4qYWQP6x%2FIqnx1BnFHUR7cQJBguBtC5Z8MfkuzvyOngPXLbTIvfal9CWnRGAhzpE%2Fh7BPSRwjXB4vxIAq6OTMQ%2FLiATnlrot%2FvXBXkj%2FycAWNT%2BWKOTyA6Wvy5lhpY03G%2FPVHIrOFpj31fP7NYRpI5B%2B40U5U8trs6VotoV7ZV%2Bpz7lWFYID2Yu0QmzDMnDi85Hek%2BXIZM1ePHzrflrWbC3Izy7KKppl1Vza3HWKNwZnhuTythlGFjefZ%2BLfo4eF4ultSglp2xqMDXDClD%2Fskw%3D%3D&poscode=op_aphone_1&sver=9.3.00&poid=1&uptime=3849222754&protv=3.0&partner=93&adoriginal=sohu&build=9.3.00&appid=tv&guid=null&sdkVersion=tv8.3.10-SNAPSHOT&isroot=false&catecode=ad7&warmup=0', 'base_path': '/基准xml/open/gphone启动图加密数据返回.xml', 'isEncrypt': 1}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b45d08406efb7a1.json",
+  "parameterValues" : [ "{'title': 'gphone启动图加密数据返回', 'ad_url': 'm?gid=x010740210101475640008c580004d6ac70b882eb698&pt=open&privacy=1&huawei_hms_version=60200302&forbid=0&battery=75&exten=1,2,3,4,5,6,7,8&offline=0&huawei_store_version=110501300&expired=0&prot=vast&encrypt=r%2FJ%2BLCHmBL776YPnKIAnwb1nkX3xNOTwYD2%2F%2FvAluepTthhtUFks5w%3D%3D&plat=6&privacy_permitted=1&UUID=f65b3f15-806d-4357-9e49-ee4d1f1e0cc6&ext=2097151&c=tv&density=3.0&displayMetrics=1080*2340&encd=cNghadxcH1WSfHc8NzlKPNzE7TIkaB5q460i5yd4z2lTpnCo0gUgbUpAKsbqfC3c9YPoUziYvDxnLqo%2BJZQWCGj1fr229fUX5NAbIp6BP7LOvM6SXRC0LiMPPw50H%2BosPtSner6AgZ0G7JCoEuqWmROU2N6qxAifia%2BhAZJBBvvU1xlCJM2JgBgRpITofhFBhnlQUl85rRRDT4lU2uDWSGu8hw3ReY4UQIZPSPG5V9%2F3FSH57O1ziEG4eUrUI7ld6SujUio5Kwq7UO5A7J7H4u1HQ49JX1VxezIP1Pokli0qO%2BrXIgieMkzOWP2iEvekLYQXkAnnB6tPQ1u2QyVAlBdATFzPV3fESTYK23eiE6GGd8KJmUOvkCXQispEPZ7LwcImWQfAGPbtQSoAUqhnuK8jPMO%2FknGJT8Df5DNvuIwqS3Gz%2B%2Bklqs%2BUw4Vf2%2FR3%2FPzCci6WbwfMBTewVj%2BSyxnINWjZnfZ81mYX0o65FsphWka%2FAqFHPBKwKgD6uSfTsCgH%2BtGzdGLjEIPb4qYWQP6x%2FIqnx1BnFHUR7cQJBguBtC5Z8MfkuzvyOngPXLbTIvfal9CWnRGAhzpE%2Fh7BPSRwjXB4vxIAq6OTMQ%2FLiATnlrot%2FvXBXkj%2FycAWNT%2BWKOTyA6Wvy5lhpY03G%2FPVHIrOFpj31fP7NYRpI5B%2B40U5U8trs6VotoV7ZV%2Bpz7lWFYID2Yu0QmzDMnDi85Hek%2BXIZM1ePHzrflrWbC3Izy7KKppl1Vza3HWKNwZnhuTythlGFjefZ%2BLfo4eF4ultSglp2xqMDXDClD%2Fskw%3D%3D&poscode=op_aphone_1&sver=9.3.00&poid=1&uptime=3849222754&protv=3.0&partner=93&adoriginal=sohu&build=9.3.00&appid=tv&guid=null&sdkVersion=tv8.3.10-SNAPSHOT&isroot=false&catecode=ad7&warmup=0', 'base_path': '/基准xml/open/gphone启动图加密数据返回.xml', 'isEncrypt': 1}" ]
+}
