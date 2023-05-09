@@ -1,0 +1,53 @@
+{
+  "uid" : "2c132af17a8fcbb9",
+  "name" : "test_diff[gphone15512通栏视频加密数据返回]",
+  "fullName" : "TestCase.Ad.15512_14369.test_gphone_15512tonglanshipin#test_diff",
+  "historyId" : "d41990555851ffb40ecbbf72754c6c2b",
+  "time" : {
+    "start" : 1683614123776,
+    "stop" : 1683614123858,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase.Ad.15512_14369"
+  }, {
+    "name" : "suite",
+    "value" : "test_gphone_15512tonglanshipin"
+  }, {
+    "name" : "host",
+    "value" : "weihuaguo1"
+  }, {
+    "name" : "thread",
+    "value" : "15808-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Ad.15512_14369.test_gphone_15512tonglanshipin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': 'gphone15512通栏视频加密数据返回', 'ad_url': 'm?container=1&timetag=1648174212207&pt=15512%7C14369&pagecount=0&huawei_hms_version=60400312&vid=4289463&plat=6&gbcode=null&ext=1048575&scs=108002340&vc=101158;101159&ugcode2=null&protv=3.0&adoriginal=sohu&guid=bb64d21551653b896b6d99bbee318b18&sdkVersion=tv8.3.53&catecode=ad3&gid=x0107402101014e9877aa90790007e4dc9cc712c540a&sdkv=tv8.3.53&privacy=1&forbid=0&turn=63&exten=1,2,3,4,5,6,7,8&tvpid=93&huawei_store_version=120001301&prot=vast&adslotid=15512%7C14369&c=tv&displayMetrics=1080*2340&density=3.0&encd=hVSBBL1nOoMNc3KxEbXvSck435yzMmbhLtNQCUlIH9LuPzh9%2BuhuakKpJ%2FXjrgZ7CY7c1bRi2WolPwLpWDPa7OTFACghDA%2BSJo%2BDm49RjwtusvRdNmaWC2ZqsKZXO%2BO2rnERqDbPCrco%2BovtTnFcyMGmF80%2BF8GJ53OQqqH6%2BBAYkl5kcImgAhRGVbWlfnHflGvrogQBBoCzU%2Bc%2BgAM5OqAh6oPmrSJi4gPT6gAWondC0UqiEglD7jw7t0HgWRvEsj3XI7GPQklq9%2FD7dSUTGa9Pr%2F8h1B16mAWvRam79Yghr4eH%2B3DL6OuLaOqmaTdR58zFUh1tHVcr0eQYGvdo7Ei1lU0vIB121JdFzFLVMN3%2BN7ZLQljGQMXKTLtS3jUsY2%2Bdv8QXVxGAuf2FBYhkRbdukD2YeT23p5kBiylIb1Vq3UCGBgKMnxisQqyDlfSo30slYyRpLxj3w04Ky0wtY8uQzEEpr4yGo5ZsBieGWGHdGSKkmrPUFxyAB6sfQ%2FljWbH79Y4s2y1Hg8KH3IBH6YjtoO0hHf3bEI9sn5ey83mz5GIqLbJWFCriVZ2CHQRiZXzkx%2FV7VoTe6GNaOIfEk4uDmrgHVI%2BcaLPiy6qSElU3w6ByVXGEXGi6mx%2BF8KrBb5N3coYw4QRbNYnlfKBIVmc0ZaT0qNVbKHpwkPuksX20Byb%2BI9stWYx3gIuVff3pX7Vfu9645HBh2yyjg2qwE6f%2FFRKV8AAjjtazw8tD3kgKrU8V3G55slhnL3hldW0h8sRFhiVwgIRO77KDg2y5xZFe5Dx1LL6ku1elXrgrLQePTyEP81lhcWEgYNfDV%2FEmfv6Be4WXuNVbP5eQ6oeZIeu1B14tkCqm9c3pud8pgxWsjPlmt1YCdyaXeMhvuyk4WLPIEw%3D%3D&sver=9.6.32&poid=1&uptime=605216831&site=1&partner=93&build=9.6.32&appid=tv', 'base_path': '/基准xml/15512_14369/gphone15512通栏视频加密数据返回.xml', 'isEncrypt': 1}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2c132af17a8fcbb9.json",
+  "parameterValues" : [ "{'title': 'gphone15512通栏视频加密数据返回', 'ad_url': 'm?container=1&timetag=1648174212207&pt=15512%7C14369&pagecount=0&huawei_hms_version=60400312&vid=4289463&plat=6&gbcode=null&ext=1048575&scs=108002340&vc=101158;101159&ugcode2=null&protv=3.0&adoriginal=sohu&guid=bb64d21551653b896b6d99bbee318b18&sdkVersion=tv8.3.53&catecode=ad3&gid=x0107402101014e9877aa90790007e4dc9cc712c540a&sdkv=tv8.3.53&privacy=1&forbid=0&turn=63&exten=1,2,3,4,5,6,7,8&tvpid=93&huawei_store_version=120001301&prot=vast&adslotid=15512%7C14369&c=tv&displayMetrics=1080*2340&density=3.0&encd=hVSBBL1nOoMNc3KxEbXvSck435yzMmbhLtNQCUlIH9LuPzh9%2BuhuakKpJ%2FXjrgZ7CY7c1bRi2WolPwLpWDPa7OTFACghDA%2BSJo%2BDm49RjwtusvRdNmaWC2ZqsKZXO%2BO2rnERqDbPCrco%2BovtTnFcyMGmF80%2BF8GJ53OQqqH6%2BBAYkl5kcImgAhRGVbWlfnHflGvrogQBBoCzU%2Bc%2BgAM5OqAh6oPmrSJi4gPT6gAWondC0UqiEglD7jw7t0HgWRvEsj3XI7GPQklq9%2FD7dSUTGa9Pr%2F8h1B16mAWvRam79Yghr4eH%2B3DL6OuLaOqmaTdR58zFUh1tHVcr0eQYGvdo7Ei1lU0vIB121JdFzFLVMN3%2BN7ZLQljGQMXKTLtS3jUsY2%2Bdv8QXVxGAuf2FBYhkRbdukD2YeT23p5kBiylIb1Vq3UCGBgKMnxisQqyDlfSo30slYyRpLxj3w04Ky0wtY8uQzEEpr4yGo5ZsBieGWGHdGSKkmrPUFxyAB6sfQ%2FljWbH79Y4s2y1Hg8KH3IBH6YjtoO0hHf3bEI9sn5ey83mz5GIqLbJWFCriVZ2CHQRiZXzkx%2FV7VoTe6GNaOIfEk4uDmrgHVI%2BcaLPiy6qSElU3w6ByVXGEXGi6mx%2BF8KrBb5N3coYw4QRbNYnlfKBIVmc0ZaT0qNVbKHpwkPuksX20Byb%2BI9stWYx3gIuVff3pX7Vfu9645HBh2yyjg2qwE6f%2FFRKV8AAjjtazw8tD3kgKrU8V3G55slhnL3hldW0h8sRFhiVwgIRO77KDg2y5xZFe5Dx1LL6ku1elXrgrLQePTyEP81lhcWEgYNfDV%2FEmfv6Be4WXuNVbP5eQ6oeZIeu1B14tkCqm9c3pud8pgxWsjPlmt1YCdyaXeMhvuyk4WLPIEw%3D%3D&sver=9.6.32&poid=1&uptime=605216831&site=1&partner=93&build=9.6.32&appid=tv', 'base_path': '/基准xml/15512_14369/gphone15512通栏视频加密数据返回.xml', 'isEncrypt': 1}" ]
+}

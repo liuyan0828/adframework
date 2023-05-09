@@ -1,5 +1,5 @@
 {
-  "total" : 13,
+  "total" : 18,
   "items" : [ {
     "uid" : "5deb186ff4ba42935c485a0a160e9e81",
     "name" : "TestCase.Ad.15512_14369",
@@ -10,6 +10,28 @@
       "passed" : 16,
       "unknown" : 0,
       "total" : 16
+    }
+  }, {
+    "uid" : "de13390293b73e3f8581afdac7b4eb69",
+    "name" : "TestCase.Ad.oad",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 16
+    }
+  }, {
+    "uid" : "0c465eb0f0ef8a076363d82be310379d",
+    "name" : "TestCase.Ad.pad",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 12
     }
   }, {
     "uid" : "946573b052aa444af128d9333d5f2cfe",
@@ -80,28 +102,6 @@
   }, {
     "uid" : "2359cfdc091c7e9b4fa62a7f4fa611b8",
     "name" : "TestCase.Ad.frontframe",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 4
-    }
-  }, {
-    "uid" : "1aa5acf5aa28f7e960261d78440d2274",
-    "name" : "TestCase.Ad.mad",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 4
-    }
-  }, {
-    "uid" : "caf6608c96cb387abd687b08f77c4d2f",
-    "name" : "TestCase.Ad.mainPage",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
