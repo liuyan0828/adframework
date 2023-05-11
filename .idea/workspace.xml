@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="467bbdc0-d35c-4732-9658-ba23c3e8e14d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_gphone_15512santu_14369.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_gphone_15512santu_14369.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/Ad/wrapframe/test_gphone_wrapframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/wrapframe/test_gphone_wrapframe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/Ad/wrapframe/test_iphone_wrapframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/wrapframe/test_iphone_wrapframe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基准xml/16108/gphone瀑布流数据返回.json" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/16108/gphone瀑布流数据返回.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
