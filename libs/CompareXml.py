@@ -29,7 +29,7 @@ class CompareXml(object):
         """
         ele_list = {}
         for i in root.iter():
-            if i.tag != "ExpireTime":
+            if i.tag != ("ExpireTime" or "MediaFile" or "RemainClick"):
                 if i.tag != "SupportUnion":
                     if i.text is None:
                         i.text = ''
@@ -48,6 +48,8 @@ class CompareXml(object):
                                                                      'v2code', 'bt', 'backtest', 'bk', 'sperotime',
                                                                      "impressionid", "flightid", "sspreqid", "sip",
                                                                      "indexip", "v2","encrysig","dx","dy","ux","uy"])
+                        i.text = handle_url.delete_specified_params(['data.vod.itc.cn'],
+                                                                    ["sig","prod","new"])
                         if status == 10001:
                             i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],
                                                                         ["tvid", "crid", "ar", "datatype"])
