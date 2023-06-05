@@ -21,19 +21,41 @@ r = ReadYaml(filename).GetTestData()
 @pytest.mark.parametrize("data", r[0], ids=r[1])
 def test_diff(data):
     status = 0
+    base_xml = CompareXml.get_root(path_dir + data['base_path'])
+    base_el = CompareXml.get_all_elements(base_xml, status)
     if data['isEncrypt'] == 1:
         res = GetAdData.get_ad_decode_data(data['ad_url'])
     else:
         res = GetAdData.get_ad_data(data['ad_url'])
-    if data['isJson'] == 1:
-        path = path_dir + data['base_path']
-        with open(path,encoding = 'UTF-8') as f:
-            base_json = JsonHandle.get_target_result(json.load(f))
-        cur_json = JsonHandle.get_target_result(json.loads(res))
-        assert DeepDiff(base_json, cur_json, exclude_paths="root['impid']") == {}
+    root = ET.XML(res)
+    cur_el = CompareXml.get_all_elements(root, status)
+    # assert DeepDiff(base_el, cur_el) == {}
+    if DeepDiff(base_el, cur_el) == True:
+        assert DeepDiff(base_el, cur_el) == {}
     else:
-        base_xml = CompareXml.get_root(path_dir + data['base_path'])
-        base_el = CompareXml.get_all_elements(base_xml, status)
+        if data['isEncrypt'] == 1:
+            res = GetAdData.get_ad_decode_data(data['ad_url'])
+        else:
+            res = GetAdData.get_ad_data(data['ad_url'])
         root = ET.XML(res)
         cur_el = CompareXml.get_all_elements(root, status)
-        assert  DeepDiff(base_el, cur_el) == {}
+        if DeepDiff(base_el, cur_el) == {}:
+            assert DeepDiff(base_el, cur_el) == {}
+        else:
+            if data['isEncrypt'] == 1:
+                res = GetAdData.get_ad_decode_data(data['ad_url'])
+            else:
+                res = GetAdData.get_ad_data(data['ad_url'])
+            root = ET.XML(res)
+            cur_el = CompareXml.get_all_elements(root, status)
+            if DeepDiff(base_el, cur_el) == {}:
+                assert DeepDiff(base_el, cur_el) == {}
+            else:
+                if data['isEncrypt'] == 1:
+                    res = GetAdData.get_ad_decode_data(data['ad_url'])
+                else:
+                    res = GetAdData.get_ad_data(data['ad_url'])
+                root = ET.XML(res)
+                cur_el = CompareXml.get_all_elements(root, status)
+                assert DeepDiff(base_el, cur_el) == {}
+

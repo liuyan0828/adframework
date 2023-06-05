@@ -29,7 +29,7 @@ class CompareXml(object):
         """
         ele_list = {}
         for i in root.iter():
-            if i.tag != ("ExpireTime" or "MediaFile" or "RemainClick"):
+            if i.tag != ("ExpireTime" or "RemainClick"):
                 if i.tag != "SupportUnion":
                     if i.text is None:
                         i.text = ''

@@ -4,38 +4,11 @@
     <list default="true" id="467bbdc0-d35c-4732-9658-ba23c3e8e14d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCase/Ad/open/test_iphone_open.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/open/test_iphone_open.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/overfly/test_iphone_overfly.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/overfly/test_iphone_overfly.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Yaml/open/iphone启动图" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/open/iphone启动图" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libs/CompareXml.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/CompareXml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/16108/gphone瀑布流加密数据返回.json" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/16108/gphone瀑布流加密数据返回.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/16108/gphone瀑布流数据返回.json" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/16108/gphone瀑布流数据返回.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/16108/iphone瀑布流加密数据返回.json" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/16108/iphone瀑布流加密数据返回.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/16108/iphone瀑布流数据返回.json" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/16108/iphone瀑布流数据返回.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/mad/gphone中插加密广告返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/mad/gphone中插加密广告返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/mad/gphone中插广告返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/mad/gphone中插广告返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/mad/iphone中插加密广告返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/mad/iphone中插加密广告返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/mad/iphone中插广告返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/mad/iphone中插广告返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/gphone前贴加密数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/gphone前贴加密数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/gphone前贴可跳过加密数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/gphone前贴可跳过加密数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/gphone前贴可跳过数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/gphone前贴可跳过数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/gphone前贴可选加密数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/gphone前贴可选加密数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/gphone前贴可选数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/gphone前贴可选数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/gphone前贴数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/gphone前贴数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/gphone前贴联动加密数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/gphone前贴联动加密数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/gphone前贴联动数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/gphone前贴联动数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/iphone前贴加密数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/iphone前贴加密数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/iphone前贴可跳过加密数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/iphone前贴可跳过加密数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/iphone前贴可跳过数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/iphone前贴可跳过数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/iphone前贴可选加密数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/iphone前贴可选加密数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/iphone前贴可选数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/iphone前贴可选数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/iphone前贴数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/iphone前贴数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/iphone前贴联动加密数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/iphone前贴联动加密数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/oad/iphone前贴联动数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/oad/iphone前贴联动数据返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/open/iphone启动图加密数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/open/iphone启动图加密数据返回.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/open/iphone启动图数据返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/open/iphone启动图数据返回.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/topcloud/gphone红包雨加密数据返回.json" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/topcloud/gphone红包雨加密数据返回.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/topcloud/gphone红包雨数据返回.json" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/topcloud/gphone红包雨数据返回.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/topcloud/iphone红包雨加密数据返回.json" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/topcloud/iphone红包雨加密数据返回.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/topcloud/iphone红包雨数据返回.json" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/topcloud/iphone红包雨数据返回.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基准xml/open/iphone启动图加密数据返回.json" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/open/iphone启动图加密数据返回.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基准xml/open/iphone启动图数据返回.json" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/open/iphone启动图数据返回.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,77 +55,77 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_gphone_wrapframe.test_diff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_gphone_open.test_diff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/wrapframe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/open" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_gphone_wrapframe.test_diff&quot;" />
+      <option name="_new_target" value="&quot;test_gphone_open.test_diff&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_gphone_topcloud.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_iphone_open.test_diff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/topcloud" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/open" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/Ad/topcloud/test_gphone_topcloud.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_iphone_open.test_diff&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_gphone_wrapframe.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_iphone_overfly.test_diff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/wrapframe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/overfly" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/Ad/wrapframe/test_gphone_wrapframe.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_iphone_overfly.test_diff&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_iphone__topcloud.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_iphone_open.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/topcloud" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/open" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/Ad/topcloud/test_iphone__topcloud.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/Ad/open/test_iphone_open.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.pytest in test_iphone__topcloud.py" />
-        <item itemvalue="Python tests.pytest in test_gphone_wrapframe.py" />
-        <item itemvalue="Python tests.pytest for test_gphone_wrapframe.test_diff" />
-        <item itemvalue="Python tests.pytest in test_gphone_topcloud.py" />
+        <item itemvalue="Python tests.pytest in test_iphone_open.py" />
+        <item itemvalue="Python tests.pytest for test_iphone_open.test_diff" />
+        <item itemvalue="Python tests.pytest for test_iphone_overfly.test_diff" />
+        <item itemvalue="Python tests.pytest for test_gphone_open.test_diff" />
       </list>
     </recent_temporary>
   </component>
