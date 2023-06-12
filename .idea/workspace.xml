@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="467bbdc0-d35c-4732-9658-ba23c3e8e14d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/Ad/overfly/test_iphone_overfly.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Ad/overfly/test_iphone_overfly.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/CompareXml.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/CompareXml.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,22 +50,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_gphone_open.test_diff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="ad_test_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/open" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_gphone_open.test_diff&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_iphone_open.test_diff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,6 +82,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_gphone_padTuPian.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="ad_test_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/pad" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/Ad/pad/test_gphone_padTuPian.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_iphone_open.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,10 +117,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.pytest in test_gphone_padTuPian.py" />
         <item itemvalue="Python tests.pytest for test_iphone_overfly.test_diff" />
         <item itemvalue="Python tests.pytest in test_iphone_open.py" />
         <item itemvalue="Python tests.pytest for test_iphone_open.test_diff" />
-        <item itemvalue="Python tests.pytest for test_gphone_open.test_diff" />
       </list>
     </recent_temporary>
   </component>
