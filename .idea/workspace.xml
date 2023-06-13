@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="467bbdc0-d35c-4732-9658-ba23c3e8e14d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/CompareXml.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/CompareXml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基准xml/pad/gphone暂停图片返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/pad/gphone暂停图片返回.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基准xml/pad/gphone暂停标版视频加密返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/pad/gphone暂停标版视频加密返回.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
