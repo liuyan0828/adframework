@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="467bbdc0-d35c-4732-9658-ba23c3e8e14d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TestCase/Ad/freq/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/Ad/freq/test_clickfreq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/Ad/freq/test_impfreq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Yaml/freq/clickfreq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Yaml/freq/impfreq" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/pad/gphone暂停图片返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/pad/gphone暂停图片返回.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基准xml/pad/gphone暂停标版视频加密返回.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基准xml/pad/gphone暂停标版视频加密返回.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/CompareXml.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/CompareXml.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,7 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python tests.pytest for test_clickfreq.test_diff">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -51,77 +62,77 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_iphone_open.test_diff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_clickfreq.test_diff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/open" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/freq" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_iphone_open.test_diff&quot;" />
+      <option name="_new_target" value="&quot;test_clickfreq.test_diff&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_iphone_overfly.test_diff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_impfreq.test_diff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/overfly" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/freq" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_iphone_overfly.test_diff&quot;" />
+      <option name="_new_target" value="&quot;test_impfreq.test_diff&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_gphone_padTuPian.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_gphone_oadKeTiaoGuo.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/pad" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/oad" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/Ad/pad/test_gphone_padTuPian.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/Ad/oad/test_gphone_oadKeTiaoGuo.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_iphone_open.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_impfreq.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/open" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/freq" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/Ad/open/test_iphone_open.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/Ad/freq/test_impfreq.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_clickfreq.test_diff" />
+        <item itemvalue="Python tests.pytest for test_impfreq.test_diff" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.pytest in test_gphone_padTuPian.py" />
-        <item itemvalue="Python tests.pytest for test_iphone_overfly.test_diff" />
-        <item itemvalue="Python tests.pytest in test_iphone_open.py" />
-        <item itemvalue="Python tests.pytest for test_iphone_open.test_diff" />
+        <item itemvalue="Python tests.pytest in test_impfreq.py" />
+        <item itemvalue="Python tests.pytest in test_gphone_oadKeTiaoGuo.py" />
       </list>
     </recent_temporary>
   </component>
