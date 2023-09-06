@@ -1,0 +1,8 @@
+# python缓存文件
+__pycache__
+
+# pytest缓存文件
+.pytest_cache
+
+# mac缓存
+.DS_Store

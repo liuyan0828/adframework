@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Aug 22 17:17:40 CST 2023","Tue Aug 22 17:17:41 CST 2023","313","TestCase.Ad","test_diff","","","","test_14967[gphone搜索结果页数据返回]",""
+"failed","Tue Aug 22 17:17:41 CST 2023","Tue Aug 22 17:17:42 CST 2023","525","TestCase.Ad","test_diff","","","","test_14967[iphone搜索结果页加密数据返回]",""
+"failed","Tue Aug 22 17:17:41 CST 2023","Tue Aug 22 17:17:41 CST 2023","269","TestCase.Ad","test_diff","","","","test_14967[gphone视频流加密数据返回]",""
+"failed","Tue Aug 22 17:17:41 CST 2023","Tue Aug 22 17:17:41 CST 2023","315","TestCase.Ad","test_diff","","","","test_14967[iphone搜索结果页数据返回]",""

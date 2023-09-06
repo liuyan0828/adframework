@@ -2,13 +2,220 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="467bbdc0-d35c-4732-9658-ba23c3e8e14d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TestCase/Ad/freq/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/Ad/freq/test_clickfreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/Ad/freq/test_impfreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Yaml/freq/clickfreq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Yaml/freq/impfreq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/data/test-cases/4a9c3467945ca57c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/data/test-cases/5eaf7981b21dbe1d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/data/test-cases/74463e1792abeba6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/data/test-cases/c096ee8d0b63e6a8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/plugins/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/plugins/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/plugins/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/plugins/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/html_report/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/xml_report/00fee50f-2532-4fe1-9019-4da2eaf82d5c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/xml_report/12f7b27b-a838-4cca-9a4b-52fc320e415b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/xml_report/2d2f7c61-e8b6-440d-b1f2-4bd737a76d4c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/xml_report/658b9be2-3a34-4464-ba77-a466e5d035c7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/xml_report/84fda2d0-e9ad-455f-b1db-72481395c7a6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/xml_report/8e2d5af8-8edc-4300-9f55-72b6f243096b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/xml_report/94cca98d-f2c3-4a94-8c22-4c95cd69aaf9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/xml_report/d4e6a70b-75f1-4a68-acb3-8ca50e484194-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_diff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ad_test_framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ad_test_framework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/CompareXml.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/CompareXml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/14967/.pytest_cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/14967/.pytest_cache/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/14967/.pytest_cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/14967/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/14967/test_gphone_14967.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/14967/test_iphone_14967.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/.pytest_cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/.pytest_cache/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/.pytest_cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_gphone_15512santu_14369.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_gphone_15512tonglanshipin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_gphone_15512xiaotutuwen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_gphone_15512xiaotutuwenxiazai.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_iphone_15512santu_14369.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_iphone_15512tonglanshipin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_iphone_15512xiaotutuwen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/15512_14369/test_iphone_15512xiaotutuwenxiazai.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16107/.pytest_cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16107/.pytest_cache/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16107/.pytest_cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16107/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16107/test_gphone_16107.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16107/test_iphone_16107.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16108/.pytest_cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16108/.pytest_cache/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16108/.pytest_cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16108/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16108/test_gphone_16108.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/16108/test_iphone_16108.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/AD00071AD00072AD00073/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/AD00071AD00072AD00073/test_gphone_AD00071AD00072AD00073.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/AD00071AD00072AD00073/test_iphone_AD00071AD00072AD00073.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/flogo/.pytest_cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/flogo/.pytest_cache/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/flogo/.pytest_cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/flogo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/flogo/test_gphone_flogo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/flogo/test_iphone_flogo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/focus/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/focus/test_gphone_focus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/focus/test_iphone_focus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/freq/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/freq/test_clickfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/freq/test_impfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/frontframe/.pytest_cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/frontframe/.pytest_cache/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/frontframe/.pytest_cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/frontframe/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/frontframe/test_gphone_frontframe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/frontframe/test_iphone_frontframe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/mad/.pytest_cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/mad/.pytest_cache/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/mad/.pytest_cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/mad/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/mad/test_gphone_mad.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/mad/test_iphone_mad.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/mainPage/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/mainPage/test_gphone_mainPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/mainPage/test_iphone_mainPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/minimad/.pytest_cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/minimad/.pytest_cache/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/minimad/.pytest_cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/minimad/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/minimad/test_gphone_minimad.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/minimad/test_iphone_minimad.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/.pytest_cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/.pytest_cache/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/.pytest_cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_gphone_oad.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_gphone_oadKeTiaoGuo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_gphone_oadKeXuan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_gphone_oadLianDong.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_iphone_oad.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_iphone_oadKeTiaoGuo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_iphone_oadKeXuan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/oad/test_iphone_oadLianDong.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/open/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/open/test_gphone_open.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/open/test_iphone_open.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/overfly/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/overfly/test_gphone_overfly.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/overfly/test_iphone_overfly.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/pad/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/pad/test_gphone_padBiaoBanShiPin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/pad/test_gphone_padShiPin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/pad/test_gphone_padTuPian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/pad/test_iphone_padBiaoBanShiPin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/pad/test_iphone_padShiPin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/pad/test_iphone_padTuPian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/topcloud/.pytest_cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/topcloud/.pytest_cache/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/topcloud/.pytest_cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/topcloud/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/topcloud/test_gphone_topcloud.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/topcloud/test_iphone__topcloud.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/wrapframe/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/wrapframe/test_gphone_wrapframe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Ad/wrapframe/test_iphone_wrapframe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Platform/cis/test_cisv4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/14967/gphone搜索结果页" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/14967/gphone搜索结果页.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/14967/iphone搜索结果页" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/14967/iphone搜索结果页.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/15512_14369/gphone15512三图模板播放页剧集下方14369" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/15512_14369/gphone15512三图模板播放页剧集下方14369.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/15512_14369/gphone15512小图图文" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/15512_14369/gphone15512小图图文.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/15512_14369/gphone15512小图图文下载" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/15512_14369/gphone15512小图图文下载.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/15512_14369/gphone15512通栏视频" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/15512_14369/gphone15512通栏视频.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/15512_14369/iphone15512三图模板播放页剧集下方14369" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/15512_14369/iphone15512三图模板播放页剧集下方14369.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/15512_14369/iphone15512小图图文" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/15512_14369/iphone15512小图图文.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/15512_14369/iphone15512小图图文下载" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/15512_14369/iphone15512小图图文下载.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/15512_14369/iphone15512通栏视频" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/15512_14369/iphone15512通栏视频.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/16107/gphone视频流" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/16107/gphone视频流.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/16107/iphone视频流" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/16107/iphone视频流.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/16108/gphone瀑布流" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/16108/gphone瀑布流.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/16108/iphone瀑布流" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/16108/iphone瀑布流.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/AD00071AD00072AD00073/gphonePGC播放页" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/AD00071AD00072AD00073/gphonePGC播放页.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/AD00071AD00072AD00073/iphonePGC播放页" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/AD00071AD00072AD00073/iphonePGC播放页.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/Platform/cisv4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/ReadYaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/ReadYaml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/flogo/gphone角标" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/flogo/gphone角标.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/flogo/iphone角标" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/flogo/iphone角标.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/focus/gphone焦点图" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/focus/gphone焦点图.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/focus/iphone焦点图" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/focus/iphone焦点图.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/frontframe/gphone片头画中画" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/frontframe/iphone片头画中画" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/mad/gphone中插" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/mad/gphone中插.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/mad/iphone中插" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/mad/iphone中插.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/mainPage/gphone首页框外" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/mainPage/gphone首页框外.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/mainPage/iphone首页框外" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/mainPage/iphone首页框外.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/minimad/gphone迷你中插" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/minimad/iphone迷你中插" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/oad/gphone前贴可跳过" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/oad/gphone前贴可跳过.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/oad/gphone前贴可选" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/oad/gphone前贴可选.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/oad/gphone前贴普通" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/oad/gphone前贴普通.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/oad/gphone前贴联动" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/oad/gphone前贴联动.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/oad/iphone前贴可跳过" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/oad/iphone前贴可跳过.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/oad/iphone前贴可选" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/oad/iphone前贴可选.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/oad/iphone前贴普通" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/oad/iphone前贴普通.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/oad/iphone前贴联动" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/oad/iphone前贴联动.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/open/gphone启动图" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/open/gphone启动图.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/open/iphone启动图" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/open/iphone启动图.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/overfly/gphone动态焦点图" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/overfly/gphone动态焦点图.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/overfly/iphone动态焦点图" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/overfly/iphone动态焦点图.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/pad/gphone暂停图片" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/pad/gphone暂停图片.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/pad/gphone暂停标版视频" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/pad/gphone暂停标版视频.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/pad/gphone暂停视频" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/pad/gphone暂停视频.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/pad/iphone暂停图片" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/pad/iphone暂停图片.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/pad/iphone暂停标版视频" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/pad/iphone暂停标版视频.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/pad/iphone暂停视频" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/pad/iphone暂停视频.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/topcloud/gphone红包雨" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/topcloud/iphone红包雨" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/wrapframe/gphone片尾画中画" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/wrapframe/gphone片尾画中画.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yaml/wrapframe/iphone片尾画中画" beforeDir="false" afterPath="$PROJECT_DIR$/Yaml/xml_diff_case/wrapframe/iphone片尾画中画.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/Config.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/Config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/GetAdData.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/GetAdData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/UrlHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/UrlHandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +227,17 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -34,14 +252,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
-  }
-}</component>
-  <component name="RunManager" selected="Python tests.pytest for test_clickfreq.test_diff">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TestCase" />
+      <recent name="$PROJECT_DIR$/Yaml/diffcase" />
+      <recent name="$PROJECT_DIR$/Yaml/14967" />
+      <recent name="$PROJECT_DIR$/Yaml" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_diff.test_xml_diff">
+    <configuration name="ReadYaml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,10 +276,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Yaml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Yaml/ReadYaml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ad_test_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -62,77 +312,71 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_clickfreq.test_diff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for TestCase.test_diff.test_xml_diff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/freq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Checkdiff" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_clickfreq.test_diff&quot;" />
+      <option name="_new_target" value="&quot;TestCase.test_diff.test_xml_diff&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_impfreq.test_diff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_diff.test_xml_diff" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/freq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_impfreq.test_diff&quot;" />
+      <option name="_new_target" value="&quot;test_diff.test_xml_diff&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_gphone_oadKeTiaoGuo.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_diff.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ad_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/oad" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Checkdiff" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/Ad/oad/test_gphone_oadKeTiaoGuo.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/test_diff.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_impfreq.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="ad_test_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/Ad/freq" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/Ad/freq/test_impfreq.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Python.ReadYaml" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python tests.pytest for TestCase.test_diff.test_xml_diff" />
+      <item itemvalue="Python tests.pytest for test_diff.test_xml_diff" />
+      <item itemvalue="Python tests.pytest in test_diff.py" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_clickfreq.test_diff" />
-        <item itemvalue="Python tests.pytest for test_impfreq.test_diff" />
+        <item itemvalue="Python tests.pytest for test_diff.test_xml_diff" />
+        <item itemvalue="Python tests.pytest in test_diff.py" />
+        <item itemvalue="Python tests.pytest for TestCase.test_diff.test_xml_diff" />
+        <item itemvalue="Python.ReadYaml" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.pytest in test_impfreq.py" />
-        <item itemvalue="Python tests.pytest in test_gphone_oadKeTiaoGuo.py" />
       </list>
     </recent_temporary>
   </component>
@@ -144,8 +388,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683526167638</updated>
+      <workItem from="1691137369646" duration="3846000" />
+      <workItem from="1692152572752" duration="754000" />
+      <workItem from="1692261362440" duration="2383000" />
+      <workItem from="1692672601553" duration="2635000" />
+      <workItem from="1692676927716" duration="13949000" />
+      <workItem from="1693470948735" duration="3466000" />
+      <workItem from="1693535214618" duration="10382000" />
+      <workItem from="1693981737154" duration="7107000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -157,5 +412,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ad_test_framework$main.coverage" NAME="main Coverage Results" MODIFIED="1692695858868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ad_test_framework$pytest_in_test_diff_py.coverage" NAME="pytest in test_diff.py Coverage Results" MODIFIED="1693990302540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/Checkdiff" />
+    <SUITE FILE_PATH="coverage/ad_test_framework$pytest_for_test_diff_test_xml_diff.coverage" NAME="pytest for test_diff.test_xml_diff Coverage Results" MODIFIED="1693991296692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/ad_test_framework$ReadYaml.coverage" NAME="ReadYaml Coverage Results" MODIFIED="1693559709317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yaml" />
+    <SUITE FILE_PATH="coverage/ad_test_framework$pytest_for_test_clickfreq_test_diff.coverage" NAME="pytest for test_clickfreq.test_diff Coverage Results" MODIFIED="1692261447072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/Ad/freq" />
   </component>
 </project>

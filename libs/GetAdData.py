@@ -21,7 +21,7 @@ class GetAdData(object):
         url = URL_CONFIG['APP_AD_URL'] + ad_url
         get_data = RequestHandler()
         ad_data = get_data.request_main("get", url)
-        return ad_data.content.decode('utf-8')
+        return ad_data
 
     @staticmethod
     def get_ad_decode_data(ad_url):

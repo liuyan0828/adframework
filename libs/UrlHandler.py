@@ -95,10 +95,10 @@ class UrlHandler(object):
             return "指定删除的host必须为str或list类型，请检查输入"
 
 
-if __name__ == '__main__':
-    url = 'http://sohutv.m.cn.miaozhen.com/x/k=flow2impmma&p=7K3BW&dx=&rt=2&ns=123.126.70.235&ni=SOHU_650888&v=__LOC__&xa=__ADPLATFORM__&tr=cebc5050718749d00832997ce155f5ec_2073965902&mo=0&m0=&m0a=__DUID__&m1=__ANDROIDID1__&m1a=826906001476e7be6cf9ffe11936ea3e&m2=ed3b206647a84913200098a55d04836b&m4=__AAID__&m5=&m6=__MAC1__&m6a=05c89193236d709ce2d1411844d71771&nd=5055596&np=__POS__&nn=__APP__&nc=__VID__&nf=__FLL__&ne=__SLL__&ng=__CTREF__&nx=cm1XRlZNUVZwRlRVeG5TekUxTkRNNE1UZzBPVGslM0Q=&o='
-    handle_url = UrlHandler(url)
-    print(handle_url.get_host())
+# if __name__ == '__main__':
+#     url = 'http://sohutv.m.cn.miaozhen.com/x/k=flow2impmma&p=7K3BW&dx=&rt=2&ns=123.126.70.235&ni=SOHU_650888&v=__LOC__&xa=__ADPLATFORM__&tr=cebc5050718749d00832997ce155f5ec_2073965902&mo=0&m0=&m0a=__DUID__&m1=__ANDROIDID1__&m1a=826906001476e7be6cf9ffe11936ea3e&m2=ed3b206647a84913200098a55d04836b&m4=__AAID__&m5=&m6=__MAC1__&m6a=05c89193236d709ce2d1411844d71771&nd=5055596&np=__POS__&nn=__APP__&nc=__VID__&nf=__FLL__&ne=__SLL__&ng=__CTREF__&nx=cm1XRlZNUVZwRlRVeG5TekUxTkRNNE1UZzBPVGslM0Q=&o='
+#     handle_url = UrlHandler(url)
+#     print(handle_url.get_host())
 #     print(handle_url.get_all_params())
 #     print(handle_url.get_all_keys(url))
 #     print(handle_url.get_all_values(url))
