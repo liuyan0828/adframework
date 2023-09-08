@@ -11,7 +11,11 @@ if __name__ == '__main__':
 
     # s输出打印信息，v输出详细信息。不指定则运行所有
     args = ['-s', '-q', 'TestCase/test_diff.py', '--alluredir', 'Report/xml_report', '--clean-alluredir', '--junitxml=Report/junit.xml']
-    pytest.main(args)
+    exit_code = pytest.main(args)
+    if exit_code == pytest.ExitCode.TESTS_FAILED:
+        exit(1)
+    else:
+        exit(0)
 
     os.system('allure generate %s -o %s --clean' % ('Report/xml_report', 'Report/html_report'))
 
