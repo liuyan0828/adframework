@@ -29,11 +29,15 @@ def pytest_collection_modifyitems(items):
         item._nodeid = item.nodeid.encode('utf-8').decode('unicode_escape')
 
 
-# def pytest_assertrepr_compare(op, left, right):
-#     if op == '==':
-#         return[
-#             f"返回存在多余字段"
-#         ]
+def pytest_sessionfinish(session, exitstatus):
+    if session.testsfailed > 0:
+        exitstatus = 1
+    elif session.testscollected == 0:
+        exitstatus = 2
+    else:
+        exitstatus = 0
+    return exitstatus
+
 
 
 
