@@ -6,6 +6,10 @@ __pycache__
 
 # mac缓存
 .DS_Store
+*/.DS_Store
 
 # 报告路径
 Report
+
+# 本地开发环境配置信息
+.idea

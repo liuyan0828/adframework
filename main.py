@@ -11,7 +11,8 @@ if __name__ == '__main__':
     
 
     # s输出打印信息，v输出详细信息。不指定则运行所有
-    args = ['-s', '-q', 'TestCase/test_diff.py', '--alluredir', 'Report/xml_report', '--clean-alluredir', '--junitxml=Report/junit.xml']
+
+    args = ['-s', '-q', 'TestCase/test_diff.py', '--alluredir', 'Report/xml_report', '--clean-alluredir']
     exit_code = pytest.main(args)
     if exit_code == pytest.ExitCode.OK:
         exit(0)

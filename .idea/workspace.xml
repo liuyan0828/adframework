@@ -2,51 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="467bbdc0-d35c-4732-9658-ba23c3e8e14d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/data/behaviors.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/data/categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/data/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/data/suites.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/data/test-cases/4a9c3467945ca57c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/data/test-cases/5eaf7981b21dbe1d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/data/test-cases/74463e1792abeba6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/data/test-cases/c096ee8d0b63e6a8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/export/influxDbData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/export/prometheusData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/history/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/history/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/history/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/history/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/plugins/behaviors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/plugins/behaviors/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/plugins/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/plugins/packages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/widgets/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/widgets/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/widgets/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/widgets/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/widgets/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/widgets/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/widgets/severity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/widgets/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html_report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html_report/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/xml_report/00fee50f-2532-4fe1-9019-4da2eaf82d5c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/xml_report/12f7b27b-a838-4cca-9a4b-52fc320e415b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/xml_report/2d2f7c61-e8b6-440d-b1f2-4bd737a76d4c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/xml_report/658b9be2-3a34-4464-ba77-a466e5d035c7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/xml_report/84fda2d0-e9ad-455f-b1db-72481395c7a6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/xml_report/8e2d5af8-8edc-4300-9f55-72b6f243096b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/xml_report/94cca98d-f2c3-4a94-8c22-4c95cd69aaf9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/xml_report/d4e6a70b-75f1-4a68-acb3-8ca50e484194-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yaml/xml_diff_case/16108/gphone瀑布流.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yaml/xml_diff_case/16108/iphone瀑布流.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +194,7 @@
       <workItem from="1693535214618" duration="10382000" />
       <workItem from="1693981737154" duration="9940000" />
       <workItem from="1694078898074" duration="3660000" />
-      <workItem from="1694140857905" duration="6176000" />
+      <workItem from="1694140857905" duration="6833000" />
     </task>
     <servers />
   </component>
