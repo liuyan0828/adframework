@@ -7,3 +7,6 @@ __pycache__
 # mac缓存
 .DS_Store
 */.DS_Store
+
+# 报告路径
+Report
