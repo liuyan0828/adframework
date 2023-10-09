@@ -8,8 +8,7 @@ import base64
 import simplejson as json
 import xmltodict
 import requests
-from libs.Xxtea import Xxtea
-from deepdiff import DeepDiff
+from utils.XxteaHandler import Xxtea
 
 
 class RequestHandler(object):

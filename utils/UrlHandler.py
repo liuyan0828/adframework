@@ -54,6 +54,23 @@ class UrlHandler(object):
         else:
             return "该url无参数值"
 
+    def set_value(self, key, value):
+        """
+        :param key: 需要替换value的key
+        :param value: 替换后value值
+        :return: 替换参数值中特定key的value
+        """
+        params = self.get_all_params()
+        if params:
+            if key in params.keys():
+                params[key] = value
+                self.f.args = params
+                return self.f.url
+            else:
+                return "该url中无对应key，请检查输入"
+        else:
+            return "该url无参数值"
+
     def delete_params(self, key):
         """
         :param key: 需要删除的key值

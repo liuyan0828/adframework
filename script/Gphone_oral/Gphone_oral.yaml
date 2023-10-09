@@ -1,0 +1,74 @@
+premise: null
+test_case:
+- address: /m
+  check:
+    check_type: json
+    expected_code: 200
+    expected_request: result_Gphone_oral.json
+  cookies: true
+  file: false
+  headers:
+    X-Requested-With: XMLHttpRequest
+  http_type: http
+  info: Gphone_oral
+  parameter:
+    UUID: 1edf6bf3-f178-4bb0-95dc-82040d7126fb1696843074363
+    adoriginal: sohu
+    aid: '9016646'
+    al: '9016646'
+    appid: tv
+    audited_level: '-1'
+    battery: '100'
+    brand: OPPO
+    broadcastID: '0'
+    build: 9.9.10
+    c: tv
+    channeled: 1000010000%7C2654
+    density: '3.0'
+    displayMetrics: 1080*2160
+    du: '2847.937'
+    encd: b%2BXyQDfRJMhH6P5BG54nphjRJZhsZ%2F1GOpNTnkBhhsXHoc%2Fj94Jm43YinhxpwZU2vy7KJS5YfKeXU55Pj%2FfgW8eVP8YsdFuLJ4nScorzvg6QuD0cIq3nFVt9bSKTaMdmZ3qx9ApWGYk1oJ0oi%2BSjaAZHYg4syjoMiBc9Y2RK14BJef315LRYcvko5gIr76alFT0v%2FC3ijH5fGSiXUTf4ZGta%2FSeWNTSb840YovuUo%2BuzY5%2FMVStEURz8nTZfKlH5ZUsOQ3%2Bv0ZeTM13iV3ktUzagp77vgL7eEfGPngCurczeUuESw%2BYlgX3QPQyHIiE0o8RqL7QFkSDuhZT1eoY3xBoVNfbsogO026VGvar4pBT6Glr8Pbxoq%2BqWyzmy2y3zlgiLvG8KojB8X4WifUdZxGguxis5NYmoNz%2FzQSlr60tabSqMUa7bP1pA8EC030oXJVVTyEHVH4x1AGnNFRw5wOqzN8bj3bB2brIjUC5TFMDm3uRggOy4yjwIk710nGfSLDFgAojo2D1rutqEyWvzSqIkHV1arQgWi65WPNkF9VWbkeXKBAaJNYyE8O%2FOSrrTfpkFa5SfBe3n%2FRdYoMPto5%2BFYuFY9eEFXW1FBW0vdxsb5k3pECtGxOFW3IslpMi5yrEQHEfZGndWLRJjpPZwmfvR%2F1pjhPciSowT05emE2EzU6nBg%2Fu2jLM2ZaORouDuwkePigdrrXktwLYGbnyIePtGJQBwFAL%2FxawVYQJ%2FIAaX7tmtci%2BNFyROohCB%2B1%2BH0bBQSKcIRbbbahR8U3%2BVY%2BF6HF1CjqoCaV5RTzO7Md1HZ4HvBq9bcbjD26ihO1a3ZtwNtkCYPL6mE5np8OmPL4wiMOgBl0wP5Ka%2F6%2F5RAndM8O1fNKl1I7U67WIN8LLMP%2FoCpvR2m%2FhDdCg5AlOhVCTV76gcqcsu5YKcyQ%3D%3D
+    encrypt: 6QjmzoF1MXcfnhNXnbpZqA2XAruvtEe%2FAYUjXOZGl%2BqjnF7JeT3fV%2F3iur7gKor%2BOAnGOEdVDFI%3D
+    ext: '2097151'
+    exten: 1,2,3,4,5,6,7,8
+    forbid: '0'
+    frontAdsTime: '185'
+    gid: x0107402101017a086ae6e410000c8a2b15ac7b7baf2
+    guid: 693576e858305625e8a90932ab37b67c
+    isBgPlay: '0'
+    isFoldDevice: '0'
+    isPadDevice: '0'
+    islocaltv: '0'
+    isroot: 'false'
+    offline: '0'
+    partner: '93'
+    plat: '6'
+    playerScale: '0.5625'
+    playstyle: '1'
+    poid: '1'
+    point: '120'
+    privacy: '1'
+    prot: json
+    protv: '3.0'
+    pt: oral
+    sdkVersion: tv8.5.55-SNAPSHOT
+    site: '1'
+    source: '1000010000'
+    sver: 9.9.10
+    uptime: '175040202'
+    vc: 101151;101157;101144
+    vid: '2447790'
+    videoClarity: '261'
+    videoType: '10'
+    vu: '0'
+  parameter_json: Gphone_oral.json
+  parameter_type: null
+  relevance: null
+  request_type: GET
+  test_name: Gphone_oral
+  timeout: 20
+test_info:
+  host: ${host}$
+  id: test_Gphone_oral_01
+  path: /m
+  title: Gphone_oral

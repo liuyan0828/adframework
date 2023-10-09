@@ -13,3 +13,6 @@ Report
 
 # 本地开发环境配置信息
 .idea
+
+# 忽略用于生成case的charles文件
+*.chlsj

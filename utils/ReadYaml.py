@@ -4,7 +4,10 @@
 @Author : liuyan
 @function : 读取yaml文件
 """
+import logging
 import os
+import logging
+import yaml
 from yaml import safe_load
 
 
@@ -20,7 +23,7 @@ def iterate_yaml_files(folder_path):
                 yield os.path.join(root, file)
 
 
-def read_yaml_file(folder_path):
+def read_yaml_files(folder_path):
     """
     :param folder_path:
     :return: 读取每个yaml文件，生成一个列表，列表中包含多个字典，每个字典代表一个用例；另外，使用列表推导式提取所有字典中的id值
@@ -36,9 +39,15 @@ def read_yaml_file(folder_path):
     # print(f"ids: {ids}")
     return [testcase, ids]
 
-
+def read_yaml_file(_path, case_file):
+    try:
+        with open(_path + '/' + case_file + '.yaml', 'r', encoding='utf-8') as f:
+            data = yaml.safe_load(f)
+            return data
+    except FileNotFoundError:
+        logging.error('File not found: {}'.format(_path + '/' + case_file))
 
 # if __name__ == '__main__':
-#     filename = r'/Users/liuyan/Desktop/ad_test_framework/Yaml'
-#     r = read_yaml_file(filename)
+#     filename = r'/Users/liuyan/Desktop/ad_test_framework/script/iPhone_16109'
+#     r = read_yaml_file(filename, 'iPhone_16109')
 #     print(r)

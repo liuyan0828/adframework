@@ -8,10 +8,7 @@
 
 import xml.etree.ElementTree as ET
 
-from deepdiff import DeepDiff
-
-from libs.UrlHandler import UrlHandler
-import json
+from utils.UrlHandler import UrlHandler
 
 
 class CompareXml(object):

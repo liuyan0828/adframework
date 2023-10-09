@@ -1,9 +1,15 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-from pytest import ExitCode
 import os
 import sys
+
+project_path = os.path.split(os.path.realpath(__file__))[0]
+
+if ':' in project_path:
+    project_path = project_path.replace('\\', '/')
+else:
+    pass
 
 
 if __name__ == '__main__':
@@ -12,7 +18,7 @@ if __name__ == '__main__':
 
     # s输出打印信息，v输出详细信息。不指定则运行所有
 
-    args = ['-s', '-q', 'TestCase/test_diff.py', '--alluredir', 'Report/xml_report', '--clean-alluredir']
+    args = ['-s', '-q', 'TestCase', '--alluredir', 'Report/xml_report', '--clean-alluredir']
     exit_code = pytest.main(args)
     if exit_code == pytest.ExitCode.OK:
         exit(0)
