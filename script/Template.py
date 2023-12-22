@@ -32,7 +32,6 @@ class TestTemplate:
         encoded_parameter = urllib.parse.urlencode(parameters)
         path = case_data['address']
 
-        print(encoded_parameter)
         ad_url = path + "?" + encoded_parameter
         # 发送测试请求
         res_data = GetAdData.get_ad_data(ad_url)

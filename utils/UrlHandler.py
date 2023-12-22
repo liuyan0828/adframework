@@ -112,15 +112,15 @@ class UrlHandler(object):
             return "指定删除的host必须为str或list类型，请检查输入"
 
 
-# if __name__ == '__main__':
-#     url = 'http://sohutv.m.cn.miaozhen.com/x/k=flow2impmma&p=7K3BW&dx=&rt=2&ns=123.126.70.235&ni=SOHU_650888&v=__LOC__&xa=__ADPLATFORM__&tr=cebc5050718749d00832997ce155f5ec_2073965902&mo=0&m0=&m0a=__DUID__&m1=__ANDROIDID1__&m1a=826906001476e7be6cf9ffe11936ea3e&m2=ed3b206647a84913200098a55d04836b&m4=__AAID__&m5=&m6=__MAC1__&m6a=05c89193236d709ce2d1411844d71771&nd=5055596&np=__POS__&nn=__APP__&nc=__VID__&nf=__FLL__&ne=__SLL__&ng=__CTREF__&nx=cm1XRlZNUVZwRlRVeG5TekUxTkRNNE1UZzBPVGslM0Q=&o='
-#     handle_url = UrlHandler(url)
-#     print(handle_url.get_host())
-#     print(handle_url.get_all_params())
-#     print(handle_url.get_all_keys(url))
-#     print(handle_url.get_all_values(url))
-#     print(handle_url.get_value(url, '111'))
-#     print(handle_url.delete_params('encd'))
-#     print(handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'], ['encd', 'rt', 'sign']))
-#     print(handle_url.get_all_params())
+if __name__ == '__main__':
+    url = "http://mmg.aty.sohu.com/goto?du=0&rt=1700032799115_6559_10.33.8.134_15_15&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375*667&bt=20231115&endtime=20231231&ad=54962&b=417762&bk=117199509&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1700032799&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=ctr_cheat,pacing_ad_alloc_a,exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=7528c6f1f2089fe9a5e9dc4a70456d2d&scope=0&flightid=36609765&from=tvssp&advertiserid=11635&encd=92I3jLba%2FU8Tivxo0cfnxsGaxS0pwzAx9oO%2FNuFkHj6UXrQcMXwZW%2F0NPfH2QwiybpqwJqyftA1LozHeFj61jqs3U07L6anVRF%2FRZlASkCbNExR6QnM0%2FhhbC6TXvdkQKcwTUx05wkGgkhcFBO4yJio6hpIRGtcKXue2Wp76oByPpYD%2F2u1cdme7H%2FZExrh5IWzwb1ruZFkNChV%2FEs7QlZ0vrzJ8c260E6ngocShU1hjNZCMri4e8lWczTGrGTElL20lPoIfsUG6D8JNeBZ%2BZm%2Bqww%2Bsyd1D50tHcbOw5GOHOpFk1IhAna8%2FRm8cCbJMiCiUTpDYLZuE0c96iGqBYnqU%2BtSgIugMekH2yrTpx9iPpAYtbRVK7C8JPrX1sYPAexQRUikYg%2F0ddLYFyMPw2C1WR9fKvY6VpnfXOzerIgfSv%2BiKEzVUvn2igUimxsyVmb0ZVAKQBgAenHsrZP6JO6U20yI%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&ac=5487&ad=54962&pt=12621&b=417762&bk=117199509&pagetype=2&spead=0&eventtype=deeplink"
+    handle_url = UrlHandler(url)
+    print(handle_url.get_host())
+    print(handle_url.get_all_params())
+    # print(handle_url.get_all_keys(url))
+    # print(handle_url.get_all_values(url))
+    # print(handle_url.get_value(url, '111'))
+    # print(handle_url.delete_params('encd'))
+    # print(handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'], ['encd', 'rt', 'sign']))
+    # print(handle_url.get_all_params())
 

@@ -11,18 +11,18 @@ from main import project_path
 from utils.ReadYaml import read_yaml_file
 from libs.GetAdData import *
 
-PATH = project_path + '/script/' + "iPhone_oral"
+PATH = project_path + '/script/' + "iPhone_openTopview"
 
-case_dict = read_yaml_file(PATH, "iPhone_oral")
+case_dict = read_yaml_file(PATH, "iPhone_openTopview")
 
 
 @allure.feature(case_dict["test_info"]["title"])
-class TestIphoneOral:
+class TestIphoneOpentopview:
 
     @pytest.mark.parametrize("case_data", case_dict["test_case"], ids=[])
-    @allure.story("iPhone_oral")
+    @allure.story("iPhone_openTopview")
     @pytest.mark.flaky(reruns=3, reruns_delay=3)
-    def test_iphone_oral(self, case_data):
+    def test_iphone_opentopview(self, case_data):
         """
 
         :param case_data: 测试用例
@@ -32,7 +32,6 @@ class TestIphoneOral:
         encoded_parameter = urllib.parse.urlencode(parameters)
         path = case_data['address']
 
-        print(encoded_parameter)
         ad_url = path + "?" + encoded_parameter
         # 发送测试请求
         res_data = GetAdData.get_ad_data(ad_url)

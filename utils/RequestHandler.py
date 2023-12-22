@@ -144,10 +144,3 @@ class RequestHandler(object):
 #     print(res1.text)
 #     print(res2.text)
 #     print(DeepDiff(json.loads(res1.text), json.loads(res2.text)))
-
-
-
-
-
-
-

@@ -144,7 +144,7 @@ def write_case_yaml(har_path, case_path):
 
                 case_list["test_info"] = test_info
                 case_list["premise"] = None
-                case_list["test_case"] = test_case_list
+                case_list["testcase"] = test_case_list
 
                 case_file = case_dir + '/' + title + '.yaml'
                 if title + '.yml' in os.listdir(case_dir):
@@ -154,9 +154,9 @@ def write_case_yaml(har_path, case_path):
                         case_file_list.append(case_dir.split("/")[-2] + '/' + title)
                         logging.debug("从%s目录下，写入测试文件%s" % (case_dir, case_file))
                         yaml.dump(case_list, ff, Dumper=yaml.SafeDumper)
-            return case_file_list
+    return case_file_list
 
 
 # case_path = project_path + '/script'
-# har_path = project_path + '/script'
+# har_path = project_path + '/charles_file'
 # print(write_case_yaml(har_path, case_path))

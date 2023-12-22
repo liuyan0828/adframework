@@ -14,19 +14,20 @@ from main import project_path
 
 def write_case(_path):
     case_path = project_path + '/script'
+    # 根据charles文件生成yaml文件
     yaml_list = write_case_yaml(_path,  case_path)
+    # 生成testcase路径
     test_path = project_path + '/TestCase'
+    # 生成testcase的yaml模版路径
     src = case_path + "/Template.py"
 
     for case in yaml_list:
-        print(case)
         yaml_path = case.split("/")[0]
         yaml_name = case.split("/")[1]
         case_name = 'test_' + yaml_name + '.py'
         new_case = test_path + '/' + case_name
-        mk_dir(test_path + yaml_path)
-        print(yaml_path)
-        if case_name in os.listdir(test_path + yaml_path):
+        # mk_dir(test_path + yaml_path)
+        if case_name in os.listdir(test_path):
             pass
         else:
             shutil.copyfile(src, new_case)
@@ -64,5 +65,6 @@ def write_case(_path):
 
 
 if __name__ == '__main__':
-    har_path = project_path + '/script'
-    print(write_case(har_path))
+    # charles文件地址
+    har_path = project_path + '/charles_file'
+    write_case(har_path)

@@ -1,0 +1,151 @@
+[
+    {
+        "test_name": "iPhone_openTopview",
+        "json": {
+            "ads": [
+                {
+                    "pt": "open",
+                    "ad": [
+                        {
+                            "adgroup": {
+                                "lineid": "417762",
+                                "advid": "11635",
+                                "saletype": 1,
+                                "campaignid": "12621",
+                                "tradetype": 0
+                            },
+                            "adtype": 0,
+                            "adfrom": "ade",
+                            "pt": "open",
+                            "event_monitor": [
+                                {
+                                    "url": "http://mmg.aty.sohu.com/pv?type=1&du=0&rt=1700033888370_7225_10.33.8.134_15_15&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375*667&islocaltv=0&bt=20231115&endtime=20231231&ad=54961&b=417762&bk=117199509&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1700033888&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=ctr_cheat,pacing_ad_alloc_a,exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=49d5ff67533e1cf723a4f6b8efcf7017&scope=0&flightid=36609846&from=tvssp&advertiserid=11635&encd=92I3jLba%2FU8Tivxo0cfnxsGaxS0pwzAx9oO%2FNuFkHj6UXrQcMXwZW%2F0NPfH2QwiybpqwJqyftA1LozHeFj61jqs3U07L6anVRF%2FRZlASkCbNExR6QnM0%2FhhbC6TXvdkQKcwTUx05wkGgkhcFBO4yJio6hpIRGtcKXue2Wp76oByPpYD%2F2u1cdme7H%2FZExrh5IWzwb1ruZFkNChV%2FEs7QlZ0vrzJ8c260E6ngocShU1hjNZCMri4e8lWczTGrGTElL20lPoIfsUG6D8JNeBZ%2BZm%2Bqww%2Bsyd1D50tHcbOw5GOHOpFk1IhAna8%2FRm8cCbJMiCiUTpDYLZuE0c96iGqBYnqU%2BtSgIugMekH2yrTpx9iPpAYtbRVK7C8JPrX1sYPAexQRUikYg%2F0ddLYFyMPw2C1WR9fKvY6VpnfXOzerIgfSv%2BiKEzVUvn2igUimxsyVmb0ZVAKQBgAenHsrZP6JO6U20yI%3D&vp=s&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&ac=5487&ad=54961&pt=12621&b=417762&bk=117199509&pagetype=2&spead=0&istopview=1&rtm=__TIME__&err=[ERRORCODE]",
+                                    "event": 0,
+                                    "tag": "sohu"
+                                },
+                                {
+                                    "url": "http://mmg.aty.sohu.com/av?du=0&rt=1700033888370_7225_10.33.8.134_15_15&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375*667&islocaltv=0&bt=20231115&endtime=20231231&ad=54961&b=417762&bk=117199509&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1700033888&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=ctr_cheat,pacing_ad_alloc_a,exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=49d5ff67533e1cf723a4f6b8efcf7017&scope=0&flightid=36609846&from=tvssp&advertiserid=11635&encd=92I3jLba%2FU8Tivxo0cfnxsGaxS0pwzAx9oO%2FNuFkHj6UXrQcMXwZW%2F0NPfH2QwiybpqwJqyftA1LozHeFj61jqs3U07L6anVRF%2FRZlASkCbNExR6QnM0%2FhhbC6TXvdkQKcwTUx05wkGgkhcFBO4yJio6hpIRGtcKXue2Wp76oByPpYD%2F2u1cdme7H%2FZExrh5IWzwb1ruZFkNChV%2FEs7QlZ0vrzJ8c260E6ngocShU1hjNZCMri4e8lWczTGrGTElL20lPoIfsUG6D8JNeBZ%2BZm%2Bqww%2Bsyd1D50tHcbOw5GOHOpFk1IhAna8%2FRm8cCbJMiCiUTpDYLZuE0c96iGqBYnqU%2BtSgIugMekH2yrTpx9iPpAYtbRVK7C8JPrX1sYPAexQRUikYg%2F0ddLYFyMPw2C1WR9fKvY6VpnfXOzerIgfSv%2BiKEzVUvn2igUimxsyVmb0ZVAKQBgAenHsrZP6JO6U20yI%3D&vp=s&at=0&istopview=1&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&ac=5487&ad=54961&pt=12621&b=417762&bk=117199509&pagetype=2&rtm=__TIME__&ps=1",
+                                    "event": 1,
+                                    "tag": "sohu"
+                                },
+                                {
+                                    "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1700033888370_7225_10.33.8.134_15_15&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375*667&islocaltv=0&bt=20231115&endtime=20231231&ad=54961&b=417762&bk=117199509&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1700033888&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=ctr_cheat,pacing_ad_alloc_a,exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=49d5ff67533e1cf723a4f6b8efcf7017&scope=0&flightid=36609846&from=tvssp&advertiserid=11635&encd=92I3jLba%2FU8Tivxo0cfnxsGaxS0pwzAx9oO%2FNuFkHj6UXrQcMXwZW%2F0NPfH2QwiybpqwJqyftA1LozHeFj61jqs3U07L6anVRF%2FRZlASkCbNExR6QnM0%2FhhbC6TXvdkQKcwTUx05wkGgkhcFBO4yJio6hpIRGtcKXue2Wp76oByPpYD%2F2u1cdme7H%2FZExrh5IWzwb1ruZFkNChV%2FEs7QlZ0vrzJ8c260E6ngocShU1hjNZCMri4e8lWczTGrGTElL20lPoIfsUG6D8JNeBZ%2BZm%2Bqww%2Bsyd1D50tHcbOw5GOHOpFk1IhAna8%2FRm8cCbJMiCiUTpDYLZuE0c96iGqBYnqU%2BtSgIugMekH2yrTpx9iPpAYtbRVK7C8JPrX1sYPAexQRUikYg%2F0ddLYFyMPw2C1WR9fKvY6VpnfXOzerIgfSv%2BiKEzVUvn2igUimxsyVmb0ZVAKQBgAenHsrZP6JO6U20yI%3D&vp=e&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&ac=5487&ad=54961&pt=12621&b=417762&bk=117199509&pagetype=2&spead=0&istopview=1&rtm=__TIME__&err=[ERRORCODE]&ps=1",
+                                    "event": 2,
+                                    "tag": "sohu"
+                                },
+                                {
+                                    "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1700033888370_7225_10.33.8.134_15_15&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375*667&islocaltv=0&bt=20231115&endtime=20231231&ad=54961&b=417762&bk=117199509&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1700033888&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=ctr_cheat,pacing_ad_alloc_a,exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=49d5ff67533e1cf723a4f6b8efcf7017&scope=0&flightid=36609846&from=tvssp&advertiserid=11635&encd=92I3jLba%2FU8Tivxo0cfnxsGaxS0pwzAx9oO%2FNuFkHj6UXrQcMXwZW%2F0NPfH2QwiybpqwJqyftA1LozHeFj61jqs3U07L6anVRF%2FRZlASkCbNExR6QnM0%2FhhbC6TXvdkQKcwTUx05wkGgkhcFBO4yJio6hpIRGtcKXue2Wp76oByPpYD%2F2u1cdme7H%2FZExrh5IWzwb1ruZFkNChV%2FEs7QlZ0vrzJ8c260E6ngocShU1hjNZCMri4e8lWczTGrGTElL20lPoIfsUG6D8JNeBZ%2BZm%2Bqww%2Bsyd1D50tHcbOw5GOHOpFk1IhAna8%2FRm8cCbJMiCiUTpDYLZuE0c96iGqBYnqU%2BtSgIugMekH2yrTpx9iPpAYtbRVK7C8JPrX1sYPAexQRUikYg%2F0ddLYFyMPw2C1WR9fKvY6VpnfXOzerIgfSv%2BiKEzVUvn2igUimxsyVmb0ZVAKQBgAenHsrZP6JO6U20yI%3D&vp=0&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&ac=5487&ad=54961&pt=12621&b=417762&bk=117199509&pagetype=2&spead=0&istopview=1&rtm=__TIME__",
+                                    "time": 0,
+                                    "event": 1,
+                                    "tag": "sohu"
+                                },
+                                {
+                                    "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1700033888370_7225_10.33.8.134_15_15&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375*667&islocaltv=0&bt=20231115&endtime=20231231&ad=54961&b=417762&bk=117199509&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1700033888&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=ctr_cheat,pacing_ad_alloc_a,exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=49d5ff67533e1cf723a4f6b8efcf7017&scope=0&flightid=36609846&from=tvssp&advertiserid=11635&encd=92I3jLba%2FU8Tivxo0cfnxsGaxS0pwzAx9oO%2FNuFkHj6UXrQcMXwZW%2F0NPfH2QwiybpqwJqyftA1LozHeFj61jqs3U07L6anVRF%2FRZlASkCbNExR6QnM0%2FhhbC6TXvdkQKcwTUx05wkGgkhcFBO4yJio6hpIRGtcKXue2Wp76oByPpYD%2F2u1cdme7H%2FZExrh5IWzwb1ruZFkNChV%2FEs7QlZ0vrzJ8c260E6ngocShU1hjNZCMri4e8lWczTGrGTElL20lPoIfsUG6D8JNeBZ%2BZm%2Bqww%2Bsyd1D50tHcbOw5GOHOpFk1IhAna8%2FRm8cCbJMiCiUTpDYLZuE0c96iGqBYnqU%2BtSgIugMekH2yrTpx9iPpAYtbRVK7C8JPrX1sYPAexQRUikYg%2F0ddLYFyMPw2C1WR9fKvY6VpnfXOzerIgfSv%2BiKEzVUvn2igUimxsyVmb0ZVAKQBgAenHsrZP6JO6U20yI%3D&err=[ERRORCODE]&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&ac=5487&ad=54961&pt=12621&b=417762&bk=117199509&pagetype=2&spead=0&istopview=1&eventtype=feedback&feedbackreason=__FEEDBACKCODE__",
+                                    "event": 4,
+                                    "tag": "sohu"
+                                },
+                                {
+                                    "url": "http://mmg.aty.sohu.com/av?du=0&rt=1700033888370_7225_10.33.8.134_15_15&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375*667&islocaltv=0&bt=20231115&endtime=20231231&ad=54961&b=417762&bk=117199509&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1700033888&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=ctr_cheat,pacing_ad_alloc_a,exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=49d5ff67533e1cf723a4f6b8efcf7017&scope=0&flightid=36609846&from=tvssp&advertiserid=11635&encd=92I3jLba%2FU8Tivxo0cfnxsGaxS0pwzAx9oO%2FNuFkHj6UXrQcMXwZW%2F0NPfH2QwiybpqwJqyftA1LozHeFj61jqs3U07L6anVRF%2FRZlASkCbNExR6QnM0%2FhhbC6TXvdkQKcwTUx05wkGgkhcFBO4yJio6hpIRGtcKXue2Wp76oByPpYD%2F2u1cdme7H%2FZExrh5IWzwb1ruZFkNChV%2FEs7QlZ0vrzJ8c260E6ngocShU1hjNZCMri4e8lWczTGrGTElL20lPoIfsUG6D8JNeBZ%2BZm%2Bqww%2Bsyd1D50tHcbOw5GOHOpFk1IhAna8%2FRm8cCbJMiCiUTpDYLZuE0c96iGqBYnqU%2BtSgIugMekH2yrTpx9iPpAYtbRVK7C8JPrX1sYPAexQRUikYg%2F0ddLYFyMPw2C1WR9fKvY6VpnfXOzerIgfSv%2BiKEzVUvn2igUimxsyVmb0ZVAKQBgAenHsrZP6JO6U20yI%3D&vp=s&at=0&istopview=1&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&ac=5487&ad=54961&pt=12621&b=417762&bk=117199509&pagetype=2&rtm=__TIME__&ps=2&eventtype=focus",
+                                    "event": 1001,
+                                    "tag": "sohu"
+                                },
+                                {
+                                    "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1700033888370_7225_10.33.8.134_15_15&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375*667&islocaltv=0&bt=20231115&endtime=20231231&ad=54961&b=417762&bk=117199509&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1700033888&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=ctr_cheat,pacing_ad_alloc_a,exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=49d5ff67533e1cf723a4f6b8efcf7017&scope=0&flightid=36609846&from=tvssp&advertiserid=11635&encd=92I3jLba%2FU8Tivxo0cfnxsGaxS0pwzAx9oO%2FNuFkHj6UXrQcMXwZW%2F0NPfH2QwiybpqwJqyftA1LozHeFj61jqs3U07L6anVRF%2FRZlASkCbNExR6QnM0%2FhhbC6TXvdkQKcwTUx05wkGgkhcFBO4yJio6hpIRGtcKXue2Wp76oByPpYD%2F2u1cdme7H%2FZExrh5IWzwb1ruZFkNChV%2FEs7QlZ0vrzJ8c260E6ngocShU1hjNZCMri4e8lWczTGrGTElL20lPoIfsUG6D8JNeBZ%2BZm%2Bqww%2Bsyd1D50tHcbOw5GOHOpFk1IhAna8%2FRm8cCbJMiCiUTpDYLZuE0c96iGqBYnqU%2BtSgIugMekH2yrTpx9iPpAYtbRVK7C8JPrX1sYPAexQRUikYg%2F0ddLYFyMPw2C1WR9fKvY6VpnfXOzerIgfSv%2BiKEzVUvn2igUimxsyVmb0ZVAKQBgAenHsrZP6JO6U20yI%3D&vp=e&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&ac=5487&ad=54961&pt=12621&b=417762&bk=117199509&pagetype=2&spead=0&istopview=1&rtm=__TIME__&err=[ERRORCODE]&ps=2&eventtype=focus",
+                                    "event": 1002,
+                                    "tag": "sohu"
+                                },
+                                {
+                                    "url": "http://mmg.aty.sohu.com/pvlog?&err=[ERRORCODE]&vp=[SKIPTIME]&du=0&rt=1700033888370_7225_10.33.8.134_15_15&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375*667&islocaltv=0&bt=20231115&endtime=20231231&ad=54961&b=417762&bk=117199509&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1700033888&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=ctr_cheat,pacing_ad_alloc_a,exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=49d5ff67533e1cf723a4f6b8efcf7017&scope=0&flightid=36609846&from=tvssp&advertiserid=11635&encd=92I3jLba%2FU8Tivxo0cfnxsGaxS0pwzAx9oO%2FNuFkHj6UXrQcMXwZW%2F0NPfH2QwiybpqwJqyftA1LozHeFj61jqs3U07L6anVRF%2FRZlASkCbNExR6QnM0%2FhhbC6TXvdkQKcwTUx05wkGgkhcFBO4yJio6hpIRGtcKXue2Wp76oByPpYD%2F2u1cdme7H%2FZExrh5IWzwb1ruZFkNChV%2FEs7QlZ0vrzJ8c260E6ngocShU1hjNZCMri4e8lWczTGrGTElL20lPoIfsUG6D8JNeBZ%2BZm%2Bqww%2Bsyd1D50tHcbOw5GOHOpFk1IhAna8%2FRm8cCbJMiCiUTpDYLZuE0c96iGqBYnqU%2BtSgIugMekH2yrTpx9iPpAYtbRVK7C8JPrX1sYPAexQRUikYg%2F0ddLYFyMPw2C1WR9fKvY6VpnfXOzerIgfSv%2BiKEzVUvn2igUimxsyVmb0ZVAKQBgAenHsrZP6JO6U20yI%3D&ischarge=0&eventtype=skip&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&ac=5487&ad=54961&pt=12621&b=417762&bk=117199509&pagetype=2&spead=0&istopview=1",
+                                    "event": 12,
+                                    "tag": "sohu"
+                                }
+                            ],
+                            "template": "topview",
+                            "creatives": {
+                                "openvideo": {
+                                    "height": 1920,
+                                    "content": "http://data.vod.itc.cn/?new=/186/94/1OI9LbX4JS9oP1X6arqtvL.mp4&prod=ad&sig=1cAy8LjY5cJX8ErrHE-WBdeU71Tvraqn",
+                                    "duration": 5,
+                                    "materialtype": "video/mp4",
+                                    "width": 1080
+                                },
+                                "thumbnail": {
+                                    "content": "https://images.sohu.com/ytv/BJ/11610/30015020180404192841.jpg",
+                                    "width": 300,
+                                    "materialtype": "image/jpeg",
+                                    "height": 150
+                                },
+                                "focusvideo": {
+                                    "height": 360,
+                                    "content": "http://images.sohu.com/ytv/BJ/11655/64036020210421150908.mp4",
+                                    "duration": 15,
+                                    "materialtype": "video/mp4",
+                                    "width": 640
+                                },
+                                "endpicture": {
+                                    "content": "https://images.sohu.com/ytv/BJ/13444/64036020220215150044.png",
+                                    "width": 640,
+                                    "materialtype": "image/png",
+                                    "height": 360
+                                },
+                                "title": {
+                                    "content": "图片标题"
+                                },
+                                "logopicture": {
+                                    "content": "https://images.sohu.com/ytv/BJ/11612/808020191213112544.png",
+                                    "width": 80,
+                                    "materialtype": "image/png",
+                                    "height": 80
+                                },
+                                "advertiser": {
+                                    "content": "广告主来源"
+                                },
+                                "transformpicture": {
+                                    "content": "https://images.sohu.com/ytv/BJ/11645/640113620210420151014.png",
+                                    "width": 640,
+                                    "materialtype": "image/png",
+                                    "height": 1136
+                                },
+                                "startpicture": {
+                                    "content": "https://images.sohu.com/ytv/BJ/13454/64036020221108095631.jpg",
+                                    "width": 640,
+                                    "materialtype": "image/jpeg",
+                                    "height": 360
+                                }
+                            },
+                            "pos": 0,
+                            "ext": {
+                                "support_union": 1,
+                                "clicktype": 1,
+                                "dominantcolor": "-16777216",
+                                "expiretime": "1700063999000",
+                                "hardflag": 3,
+                                "ClickType": 1,
+                                "opendelay": "5",
+                                "deeplinkflag": 0,
+                                "replaceable": 0,
+                                "display_type": 0,
+                                "excluded": 0
+                            },
+                            "click_monitor": [
+                                {
+                                    "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1700033888370_7225_10.33.8.134_15_15&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375*667&bt=20231115&endtime=20231231&ad=54961&b=417762&bk=117199509&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1700033888&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=ctr_cheat,pacing_ad_alloc_a,exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=49d5ff67533e1cf723a4f6b8efcf7017&scope=0&flightid=36609846&from=tvssp&advertiserid=11635&encd=92I3jLba%2FU8Tivxo0cfnxsGaxS0pwzAx9oO%2FNuFkHj6UXrQcMXwZW%2F0NPfH2QwiybpqwJqyftA1LozHeFj61jqs3U07L6anVRF%2FRZlASkCbNExR6QnM0%2FhhbC6TXvdkQKcwTUx05wkGgkhcFBO4yJio6hpIRGtcKXue2Wp76oByPpYD%2F2u1cdme7H%2FZExrh5IWzwb1ruZFkNChV%2FEs7QlZ0vrzJ8c260E6ngocShU1hjNZCMri4e8lWczTGrGTElL20lPoIfsUG6D8JNeBZ%2BZm%2Bqww%2Bsyd1D50tHcbOw5GOHOpFk1IhAna8%2FRm8cCbJMiCiUTpDYLZuE0c96iGqBYnqU%2BtSgIugMekH2yrTpx9iPpAYtbRVK7C8JPrX1sYPAexQRUikYg%2F0ddLYFyMPw2C1WR9fKvY6VpnfXOzerIgfSv%2BiKEzVUvn2igUimxsyVmb0ZVAKQBgAenHsrZP6JO6U20yI%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&vp=[REALTIME]&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&ac=5487&ad=54961&pt=12621&b=417762&bk=117199509&pagetype=2&spead=0&istopview=1&rtm=__TIME__",
+                                    "event": 5,
+                                    "tag": "sohu"
+                                },
+                                {
+                                    "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1700033888370_7225_10.33.8.134_15_15&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375*667&bt=20231115&endtime=20231231&ad=54961&b=417762&bk=117199509&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1700033888&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=ctr_cheat,pacing_ad_alloc_a,exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=49d5ff67533e1cf723a4f6b8efcf7017&scope=0&flightid=36609846&from=tvssp&advertiserid=11635&encd=92I3jLba%2FU8Tivxo0cfnxsGaxS0pwzAx9oO%2FNuFkHj6UXrQcMXwZW%2F0NPfH2QwiybpqwJqyftA1LozHeFj61jqs3U07L6anVRF%2FRZlASkCbNExR6QnM0%2FhhbC6TXvdkQKcwTUx05wkGgkhcFBO4yJio6hpIRGtcKXue2Wp76oByPpYD%2F2u1cdme7H%2FZExrh5IWzwb1ruZFkNChV%2FEs7QlZ0vrzJ8c260E6ngocShU1hjNZCMri4e8lWczTGrGTElL20lPoIfsUG6D8JNeBZ%2BZm%2Bqww%2Bsyd1D50tHcbOw5GOHOpFk1IhAna8%2FRm8cCbJMiCiUTpDYLZuE0c96iGqBYnqU%2BtSgIugMekH2yrTpx9iPpAYtbRVK7C8JPrX1sYPAexQRUikYg%2F0ddLYFyMPw2C1WR9fKvY6VpnfXOzerIgfSv%2BiKEzVUvn2igUimxsyVmb0ZVAKQBgAenHsrZP6JO6U20yI%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&vp=[REALTIME]&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&ac=5487&ad=54961&pt=12621&b=417762&bk=117199509&pagetype=2&spead=0&istopview=1&eventtype=deeplink",
+                                    "event": 10,
+                                    "tag": "sohu"
+                                }
+                            ],
+                            "landing_url": "http://www.sohu.com"
+                        }
+                    ]
+                }
+            ],
+            "version": 3,
+            "impid": "ssp-app-qa-686f5d9c87-566rs00000012655475600fc3_cl"
+        }
+    }
+]

@@ -15,4 +15,5 @@ Report
 .idea
 
 # 忽略用于生成case的charles文件
+charles_file
 *.chlsj
