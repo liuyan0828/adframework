@@ -55,7 +55,7 @@ class TestJsonDiff:
         with allure.step("校验是否为空广告"):
             adtype = jsonpath.jsonpath(res_data, '$..adtype')[0]
         assert adtype != -1, "请检查投放，当前广告位返回的是空广告"
-        with allure.step("校验返回广告是否是基准配置广告"):
+        with allure.step("校验返回广告排期包id是否是基准配置广告排期包id"):
             lineid = jsonpath.jsonpath(res_data, '$..lineid')[0]
             expected_lineid = jsonpath.jsonpath(expected_request, '$..lineid')[0]
         assert lineid == expected_lineid, "当前广告位返回的lineid与基准配置的lineid不一致"
@@ -65,9 +65,11 @@ class TestJsonDiff:
             expected_res = JsonHandle.get_target_result(expected_request)
             returned_res = JsonHandle.get_target_result(res_data)
         exclude_paths = {
-            "root['impid']",
-            "root['ads'][0]['ad'][0]['creatives']['openvideo']['content']",
-            "root['ads'][0]['ad'][0]['ext']['expiretime']"
+            "root['impid']",  #每次不一样
+            "root['ads'][0]['ad'][0]['creatives']['openvideo']['content']",  #加签
+            "root['ads'][0]['ad'][0]['creatives']['video']['content']['sig']",  #加签
+            "root['ads'][0]['ad'][0]['ext']['expiretime']"  #时间
+            "root['ads'][0]['ad'][0]['deeplink_url']"  #deeplink_url不是http开头
         }
         diff_data = DeepDiff(expected_res, returned_res, ignore_order=True, exclude_paths=exclude_paths)
         allure.attach(name="diff", body=str(diff_data))
