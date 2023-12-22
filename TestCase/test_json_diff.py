@@ -15,6 +15,7 @@ from utils.ReadYaml import read_yaml_files
 from utils.readExpectedResult import read_json
 from libs.GetAdData import *
 from libs.CompareXml import *
+from libs.Config import URL_CONFIG
 
 
 PATH = project_path + '/script'
@@ -45,6 +46,8 @@ class TestJsonDiff:
         if isinstance(expected_request, str):
             _path = PATH + '/' + case_data['info']
             expected_request = read_json(case_data['info'], expected_request, _path)
+        with allure.step("请求链接"):
+            allure.attach(name="请求链接", body=str(URL_CONFIG['APP_AD_URL'] + ad_url))
         with allure.step("校验返回code"):
             allure.attach(name="期望code", body=str(case_data['check']["expected_code"]))
             allure.attach(name="实际code", body=str(res.status_code))

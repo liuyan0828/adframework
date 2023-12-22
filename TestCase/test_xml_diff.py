@@ -8,8 +8,10 @@ import xml.etree.ElementTree as ET
 import pytest
 import os
 import allure
+import jsonpath
 from libs.CompareXml import CompareXml
 from libs.GetAdData import GetAdData
+from libs.Config import URL_CONFIG
 from utils.ReadYaml import read_yaml_files
 from utils.RequestHandler import RequestHandler
 from deepdiff import DeepDiff
@@ -37,6 +39,8 @@ def test_xml_diff(data):
             res_data = res.content.decode('utf-8')
         root = ET.XML(res_data)
         cur_el = CompareXml.get_all_elements(root, status)
+        with allure.step("请求链接"):
+            allure.attach(name="请求链接", body=str(URL_CONFIG['APP_AD_URL'] + data['ad_url']))
         with allure.step("校验返回data"):
             allure.attach(name="期望data", body=str(base_el))
             allure.attach(name="实际data", body=str(cur_el))
