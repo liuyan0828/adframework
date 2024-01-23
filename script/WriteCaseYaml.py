@@ -134,6 +134,7 @@ def write_case_yaml(har_path, case_path):
                 test_case["check"] = check
                 test_case["address"] = path
                 test_case["info"] = title
+                test_case["payload"] = "groupids="
 
                 case_list["test_info"] = test_info
                 case_list["testcase"] = test_case_list

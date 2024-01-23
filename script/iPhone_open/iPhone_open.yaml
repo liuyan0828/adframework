@@ -40,3 +40,4 @@ testcase:
   parameter_type: null
   request_type: GET
   timeout: 20
+  payload: "groupids=24508&maIds="
