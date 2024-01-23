@@ -1,6 +1,6 @@
 test_info:
   id: test_iPhone_openTopview_01
-  title: iPhoneTopView启动图模板
+  title: iPhone_openTopview
 testcase:
 - address: /m
   check:
@@ -40,4 +40,3 @@ testcase:
   parameter_type: null
   request_type: GET
   timeout: 20
-  payload: "groupids=23806&maIds="

@@ -1,92 +1,90 @@
-[
-    {
-        "test_name": "iPhone_open",
-        "json": {
-            "version": 3,
-            "impid": "1705996011089_2864_10.33.12.0_16_16",
-            "ext": {},
-            "ads": [
+{
+    "ads":[
+        {
+            "pt":"open",
+            "ad":[
                 {
-                    "pt": "op_iphone_1",
-                    "ad": [
+                    "adgroup":{
+                        "lineid":"415448",
+                        "advid":"11635",
+                        "saletype":1,
+                        "campaignid":"12613",
+                        "tradetype":0
+                    },
+                    "adtype":0,
+                    "adfrom":"ade",
+                    "pt":"open",
+                    "event_monitor":[
                         {
-                            "pos": 0,
-                            "adtype": 0,
-                            "template": "banner",
-                            "creatives": {
-                                "horizontal": {
-                                    "content": "http://images.sohu.com/ytv/BJ/11563/10801920201603231037370.jpg",
-                                    "materialtype": "image/jpeg",
-                                    "height": 1920,
-                                    "width": 1080
-                                },
-                                "buttontxt": {
-                                    "content": "点击查看"
-                                }
-                            },
-                            "event_monitor": [
-                                {
-                                    "url": "http://mmg.aty.sohu.com/pv?type=1&du=0&rt=1705996011089_2864_10.33.12.0_16_16&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240123&endtime=20241231&ad=54889&b=415448&bk=117231450&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1705996011&site=1&template=picture&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_bidfloor,pdb_load_a,pdb_opt_b&ispgc=0&impressionid=f3b4fbb4461f6534f0eed16d4d2dcae5&scope=0&flightid=36627295&from=tvssp&advertiserid=11635&encd=zira1co0MUtWq1X18wOC2bk3UiM%3D&vp=s&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&bar=9925&ac=5480&ad=54889&pt=12613&b=415448&bk=117231450&pagetype=2&spead=0&rtm=__TIME__&err=[ERRORCODE]",
-                                    "tag": "sohu",
-                                    "event": 0
-                                },
-                                {
-                                    "url": "http://mmg.aty.sohu.com/av?du=0&rt=1705996011089_2864_10.33.12.0_16_16&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240123&endtime=20241231&ad=54889&b=415448&bk=117231450&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1705996011&site=1&template=picture&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_bidfloor,pdb_load_a,pdb_opt_b&ispgc=0&impressionid=f3b4fbb4461f6534f0eed16d4d2dcae5&scope=0&flightid=36627295&from=tvssp&advertiserid=11635&encd=zira1co0MUtWq1X18wOC2bk3UiM%3D&vp=s&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&bar=9925&ac=5480&ad=54889&pt=12613&b=415448&bk=117231450&pagetype=2&rtm=__TIME__",
-                                    "tag": "sohu",
-                                    "event": 1
-                                },
-                                {
-                                    "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1705996011089_2864_10.33.12.0_16_16&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240123&endtime=20241231&ad=54889&b=415448&bk=117231450&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1705996011&site=1&template=picture&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_bidfloor,pdb_load_a,pdb_opt_b&ispgc=0&impressionid=f3b4fbb4461f6534f0eed16d4d2dcae5&scope=0&flightid=36627295&from=tvssp&advertiserid=11635&encd=zira1co0MUtWq1X18wOC2bk3UiM%3D&vp=0&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&bar=9925&ac=5480&ad=54889&pt=12613&b=415448&bk=117231450&pagetype=2&spead=0&rtm=__TIME__",
-                                    "tag": "sohucp",
-                                    "event": 3,
-                                    "time": 0
-                                },
-                                {
-                                    "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1705996011089_2864_10.33.12.0_16_16&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240123&endtime=20241231&ad=54889&b=415448&bk=117231450&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1705996011&site=1&template=picture&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_bidfloor,pdb_load_a,pdb_opt_b&ispgc=0&impressionid=f3b4fbb4461f6534f0eed16d4d2dcae5&scope=0&flightid=36627295&from=tvssp&advertiserid=11635&encd=zira1co0MUtWq1X18wOC2bk3UiM%3D&err=[ERRORCODE]&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&bar=9925&ac=5480&ad=54889&pt=12613&b=415448&bk=117231450&pagetype=2&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__",
-                                    "tag": "sohu",
-                                    "event": 4
-                                }
-                            ],
-                            "click_monitor": [
-                                {
-                                    "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1705996011089_2864_10.33.12.0_16_16&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&bt=20240123&endtime=20241231&ad=54889&b=415448&bk=117231450&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1705996011&site=1&template=picture&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_bidfloor,pdb_load_a,pdb_opt_b&ispgc=0&impressionid=f3b4fbb4461f6534f0eed16d4d2dcae5&scope=0&flightid=36627295&from=tvssp&advertiserid=11635&encd=zira1co0MUtWq1X18wOC2bk3UiM%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&bar=9925&ac=5480&ad=54889&pt=12613&b=415448&bk=117231450&pagetype=2&spead=0&rtm=__TIME__",
-                                    "tag": "sohu",
-                                    "event": 5
-                                },
-                                {
-                                    "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1705996011089_2864_10.33.12.0_16_16&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&bt=20240123&endtime=20241231&ad=54889&b=415448&bk=117231450&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1705996011&site=1&template=picture&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_bidfloor,pdb_load_a,pdb_opt_b&ispgc=0&impressionid=f3b4fbb4461f6534f0eed16d4d2dcae5&scope=0&flightid=36627295&from=tvssp&advertiserid=11635&encd=zira1co0MUtWq1X18wOC2bk3UiM%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&bar=9925&ac=5480&ad=54889&pt=12613&b=415448&bk=117231450&pagetype=2&spead=0&eventtype=deeplink",
-                                    "tag": "sohu",
-                                    "event": 10
-                                },
-                                {
-                                    "url": "http://mmg.aty.sohu.com/pvlog?&err=[ERRORCODE]&vp=[SKIPTIME]&du=0&rt=1705996011089_2864_10.33.12.0_16_16&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240123&endtime=20241231&ad=54889&b=415448&bk=117231450&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1705996011&site=1&template=picture&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_bidfloor,pdb_load_a,pdb_opt_b&ispgc=0&impressionid=f3b4fbb4461f6534f0eed16d4d2dcae5&scope=0&flightid=36627295&from=tvssp&advertiserid=11635&encd=zira1co0MUtWq1X18wOC2bk3UiM%3D&ischarge=0&eventtype=skip&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&bar=9925&ac=5480&ad=54889&pt=12613&b=415448&bk=117231450&pagetype=2&spead=0",
-                                    "tag": "sohu",
-                                    "event": 12
-                                }
-                            ],
-                            "landing_url": "http://www.baidu.com",
-                            "ext": {
-                                "support_union": 1,
-                                "hardflag": 2,
-                                "deeplinkflag": 0,
-                                "excluded": 0,
-                                "expiretime": "1706025599000",
-                                "opendelay": "5",
-                                "brandoverlay": 1,
-                                "clicktype": 1,
-                                "display_type": 0
-                            },
-                            "adgroup": {
-                                "lineid": "415448",
-                                "campaignid": "12613",
-                                "advid": "11635",
-                                "saletype": 1,
-                                "tradetype": 0
-                            }
+                            "url":"http://mmg.aty.sohu.com/pv?type=1&du=0&rt=1706005253788_7077_10.33.12.0_16_16&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240123&endtime=20241231&ad=54889&b=415448&bk=117231450&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1706005253&site=1&template=picture&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_b&ispgc=0&impressionid=b35c9918d950fa11f248b5deba9ddb55&scope=0&flightid=36627295&from=tvssp&advertiserid=11635&encd=zira1co0MUtWq1X18wOC2bk3UiM%3D&vp=s&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&bar=9925&ac=5480&ad=54889&pt=12613&b=415448&bk=117231450&pagetype=2&spead=0&rtm=__TIME__&err=[ERRORCODE]",
+                            "event":0,
+                            "tag":"sohu"
+                        },
+                        {
+                            "url":"http://mmg.aty.sohu.com/av?du=0&rt=1706005253788_7077_10.33.12.0_16_16&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240123&endtime=20241231&ad=54889&b=415448&bk=117231450&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1706005253&site=1&template=picture&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_b&ispgc=0&impressionid=b35c9918d950fa11f248b5deba9ddb55&scope=0&flightid=36627295&from=tvssp&advertiserid=11635&encd=zira1co0MUtWq1X18wOC2bk3UiM%3D&vp=s&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&bar=9925&ac=5480&ad=54889&pt=12613&b=415448&bk=117231450&pagetype=2&rtm=__TIME__",
+                            "event":1,
+                            "tag":"sohu"
+                        },
+                        {
+                            "url":"http://mmg.aty.sohu.com/pvlog?du=0&rt=1706005253788_7077_10.33.12.0_16_16&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240123&endtime=20241231&ad=54889&b=415448&bk=117231450&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1706005253&site=1&template=picture&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_b&ispgc=0&impressionid=b35c9918d950fa11f248b5deba9ddb55&scope=0&flightid=36627295&from=tvssp&advertiserid=11635&encd=zira1co0MUtWq1X18wOC2bk3UiM%3D&vp=0&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&bar=9925&ac=5480&ad=54889&pt=12613&b=415448&bk=117231450&pagetype=2&spead=0&rtm=__TIME__",
+                            "time":0,
+                            "event":1,
+                            "tag":"sohu"
+                        },
+                        {
+                            "url":"http://mmg.aty.sohu.com/pvlog?du=0&rt=1706005253788_7077_10.33.12.0_16_16&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240123&endtime=20241231&ad=54889&b=415448&bk=117231450&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1706005253&site=1&template=picture&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_b&ispgc=0&impressionid=b35c9918d950fa11f248b5deba9ddb55&scope=0&flightid=36627295&from=tvssp&advertiserid=11635&encd=zira1co0MUtWq1X18wOC2bk3UiM%3D&err=[ERRORCODE]&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&bar=9925&ac=5480&ad=54889&pt=12613&b=415448&bk=117231450&pagetype=2&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__",
+                            "event":4,
+                            "tag":"sohu"
+                        },
+                        {
+                            "url":"http://mmg.aty.sohu.com/pvlog?&err=[ERRORCODE]&vp=[SKIPTIME]&du=0&rt=1706005253788_7077_10.33.12.0_16_16&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240123&endtime=20241231&ad=54889&b=415448&bk=117231450&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1706005253&site=1&template=picture&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_b&ispgc=0&impressionid=b35c9918d950fa11f248b5deba9ddb55&scope=0&flightid=36627295&from=tvssp&advertiserid=11635&encd=zira1co0MUtWq1X18wOC2bk3UiM%3D&ischarge=0&eventtype=skip&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&bar=9925&ac=5480&ad=54889&pt=12613&b=415448&bk=117231450&pagetype=2&spead=0",
+                            "event":12,
+                            "tag":"sohu"
                         }
-                    ]
+                    ],
+                    "template":"banner",
+                    "creatives":{
+                        "picture":{
+                            "content":"http://images.sohu.com/ytv/BJ/11563/10801920201603231037370.jpg",
+                            "width":1080,
+                            "materialtype":"image/jpeg",
+                            "height":1920
+                        },
+                        "buttontxt":{
+                            "content":"点击查看"
+                        }
+                    },
+                    "pos":0,
+                    "ext":{
+                        "brandoverlay":1,
+                        "support_union":1,
+                        "clicktype":1,
+                        "expiretime":"1706025599000",
+                        "hardflag":2,
+                        "ClickType":1,
+                        "opendelay":"5",
+                        "deeplinkflag":0,
+                        "replaceable":0,
+                        "display_type":0,
+                        "excluded":0
+                    },
+                    "click_monitor":[
+                        {
+                            "url":"http://mmg.aty.sohu.com/goto?du=0&rt=1706005253788_7077_10.33.12.0_16_16&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&bt=20240123&endtime=20241231&ad=54889&b=415448&bk=117231450&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1706005253&site=1&template=picture&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_b&ispgc=0&impressionid=b35c9918d950fa11f248b5deba9ddb55&scope=0&flightid=36627295&from=tvssp&advertiserid=11635&encd=zira1co0MUtWq1X18wOC2bk3UiM%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&bar=9925&ac=5480&ad=54889&pt=12613&b=415448&bk=117231450&pagetype=2&spead=0&rtm=__TIME__",
+                            "event":5,
+                            "tag":"sohu"
+                        },
+                        {
+                            "url":"http://mmg.aty.sohu.com/goto?du=0&rt=1706005253788_7077_10.33.12.0_16_16&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&bt=20240123&endtime=20241231&ad=54889&b=415448&bk=117231450&pagetype=2&islocaltv=0&seq=1&w=1080&h=1920&wdbn=1080&hgbn=1920&cheattype=0&sperotime=1706005253&site=1&template=picture&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_b&ispgc=0&impressionid=b35c9918d950fa11f248b5deba9ddb55&scope=0&flightid=36627295&from=tvssp&advertiserid=11635&encd=zira1co0MUtWq1X18wOC2bk3UiM%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2741&p=op&posid=op_iphone_1&loc=Unknown&adstyle=open&bar=9925&ac=5480&ad=54889&pt=12613&b=415448&bk=117231450&pagetype=2&spead=0&eventtype=deeplink",
+                            "event":10,
+                            "tag":"sohu"
+                        }
+                    ],
+                    "landing_url":"http://www.baidu.com"
                 }
             ]
         }
-    }
-]
+    ],
+    "version":3,
+    "impid":"ssp-app-qa-686f5d9c87-566rs0000001265af930626bb_cl"
+}
