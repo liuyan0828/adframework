@@ -56,7 +56,7 @@ def test_ad_res(case_data, api_response):
     assert adtype != -1, "请检查投放，当前广告位返回的是空广告"
 
 
-@pytest.mark.feature("iPhone启动图")
+@pytest.mark.feature("启动图")
 @pytest.mark.story("校验广告基础配置是否同mango配置一致")
 @pytest.mark.parametrize("case_data", case_dict[0], ids=case_dict[1])
 def test_ad_config(case_data, api_response):
@@ -118,7 +118,7 @@ def test_ad_config(case_data, api_response):
             assert False, "mango配置了按钮文案但实际未下发"
 
 
-@pytest.mark.feature("iPhone启动图")
+@pytest.mark.feature("启动图")
 @pytest.mark.story("校验请求返回：1、返回广告的排期包id是否为基准广告id 2、如果是对返回进行完全校验")
 @pytest.mark.parametrize("case_data", case_dict[0], ids=case_dict[1])
 def test_res_complete_check(case_data, api_response):
@@ -132,7 +132,7 @@ def test_res_complete_check(case_data, api_response):
     assert lineid == expected_lineid, "当前广告位返回的lineid与基准配置的lineid不一致"
     with allure.step("校验返回data"):
         allure.attach(name="期望data", body=json.dumps(expected_request).encode('utf-8'), attachment_type=allure.attachment_type.JSON)
-        allure.attach(name="实际data", body=api_response, attachment_type=allure.attachment_type.JSON)
+        allure.attach(name="实际data", body=json.dumps(api_response).encode('utf-8'), attachment_type=allure.attachment_type.JSON)
         expected_res = JsonHandle.get_target_result(expected_request)
         returned_res = JsonHandle.get_target_result(api_response)
     exclude_paths = {
