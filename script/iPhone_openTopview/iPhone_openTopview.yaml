@@ -1,20 +1,12 @@
-premise: null
 test_info:
-  host: ${host}$
   id: test_iPhone_openTopview_01
-  path: /m
-  title: iPhone_openTopview
+  title: iPhoneTopView启动图模板
 testcase:
 - address: /m
-  title: iPhone_openTopview
   check:
     check_type: json
     expected_code: 200
     expected_request: result_iPhone_openTopview.json
-  cookies: true
-  file: false
-  headers:
-    X-Requested-With: XMLHttpRequest
   http_type: http
   info: iPhone_openTopview
   parameter:
@@ -45,9 +37,7 @@ testcase:
     system_type: '0'
     tvpid: '6932'
     width: '375'
-  parameter_json: iPhone_openTopview.json
   parameter_type: null
-  relevance: null
   request_type: GET
-  test_name: iPhone_openTopview
   timeout: 20
+  payload: "groupids=23806&maIds="

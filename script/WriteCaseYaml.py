@@ -82,8 +82,6 @@ def write_case_yaml(har_path, case_path):
                 test_info = dict()
                 test_info["id"] = info_id
                 test_info["title"] = title
-                test_info["host"] = '${host}$'
-                test_info["path"] = path
 
                 check = dict()
                 check["check_type"] = 'json'
@@ -113,37 +111,31 @@ def write_case_yaml(har_path, case_path):
                 test_case = dict()
                 test_case_list.append(test_case)
                 # para参数大于等于4时，参数文件单独写入json中
-                if len(parameter) >= 4:
-                    if title + '.json' in os.listdir(case_dir):
-                        pass
-                    else:
-                        new_dicts = dict()
-                        new_list = []
-                        with open(param_file, "w", encoding='utf-8') as fs:
-                            new_dicts["test_name"] = title
-                            new_dicts["parameter"] = parameter
-                            new_list.append(new_dicts)
-
-                            json.dump(new_list, fs, ensure_ascii=False, indent=4)
-                    test_case["parameter_json"] = title + '.json'
+                # if len(parameter) >= 4:
+                #     if title + '.json' in os.listdir(case_dir):
+                #         pass
+                #     else:
+                #         new_dicts = dict()
+                #         new_list = []
+                #         with open(param_file, "w", encoding='utf-8') as fs:
+                #             new_dicts["test_name"] = title
+                #             new_dicts["parameter"] = parameter
+                #             new_list.append(new_dicts)
+                #
+                #             json.dump(new_list, fs, ensure_ascii=False, indent=4)
+                #     test_case["parameter_json"] = title + '.json'
 
                 test_case["parameter"] = parameter
 
-                test_case["test_name"] = title
-                test_case["info"] = title
                 test_case["http_type"] = scheme
                 test_case["request_type"] = method
                 test_case["parameter_type"] = parameter_type
-                test_case["address"] = path
-                test_case["headers"] = {"X-Requested-With": "XMLHttpRequest"}
-                test_case["cookies"] = True
                 test_case["timeout"] = 20
-                test_case["file"] = False
                 test_case["check"] = check
-                test_case["relevance"] = None
+                test_case["address"] = path
+                test_case["info"] = title
 
                 case_list["test_info"] = test_info
-                case_list["premise"] = None
                 case_list["testcase"] = test_case_list
 
                 case_file = case_dir + '/' + title + '.yaml'
@@ -157,6 +149,6 @@ def write_case_yaml(har_path, case_path):
     return case_file_list
 
 
-# case_path = project_path + '/script'
-# har_path = project_path + '/charles_file'
-# print(write_case_yaml(har_path, case_path))
+case_path = project_path + '/script'
+har_path = project_path + '/charles_file'
+print(write_case_yaml(har_path, case_path))

@@ -1,20 +1,12 @@
-premise: null
 test_info:
-  host: ${host}$
   id: test_iPhone_open_01
-  path: /m
-  title: iPhone_open
+  title: iPhone启动图广告模板
 testcase:
 - address: /m
-  title: iPhone_open
   check:
     check_type: json
     expected_code: 200
     expected_request: result_iPhone_open.json
-  cookies: true
-  file: false
-  headers:
-    X-Requested-With: XMLHttpRequest
   http_type: http
   info: iPhone_open
   parameter:
@@ -45,9 +37,7 @@ testcase:
     system_type: '0'
     tvpid: '6932'
     width: '375'
-  parameter_json: iPhone_open.json
   parameter_type: null
-  relevance: null
   request_type: GET
-  test_name: iPhone_open
   timeout: 20
+  payload: "groupids=24508&maIds="

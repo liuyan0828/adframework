@@ -18,8 +18,8 @@ from deepdiff import DeepDiff
 
 # 获取当前项目所在路径
 path_dir = str(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-r = read_yaml_files(path_dir + r'/Yaml/xml_diff_case')
-
+# r = read_yaml_files(path_dir + r'/Yaml/xml_diff_case')
+r = read_yaml_files(path_dir + r'/Yaml/xml_diff_case/oad')
 
 # 重试的次数为3；可设置reruns=X
 # 重试的间隔时间为1s；可设置reruns_delay=X
@@ -35,36 +35,37 @@ def test_xml_diff(data):
     else:
         if data['isEncrypt'] == 1:
             res_data = RequestHandler.decode_xml_to_dict(res.content)
+            assert res_data != {}
         else:
             res_data = res.content.decode('utf-8')
-        root = ET.XML(res_data)
-        cur_el = CompareXml.get_all_elements(root, status)
-        with allure.step("请求链接"):
-            allure.attach(name="请求链接", body=str(URL_CONFIG['APP_AD_URL'] + data['ad_url']))
-        with allure.step("校验返回data"):
-            allure.attach(name="期望data", body=str(base_el))
-            allure.attach(name="实际data", body=str(cur_el))
-        exclude_paths = {
-            "root['impid']",
-            "root['ads'][0]['ad'][0]['creatives']['openvideo']['content']",
-            "root['ads'][0]['ad'][0]['ext']['expiretime']"
-        }
-        diff_data = DeepDiff(base_el, cur_el, ignore_order=True, exclude_paths=exclude_paths)
-        allure.attach(name="diff", body=str(diff_data))
-        # print(diff_data.to_json())
-        if diff_data == {}:
-            assert True, "校验通过"
-        elif "dictionary_item_added" in diff_data:
-            assert False, "返回数据中存在新增字段"
-        elif "dictionary_item_removed" in diff_data:
-            assert False, "返回数据中缺少部分字段"
-        elif "values_changed" in diff_data:
-            assert False, "返回数据中部分字段的值与基准不一致"
-        elif "type_changes" in diff_data:
-            assert False, "返回数据中部分字段类型与基准不一致"
-        elif "iterable_item_added" in diff_data:
-            assert False, "返回数据中存在新增列表项"
-        elif "iterable_item_removed" in diff_data:
-            assert False, "返回数据中缺少部分列表项"
-        else:
-            assert False, "返回数据与基准不一致"
+            root = ET.XML(res_data)
+            cur_el = CompareXml.get_all_elements(root, status)
+            with allure.step("请求链接"):
+                allure.attach(name="请求链接", body=str(URL_CONFIG['APP_AD_URL'] + data['ad_url']))
+            with allure.step("校验返回data"):
+                allure.attach(name="期望data", body=str(base_el))
+                allure.attach(name="实际data", body=str(cur_el))
+            exclude_paths = {
+                "root['impid']",
+                "root['ads'][0]['ad'][0]['creatives']['openvideo']['content']",
+                "root['ads'][0]['ad'][0]['ext']['expiretime']"
+            }
+            diff_data = DeepDiff(base_el, cur_el, ignore_order=True, exclude_paths=exclude_paths)
+            allure.attach(name="diff", body=str(diff_data))
+            print(diff_data.to_json())
+            if diff_data == {}:
+                assert True, "校验通过"
+            elif "dictionary_item_added" in diff_data:
+                assert False, "返回数据中存在新增字段"
+            elif "dictionary_item_removed" in diff_data:
+                assert False, "返回数据中缺少部分字段"
+            elif "values_changed" in diff_data:
+                assert False, "返回数据中部分字段的值与基准不一致"
+            elif "type_changes" in diff_data:
+                assert False, "返回数据中部分字段类型与基准不一致"
+            elif "iterable_item_added" in diff_data:
+                assert False, "返回数据中存在新增列表项"
+            elif "iterable_item_removed" in diff_data:
+                assert False, "返回数据中缺少部分列表项"
+            else:
+                assert False, "返回数据与基准不一致"
