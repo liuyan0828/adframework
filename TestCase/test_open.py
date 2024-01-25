@@ -23,7 +23,7 @@ PATH = project_path + '/script'
 case_dict = read_yaml_files(PATH)
 
 
-@allure.story("启动图")
+@allure.feature("启动图")
 class Test_Ad_Open():
     @pytest.fixture(autouse=True)
     def api_response(self, case_data):
@@ -48,7 +48,8 @@ class Test_Ad_Open():
         assert False, "返回数据为空"
 
     @allure.title("校验请求返回非空广告")
-    @pytest.mark.parametrize("case_data", case_dict[0], ids=[])
+    @allure.story("启动图")
+    @pytest.mark.parametrize("case_data", case_dict[0], ids=case_dict[1]))
     @pytest.mark.xfail
     def test_ad_res(self, case_data, api_response):
         with allure.step("校验是否为空广告"):
