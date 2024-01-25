@@ -72,7 +72,7 @@ class Test_Ad_Open():
         with allure.step("校验返回template"):
             allure.attach(name="期望template", body=str(template))
             allure.attach(name="实际template", body=str(res_template))
-        assert res_template == template
+        assert res_template == template, '返回的template与配置不一致'
         if mango_conf.get_redirecttype() and mango_conf.get_redirecturl():
             redirecttype =  mango_conf.get_redirecttype()
             redirecturl = mango_conf.get_redirecturl()
@@ -82,7 +82,7 @@ class Test_Ad_Open():
                     with allure.step("校验H5类型落地页"):
                         allure.attach(name="期望落地页", body=str(redirecturl))
                         allure.attach(name="实际落地页", body=str(res_redirecturl))
-                    assert redirecturl == res_redirecturl
+                    assert redirecturl == res_redirecturl, '返回的落地页url与配置不一致'
                 else:
                     assert False, "mango配置了H5落地页但实际未下发"
         if mango_conf.get_clicktype():
@@ -92,7 +92,7 @@ class Test_Ad_Open():
                 with allure.step("校验返回clicktype"):
                     allure.attach(name="期望clicktype", body=str(clicktype))
                     allure.attach(name="实际clicktype", body=str(res_clicktype))
-                assert clicktype == res_clicktype
+                assert clicktype == res_clicktype, '返回的点击触发类型与配置不一致'
             else:
                 assert False, "mango配置了clicktype但实际未下发"
         if mango_conf.get_isdeeplink():
@@ -102,7 +102,7 @@ class Test_Ad_Open():
                 with allure.step("校验返回是否是deeplink"):
                     allure.attach(name="期望是否是deeplink", body=str(deeplinkflag))
                     allure.attach(name="实际是否是deeplink", body=str(res_deeplinkflag))
-                assert deeplinkflag == res_deeplinkflag
+                assert deeplinkflag == res_deeplinkflag, '返回的是否deeplink与配置不一致'
             else:
                 assert False, "mango配置了deeplinkflag但实际未下发"
         if mango_conf.get_buttontext():
@@ -112,7 +112,7 @@ class Test_Ad_Open():
                 with allure.step("校验返回按钮文案"):
                     allure.attach(name="期望按钮文案", body=str(buttontext))
                     allure.attach(name="实际按钮文案", body=str(res_buttontext))
-                assert buttontext == res_buttontext
+                assert buttontext == res_buttontext, '返回的点击按钮文案与配置不一致'
             else:
                 assert False, "mango配置了按钮文案但实际未下发"
 
