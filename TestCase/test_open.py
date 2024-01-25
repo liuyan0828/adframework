@@ -49,7 +49,6 @@ class Test_Ad_Open():
 
     @allure.story("校验请求返回非空广告")
     @pytest.mark.parametrize("case_data", case_dict[0], ids=case_dict[1])
-    @pytest.mark.xfail
     def test_ad_res(self, case_data, api_response):
         allure.title(f"{case_data}")
         with allure.step("校验是否为空广告"):
