@@ -46,6 +46,8 @@ def api_response(case_data):
     assert False, "返回数据为空"
 
 
+@allure.feature("启动图")
+@allure.story("校验请求返回非空广告")
 @pytest.mark.feature("启动图")
 @pytest.mark.story("校验请求返回非空广告")
 @pytest.mark.parametrize("case_data", case_dict[0], ids=case_dict[1])
@@ -111,8 +113,8 @@ def test_ad_config(case_data, api_response):
         res_buttontext = jsonpath.jsonpath(api_response, '$..buttontxt.content')[0]
         if res_buttontext:
             with allure.step("校验返回按钮文案"):
-                allure.attach(name="期望是否是deeplink", body=str(buttontext))
-                allure.attach(name="实际是否是deeplink", body=str(res_buttontext))
+                allure.attach(name="期望按钮文案", body=str(buttontext))
+                allure.attach(name="实际按钮文案", body=str(res_buttontext))
             assert buttontext == res_buttontext
         else:
             assert False, "mango配置了按钮文案但实际未下发"
