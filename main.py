@@ -20,12 +20,12 @@ if __name__ == '__main__':
 
     args = ['-s', '-q', 'TestCase', '--alluredir', 'Report/xml_report', '--clean-alluredir']
     exit_code = pytest.main(args)
+    os.system('allure generate %s -o %s --clean' % ('Report/xml_report', 'Report/html_report'))
     if exit_code == pytest.ExitCode.OK:
         exit(0)
     else:
         exit(1)
 
-    os.system('allure generate %s -o %s --clean' % ('Report/xml_report', 'Report/html_report'))
 
 
     # 运行指定模块

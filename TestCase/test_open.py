@@ -47,16 +47,16 @@ class Test_Ad_Open():
                 return res_data
         assert False, "返回数据为空"
 
-    @allure.title("校验请求返回非空广告")
-    @allure.story("启动图")
+    @allure.story("校验请求返回非空广告")
     @pytest.mark.parametrize("case_data", case_dict[0], ids=case_dict[1])
     @pytest.mark.xfail
     def test_ad_res(self, case_data, api_response):
+        allure.dynamic.title(f"{case_data}")
         with allure.step("校验是否为空广告"):
             adtype = jsonpath.jsonpath(api_response, '$..adtype')[0]
         assert adtype != -1, "请检查投放，当前广告位返回的是空广告"
 
-    @allure.title("校验广告基础配置是否同mango配置一致")
+    @allure.story("校验广告基础配置是否同mango配置一致")
     @pytest.mark.parametrize("case_data", case_dict[0], ids=case_dict[1])
     def test_ad_config(self, case_data, api_response):
         """
@@ -65,6 +65,7 @@ class Test_Ad_Open():
         :param api_response: 请求返回数据
         :return:
         """
+        allure.dynamic.title(f"{case_data}")
         payload = case_data['payload']
         mango_conf = GetAdConf(payload)
         template = mango_conf.get_adtemplate()
@@ -116,9 +117,10 @@ class Test_Ad_Open():
             else:
                 assert False, "mango配置了按钮文案但实际未下发"
 
-    @allure.title("校验请求返回：1、返回广告的排期包id是否为基准广告id 2、如果是对返回进行完全校验")
+    @allure.story("校验请求返回：1、返回广告的排期包id是否为基准广告id 2、如果是对返回进行完全校验")
     @pytest.mark.parametrize("case_data", case_dict[0], ids=case_dict[1])
     def test_res_complete_check(self, case_data, api_response):
+        allure.title(f"{case_data}")
         expected_request = case_data['check']['expected_request']
         if isinstance(expected_request, str):
             _path = PATH + '/' + case_data['info']
