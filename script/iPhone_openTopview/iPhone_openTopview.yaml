@@ -1,8 +1,9 @@
 test_info:
   id: test_iPhone_openTopview_01
-  title: iPhone_openTopview
+  title: iPhone启动图TopView模板-Json
 testcase:
 - address: /m
+  title: iPhone启动图TopView模板-Json
   check:
     check_type: json
     expected_code: 200

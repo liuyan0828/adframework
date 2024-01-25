@@ -34,7 +34,7 @@ def read_yaml_files(folder_path):
             # "safe_load"更安全，不会因为未知键而引发错误；然而，它也会忽略未知键，而"load"会将它们保留在结果字典中。
             data = safe_load(f)['testcase']
         testcase.extend(data)
-    ids = [item['info'] for item in testcase if 'info' in item]
+    ids = [item['title'] for item in testcase if 'title' in item]
     # print(f"Data: {testcase}")
     # print(f"ids: {ids}")
     return [testcase, ids]

@@ -1,8 +1,9 @@
 test_info:
   id: test_iPhone_open_01
-  title: iPhone_open
+  title: iPhone启动图广告模板-Json
 testcase:
 - address: /m
+  title: iPhone启动图广告模板-Json
   check:
     check_type: json
     expected_code: 200
@@ -41,3 +42,4 @@ testcase:
   request_type: GET
   timeout: 20
   payload: "groupids=24508&maIds="
+

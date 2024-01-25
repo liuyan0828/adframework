@@ -36,7 +36,6 @@ def write_case_yaml(har_path, case_path):
                 method = har_ct['method']
                 path = har_ct['path']
                 title = i.split('.')[-2]
-                info_id = "test_"+title+"_01"
                 parameter_type = har_ct["request"]["mimeType"]
                 parameter = dict()
                 try:
@@ -78,10 +77,6 @@ def write_case_yaml(har_path, case_path):
                     except Exception as e:
                         raise Exception("转换失败：{}".format(e))
                 response_boby = json.loads(data)
-
-                test_info = dict()
-                test_info["id"] = info_id
-                test_info["title"] = title
 
                 check = dict()
                 check["check_type"] = 'json'
@@ -135,8 +130,8 @@ def write_case_yaml(har_path, case_path):
                 test_case["address"] = path
                 test_case["info"] = title
                 test_case["payload"] = "groupids="
+                test_case["title"] = ""
 
-                case_list["test_info"] = test_info
                 case_list["testcase"] = test_case_list
 
                 case_file = case_dir + '/' + title + '.yaml'
