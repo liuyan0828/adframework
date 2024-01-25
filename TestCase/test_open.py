@@ -46,8 +46,9 @@ def api_response(case_data):
     assert False, "返回数据为空"
 
 
+@allure.story("校验请求返回非空广告")
 @allure.title("校验请求返回非空广告")
-@pytest.mark.parametrize("case_data", case_dict[0], ids=case_dict[1])
+@pytest.mark.parametrize("case_data", case_dict[0], ids=case_dict[1], indirect=True)
 @pytest.mark.xfail
 def test_ad_res(case_data, api_response):
     with allure.step("校验是否为空广告"):
