@@ -49,7 +49,7 @@ class Test_Ad_Open():
 
     @allure.title("校验请求返回非空广告")
     @allure.story("启动图")
-    @pytest.mark.parametrize("case_data", case_dict[0], ids=case_dict[1]))
+    @pytest.mark.parametrize("case_data", case_dict[0], ids=case_dict[1])
     @pytest.mark.xfail
     def test_ad_res(self, case_data, api_response):
         with allure.step("校验是否为空广告"):
