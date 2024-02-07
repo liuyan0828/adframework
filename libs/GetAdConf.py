@@ -9,6 +9,9 @@ import json
 
 
 class GetAdConf():
+    """
+    获取广告配置
+    """
     def __init__(self, payload):
         url = "http://mangotest3.aty.sohuno.com/api/d/advertisement/getEditListByGroupids"
         headers = {
@@ -40,7 +43,7 @@ class GetAdConf():
     def get_redirecturl(self):
         return self.res['rows'][0]['redirectsList'][0]['url']
 
-    # 获取点击触发类型
+    # 获取是否全屏点击
     def get_clicktype(self):
         return self.res['rows'][0]['clickType']
 
@@ -59,6 +62,7 @@ class GetAdConf():
     # 获取是否过滤重复点击
     def get_dropInvalidClick(self):
         return self.res['rows'][0]['dropInvalidClick']
+
 
 if __name__ == '__main__':
     payload = "groupids=24508&maIds="

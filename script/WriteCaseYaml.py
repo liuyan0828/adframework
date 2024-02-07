@@ -100,8 +100,9 @@ def write_case_yaml(har_path, case_path):
 
                 else:
                     check['expected_request'] = expected_request
+                check['expected_xml'] = 'result_' + title + '.xml'
 
-                param_file = case_dir + '/' + title + '.json'
+                # param_file = case_dir + '/' + title + '.json'
                 test_case_list = []
                 test_case = dict()
                 test_case_list.append(test_case)

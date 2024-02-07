@@ -19,7 +19,7 @@ class CompareXml(object):
         return tree.getroot()
 
     @staticmethod
-    def get_all_elements(root, status):
+    def get_all_elements(root):
         """
         处理值，去除其中的\t\n字符，如果是http开头的字符串，去除指定host中的指定字段，如果是None，设置为空字符串
         :return: 返回xml文件中所有的子节点,格式为[tag名, 属性， 值]
@@ -36,7 +36,7 @@ class CompareXml(object):
                             if i.attrib['id'] in ['mma', 'miaozhen', 'admaster', 'other']:
                                 h_url = UrlHandler(i.text)
                                 i.text = h_url.get_host()
-                                print(i.tag, i.attrib, i.text)
+                                # print(i.tag, i.attrib, i.text)
                     if i.text.startswith('http'):
                         handle_url = UrlHandler(i.text)
                         i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],
@@ -47,9 +47,9 @@ class CompareXml(object):
                                                                      "indexip", "v2","encrysig","dx","dy","ux","uy","pgcauthor","vc"])
                         i.text = handle_url.delete_specified_params(['data.vod.itc.cn'],
                                                                     ["sig","prod","new"])
-                        if status == 10001:
-                            i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],
-                                                                        ["tvid", "crid", "ar", "datatype"])
+                        # if status == 10001:
+                        #     i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],
+                        #                                                 ["tvid", "crid", "ar", "datatype"])
                     if i.tag in ele_list.keys():
                         ele_list[i.tag].append({'att': i.attrib, 'text': i.text})
                     else:

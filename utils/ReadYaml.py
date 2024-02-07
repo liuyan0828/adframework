@@ -35,9 +35,8 @@ def read_yaml_files(folder_path):
             data = safe_load(f)['testcase']
         testcase.extend(data)
     ids = [item['title'] for item in testcase if 'title' in item]
-    # print(f"Data: {testcase}")
-    # print(f"ids: {ids}")
     return [testcase, ids]
+
 
 def read_yaml_file(_path, case_file):
     try:

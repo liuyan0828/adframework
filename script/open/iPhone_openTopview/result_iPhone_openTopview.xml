@@ -1,0 +1,114 @@
+<VAST  version="3.0">
+    <Ad  id = "topview">
+        <InLine>
+            <AdSystem>sohu tv ad system</AdSystem>
+            <AdTitle>图片标题</AdTitle>
+            <Description>sohu tv</Description>
+            <Impression  id="monitorServer">
+                <![CDATA[http://mmg.aty.sohu.com/pvlog?du=0&rt=1707203939250_993_10.33.11.252_143500_143500&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240206&endtime=20241231&ad=54980&b=417831&bk=117237650&pagetype=2&islocaltv=0&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=0&sperotime=1707203939&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=d4fb40feccfb298cbba307dbbd905787&scope=0&flightid=36633213&from=tvssp&advertiserid=11635&encd=EgJrejCA%2FrA3EBppBFnvjexDDPY%3D&vp=s&at=0&c=2741&p=op&posid=op_iphone_1&loc=CN4300&adstyle=open&ac=5486&ad=54980&pt=12620&b=417831&bk=117237650&pagetype=2&spead=0&istopview=1&rtm=__TIME__&err=[ERRORCODE]]]>
+            </Impression>
+            <Impression  id="sohutv">
+                <![CDATA[http://mmg.aty.sohu.com/pv?type=1&du=0&rt=1707203939250_993_10.33.11.252_143500_143500&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240206&endtime=20241231&ad=54980&b=417831&bk=117237650&pagetype=2&islocaltv=0&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=0&sperotime=1707203939&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=d4fb40feccfb298cbba307dbbd905787&scope=0&flightid=36633213&from=tvssp&advertiserid=11635&encd=EgJrejCA%2FrA3EBppBFnvjexDDPY%3D&vp=0&at=0&c=2741&p=op&posid=op_iphone_1&loc=CN4300&adstyle=open&ac=5486&ad=54980&pt=12620&b=417831&bk=117237650&pagetype=2&spead=0&istopview=1&rtm=__TIME__]]>
+            </Impression>
+            <Impression  id="other">
+                <![CDATA[http://www.dianjiotherjiance.com]]>
+            </Impression>
+            <Creatives>
+                <Creative>
+                    <NonLinearAds>
+                        <NonLinear  width="640" height="1136" minSuggestedDuration="00:00:05">
+                            <StaticResource  creativeType="video/mp4" orientation="horizontal">
+                                <![CDATA[http://data.vod.itc.cn/?prod=ad&new=/247/88/UM9Nn9PAElVrjC0oylcbXJ.mp4]]>
+                            </StaticResource>
+                            <AltText>
+                                <![CDATA[图片标题]]>
+                            </AltText>
+                            <MultiClickThrough>
+                                <![CDATA[openapp.jdmobile://virtual?params=]]>
+                            </MultiClickThrough>
+                            <MultiClickTracking>
+                                <![CDATA[http://mmg.aty.sohu.com/goto?du=0&rt=1707203939250_993_10.33.11.252_143500_143500&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&bt=20240206&endtime=20241231&ad=54980&b=417831&bk=117237650&pagetype=2&islocaltv=0&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=0&sperotime=1707203939&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=d4fb40feccfb298cbba307dbbd905787&scope=0&flightid=36633213&from=tvssp&advertiserid=11635&encd=EgJrejCA%2FrA3EBppBFnvjexDDPY%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&vp=[REALTIME]&at=0&c=2741&p=op&posid=op_iphone_1&loc=CN4300&adstyle=open&ac=5486&ad=54980&pt=12620&b=417831&bk=117237650&pagetype=2&spead=0&istopview=1&eventtype=deeplink]]>
+                            </MultiClickTracking>
+                            <NonLinearClickTracking>
+                                <![CDATA[http://mmg.aty.sohu.com/goto?du=0&rt=1707203939250_993_10.33.11.252_143500_143500&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&bt=20240206&endtime=20241231&ad=54980&b=417831&bk=117237650&pagetype=2&islocaltv=0&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=0&sperotime=1707203939&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=d4fb40feccfb298cbba307dbbd905787&scope=0&flightid=36633213&from=tvssp&advertiserid=11635&encd=EgJrejCA%2FrA3EBppBFnvjexDDPY%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&vp=[REALTIME]&at=0&c=2741&p=op&posid=op_iphone_1&loc=CN4300&adstyle=open&ac=5486&ad=54980&pt=12620&b=417831&bk=117237650&pagetype=2&spead=0&istopview=1&rtm=__TIME__]]>
+                            </NonLinearClickTracking>
+                            <NonLinearClickTracking  id="miaozhen">
+                                <![CDATA[http://sohutv.m.cn.miaozhen.com/r/k=2285949]]>
+                            </NonLinearClickTracking>
+                        </NonLinear>
+                        <TrackingEvents>
+                            <Tracking  event="av">
+                                <![CDATA[http://mmg.aty.sohu.com/av?du=0&rt=1707203939250_993_10.33.11.252_143500_143500&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240206&endtime=20241231&ad=54980&b=417831&bk=117237650&pagetype=2&islocaltv=0&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=0&sperotime=1707203939&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=d4fb40feccfb298cbba307dbbd905787&scope=0&flightid=36633213&from=tvssp&advertiserid=11635&encd=EgJrejCA%2FrA3EBppBFnvjexDDPY%3D&vp=s&at=0&istopview=1&c=2741&p=op&posid=op_iphone_1&loc=CN4300&adstyle=open&ac=5486&ad=54980&pt=12620&b=417831&bk=117237650&pagetype=2&rtm=__TIME__&ps=1]]>
+                            </Tracking>
+                            <Tracking  event="complete">
+                                <![CDATA[http://mmg.aty.sohu.com/pvlog?du=0&rt=1707203939250_993_10.33.11.252_143500_143500&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240206&endtime=20241231&ad=54980&b=417831&bk=117237650&pagetype=2&islocaltv=0&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=0&sperotime=1707203939&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=d4fb40feccfb298cbba307dbbd905787&scope=0&flightid=36633213&from=tvssp&advertiserid=11635&encd=EgJrejCA%2FrA3EBppBFnvjexDDPY%3D&vp=e&at=0&c=2741&p=op&posid=op_iphone_1&loc=CN4300&adstyle=open&ac=5486&ad=54980&pt=12620&b=417831&bk=117237650&pagetype=2&spead=0&istopview=1&rtm=__TIME__&err=[ERRORCODE]&ps=1]]>
+                            </Tracking>
+                            <Tracking  event="close">
+                                <![CDATA[http://mmg.aty.sohu.com/pvlog?&err=[ERRORCODE]&vp=[SKIPTIME]&du=0&rt=1707203939250_993_10.33.11.252_143500_143500&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240206&endtime=20241231&ad=54980&b=417831&bk=117237650&pagetype=2&islocaltv=0&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=0&sperotime=1707203939&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=d4fb40feccfb298cbba307dbbd905787&scope=0&flightid=36633213&from=tvssp&advertiserid=11635&encd=EgJrejCA%2FrA3EBppBFnvjexDDPY%3D&ischarge=0&eventtype=skip&at=0&c=2741&p=op&posid=op_iphone_1&loc=CN4300&adstyle=open&ac=5486&ad=54980&pt=12620&b=417831&bk=117237650&pagetype=2&spead=0&istopview=1]]>
+                            </Tracking>
+                        </TrackingEvents>
+                    </NonLinearAds>
+                    <CompanionAds>
+                        <Companion  width="640" height="360">
+                            <CompanionStaticStartResource  creativeType="image/jpeg">
+                                <![CDATA[https://images.sohu.com/ytv/BJ/13454/64036020221108095631.jpg]]>
+                            </CompanionStaticStartResource>
+                        </Companion>
+                        <Companion  width="640" height="360">
+                            <CompanionStaticEndResource  creativeType="image/png">
+                                <![CDATA[https://images.sohu.com/ytv/BJ/13444/64036020220215150044.png]]>
+                            </CompanionStaticEndResource>
+                        </Companion>
+                        <Companion  width="1125" height="2436">
+                            <CompanionStaticResource  creativeType="image/png" is_full="0">
+                                <![CDATA[https://images.sohu.com/ytv/BJ/11645/1125243620210420151403.png]]>
+                            </CompanionStaticResource>
+                        </Companion>
+                        <Companion  width="640" height="360" minSuggestedDuration="00:00:15">
+                            <CompanionMediaFile  creativeType="video/mp4">
+                                <![CDATA[http://images.sohu.com/ytv/BJ/11655/64036020210421150908.mp4]]>
+                            </CompanionMediaFile>
+                        </Companion>
+                        <Companion  width="80" height="80">
+                            <CompanionAdLogo  creativeType="image/png">
+                                <![CDATA[http://images.sohu.com/ytv/BJ/11535/808020151020120130.png]]>
+                            </CompanionAdLogo>
+                        </Companion>
+                        <Companion  width="300" height="150">
+                            <CompanionThumbNail  creativeType="image/jpeg">
+                                <![CDATA[https://images.sohu.com/ytv/BJ/11591/30015020171017143714.jpg]]>
+                            </CompanionThumbNail>
+                        </Companion>
+                        <TrackingEvents>
+                            <Tracking  event="av">
+                                <![CDATA[http://mmg.aty.sohu.com/av?du=0&rt=1707203939250_993_10.33.11.252_143500_143500&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240206&endtime=20241231&ad=54980&b=417831&bk=117237650&pagetype=2&islocaltv=0&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=0&sperotime=1707203939&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=d4fb40feccfb298cbba307dbbd905787&scope=0&flightid=36633213&from=tvssp&advertiserid=11635&encd=EgJrejCA%2FrA3EBppBFnvjexDDPY%3D&vp=s&at=0&istopview=1&c=2741&p=op&posid=op_iphone_1&loc=CN4300&adstyle=open&ac=5486&ad=54980&pt=12620&b=417831&bk=117237650&pagetype=2&rtm=__TIME__&ps=2&eventtype=focus]]>
+                            </Tracking>
+                            <Tracking  event="complete">
+                                <![CDATA[http://mmg.aty.sohu.com/pvlog?du=0&rt=1707203939250_993_10.33.11.252_143500_143500&spead=0&plat=3&sver=9.9.20&poid=1&adplat=2&prot=json&protv=3.0&build=com.sohu.inhouse.iphonevideo&appid=tv&adoriginal=sohu&sdkVersion=15.9.1&offline=0&density=2.000000&displayMetrics=375%2A667&islocaltv=0&bt=20240206&endtime=20241231&ad=54980&b=417831&bk=117237650&pagetype=2&islocaltv=0&seq=1&w=640&h=1136&wdbn=640&hgbn=1136&cheattype=0&sperotime=1707203939&site=1&template=video&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&backtest=exp_nobidfloor,pdb_load_a,pdb_opt_a&ispgc=0&impressionid=d4fb40feccfb298cbba307dbbd905787&scope=0&flightid=36633213&from=tvssp&advertiserid=11635&encd=EgJrejCA%2FrA3EBppBFnvjexDDPY%3D&vp=e&at=0&c=2741&p=op&posid=op_iphone_1&loc=CN4300&adstyle=open&ac=5486&ad=54980&pt=12620&b=417831&bk=117237650&pagetype=2&spead=0&istopview=1&rtm=__TIME__&err=[ERRORCODE]&ps=2&eventtype=focus]]>
+                            </Tracking>
+                        </TrackingEvents>
+                    </CompanionAds>
+                </Creative>
+            </Creatives>
+            <Extensions>
+                <Extension>
+                    <AdParams  adStyle="open" postCode="op_iphone_1">
+                        <OpenDelay>5</OpenDelay>
+                        <SupportDeepLink>1</SupportDeepLink>
+                        <DominantColor>-16777216</DominantColor>
+                        <Replaceable>0</Replaceable>
+                        <ExpireTime>1707235199000</ExpireTime>
+                        <Advertiser>
+                            <![CDATA[Ly]]>
+                        </Advertiser>
+                        <DisplayType>1</DisplayType>
+                        <ButtonText>
+                            <![CDATA[摇一摇]]>
+                        </ButtonText>
+                        <Hardflag>3</Hardflag>
+                    </AdParams>
+                </Extension>
+            </Extensions>
+        </InLine>
+    </Ad>
+</VAST>

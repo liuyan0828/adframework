@@ -4,7 +4,7 @@
 @Author : liuyan
 @function : 
 """
-
+import gettext
 import json
 import requests
 import jsonpath
@@ -20,6 +20,20 @@ class JsonHandle:
         json_data = json.loads(json_data)
         # json_obj = json.load(json_obj) 从文件中取数据
         return json_data
+
+
+class GetErrorMessage:
+    def get_errormessage(self, categories_json):
+        """
+        :param categories_json: 报错信息
+        """
+        errorName = jsonpath.jsonpath(categories_json, '$..[?(@.status== "' + 'failed' + '")].name')
+        errorUid = jsonpath.jsonpath(categories_json, '$..[?(@.status== "' + 'failed' + '")].parentUid')
+
+        case_name = [x[x.find('[')+1:x.find(']')] for x in errorName]
+        case_error = [jsonpath.jsonpath(categories_json, '$..[?(@.uid== "' + x + '")].name') for x in errorUid]
+        errorMessage = dict(zip(case_name, case_error))
+        return errorMessage
 
 
 class SendMarkdown:
@@ -55,9 +69,9 @@ if __name__ == '__main__':
     categories_url = base_url + newid + '/allure/data/categories.json'
     json_handle = JsonHandle()
     categories_json = json_handle.json_to_dict(categories_url)
-    errorMesssge = jsonpath.jsonpath(categories_json, '$..[?(@.status== "' + 'failed' + '")].name')
+    errorMesssge = GetErrorMessage().get_errormessage(categories_json)
 
-    wx_url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=7c95a2ef-eecc-4c0b-9488-2b9013cd7975"
+    wx_url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=9230171b-f329-451f-8877-84bb4d298ca6"
     content = SendMarkdown()
-    content.send_markdown(wx_url, base_url + newid + "/allure", errorMesssge)
+    content.send_markdown(wx_url, base_url + newid + "/allure/#behaviors", errorMesssge)
 

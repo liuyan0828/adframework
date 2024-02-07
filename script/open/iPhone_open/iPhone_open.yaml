@@ -1,0 +1,44 @@
+testcase:
+- address: /m
+  title: iPhone启动图广告模板
+  check:
+    check_type: json
+    expected_code: 200
+    expected_request: result_iPhone_open.json
+    expected_xml: result_iPhone_open.xml
+  http_type: http
+  info: iPhone_open
+  parameter:
+    adoriginal: sohu
+    appid: tv
+    build: com.sohu.inhouse.iphonevideo
+    catecode: '6341'
+    density: '2.000000'
+    displayMetrics: 375%2A667
+    encd: 7Z%2BdbTv4ojuSjG08yprDzw%2B/bH3EViLZ7QGGvkQFXq/YeRsf2GKwpBVGJoZtzOofXCIhpQwBNN%2BYbGiu8rZdC8AWqe%2B0k79yiXPxCPbIYLb/2yFybbz94WyZgxCzA9iLhCrFVigJDOcUPyanRrZtfZlXnyjGoLle6Eqy0XkzGMdT0akleSLrRiEpVsz49exvb283N%2BJDmyqBooPLxyqkAtJjBm99w8VLNJkmx%2BMSc7SxsXsL2Y%2BV15EqVpdMRBO9DYLUYKe/Iv7xaMERK/xtFvlaK0A5/yrYPQwDl9ziFMs6Rqhs025vV2CMPVo%2BcanIKuXRB0XVjLXIWDWOHw6AlBB3Ir%2Buomzsp5VeppT5mu9h4Za6cchxERRHLCAvFtjYulWaWGiNzfnyRDu/Bu7Ye1c6O13USqBqFf0%2B4NCPqDnJRmrwjFce5qyVq74lEuiAbJIHxHvqBpKojwANk3Jumh1MOZcH3AauBw25Zu/poynOetxjT8SV3qcl4AhSMYptJflWnSvgA5BazLoU2SHbIlVN%2B5Vn886OtV3nEwm%2B9a6oXUX8N9yg5jQrZkQHuTma5Ui48K2Nj6cOv/5CODJOfoERt8nppjskQfai4pYmgitCGcJk2wKkGJ8GGA25OqojaNS9ujsKFZkY8hNMe/hB0WYVn2KH39jKh8fZKo%2BRvysJZhI4spE7ZwNpVLZUO%2B8915SerZDP7WHGNXo3Z/bXZ%2B9mZjYglpc97BCQ2XGiYfAsMIjJbOWE3Q/UtGydz%2B%2BgbdKbSrWSDSmlIooQMIIAxgSwU/6hDq7O8tyxbAQ6UKerPCfDx4YbfDwa7FwQYDWtKFlEIGZVsvRzcPgIJvnPqpfQdIzl%2BLBqyTRyYGsIxu5iPdbHbbJCcp82mlsPXn5ReBm%2BWbqzuUjUimaxSozRi2QV3Hp2MOJGfCpR4lpC8kY129wCasXmJaQjrcD8FVkfIDpPkma6AiYspeiwiHQ/ic4j41vfMoiHOaoeH8bFJyxuQYSa
+    expired: '0'
+    ext: '2096591'
+    exten: 1%2C2%2C3%2C4%2C7%2C8
+    gid: x0107401101017ecb02931038000ea678fbde7c18d8b
+    guid: ''
+    height: '667'
+    islocaltv: '0'
+    plat: '3'
+    poid: '1'
+    poscode: op_iphone_1
+    privacy: '1'
+    prot: json
+    protv: '3.0'
+    pt: open
+    sdkVersion: 15.9.1
+    site: '1'
+    sver: 9.9.20
+    system_type: '0'
+    tvpid: '6932'
+    width: '375'
+    debugloc: CN4200
+  parameter_type: null
+  request_type: GET
+  timeout: 20
+  payload: "groupids=24599&maIds="
+
