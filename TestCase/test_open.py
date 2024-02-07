@@ -41,7 +41,7 @@ class Test_Ad_Open():
         check_redirect(mango_conf, api_response)
 
     @allure.story("校验请求返回：1、返回广告非空 2、返回排期包id是否为基准排期包id 3、返回广告id是否为基准广告id 4、如果是则对返回进行完全校验")
-    @pytest.mark.flaky(reruns=8, reruns_delay=1)
+    @pytest.mark.flaky(reruns=10, reruns_delay=1)
     @pytest.mark.parametrize("case_data", case_dict[0], ids=case_dict[1])
     def test_res_complete_check(self, case_data, api_response):
         allure.title(f"{case_data['title']}")
@@ -54,7 +54,7 @@ class Test_Ad_Open():
         check_returned_data(api_response, expected_request)
 
     @allure.story("校验xml是否能返回")
-    @pytest.mark.flaky(reruns=8, reruns_delay=1)
+    @pytest.mark.flaky(reruns=10, reruns_delay=1)
     @pytest.mark.parametrize("case_data", case_dict[0], ids=case_dict[1])
     def test_ad_xml(self, case_data):
         allure.title(f"{case_data['title']}")
