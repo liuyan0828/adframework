@@ -39,13 +39,21 @@ class GetAdConf():
     def get_redirecttype(self):
         return self.res['rows'][0]['redirectsList'][0]['type']
 
-    # 获取第三方跳转
+    # 获取第三方跳转url
     def get_redirecturl(self):
         return self.res['rows'][0]['redirectsList'][0]['url']
+
+    # 获取微信小程序id
+    def get_appletId(self):
+        return self.res['rows'][0]['redirectsList'][0]['appletId']
 
     # 获取是否全屏点击
     def get_clicktype(self):
         return self.res['rows'][0]['clickType']
+
+    # 获取点击触发类型
+    def get_triggertype(self):
+        return self.res['rows'][0]['triggerType']
 
     # 获取点击按钮文字
     def get_buttontext(self):
@@ -63,9 +71,17 @@ class GetAdConf():
     def get_dropInvalidClick(self):
         return self.res['rows'][0]['dropInvalidClick']
 
+    # 获取图片标题
+    def get_imagetitle(self):
+        return self.res['rows'][0]['imagetitle']
+
+    # 获取广告主来源
+    def get_imagesubtitle(self):
+        return self.res['rows'][0]['imagesubtitle']
+
 
 if __name__ == '__main__':
-    payload = "groupids=24508&maIds="
+    payload = "groupids=24605&maIds="
     print(GetAdConf(payload).get_adtemplate())
     print(GetAdConf(payload).get_redirecttype())
     print(GetAdConf(payload).get_redirecturl())
@@ -74,3 +90,6 @@ if __name__ == '__main__':
     print(GetAdConf(payload).get_isdeeplink())
     print(GetAdConf(payload).get_hardadflag())
     print(GetAdConf(payload).get_dropInvalidClick())
+    print(GetAdConf(payload).get_imagetitle())
+    print(GetAdConf(payload).get_imagesubtitle())
+    print(GetAdConf(payload).get_triggertype())

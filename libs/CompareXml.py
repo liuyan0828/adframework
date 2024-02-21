@@ -44,7 +44,8 @@ class CompareXml(object):
                                                                      'platsource', 'sign', 'warmup', 'rip', 'fip',
                                                                      'v2code', 'bt', 'backtest', 'bk', 'sperotime',
                                                                      "impressionid", "flightid", "sspreqid", "sip",
-                                                                     "indexip", "v2","encrysig","dx","dy","ux","uy","pgcauthor","vc"])
+                                                                     "indexip", "v2", "encrysig", "dx", "dy", "ux",
+                                                                     "uy", "pgcauthor", "vc", "adtime", "trule"])
                         i.text = handle_url.delete_specified_params(['data.vod.itc.cn'],
                                                                     ["sig","prod","new"])
                         # if status == 10001:

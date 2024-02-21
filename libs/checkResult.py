@@ -14,7 +14,6 @@ from libs.CompareXml import JsonHandle, CompareXml
 from libs.Config import URL_CONFIG
 from utils.RequestHandler import RequestHandler
 from utils.UrlHandler import *
-from main import project_path
 import xml.etree.ElementTree as ET
 
 
@@ -86,9 +85,10 @@ def check_redirect(mango_conf, api_response):
     :param api_response: 接口返回数据
     :return:
     """
-    if mango_conf.get_redirecttype() and mango_conf.get_redirecturl():
-        redirecttype = mango_conf.get_redirecttype()
-        redirecturl = mango_conf.get_redirecturl()
+    redirecttype = mango_conf.get_redirecttype()
+    redirecturl = mango_conf.get_redirecturl()
+    appletId = mango_conf.get_appletId()
+    if redirecttype and (redirecturl or appletId):
         # 落地页配置类型为H5时，接口返回url的key才为landing_url；后续待补充其他类型
         if redirecttype == "H5":
             res_redirecturl = jsonpath.jsonpath(api_response, '$..landing_url')[0]
@@ -96,9 +96,36 @@ def check_redirect(mango_conf, api_response):
                 with allure.step("校验H5类型落地页"):
                     allure.attach(name="期望落地页", body=str(redirecturl))
                     allure.attach(name="实际落地页", body=str(res_redirecturl))
-                assert redirecturl == res_redirecturl, '返回的落地页url与配置不一致'
+                assert redirecturl == res_redirecturl, '返回的H5落地页url与配置不一致'
             else:
                 assert False, "mango配置了H5落地页但实际未下发"
+        elif redirecttype == "deeplink":
+            res_redirecturl = jsonpath.jsonpath(api_response, '$..deeplink_url')[0]
+            if res_redirecturl:
+                with allure.step("校验deeplink类型落地页"):
+                    allure.attach(name="期望落地页", body=str(redirecturl))
+                    allure.attach(name="实际落地页", body=str(res_redirecturl))
+                assert redirecturl == res_redirecturl, '返回的deeplink落地页url与配置不一致'
+            else:
+                assert False, "mango配置了deeplink落地页但实际未下发"
+        elif redirecttype == "wechat_applet":
+            res_redirecturl = jsonpath.jsonpath(api_response, '$..mini_click_through')[0]
+            res_appletId =  jsonpath.jsonpath(api_response, '$..mini_id')[0]
+            if res_appletId:
+                with allure.step("校验微信小程序id"):
+                    allure.attach(name="期望微信小程序id", body=str(appletId))
+                    allure.attach(name="实际微信小程序id", body=str(res_appletId))
+                assert appletId == res_appletId, '返回的微信小程序id与配置不一致'
+            else:
+                assert False, "mango配置了微信小程序id但实际未下发"
+            if redirecturl:
+                if res_redirecturl:
+                    with allure.step("校验微信小程序落地页"):
+                        allure.attach(name="期望微信小程序落地页", body=str(redirecturl))
+                        allure.attach(name="实际微信小程序落地页", body=str(res_redirecturl))
+                    assert redirecturl == res_redirecturl, '返回的微信小程序落地页url与配置不一致'
+                else:
+                    assert False, "mango配置了微信小程序落地页但实际未下发"
 
 
 def check_code(case_data):
@@ -196,7 +223,9 @@ def check_xml_res(case_data, path):
     exclude_paths = {
         "root['impid']",
         "root['ads'][0]['ad'][0]['creatives']['openvideo']['content']",
-        "root['ads'][0]['ad'][0]['ext']['expiretime']"
+
+        "root['ads'][0]['ad'][0]['ext']['expiretime']",
+        "root['MultiClickThrough'][0]['text']" #deeplink下发的url有个字段是可变的
     }
     diff_data = DeepDiff(base_el, cur_el, ignore_order=True, exclude_paths=exclude_paths)
     allure.attach(name="diff", body=str(diff_data))

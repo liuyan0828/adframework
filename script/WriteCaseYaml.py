@@ -10,6 +10,8 @@ import os
 import urllib.parse
 import yaml
 import logging
+import xml.etree.ElementTree as ET
+import xml.dom.minidom
 
 from utils.XxteaHandler import Xxtea
 from utils.MakeDir import mk_dir
@@ -66,6 +68,8 @@ def write_case_yaml(har_path, case_path):
 
                 response_code = har_ct["response"]["status"]
                 response_body = har_ct["response"]["body"]["text"]
+
+                check = dict()
                 # 如果返回是字符串（加密），解密返回
                 if isinstance(response_body, str):
                     try:
@@ -76,50 +80,31 @@ def write_case_yaml(har_path, case_path):
                         data = xxtea.decrypt(base64.b64decode(res), key)
                     except Exception as e:
                         raise Exception("转换失败：{}".format(e))
-                response_boby = json.loads(data)
-
-                check = dict()
-                check["check_type"] = 'json'
-                check["expected_code"] = response_code
-                expected_request = response_boby
-
-                result_file = 'result_' + title + '.json'
-                if len(expected_request) >= 3:
-                    if result_file in os.listdir(case_dir):
-                        pass
-                    else:
-                        result_list = []
-                        result_dicts = dict()
+                try:
+                    try:
+                        dom = xml.dom.minidom.parseString(data)
+                        pretty_xml = dom.toprettyxml()
+                        check["check_type"] = 'vast'
+                        result_file = 'result_' + title + '.xml'
                         with open(case_dir + '/' + result_file, 'w', encoding='utf-8') as file:
-                            result_dicts["test_name"] = title
-                            result_dicts['json'] = expected_request
-                            result_list.append(result_dicts)
+                            file.write(pretty_xml)
+                    except ET.ParseError:
+                        response_boby = json.loads(data)
+                        check["check_type"] = 'json'
+                        result_file = 'result_' + title + '.json'
+                        with open(case_dir + '/' + result_file, 'w', encoding='utf-8') as file:
 
-                            json.dump(result_list, file, ensure_ascii=False, indent=4)
-                    check['expected_request'] = result_file
+                            json.dump(response_boby, file, ensure_ascii=False, indent=4)
+                except Exception as e:
+                    raise e
 
-                else:
-                    check['expected_request'] = expected_request
                 check['expected_xml'] = 'result_' + title + '.xml'
+                check['expected_request'] = 'result_' + title + '.json'
+                check["expected_code"] = response_code
 
-                # param_file = case_dir + '/' + title + '.json'
                 test_case_list = []
                 test_case = dict()
                 test_case_list.append(test_case)
-                # para参数大于等于4时，参数文件单独写入json中
-                # if len(parameter) >= 4:
-                #     if title + '.json' in os.listdir(case_dir):
-                #         pass
-                #     else:
-                #         new_dicts = dict()
-                #         new_list = []
-                #         with open(param_file, "w", encoding='utf-8') as fs:
-                #             new_dicts["test_name"] = title
-                #             new_dicts["parameter"] = parameter
-                #             new_list.append(new_dicts)
-                #
-                #             json.dump(new_list, fs, ensure_ascii=False, indent=4)
-                #     test_case["parameter_json"] = title + '.json'
 
                 test_case["parameter"] = parameter
 
@@ -146,6 +131,6 @@ def write_case_yaml(har_path, case_path):
     return case_file_list
 
 
-case_path = project_path + '/script'
+case_path = project_path + '/script/oad'
 har_path = project_path + '/charles_file'
 print(write_case_yaml(har_path, case_path))
