@@ -1,8 +1,8 @@
 """
 -*- coding: utf-8 -*-
-@Time : 2023/9/14 
+@Time : 2023/9/14
 @Author : liuyan
-@function : 
+@function :
 """
 import pytest
 from main import project_path
@@ -32,7 +32,7 @@ class Test_Ad_Open():
         allure.title(f"{case_data}")
         payload = case_data['payload']
         mango_conf = GetAdConf(payload)
-        if  mango_conf.get_adtemplate() != "open_customize_click":
+        if mango_conf.get_adtemplate() != "open_customize_click":
             check_and_assert(mango_conf.get_adtemplate, api_response, '$..template', "返回的template与配置不一致",
                              "res未下发template字段")
         check_and_assert(mango_conf.get_triggertype, api_response, '$..display_type', "返回的点击触发类型与配置不一致",

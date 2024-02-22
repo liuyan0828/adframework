@@ -58,4 +58,4 @@ testcase:
   payload: groupids=
   request_type: GET
   timeout: 20
-  title: iPhone普通前贴
+  title: iPhone普通前贴模板

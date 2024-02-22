@@ -74,8 +74,8 @@ def check_lineid(api_response, expected_request):
     with allure.step("校验返回广告排期包id是否是基准配置广告排期包id"):
         lineid = jsonpath.jsonpath(api_response, '$..lineid')[0]
         expected_lineid = jsonpath.jsonpath(expected_request, '$..lineid')[0]
-        allure.attach(name="期望lineid", body=str(lineid))
-        allure.attach(name="实际lineid", body=str(expected_lineid))
+        allure.attach(name="实际lineid", body=str(lineid))
+        allure.attach(name="期望lineid", body=str(expected_lineid))
     assert lineid == expected_lineid, "当前广告位返回的lineid与基准配置的lineid不一致"
 
 
