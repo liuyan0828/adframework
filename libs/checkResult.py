@@ -207,19 +207,14 @@ def check_returned_data(api_response, expected_request):
     check_diff(diff_data)
 
 
-def check_xml_res(case_data, path):
-    # prot=vast则返回xml
-    case_data['parameter']['prot'] = 'vast'
-    res = check_code(case_data)
-    res_data = RequestHandler.decode_xml_to_dict(res.content)
-    assert res_data != {}
-    base_xml = CompareXml.get_root(path)
-    base_el = CompareXml.get_all_elements(base_xml)
-    root = ET.XML(res_data)
-    cur_el = CompareXml.get_all_elements(root)
-    with allure.step("校验返回xml"):
-        allure.attach(name="期望data", body=str(base_el))
-        allure.attach(name="实际data", body=str(cur_el))
+def check_xml_res(api_response, expected_request):
+    # 获取广告id，即url中的ad值；
+    exp_ad = UrlHandler(expected_request['Impression'][0]['text']).get_value('ad')
+    res_ad = UrlHandler(api_response['Impression'][0]['text']).get_value('ad')
+    with allure.step("校验返回广告ID"):
+        allure.attach(name="期望广告ID", body=str(exp_ad))
+        allure.attach(name="实际广告ID", body=str(res_ad))
+    assert exp_ad == res_ad, "当前广告位返回的广告ID与基准配置的广告ID不一致"
     exclude_paths = {
         "root['impid']",
         "root['ads'][0]['ad'][0]['creatives']['openvideo']['content']",
@@ -227,6 +222,6 @@ def check_xml_res(case_data, path):
         "root['ads'][0]['ad'][0]['ext']['expiretime']",
         "root['MultiClickThrough'][0]['text']" #deeplink下发的url有个字段是可变的
     }
-    diff_data = DeepDiff(base_el, cur_el, ignore_order=True, exclude_paths=exclude_paths)
+    diff_data = DeepDiff(api_response, expected_request, ignore_order=True, exclude_paths=exclude_paths)
     allure.attach(name="diff", body=str(diff_data))
     check_diff(diff_data)
