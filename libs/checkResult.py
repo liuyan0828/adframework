@@ -211,6 +211,8 @@ def check_xml_res(api_response, expected_request):
     # 获取广告id，即url中的ad值；
     exp_ad = UrlHandler(expected_request['Impression'][0]['text']).get_value('ad')
     res_ad = UrlHandler(api_response['Impression'][0]['text']).get_value('ad')
+    if res_ad == "该url中无对应key，请检查输入":
+        assert False, "请检查投放，当前广告位返回的是空广告"
     with allure.step("校验返回广告ID"):
         allure.attach(name="期望广告ID", body=str(exp_ad))
         allure.attach(name="实际广告ID", body=str(res_ad))
