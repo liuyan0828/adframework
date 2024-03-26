@@ -215,7 +215,7 @@ def check_xml_res(api_response, expected_request):
         assert False, "请检查投放，当前广告位返回的是空广告"
     with allure.step("校验返回广告ID"):
         allure.attach(name="期望广告ID", body=str(exp_ad))
-        allure.attach(name="实际返回", body=expected_request, attachment_type=allure.attachment_type.JSON)
+        allure.attach(name="实际返回", body=json.dumps(expected_request), attachment_type=allure.attachment_type.JSON)
         allure.attach(name="实际广告ID", body=str(res_ad))
     assert exp_ad == res_ad, "当前广告位返回的广告ID与基准配置的广告ID不一致"
     exclude_paths = {
