@@ -30,4 +30,4 @@ class Test_Ad_Oad():
         expected_request = CompareXml.get_all_elements(base_xml)
         root = ET.XML(res_data)
         api_response = CompareXml.get_all_elements(root)
-        check_xml_res(expected_request, api_response)
+        check_xml_res(api_response, expected_request)
