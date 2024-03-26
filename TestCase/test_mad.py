@@ -1,5 +1,5 @@
 """
-@Time ： 2024/2/21
+@Time ： 2024/3/26
 @author ：liuyan
 """
 import pytest
@@ -8,11 +8,11 @@ from utils.ReadYaml import read_yaml_files
 from libs.checkResult import *
 
 
-PATH = project_path + '/script/oad'
+PATH = project_path + '/script/mad'
 case_dict = read_yaml_files(PATH)
 
 
-@allure.feature("前贴")
+@allure.feature("中插")
 class Test_Ad_Oad():
     @allure.story("校验xml是否能返回：1、返回是否是空广告 2、校验返回ad是否与基准一致 3、完全校验")
     @pytest.mark.flaky(reruns=5, reruns_delay=1)

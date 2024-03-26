@@ -131,6 +131,6 @@ def write_case_yaml(har_path, case_path):
     return case_file_list
 
 
-case_path = project_path + '/script/oad'
+case_path = project_path + '/script/mad'
 har_path = project_path + '/charles_file'
 print(write_case_yaml(har_path, case_path))
