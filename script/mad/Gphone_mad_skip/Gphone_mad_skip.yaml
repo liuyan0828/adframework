@@ -72,4 +72,4 @@ testcase:
   payload: groupids=
   request_type: GET
   timeout: 20
-  title: ''
+  title: Gphone中插可跳过模版
