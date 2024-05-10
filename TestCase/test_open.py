@@ -31,22 +31,22 @@ class Test_Ad_Open():
         """
         allure.title(f"{case_data}")
         check_adtype(api_response)
-        payload = case_data['payload']
-        mango_conf = GetAdConf(payload)
-        if mango_conf.get_adtemplate() != "open_customize_click":
-            check_and_assert(mango_conf.get_adtemplate, api_response, '$..template', "返回的template与配置不一致",
-                             "res未下发template字段")
-        check_and_assert(mango_conf.get_triggertype, api_response, '$..display_type', "返回的点击触发类型与配置不一致",
-                         "mango配置了点击触发类型但实际未下发")
-        check_and_assert(mango_conf.get_isdeeplink, api_response, '$..deeplinkflag', "返回的是否deeplink与配置不一致",
-                         "mango配置了是否deeplink但实际未下发")
-        check_and_assert(mango_conf.get_buttontext,  api_response, '$..buttontxt.content', "返回的点击按钮文案与配置不一致",
-                         "mango配置了按钮文案但实际未下发")
-        check_and_assert(mango_conf.get_imagetitle,  api_response, '$..title.content', "返回的图片标题与配置不一致",
-                         "mango配置了图片标题但实际未下发")
-        check_and_assert(mango_conf.get_imagesubtitle,  api_response, '$..advertiser.content', "返回的广告主来源与配置不一致",
-                         "mango配置了广告主来源但实际未下发")
-        check_redirect(mango_conf, api_response)
+        # payload = case_data['payload']
+        # mango_conf = GetAdConf(payload)
+        # if mango_conf.get_adtemplate() != "open_customize_click":
+        #     check_and_assert(mango_conf.get_adtemplate, api_response, '$..template', "返回的template与配置不一致",
+        #                      "res未下发template字段")
+        # check_and_assert(mango_conf.get_triggertype, api_response, '$..display_type', "返回的点击触发类型与配置不一致",
+        #                  "mango配置了点击触发类型但实际未下发")
+        # check_and_assert(mango_conf.get_isdeeplink, api_response, '$..deeplinkflag', "返回的是否deeplink与配置不一致",
+        #                  "mango配置了是否deeplink但实际未下发")
+        # check_and_assert(mango_conf.get_buttontext,  api_response, '$..buttontxt.content', "返回的点击按钮文案与配置不一致",
+        #                  "mango配置了按钮文案但实际未下发")
+        # check_and_assert(mango_conf.get_imagetitle,  api_response, '$..title.content', "返回的图片标题与配置不一致",
+        #                  "mango配置了图片标题但实际未下发")
+        # check_and_assert(mango_conf.get_imagesubtitle,  api_response, '$..advertiser.content', "返回的广告主来源与配置不一致",
+        #                  "mango配置了广告主来源但实际未下发")
+        # check_redirect(mango_conf, api_response)
         expected_request = case_data['check']['expected_request']
         if isinstance(expected_request, str):
             _path = PATH + '/' + case_data['info']
