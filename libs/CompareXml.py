@@ -8,6 +8,8 @@
 
 import xml.etree.ElementTree as ET
 import json
+from urllib.parse import unquote
+
 from utils.UrlHandler import UrlHandler
 
 
@@ -38,7 +40,8 @@ class CompareXml(object):
                                 i.text = h_url.get_host()
                                 # print(i.tag, i.attrib, i.text)
                     if i.text.startswith('http'):
-                        handle_url = UrlHandler(i.text)
+                        # unquote可以解码url中的特殊自渡，如将%25转换回%
+                        handle_url = UrlHandler(unquote(i.text))
                         i.text = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],
                                                                     ["vu", 'du', 'appid', 'encd', "cheattype", 'rt',
                                                                      'platsource', 'sign', 'warmup', 'rip', 'fip',
