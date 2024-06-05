@@ -21,7 +21,10 @@ def api_response(case_data):
     :function: 前置操作用于获取接口返回；test函数中有api_response参数即使用此fixture
     """
     res = check_code(case_data)
-    res_data = json.loads(RequestHandler.decode_xml_to_dict(res.content).decode('utf-8'))
+    try:
+        res_data = json.loads(RequestHandler.decode_xml_to_dict(res.content).decode('utf-8'))
+    except Exception as e:
+        res_data = json.loads(res.content)
     return res_data
 
 

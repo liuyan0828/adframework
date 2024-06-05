@@ -1,0 +1,29 @@
+testcase:
+- address: /m
+  check:
+    check_type: json
+    expected_code: 200
+    expected_request: result_iPhone_oral.json
+    expected_xml: result_iPhone_oral.xml
+  http_type: http
+  info: iPhone_oral
+  parameter:
+    al: '9705572'
+    appid: tv
+    density: '2.000000'
+    encd: rw4mzJPNWiVfVC0Of/%2BlV9khUMjS/Ntq9/rJwqBx/3W96BNRtVAPFVHEbhGXQHacuPnBiN3/js4JqXe18dOA%2BlH6lLKiSSrweOnKuJ0X2SagdZ16fbVMgMkvDA6OWiCY7lku/zQpPjBGZMeMIVjvgLoFUtZ9efajVQUw5FwQwX9NLBzup6FvyGyVD56cifhQqpAeezurmbrBpKEihBm8jCfXiuuN0jsHjiUm3Jw7vdmevVoefmAT7m5VmZmlt45/7kvR8d9Ng738ZqFlEVEoBtXzYvH0qjgCiHKZ8II7jtaqWZ305UgRV9pe2T1ur9O2M6uMAfMvIO0ma4I50UgDvzWkawmoVa8dxnQvHjekdTqs3aZlhKuysPWzDt2cHNXSBGM98lToIlrFm2uDPkZrHRNAyRpogJWXRTJWx%2BSaVI72NvXRuZSHuAi59nUg6K2VVGqxWz/%2B1VCZGdZUKtT%2B4Qmvycn/%2Bte38lJ/%2BPs/Odq3vqsTYP58fc4zfUsLOzcIbMLQzPUZNbq6j5vCtMY8%2BTDZfEmdUzdLSUJ3qOXl1uHGq26fhDPPQlO34OCGshyFCu5ofmKnD/i7PXKniDH35f2fzW2YTI%2B/y87IurhqIo2EtLTUicbUpeh%2B69k85SKfGgexJVHwAQfsEV6obUQD1XjNwMqvBzTNcZbh3zy48zUtK5gu2dUix6AvnZr3Mblt1FUbW1WjBnMEOnay6Nj8xVVlSytuFM3iPK4jcMPB/XQcX0lpCdn2u%2BWROmebtGw2FHhaXMDt7t5Clz22QxwzzMsfpqSzAKqGTQAJKrRnl87dlv/o%2BICZfEAAxBHRS4XuX7IDmGl0GmyrhP2WQEpzEArkjA3jaTJZwbn7vxY3oQBYPUVKE0TgcYwtYrA3prSX6E1d/2Uc7d8vY75TShtz2fMmqlQtGqGBhdwcTGRGVr39R5f%2BSN6IyU5LAYbHLa7f/wip0ruX9mowTX9YVBzhieAdnZhvq69scGcxg5%2BOVXH2H8LoceA2jsPIZwRJyKZhJgtn/i4nZbG0owKhzJr/r7TEM/Y36goeEAZygLbaaAYy/WqsIFGsNaPal70oWJFDse4xcZ8lFowLau5%2BCOWOt7WfCSOigsxOW4KECpq8AohEAFYP2gw6PrLx%2Bqi4tUqLqinVPF12X6B1YclprFfmC2NDtdMajMrCbW2m55N6q/mEoVI/Uji07V/o3G2lFuT%2B4wWAirwg2hfX%2B4LNsVQukTwtDAgzn%2BqRcYw2kJc08MVZ/rJza5OfwqOw/KI%3D
+    plat: '3'
+    privacy: '1'
+    prot: json
+    pt: oral
+    sdkv: 16.4.0
+    sver: 10.0.30
+    timetag: '1717063033425'
+    vc: '0'
+    vid: '6955189'
+    vu: '0'
+  parameter_type: null
+  payload: "groupids=24610&maIds="
+  request_type: GET
+  timeout: 20
+  title: 'iPhone-聚享片头'

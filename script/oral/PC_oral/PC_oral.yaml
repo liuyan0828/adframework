@@ -1,0 +1,42 @@
+testcase:
+- address: /v
+  check:
+    check_type: json
+    expected_code: 200
+    expected_request: result_PC_oral.json
+    expected_xml: result_PC_oral.xml
+  http_type: http
+  info: PC_oral
+  parameter:
+    TUV: '17141010645171455015'
+    aidpackage: '1'
+    ak: Pc
+    al: '9174927'
+    cd: ''
+    fee: '1'
+    guid: 78DCD9E776CBFBEEA366B3394ADD4F42
+    isHplayer: '1'
+    isIf: '0'
+    lrd: https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3D3arjvvXxe4GDqYrUPDGE4xQv8lEAYYA0tmEpkywO7VC%26wd%3D%26eqid%3Dc65228810003be55000000036641bd60
+    md: Cqxklt8/yEEppI0R166
+    oth: ''
+    out: '0'
+    pageUrl: https%253A//tv.sohu.com/v/MjAxNjEwMTMvbjQ3MDIwODE5My5zaHRtbA%253D%253D.html
+    pagerefer: https%3A%2F%2Fso.tv.sohu.com%2F
+    prot: json
+    pt: oral
+    qd: ''
+    ran: D%2BvYEprgpmYx65fMZsFYCscj56WcpmtidkIvlSfEAGOT8mRIeB%2F%2BE3N3nNbmsc%2FdrKKeJoAKLWRu85Tu8PkWHoGs7wy7HjeJ3DPRJnRMNBoeicL2LBor48kWYJx27lzGCivetxYPE2G0L3E4C2XCsDglMxr3%2FnPTbdK%2FxmVr0JvmpzeV7dDZlQ%3D%3D_47
+    sz: '941_944'
+    tvid: '85454913'
+    txid: ''
+    type: vrs
+    uid: '17141010645171455015'
+    uuid: '171410106451714550151715585172763'
+    vid: '3323578'
+    vu: '0'
+  parameter_type: null
+  payload: "groupids=24612&maIds="
+  request_type: GET
+  timeout: 20
+  title: 'PC聚享片头'

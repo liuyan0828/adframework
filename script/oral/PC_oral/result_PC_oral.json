@@ -1,0 +1,158 @@
+{
+    "ads": [
+        {
+            "timerule": {
+                "adcount": 1,
+                "timeruleid": 9000003,
+                "adtime": 15
+            },
+            "pt": "oral",
+            "ad": [
+                {
+                    "adgroup": {
+                        "lineid": "417838",
+                        "advid": "11635",
+                        "saletype": 1,
+                        "campaignid": "12620",
+                        "tradetype": 0
+                    },
+                    "adtype": 0,
+                    "du": 15,
+                    "pos_num": 1,
+                    "event_monitor": [
+                        {
+                            "url": "http://vm.aty.sohu.com/pv?type=1&du=0&adtime=15&trule=9000003&mx=1&isHplayer=1&al=9174927&out=0&vid=3323578&tvid=85454913&rt=1717554652793_7182_10.33.8.213_14_14&ak=Pc&spead=0&uv=17141010645171455015&uuid=171410106451714550151715585172763&UUID=171410106451714550151715585172763&vt=vrs&rd=tv.sohu.com&fee=1&isIf=0&uid=17141010645171455015&oth=sohu&sz=941_944&md=Cqxklt8/yEEppI0R166&sip=10.33.8.213&url=https%253A%2F%2Ftv%2Esohu%2Ecom%2Fv%2FMjAxNjEwMTMvbjQ3MDIwODE5My5zaHRtbA%253D%253D%2Ehtml&pagerefer=https%3A%2F%2Fso.tv.sohu.com%2F&lrd=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3D3arjvvXxe4GDqYrUPDGE4xQv8lEAYYA0tmEpkywO7VC%26wd%3D%26eqid%3Dc65228810003be55000000036641bd60&plat=pc&adplat=0&prot=json&offline=0&bt=20240605&endtime=20250105&ad=54990&b=417838&bk=117240222&pagetype=1&guid=78DCD9E776CBFBEEA366B3394ADD4F42&seq=1&w=640&h=360&wdbn=640&hgbn=360&cheattype=0&sperotime=1717554652&tuv=17141010645171455015&template=null&platsource=tvpc&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&restype=vrs&ispgc=0&impressionid=265ad48f975642a079d566e18548e3c5&scope=0&flightid=36637478&from=tvssp&advertiserid=11635&vp=s&at=15&c=1&p=oral&posid=oral&loc=Unknown&adstyle=oral&ac=5486&ad=54990&pt=12620&b=417838&bk=117240222&pagetype=1&spead=0&rtm=__TIME__&err=[ERRORCODE]",
+                            "event": 0,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://vm.aty.sohu.com/pvlog?du=0&adtime=15&trule=9000003&mx=1&isHplayer=1&al=9174927&out=0&vid=3323578&tvid=85454913&rt=1717554652793_7182_10.33.8.213_14_14&ak=Pc&spead=0&uv=17141010645171455015&uuid=171410106451714550151715585172763&UUID=171410106451714550151715585172763&vt=vrs&rd=tv.sohu.com&fee=1&isIf=0&uid=17141010645171455015&oth=sohu&sz=941_944&md=Cqxklt8/yEEppI0R166&sip=10.33.8.213&url=https%253A%2F%2Ftv%2Esohu%2Ecom%2Fv%2FMjAxNjEwMTMvbjQ3MDIwODE5My5zaHRtbA%253D%253D%2Ehtml&pagerefer=https%3A%2F%2Fso.tv.sohu.com%2F&lrd=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3D3arjvvXxe4GDqYrUPDGE4xQv8lEAYYA0tmEpkywO7VC%26wd%3D%26eqid%3Dc65228810003be55000000036641bd60&plat=pc&adplat=0&prot=json&offline=0&bt=20240605&endtime=20250105&ad=54990&b=417838&bk=117240222&pagetype=1&guid=78DCD9E776CBFBEEA366B3394ADD4F42&seq=1&w=640&h=360&wdbn=640&hgbn=360&cheattype=0&sperotime=1717554652&tuv=17141010645171455015&template=null&platsource=tvpc&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&restype=vrs&ispgc=0&impressionid=265ad48f975642a079d566e18548e3c5&scope=0&flightid=36637478&from=tvssp&advertiserid=11635&vp=e&at=15&c=1&p=oral&posid=oral&loc=Unknown&adstyle=oral&ac=5486&ad=54990&pt=12620&b=417838&bk=117240222&pagetype=1&spead=0&rtm=__TIME__&err=[ERRORCODE]",
+                            "event": 2,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://vm.aty.sohu.com/pvlog?du=0&adtime=15&trule=9000003&mx=1&isHplayer=1&al=9174927&out=0&vid=3323578&tvid=85454913&rt=1717554652793_7182_10.33.8.213_14_14&ak=Pc&spead=0&uv=17141010645171455015&uuid=171410106451714550151715585172763&UUID=171410106451714550151715585172763&vt=vrs&rd=tv.sohu.com&fee=1&isIf=0&uid=17141010645171455015&oth=sohu&sz=941_944&md=Cqxklt8/yEEppI0R166&sip=10.33.8.213&url=https%253A%2F%2Ftv%2Esohu%2Ecom%2Fv%2FMjAxNjEwMTMvbjQ3MDIwODE5My5zaHRtbA%253D%253D%2Ehtml&pagerefer=https%3A%2F%2Fso.tv.sohu.com%2F&lrd=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3D3arjvvXxe4GDqYrUPDGE4xQv8lEAYYA0tmEpkywO7VC%26wd%3D%26eqid%3Dc65228810003be55000000036641bd60&plat=pc&adplat=0&prot=json&offline=0&bt=20240605&endtime=20250105&ad=54990&b=417838&bk=117240222&pagetype=1&guid=78DCD9E776CBFBEEA366B3394ADD4F42&seq=1&w=640&h=360&wdbn=640&hgbn=360&cheattype=0&sperotime=1717554652&tuv=17141010645171455015&template=null&platsource=tvpc&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&restype=vrs&ispgc=0&impressionid=265ad48f975642a079d566e18548e3c5&scope=0&flightid=36637478&from=tvssp&advertiserid=11635&vp=0&at=15&c=1&p=oral&posid=oral&loc=Unknown&adstyle=oral&ac=5486&ad=54990&pt=12620&b=417838&bk=117240222&pagetype=1&spead=0&rtm=__TIME__",
+                            "event": 15,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "creatives": {
+                        "videoList": [
+                            {
+                                "mid": "M9_54387",
+                                "bytes": "1118524",
+                                "content": "Hn7sY_HG8YhEkFBTcDqr-nXxmJajgNwAs-8gwgasBdvt3SvS3hGWlLigVhcUU05Y7jPE8JrH0vPHRecy0wf5hYXc36iZK9FfQM3GII3XR5Op99ZBNkdHDPxSHWN1j9LL9H35gE04rrEazHWHcciajfssc_8zF116HFzG48BKPCs.",
+                                "materialtype": "video/mp4",
+                                "height": 360,
+                                "width": 640,
+                                "duration": 15,
+                                "videoclarity": 302,
+                                "hc": "ac5b3b82cc6949168dc360dbaded58f3"
+                            },
+                            {
+                                "mid": "M10_54387",
+                                "bytes": "3423369",
+                                "content": "Xa96EONEtXue-yZmCvYt2d377qV4Pu41RuooftCYROdNjbvQeY1Eg2zNJFUwVwy_sVFRmZlZbzwBnfmBjs2ovpmTYql4H6d-3Vnq_56kNhOAjmMP3rXDjXhG6eHIbURmIH6aEf44dVP5uLvXIpfGPLntZ2RnNf5eKRsqCw..",
+                                "materialtype": "video/mp4",
+                                "height": 360,
+                                "width": 640,
+                                "duration": 15,
+                                "videoclarity": 1,
+                                "hc": "594ec193f3ff427788e934df3e57ed0e"
+                            },
+                            {
+                                "mid": "M11_54387",
+                                "bytes": "2142764",
+                                "content": "jYe16pa-xeoEJ2vHph1aZsO8JNfZRJKqnV9pziSlbrVfQfzz6Djxg2yHSQSJnygGeafIlq7dJq-xGMx2giVI1N0AtbUS2_m1wDVo2FRs3x68JjVrzpmhZqLRmHQxqnWH6vpop3vBOLjKH_rb2XwKvc5MZrVyycJpscc6JQ..",
+                                "materialtype": "video/mp4",
+                                "height": 360,
+                                "width": 640,
+                                "duration": 15,
+                                "videoclarity": 301,
+                                "hc": "2d14302736544b8eb6eb6741d70068d3"
+                            },
+                            {
+                                "mid": "M12_54387",
+                                "bytes": "2849732",
+                                "content": "577MLO4aku3eycMkHhL26_Y0NLLKw2NeXoM7UDSQNSNDVqY1t_vlArl6cYjTUzr2qH2nvnbSMe_iKI5N-92yEouIfJta7w82iz26OI0zTpx65J3bDzJKpL8qfjd78PT5jsUauNWIeTbfjl0CyfCig6KhTq0Fu9vr2taCRg..",
+                                "materialtype": "video/mp4",
+                                "height": 360,
+                                "width": 640,
+                                "duration": 15.024,
+                                "videoclarity": 303,
+                                "hc": "f92c793701e34e91b08a28831e187d95"
+                            },
+                            {
+                                "mid": "M13_54387",
+                                "bytes": "5655360",
+                                "content": "ZLJXYAKU2MQoSw3P8mn6jzK8Sg7GOJYQwhncb3ZG89Qc_or60BKr94VH3qPBeo4591xwDz51kkabYEbriXfPxM0d6EneS-jQy4fRaWH_C1AgHXaKsdMzvad45Yz5lRSWotG-ABkrMsBCp6B3QiTKh6ZaAmmV_2JoqvCBpA..",
+                                "materialtype": "video/mp4",
+                                "height": 360,
+                                "width": 640,
+                                "duration": 15.024,
+                                "videoclarity": 304,
+                                "hc": "6dbfcd478e3e40d597b545008ed374e6"
+                            },
+                            {
+                                "mid": "M14_54387",
+                                "bytes": "5087331",
+                                "content": "PqOHt3FVNNMFNoe_0ZxpSq2mUaoyecgm_hZ4DsKFZdJDRnDCuQ2xKA9Ez-4tLqOi7zs2YuMAuhOu0Qbfb1ndi15FVoic_fKx-nt5BggPeCcD2cqv6vxESLtDME1ZM4NxOzDHYYEzqQxke7tpfTr26nW5llgmvvbBtGyoBis9KAg.",
+                                "materialtype": "video/mp4",
+                                "height": 360,
+                                "width": 640,
+                                "duration": 15.024,
+                                "videoclarity": 21,
+                                "hc": "64c1da25f8bd4e408351521c0ca76d3a"
+                            },
+                            {
+                                "mid": "M15_54387",
+                                "bytes": "7969428",
+                                "content": "PwfCsOye8ZRU3-e-ZY105nBZ4PjdG3dkz-AruAaI2okpCXl96WjW4ffWYmZbpnCIMtSxqB1nldlpKU90LK3sA4K31DEbZ8AxQgK7hI3s15cTSsYb_rb7Rpx6QuhwK0NvZIs-bCfqwdd-E5V_dNFpc_DOlJgQmouMvuAbNA..",
+                                "materialtype": "video/mp4",
+                                "height": 360,
+                                "width": 640,
+                                "duration": 15.024,
+                                "videoclarity": 31,
+                                "hc": "b07ed52ad57745008cd2bbaf6dbcda55"
+                            },
+                            {
+                                "mid": "M16_54387",
+                                "bytes": "1430694",
+                                "content": "dykrjt6kGndTx7aa4oEL3C_Hgujs_TgLlRk-Kpha5FAJcwt2b_mGAtoS0J4bVFj13jTCkyIjAeBodW7eWefCI9CmVEGZMHVpRkjFnAEtulrLlhJIWiinmmnOsuYRhSrVzQXfST0lfM_dgYte85gJHH44cd_aKssuE-VJrA..",
+                                "materialtype": "video/mp4",
+                                "height": 360,
+                                "width": 640,
+                                "duration": 15,
+                                "videoclarity": 2,
+                                "hc": "1fb577adf2c541e190dba260d89b1626"
+                            }
+                        ]
+                    },
+                    "pos": 0,
+                    "pt": "oral",
+                    "ext": {
+                        "hardflag": 2,
+                        "support_union": 1,
+                        "ClickType": 2,
+                        "deeplinkflag": 0,
+                        "clicktype": 2,
+                        "excluded": 0,
+                        "expiretime": "1717603199000"
+                    },
+                    "adfrom": "ade",
+                    "click_monitor": [
+                        {
+                            "url": "http://vg.aty.sohu.com/goto?du=0&adtime=15&trule=9000003&mx=1&isHplayer=1&al=9174927&out=0&vid=3323578&tvid=85454913&rt=1717554652793_7182_10.33.8.213_14_14&ak=Pc&spead=0&uv=17141010645171455015&uuid=171410106451714550151715585172763&UUID=171410106451714550151715585172763&vt=vrs&rd=tv.sohu.com&fee=1&isIf=0&uid=17141010645171455015&oth=sohu&sz=941_944&md=Cqxklt8/yEEppI0R166&sip=10.33.8.213&url=https%253A%2F%2Ftv%2Esohu%2Ecom%2Fv%2FMjAxNjEwMTMvbjQ3MDIwODE5My5zaHRtbA%253D%253D%2Ehtml&pagerefer=https%3A%2F%2Fso.tv.sohu.com%2F&lrd=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3D3arjvvXxe4GDqYrUPDGE4xQv8lEAYYA0tmEpkywO7VC%26wd%3D%26eqid%3Dc65228810003be55000000036641bd60&plat=pc&adplat=0&prot=json&offline=0&bt=20240605&endtime=20250105&ad=54990&b=417838&bk=117240222&pagetype=1&guid=78DCD9E776CBFBEEA366B3394ADD4F42&seq=1&w=640&h=360&wdbn=640&hgbn=360&cheattype=0&sperotime=1717554652&tuv=17141010645171455015&template=null&platsource=tvpc&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&restype=vrs&ispgc=0&impressionid=265ad48f975642a079d566e18548e3c5&scope=0&flightid=36637478&from=tvssp&advertiserid=11635&err=[ERRORCODE]&at=15&c=1&p=oral&posid=oral&loc=Unknown&adstyle=oral&ac=5486&ad=54990&pt=12620&b=417838&bk=117240222&pagetype=1&spead=0&rtm=__TIME__&uptime=__UP_TIME__&downtime=__DOWN_TIME__",
+                            "event": 5,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "landing_url": "http://www.baidu.com",
+                    "template": "oral"
+                }
+            ]
+        }
+    ],
+    "version": 3,
+    "impid": "ssp-app-qa-7b8fcdd7bf-zfldh00000011665fcddd01f9_cl"
+}

@@ -66,12 +66,13 @@ def write_case_yaml(har_path, case_path):
                 case_dir = case_path + '/' + i.split('.')[-2] + '/'
                 mk_dir(case_dir)
 
+                check = dict()
                 response_code = har_ct["response"]["status"]
                 response_body = har_ct["response"]["body"]["text"]
-
-                check = dict()
+                if "ads" in response_body:
+                    data = response_body
                 # 如果返回是字符串（加密），解密返回
-                if isinstance(response_body, str):
+                else:
                     try:
                         res = bytes(response_body, encoding="utf-8")
                         xxtea = Xxtea()
@@ -88,12 +89,11 @@ def write_case_yaml(har_path, case_path):
                         result_file = 'result_' + title + '.xml'
                         with open(case_dir + '/' + result_file, 'w', encoding='utf-8') as file:
                             file.write(pretty_xml)
-                    except ET.ParseError:
+                    except Exception:
                         response_boby = json.loads(data)
                         check["check_type"] = 'json'
                         result_file = 'result_' + title + '.json'
                         with open(case_dir + '/' + result_file, 'w', encoding='utf-8') as file:
-
                             json.dump(response_boby, file, ensure_ascii=False, indent=4)
                 except Exception as e:
                     raise e
@@ -131,6 +131,6 @@ def write_case_yaml(har_path, case_path):
     return case_file_list
 
 
-case_path = project_path + '/script/pad'
+case_path = project_path + '/script/oral'
 har_path = project_path + '/charles_file'
 print(write_case_yaml(har_path, case_path))
