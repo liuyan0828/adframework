@@ -6,6 +6,8 @@
 """
 import os
 import sys
+from urllib.parse import unquote
+
 import pytest
 import json
 from libs.GetAdData import *
@@ -20,11 +22,11 @@ def api_response(case_data):
     :param case_data: yaml文件读取的case
     :function: 前置操作用于获取接口返回；test函数中有api_response参数即使用此fixture
     """
-    res = check_code(case_data)
+    res = check_code(case_data).content
     try:
-        res_data = json.loads(RequestHandler.decode_xml_to_dict(res.content).decode('utf-8'))
+        res_data = json.loads(RequestHandler.decode_xml_to_dict(res).decode('utf-8'))
     except Exception as e:
-        res_data = json.loads(res.content)
+        res_data = json.loads(res)
     return res_data
 
 

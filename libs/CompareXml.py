@@ -2,7 +2,7 @@
 -*- coding: utf-8 -*-
 @Time : 2021/12/7
 @Author : liuyan
-@function : 对比两个xml文件的异同
+@function : 返回数据预处理
 2022.5.27 更新 增加JSON处理
 """
 
@@ -78,8 +78,9 @@ class JsonHandle:
         if isinstance(dic, dict):
             for k, v in dic.items():
                 if isinstance(v, str) and v.startswith('http'):
-                    handle_url = UrlHandler(v)
-                    v = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com'],
+                    # unquote可以解码url中的特殊自渡，如将%25转换回%
+                    handle_url = UrlHandler(unquote(v))
+                    v = handle_url.delete_specified_params(['mmgtest.aty.sohu.com', 'mmg.aty.sohu.com', 'vm.aty.sohu.com', 'vg.aty.sohu.com'],
                                                                 ["vu", 'du', 'appid', 'encd', "cheattype", 'rt',
                                                                  'platsource', 'sign', 'warmup', 'rip', 'fip', 'v2code',
                                                                  'bt', 'backtest', 'bk', 'sperotime', "impressionid",

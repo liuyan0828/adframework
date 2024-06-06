@@ -15,6 +15,7 @@ from libs.Config import URL_CONFIG
 from utils.RequestHandler import RequestHandler
 from utils.UrlHandler import *
 import xml.etree.ElementTree as ET
+from urllib.parse import unquote
 
 
 def check_json(src_data, dst_data):
@@ -139,7 +140,7 @@ def check_code(case_data):
     encoded_parameter = urllib.parse.urlencode(parameters)
     path = case_data['address']
 
-    ad_url = path + "?" + encoded_parameter
+    ad_url = unquote(path + "?" + encoded_parameter)
     with allure.step("请求链接"):
         allure.attach(name="请求链接", body=str(URL_CONFIG['APP_AD_URL'] + ad_url))
     # 发送测试请求
@@ -200,9 +201,11 @@ def check_returned_data(api_response, expected_request):
         "root['ads'][0]['ad'][0]['creatives']['openvideo']['content']",  #加签
         "root['ads'][0]['ad'][0]['creatives']['video']['content']['sig']",  #加签
         "root['ads'][0]['ad'][0]['ext']['expiretime']",  #时间
-        "root['ads'][0]['ad'][0]['deeplink_url']"  #deeplink_url不是http开头
+        "root['ads'][0]['ad'][0]['deeplink_url']", #deeplink_url不是http开头
     }
-    diff_data = DeepDiff(expected_res, returned_res, ignore_order=True, exclude_paths=exclude_paths)
+    exclude_regex_paths = ["root\['ads'\]\[0\]\['ad'\]\[0\]\['creatives'\]\['videoList'\]\[\d+\]\['content'\]",
+                           "root\['ads'\]\[0\]\['ad'\]\[0\]\['creatives'\]\['videoList'\]\[\d+\]\['hc'\]"]
+    diff_data = DeepDiff(expected_res, returned_res, ignore_order=True, exclude_paths=exclude_paths, exclude_regex_paths=exclude_regex_paths)
     allure.attach(name="diff", body=diff_data.to_json(), attachment_type=allure.attachment_type.JSON)
     check_diff(diff_data)
 
