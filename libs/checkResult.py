@@ -211,9 +211,6 @@ def check_returned_data(api_response, expected_request):
 
 
 def check_xml_res(api_response, expected_request):
-    ad_type = api_response['Ad'][0]['att']['type']
-    if ad_type == 'optional':
-        assert True
     # 获取广告id，即url中的ad值；
     exp_ad = UrlHandler(expected_request['Impression'][0]['text']).get_value('ad')
     res_ad = UrlHandler(api_response['Impression'][0]['text']).get_value('ad')
@@ -223,7 +220,8 @@ def check_xml_res(api_response, expected_request):
         allure.attach(name="期望广告ID", body=str(exp_ad))
         allure.attach(name="实际返回", body=json.dumps(api_response), attachment_type=allure.attachment_type.JSON)
         allure.attach(name="实际广告ID", body=str(res_ad))
-    assert exp_ad == res_ad, "当前广告位返回的广告ID与基准配置的广告ID不一致"
+    if api_response['Ad'][0]['att']['type'] != 'optional':
+        assert exp_ad == res_ad, "当前广告位返回的广告ID与基准配置的广告ID不一致"
     exclude_paths = {
         "root['impid']",
         "root['ads'][0]['ad'][0]['creatives']['openvideo']['content']",
