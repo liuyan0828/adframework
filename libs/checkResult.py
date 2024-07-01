@@ -211,8 +211,6 @@ def check_returned_data(api_response, expected_request):
 
 
 def check_xml_res(api_response, expected_request):
-    if api_response['Ad'][0]['att']['type'] and api_response['Ad'][0]['att']['type'] == 'optional':
-        assert True
     # 获取广告id，即url中的ad值；
     exp_ad = UrlHandler(expected_request['Impression'][0]['text']).get_value('ad')
     res_ad = UrlHandler(api_response['Impression'][0]['text']).get_value('ad')
