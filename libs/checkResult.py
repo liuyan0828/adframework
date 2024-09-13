@@ -157,6 +157,7 @@ def check_diff(diff_data):
     :param diff_data: deepdiff返回的差异数据
     :function: 优化assert输出
     """
+    print(diff_data)
     if diff_data == {}:
         assert True, "校验通过"
     elif "dictionary_item_added" in diff_data:
@@ -199,12 +200,15 @@ def check_returned_data(api_response, expected_request):
     exclude_paths = {
         "root['impid']",  #每次不一样
         "root['ads'][0]['ad'][0]['creatives']['openvideo']['content']",  #加签
-        "root['ads'][0]['ad'][0]['creatives']['video']['content']['sig']",  #加签
+        # "root['ads'][0]['ad'][0]['creatives']['video']['content']['sig']",
+        # "root['ads'][1]['ad'][0]['creatives']['video']['content']['sig']",
+        # "root['ads'][2]['ad'][0]['creatives']['video']['content']['sig']",#加签
         "root['ads'][0]['ad'][0]['ext']['expiretime']",  #时间
         "root['ads'][0]['ad'][0]['deeplink_url']", #deeplink_url不是http开头
     }
     exclude_regex_paths = ["root\['ads'\]\[0\]\['ad'\]\[0\]\['creatives'\]\['videoList'\]\[\d+\]\['content'\]",
-                           "root\['ads'\]\[0\]\['ad'\]\[0\]\['creatives'\]\['videoList'\]\[\d+\]\['hc'\]"]
+                           "root\['ads'\]\[0\]\['ad'\]\[0\]\['creatives'\]\['videoList'\]\[\d+\]\['hc'\]",
+                           "root\['ads'\]\[\d+\]\['ad'\]\[\d+\]\['creatives'\]\['video'\]\['content'\]\['sig'\]"]
     diff_data = DeepDiff(expected_res, returned_res, ignore_order=True, exclude_paths=exclude_paths, exclude_regex_paths=exclude_regex_paths)
     allure.attach(name="diff", body=diff_data.to_json(), attachment_type=allure.attachment_type.JSON)
     check_diff(diff_data)

@@ -1,0 +1,350 @@
+{
+    "ads": [
+        {
+            "pt": "nav_1",
+            "ad": [
+                {
+                    "adgroup": {
+                        "lineid": "415442",
+                        "advid": "11635",
+                        "saletype": 1,
+                        "campaignid": "12613",
+                        "tradetype": 0
+                    },
+                    "adtype": 0,
+                    "adfrom": "ade",
+                    "pt": "nav_1",
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pv?type=1&du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20241231&ad=54385&b=415442&bk=117228390&pagetype=2&islocaltv=0&adpr=0&seq=4&w=750&h=130&wdbn=750&hgbn=130&cheattype=0&sperotime=1726195763&template=banner&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36619148&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&vp=s&at=0&c=2741&p=ba&posid=nav_1&loc=Unknown&adstyle=mp&bar=9843&ac=5480&ad=54385&pt=12613&b=415442&bk=117228390&pagetype=2&spead=0&rtm=__TIME__&err=[ERRORCODE]",
+                            "event": 0,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/av?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20241231&ad=54385&b=415442&bk=117228390&pagetype=2&islocaltv=0&adpr=0&seq=4&w=750&h=130&wdbn=750&hgbn=130&cheattype=0&sperotime=1726195763&template=banner&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36619148&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&vp=s&at=0&c=2741&p=ba&posid=nav_1&loc=Unknown&adstyle=mp&bar=9843&ac=5480&ad=54385&pt=12613&b=415442&bk=117228390&pagetype=2&rtm=__TIME__",
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20241231&ad=54385&b=415442&bk=117228390&pagetype=2&islocaltv=0&adpr=0&seq=4&w=750&h=130&wdbn=750&hgbn=130&cheattype=0&sperotime=1726195763&template=banner&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36619148&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&vp=0&at=0&c=2741&p=ba&posid=nav_1&loc=Unknown&adstyle=mp&bar=9843&ac=5480&ad=54385&pt=12613&b=415442&bk=117228390&pagetype=2&spead=0&rtm=__TIME__",
+                            "time": 0,
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20241231&ad=54385&b=415442&bk=117228390&pagetype=2&islocaltv=0&adpr=0&seq=4&w=750&h=130&wdbn=750&hgbn=130&cheattype=0&sperotime=1726195763&template=banner&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36619148&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&err=[ERRORCODE]&at=0&c=2741&p=ba&posid=nav_1&loc=Unknown&adstyle=mp&bar=9843&ac=5480&ad=54385&pt=12613&b=415442&bk=117228390&pagetype=2&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__",
+                            "event": 4,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "template": "banner",
+                    "creatives": {
+                        "introtxt": {
+                            "content": ""
+                        },
+                        "advertiser": {
+                            "content": "JD"
+                        },
+                        "title": {
+                            "content": ""
+                        },
+                        "picture": {
+                            "content": "https://images.sohu.com/ytv/BJ/11625/75013020181030104502.png",
+                            "height": 130,
+                            "materialtype": "image/png",
+                            "width": 750
+                        }
+                    },
+                    "pos": 0,
+                    "ext": {
+                        "hardflag": 2,
+                        "ClickType": 1,
+                        "support_union": 1,
+                        "deeplinkflag": 0,
+                        "clicktype": 1,
+                        "display_type": 0,
+                        "excluded": 0
+                    },
+                    "click_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&bt=20240913&endtime=20241231&ad=54385&b=415442&bk=117228390&pagetype=2&islocaltv=0&adpr=0&seq=4&w=750&h=130&wdbn=750&hgbn=130&cheattype=0&sperotime=1726195763&template=banner&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36619148&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2741&p=ba&posid=nav_1&loc=Unknown&adstyle=mp&bar=9843&ac=5480&ad=54385&pt=12613&b=415442&bk=117228390&pagetype=2&spead=0&rtm=__TIME__",
+                            "event": 5,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&bt=20240913&endtime=20241231&ad=54385&b=415442&bk=117228390&pagetype=2&islocaltv=0&adpr=0&seq=4&w=750&h=130&wdbn=750&hgbn=130&cheattype=0&sperotime=1726195763&template=banner&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36619148&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2741&p=ba&posid=nav_1&loc=Unknown&adstyle=mp&bar=9843&ac=5480&ad=54385&pt=12613&b=415442&bk=117228390&pagetype=2&spead=0&eventtype=deeplink",
+                            "event": 10,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "landing_url": "http://www.baidu.com"
+                }
+            ]
+        },
+        {
+            "pt": "15134",
+            "ad": [
+                {
+                    "adgroup": {
+                        "lineid": "415446",
+                        "advid": "11635",
+                        "saletype": 1,
+                        "campaignid": "12613",
+                        "tradetype": 0
+                    },
+                    "adtype": 0,
+                    "adfrom": "ade",
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pv?type=1&du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20250105&ad=54389&b=415446&bk=117229488&pagetype=2&islocaltv=0&adpr=0&seq=3&w=644&h=322&wdbn=644&hgbn=322&cheattype=0&sperotime=1726195763&template=bigpicturetxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36618050&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&vp=s&at=0&c=2741&p=ba&posid=15134&loc=Unknown&adstyle=mp&bar=9373&ac=5480&ad=54389&pt=12613&b=415446&bk=117229488&pagetype=2&spead=0&rtm=__TIME__",
+                            "event": 0,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/av?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20250105&ad=54389&b=415446&bk=117229488&pagetype=2&islocaltv=0&adpr=0&seq=3&w=644&h=322&wdbn=644&hgbn=322&cheattype=0&sperotime=1726195763&template=bigpicturetxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36618050&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&vp=s&at=0&c=2741&p=ba&posid=15134&loc=Unknown&adstyle=mp&bar=9373&ac=5480&ad=54389&pt=12613&b=415446&bk=117229488&pagetype=2&rtm=__TIME__",
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20250105&ad=54389&b=415446&bk=117229488&pagetype=2&islocaltv=0&adpr=0&seq=3&w=644&h=322&wdbn=644&hgbn=322&cheattype=0&sperotime=1726195763&template=bigpicturetxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36618050&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&vp=0&at=0&c=2741&p=ba&posid=15134&loc=Unknown&adstyle=mp&bar=9373&ac=5480&ad=54389&pt=12613&b=415446&bk=117229488&pagetype=2&spead=0&rtm=__TIME__",
+                            "time": 0,
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20250105&ad=54389&b=415446&bk=117229488&pagetype=2&islocaltv=0&adpr=0&seq=3&w=644&h=322&wdbn=644&hgbn=322&cheattype=0&sperotime=1726195763&template=bigpicturetxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36618050&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&at=0&c=2741&p=ba&posid=15134&loc=Unknown&adstyle=mp&bar=9373&ac=5480&ad=54389&pt=12613&b=415446&bk=117229488&pagetype=2&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__",
+                            "event": 4,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "deeplink_url": "openapp.jdmobile://virtual?params=%7B%22category%22%3A%22jump%22%2C%22des%22%3A%22m%22%2C%22url%22%3A%22http%3A%2F%2Fclickc.admaster.com.cn%2Fc%2Fa140250%2Cb4078143%2Cc1849%2Ci0%2Cm101%2C8a2%2C8b3%2C0i%5BM_IESID%5D%2Ch__REQUESTID__%2Cuhttps%253A%252F%252Fccc-x.jd.com%252Fdsp%252Fcl%253Fposid%253D1999%2526v%253D707%2526union_id%253D1000027279%2526pid%253D2248%2526tagid%253D109284%2526didmd5%253D__IMEI__%2526idfamd5%253D__IDFA__%2526did%253D__IMEIIMEI__%2526idfa%253D__IDFAIDFA__%2526to%253Dhttps%25253A%25252F%25252Fpro.m.jd.com%25252Fmall%25252Factive%25252FMtfv4iYJULmi7zTWrAGmnGidSeK%25252Findex.html%25253Fad_od%25253D1%22%2C%22m_param%22%3A%7B%22jdv%22%3A%22122270672%7Ckong%7Ct_1000027279_109284%7Czssc%7Cd36d13b9-61c4-4fdf-b7f2-11dbc28d14dd-p_1999-pr_2248-at_109284%22%7D%2C%22keplerID%22%3A%22kpl_jdjdtg00001054%22%2C%22keplerFrom%22%3A%221%22%2C%22kepler_param%22%3A%7B%22source%22%3A%22kepler-open%22%2C%22otherData%22%3A%7B%22mopenbp7%22%3A%22kpl_jdjdtg00001054%22%2C%22channel%22%3A%22b4dc3278288f4a25982ccdec07ebdc41%22%7D%7D%7D",
+                    "creatives": {
+                        "introtxt": {
+                            "content": ""
+                        },
+                        "title": {
+                            "content": "大图图文"
+                        },
+                        "video": {
+                            "height": 720,
+                            "content": "https://data.vod.itc.cn/?new=/252/201/87s9I4610Boi2EwArzvYVO.mp4&prod=ad&sig=6ADPdG932kIgFLaZn5yzWsBRXDOH3KE_",
+                            "duration": 15,
+                            "materialtype": "video/mp4",
+                            "width": 1280
+                        },
+                        "advertiser": {
+                            "content": "KKKK"
+                        },
+                        "picture": {
+                            "content": "https://images.sohu.com/ytv/SH/11637/644322201912121752090.jpg",
+                            "height": 720,
+                            "materialtype": "image/jpeg",
+                            "width": 1280
+                        }
+                    },
+                    "pos": 0,
+                    "ext": {
+                        "hardflag": 3,
+                        "ClickType": 1,
+                        "support_union": 1,
+                        "deeplinkflag": 1,
+                        "clicktype": 1,
+                        "display_type": 0,
+                        "excluded": 0
+                    },
+                    "pt": "15134",
+                    "click_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&bt=20240913&endtime=20250105&ad=54389&b=415446&bk=117229488&pagetype=2&islocaltv=0&adpr=0&seq=3&w=644&h=322&wdbn=644&hgbn=322&cheattype=0&sperotime=1726195763&template=bigpicturetxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36618050&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2741&p=ba&posid=15134&loc=Unknown&adstyle=mp&bar=9373&ac=5480&ad=54389&pt=12613&b=415446&bk=117229488&pagetype=2&spead=0&rtm=__TIME__",
+                            "event": 5,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&bt=20240913&endtime=20250105&ad=54389&b=415446&bk=117229488&pagetype=2&islocaltv=0&adpr=0&seq=3&w=644&h=322&wdbn=644&hgbn=322&cheattype=0&sperotime=1726195763&template=bigpicturetxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36618050&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2741&p=ba&posid=15134&loc=Unknown&adstyle=mp&bar=9373&ac=5480&ad=54389&pt=12613&b=415446&bk=117229488&pagetype=2&spead=0&eventtype=deeplink",
+                            "event": 10,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "template": "bigpicturetxt",
+                    "landing_url": "http://www.baidu.com"
+                }
+            ]
+        },
+        {
+            "pt": "15133",
+            "ad": [
+                {
+                    "adgroup": {
+                        "lineid": "415447",
+                        "advid": "11635",
+                        "saletype": 1,
+                        "campaignid": "12613",
+                        "tradetype": 0
+                    },
+                    "adtype": 0,
+                    "adfrom": "ade",
+                    "pt": "15133",
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pv?type=1&du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20241231&ad=54390&b=415447&bk=117229122&pagetype=2&islocaltv=0&adpr=0&seq=2&w=656&h=370&wdbn=656&hgbn=370&cheattype=0&sperotime=1726195763&template=videotxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36617684&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&vp=s&at=0&c=2741&p=ba&posid=15133&loc=Unknown&adstyle=mp&bar=9372&ac=5480&ad=54390&pt=12613&b=415447&bk=117229122&pagetype=2&spead=0&rtm=__TIME__&err=[ERRORCODE]",
+                            "event": 0,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/av?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20241231&ad=54390&b=415447&bk=117229122&pagetype=2&islocaltv=0&adpr=0&seq=2&w=656&h=370&wdbn=656&hgbn=370&cheattype=0&sperotime=1726195763&template=videotxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36617684&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&vp=s&at=0&c=2741&p=ba&posid=15133&loc=Unknown&adstyle=mp&bar=9372&ac=5480&ad=54390&pt=12613&b=415447&bk=117229122&pagetype=2&rtm=__TIME__",
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20241231&ad=54390&b=415447&bk=117229122&pagetype=2&islocaltv=0&adpr=0&seq=2&w=656&h=370&wdbn=656&hgbn=370&cheattype=0&sperotime=1726195763&template=videotxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36617684&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&vp=e&at=0&c=2741&p=ba&posid=15133&loc=Unknown&adstyle=mp&bar=9372&ac=5480&ad=54390&pt=12613&b=415447&bk=117229122&pagetype=2&spead=0&rtm=__TIME__&err=[ERRORCODE]",
+                            "event": 2,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20241231&ad=54390&b=415447&bk=117229122&pagetype=2&islocaltv=0&adpr=0&seq=2&w=656&h=370&wdbn=656&hgbn=370&cheattype=0&sperotime=1726195763&template=videotxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36617684&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&vp=0&at=0&c=2741&p=ba&posid=15133&loc=Unknown&adstyle=mp&bar=9372&ac=5480&ad=54390&pt=12613&b=415447&bk=117229122&pagetype=2&spead=0&rtm=__TIME__",
+                            "time": 0,
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20241231&ad=54390&b=415447&bk=117229122&pagetype=2&islocaltv=0&adpr=0&seq=2&w=656&h=370&wdbn=656&hgbn=370&cheattype=0&sperotime=1726195763&template=videotxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36617684&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&err=[ERRORCODE]&at=0&c=2741&p=ba&posid=15133&loc=Unknown&adstyle=mp&bar=9372&ac=5480&ad=54390&pt=12613&b=415447&bk=117229122&pagetype=2&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__",
+                            "event": 4,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "template": "videotxt",
+                    "creatives": {
+                        "introtxt": {
+                            "content": ""
+                        },
+                        "title": {
+                            "content": "首页位置3视频模板"
+                        },
+                        "video": {
+                            "height": 370,
+                            "content": "https://data.vod.itc.cn/?new=/33/93/r9vcAlXvoS5OorT4sGSR8K.mp4&prod=ad&sig=INLSSQDlHJmEHPFWz532-3I1xxESN9GA",
+                            "duration": 15,
+                            "materialtype": "video/mp4",
+                            "width": 656
+                        },
+                        "advertiser": {
+                            "content": "KFC"
+                        },
+                        "picture": {
+                            "content": "https://images.sohu.com/ytv/BJ/11638/65637020190222114221.jpg",
+                            "height": 370,
+                            "materialtype": "image/jpeg",
+                            "width": 656
+                        }
+                    },
+                    "pos": 0,
+                    "ext": {
+                        "hardflag": 3,
+                        "ClickType": 1,
+                        "support_union": 1,
+                        "deeplinkflag": 0,
+                        "clicktype": 1,
+                        "display_type": 0,
+                        "excluded": 0
+                    },
+                    "click_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&bt=20240913&endtime=20241231&ad=54390&b=415447&bk=117229122&pagetype=2&islocaltv=0&adpr=0&seq=2&w=656&h=370&wdbn=656&hgbn=370&cheattype=0&sperotime=1726195763&template=videotxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36617684&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2741&p=ba&posid=15133&loc=Unknown&adstyle=mp&bar=9372&ac=5480&ad=54390&pt=12613&b=415447&bk=117229122&pagetype=2&spead=0&rtm=__TIME__",
+                            "event": 5,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&bt=20240913&endtime=20241231&ad=54390&b=415447&bk=117229122&pagetype=2&islocaltv=0&adpr=0&seq=2&w=656&h=370&wdbn=656&hgbn=370&cheattype=0&sperotime=1726195763&template=videotxt&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36617684&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2741&p=ba&posid=15133&loc=Unknown&adstyle=mp&bar=9372&ac=5480&ad=54390&pt=12613&b=415447&bk=117229122&pagetype=2&spead=0&eventtype=deeplink",
+                            "event": 10,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "landing_url": "http://www.baidu.com"
+                }
+            ]
+        },
+        {
+            "pt": "sw_1",
+            "ad": [
+                {
+                    "adgroup": {
+                        "lineid": "415443",
+                        "advid": "11635",
+                        "saletype": 1,
+                        "campaignid": "12613",
+                        "tradetype": 0
+                    },
+                    "adtype": 0,
+                    "adfrom": "ade",
+                    "pt": "sw_1",
+                    "event_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/pv?type=1&du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20241231&ad=54890&b=415443&bk=117228024&pagetype=2&islocaltv=0&adpr=0&seq=1&w=710&h=1014&wdbn=710&hgbn=1014&cheattype=0&sperotime=1726195763&template=null&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36619514&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&vp=s&at=0&c=2741&p=ba&posid=sw_1&loc=Unknown&adstyle=mp&bar=9767&ac=5480&ad=54890&pt=12613&b=415443&bk=117228024&pagetype=2&spead=0&rtm=__TIME__&err=[ERRORCODE]",
+                            "event": 0,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/av?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20241231&ad=54890&b=415443&bk=117228024&pagetype=2&islocaltv=0&adpr=0&seq=1&w=710&h=1014&wdbn=710&hgbn=1014&cheattype=0&sperotime=1726195763&template=null&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36619514&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&vp=s&at=0&c=2741&p=ba&posid=sw_1&loc=Unknown&adstyle=mp&bar=9767&ac=5480&ad=54890&pt=12613&b=415443&bk=117228024&pagetype=2&rtm=__TIME__",
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20241231&ad=54890&b=415443&bk=117228024&pagetype=2&islocaltv=0&adpr=0&seq=1&w=710&h=1014&wdbn=710&hgbn=1014&cheattype=0&sperotime=1726195763&template=null&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36619514&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&vp=0&at=0&c=2741&p=ba&posid=sw_1&loc=Unknown&adstyle=mp&bar=9767&ac=5480&ad=54890&pt=12613&b=415443&bk=117228024&pagetype=2&spead=0&rtm=__TIME__",
+                            "time": 0,
+                            "event": 1,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/pvlog?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&islocaltv=0&bt=20240913&endtime=20241231&ad=54890&b=415443&bk=117228024&pagetype=2&islocaltv=0&adpr=0&seq=1&w=710&h=1014&wdbn=710&hgbn=1014&cheattype=0&sperotime=1726195763&template=null&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36619514&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&err=[ERRORCODE]&at=0&c=2741&p=ba&posid=sw_1&loc=Unknown&adstyle=mp&bar=9767&ac=5480&ad=54890&pt=12613&b=415443&bk=117228024&pagetype=2&spead=0&eventtype=feedback&feedbackreason=__FEEDBACKCODE__",
+                            "event": 4,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "template": "banner",
+                    "creatives": {
+                        "introtxt": {
+                            "content": ""
+                        },
+                        "advertiser": {
+                            "content": ""
+                        },
+                        "title": {
+                            "content": ""
+                        },
+                        "picture": {
+                            "content": "https://images.sohu.com/ytv/BJ/11625/710101420181030144303.jpg",
+                            "height": 276,
+                            "materialtype": "image/jpeg",
+                            "width": 710
+                        }
+                    },
+                    "pos": 0,
+                    "ext": {
+                        "hardflag": 2,
+                        "ClickType": 1,
+                        "support_union": 1,
+                        "deeplinkflag": 0,
+                        "clicktype": 1,
+                        "display_type": 0,
+                        "excluded": 0
+                    },
+                    "click_monitor": [
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&bt=20240913&endtime=20241231&ad=54890&b=415443&bk=117228024&pagetype=2&islocaltv=0&adpr=0&seq=1&w=710&h=1014&wdbn=710&hgbn=1014&cheattype=0&sperotime=1726195763&template=null&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36619514&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2741&p=ba&posid=sw_1&loc=Unknown&adstyle=mp&bar=9767&ac=5480&ad=54890&pt=12613&b=415443&bk=117228024&pagetype=2&spead=0&rtm=__TIME__",
+                            "event": 5,
+                            "tag": "sohu"
+                        },
+                        {
+                            "url": "http://mmg.aty.sohu.com/goto?du=0&rt=1726195763035_795_10.33.8.213_14_14&spead=0&plat=3&sver=10.0.60&partner=6932&poid=1&adplat=2&v1code=0&prot=json&appid=tv&sdkVersion=16.6.0&offline=0&density=3&displayMetrics=393*852&bt=20240913&endtime=20241231&ad=54890&b=415443&bk=117228024&pagetype=2&islocaltv=0&adpr=0&seq=1&w=710&h=1014&wdbn=710&hgbn=1014&cheattype=0&sperotime=1726195763&template=null&platsource=tv&indexip=adveng-retrvl-qa.ns-adveng-qa.svc.cluster.local:60111&vu=0&vc=0&ispgc=0&impressionid=1ee5c9324560ebe6a7034052d267fe5c&scope=0&flightid=36619514&from=tvssp&advertiserid=11635&encd=RDFqMQfVo0Qe20UjVw0zCpta53LutTRTaqAXV45Bz5qwdSXWpUlxBeqIgKC3R7k%2BCTwDWVUe%2BU3GG1xEwetFRBEMPbzVECyt8o8CNbYm%2FIHnPby0L8oYrOAlfKJL5HLCZjtT0hFxOhrCo9%2FVQ7S3BLzkZ49PpwZWcNfSleIRnTXqIQuW1xMFV7%2FfLQMyULmjaTpuYZDOx23opuyh%2FB%2FxOZnN9RSjmqSAIXhOfXUe7jU012PGwCidu%2FT5kWv5D934INP8SlFskwikMMfK4SlrMTOIQZ4Sgbgg2rp0hWScrf64ZfWT5Sv5bA8kX%2FMcY2I7uj9Fh4cIb8eOodr2sBm9968Sc9LkVLm1NYacxlkSesVs8JxCpwT1XQi9nH1RdWXdGOl4tu3r3%2F%2F%2FFaBEsU%2FfsUzNU1sXK%2Btzy%2BSp87UflL8n4nt8fGK1qSAVUPTf252O7fc6azP6BqlK1%2FCxsURlUzwfGZSNb8hdOqUyjJABPIs6fbbM%2Fza6K7fiNfIRxMLRHuoaDTk21RfwkXyivzQxaQ%3D%3D&err=[ERRORCODE]&dx=__DOWN_X__&dy=__DOWN_Y__&ux=__UP_X__&uy=__UP_Y__&at=0&c=2741&p=ba&posid=sw_1&loc=Unknown&adstyle=mp&bar=9767&ac=5480&ad=54890&pt=12613&b=415443&bk=117228024&pagetype=2&spead=0&eventtype=deeplink",
+                            "event": 10,
+                            "tag": "sohu"
+                        }
+                    ],
+                    "landing_url": "http://www.sohu.com"
+                }
+            ]
+        }
+    ],
+    "version": 3,
+    "impid": "ssp-app-qa-6f968d496d-c6pt20000001066e3a8330961_cl"
+}

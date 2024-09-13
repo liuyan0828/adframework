@@ -10,6 +10,8 @@ from urllib.parse import unquote
 
 import pytest
 import json
+import gzip
+from io import BytesIO
 from libs.GetAdData import *
 from libs.checkResult import check_code
 
@@ -23,10 +25,17 @@ def api_response(case_data):
     :function: 前置操作用于获取接口返回；test函数中有api_response参数即使用此fixture
     """
     res = check_code(case_data).content
-    try:
-        res_data = json.loads(RequestHandler.decode_xml_to_dict(res).decode('utf-8'))
-    except Exception as e:
-        res_data = json.loads(res)
+    if 'zip' in case_data['parameter'] and case_data['parameter']['zip'] == 'gzip':
+        d_res = RequestHandler.decode_xml_to_dict(res)
+        with gzip.GzipFile(fileobj=BytesIO(d_res)) as f:
+            decompressed_data = f.read()
+            res = decompressed_data.decode('utf-8')
+            res_data = json.loads(res)
+    else:
+        try:
+            res_data = json.loads(RequestHandler.decode_xml_to_dict(res).decode('utf-8'))
+        except Exception as e:
+            res_data = json.loads(res)
     return res_data
 
 

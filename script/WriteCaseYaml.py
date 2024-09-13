@@ -12,10 +12,12 @@ import yaml
 import logging
 import xml.etree.ElementTree as ET
 import xml.dom.minidom
+import gzip
 
 from utils.XxteaHandler import Xxtea
 from utils.MakeDir import mk_dir
 from main import project_path
+from io import BytesIO
 
 
 def write_case_yaml(har_path, case_path):
@@ -81,6 +83,13 @@ def write_case_yaml(har_path, case_path):
                         data = xxtea.decrypt(base64.b64decode(res), key)
                     except Exception as e:
                         raise Exception("转换失败：{}".format(e))
+                # 返回如果压缩，解密后解压缩
+                if 'zip' in parameter:
+                    zip_value = parameter['zip']
+                    if zip_value == 'gzip':
+                        with gzip.GzipFile(fileobj=BytesIO(data)) as f:
+                            decompressed_data = f.read()
+                            data = decompressed_data.decode('utf-8')
                 try:
                     try:
                         dom = xml.dom.minidom.parseString(data)
@@ -131,6 +140,6 @@ def write_case_yaml(har_path, case_path):
     return case_file_list
 
 
-case_path = project_path + '/script/oral'
+case_path = project_path + '/script/mp'
 har_path = project_path + '/charles_file'
 print(write_case_yaml(har_path, case_path))
