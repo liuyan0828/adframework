@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 libs:  
 CompareXml->对比两个xml的异同  
 Config->基础配置文件  
