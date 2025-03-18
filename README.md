@@ -1,32 +1,34 @@
-<<<<<<< HEAD
-libs:  
-CompareXml->对比两个xml的异同  
-Config->基础配置文件  
-GetAdData->获取广告请求返回值  
-GetAdConf->根据广告组id获取mango配置项
-CheckResult->校验返回
+Directory Structure Overview
 
-utils:
-LogHandler->日志模块的封装
-ReadYaml->读取yaml文件
-MakeDir->创建目录
-readExpectedResult->读取期望结果文件
-RequestsHandler->requests请求封装  
-UrlHandler->url处理方式封装  
-Xxtea->解密方法  
+libs (Libraries)
+  CompareXml: Compares differences between two XML files
+  Config: Basic configuration file
+  GetAdData: Retrieves ad request response data
+  GetAdConf: Fetches Mango configuration based on ad group ID
+  CheckResult: Validates test results
 
-Script：  
-存放测试用例yaml文件，对应的基准json/xml文件   
+utils (Utility Modules)
+  LogHandler: Encapsulated logging module
+  ReadYaml: Reads YAML files
+  MakeDir: Creates directories
+  readExpectedResult: Reads expected result files
+  RequestsHandler: Encapsulated HTTP request module (requests)
+  UrlHandler: URL processing module
+  Xxtea: Encryption and decryption method
 
-TestCase：  
-存放测试用例，测试模块以test打头，测试类以Test打头，测试方法以test打头  
-eg：test_open测试用例，只需修改测试用例yaml文件存放地址即可
+Script (Test Scripts)
+  Stores test case YAML files along with corresponding baseline JSON/XML files.
 
-Report：  
-存放报告
+TestCase (Test Cases)
+  Stores test cases with the following naming conventions:
 
-SendAlert.py  
-jenkins运行失败发送报警消息
+Test modules: Start with test_
+Test classes: Start with Test
+Test methods: Start with test_
+For example, the test_open test case only requires modifying the YAML file path to execute.
+Report (Test Reports)
+Stores test execution reports.
 
-main.py  
-执行文件，直接运行main即可。如需运行某个case，指定运行模块或方法即可。
+Standalone Scripts
+  SendAlert.py: Sends alert notifications when Jenkins test execution fails
+  main.py: Main execution file. Run main.py to execute all test cases. To run a specific test case, specify the module or method to execute.
