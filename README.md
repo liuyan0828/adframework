@@ -1,34 +1,108 @@
-Directory Structure Overview
+# AdFramework
 
-libs (Libraries)
-  CompareXml: Compares differences between two XML files
-  Config: Basic configuration file
-  GetAdData: Retrieves ad request response data
-  GetAdConf: Fetches Mango configuration based on ad group ID
-  CheckResult: Validates test results
+## 📄 Project Overview
 
-utils (Utility Modules)
-  LogHandler: Encapsulated logging module
-  ReadYaml: Reads YAML files
-  MakeDir: Creates directories
-  readExpectedResult: Reads expected result files
-  RequestsHandler: Encapsulated HTTP request module (requests)
-  UrlHandler: URL processing module
-  Xxtea: Encryption and decryption method
+**AdFramework** is an automated testing framework designed for advertisement-related modules. It helps QA teams and developers efficiently validate the display, availability, and interaction of advertising content across web platforms.
 
-Script (Test Scripts)
-  Stores test case YAML files along with corresponding baseline JSON/XML files.
+This framework supports fast, scalable, and stable advertisement testing with clear and maintainable code structure.
 
-TestCase (Test Cases)
-  Stores test cases with the following naming conventions:
+## 🚀 Features
 
-Test modules: Start with test_
-Test classes: Start with Test
-Test methods: Start with test_
-For example, the test_open test case only requires modifying the YAML file path to execute.
-Report (Test Reports)
-Stores test execution reports.
+- Detect and verify advertisement containers on the webpage.
+- Validate if ad elements (images, text, buttons) are visible and loaded correctly.
+- Confirm ad click-through redirects to valid URLs.
+- Validate HTTP response status codes for ad landing pages.
+- Monitor dynamic ad content and asynchronous loading behavior.
+- Provide test reports and logs for quick issue tracking.
 
-Standalone Scripts
-  SendAlert.py: Sends alert notifications when Jenkins test execution fails
-  main.py: Main execution file. Run main.py to execute all test cases. To run a specific test case, specify the module or method to execute.
+## 🛠️ Tech Stack
+
+| Technology | Description |
+|:-:|:-|
+| **Python** | Programming Language |
+| **Playwright** | Browser automation framework |
+| **Pytest** | Python testing framework |
+| **pytest-asyncio** | Async test case support |
+| **Ruff** | Python linter for code quality |
+| **Allure** (optional) | Test reporting |
+
+---
+
+## 📥 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/liuyan0828/adframework.git
+cd adframework
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+playwright install
+```
+
+---
+
+## 🚦 How to Run
+
+Run all test cases:
+
+```bash
+pytest tests/ -s
+```
+
+Run specific test file:
+
+```bash
+pytest tests/test_ad_case.py -s
+```
+
+Generate HTML report:
+
+```bash
+pytest tests/ --html=report.html
+```
+
+Check code format:
+
+```bash
+ruff check .
+```
+
+---
+
+## 📄 Directory Structure
+
+```
+adframework/
+├── tests/                     # Test cases for ad validation
+│   └── test_ad_case.py        # Sample test file
+├── conftest.py                # Pytest configuration
+├── pytest.ini                 # Pytest settings
+├── playwright.config.json     # Playwright settings
+├── requirements.txt           # Dependencies
+└── README.md                  # Project Description
+```
+
+---
+
+## ✅ Usage Scenarios
+
+- Online advertisement placement verification
+- Daily ad monitoring and link validation
+- Automated regression testing for ad-related UI
+- Ad content compliance checks
+
+## 🔥 Future Plans
+
+- Support scheduled monitoring
+- Add integration with Slack/Email alerts
+- Enable cross-platform browser compatibility testing
+- Add visual comparison testing for ads
+
+---
+
+Feel free to fork, contribute, or open issues to improve this framework.
