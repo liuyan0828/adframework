@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "ads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ad": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "lineid": { "type": "integer" },
+                "adtype": { "type": "integer" },
+                "landing_url": { "type": "string", "format": "uri" }
+              },
+              "required": ["lineid", "adtype"]
+            }
+          }
+        },
+        "required": ["ad"]
+      }
+    }
+  },
+  "required": ["ads"]
+}
